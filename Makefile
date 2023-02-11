@@ -8,7 +8,7 @@ FILENAME = Main
 CC = clang++
 
 # Include path
-IDIR = -I/usr/local/include/eigen3 -I./Includes -I./Includes/libigl -I./Includes/imgui -I./Includes/imguizmo -I./System
+IDIR = -I/usr/local/include/eigen3 -I./Includes -I./Includes/libigl -I./Includes/imgui -I./Includes/imguizmo -I./System -I./Math -I./Math/Vector -I./Math/Versor -I./Math/Point -I./Math/Rotation -I./Math/Matrix
 
 # compiler flags:
 CCFLAGS  = -g -O3 -mmacosx-version-min=11.1 -Wall -Wno-invalid-offsetof -std=c++11
