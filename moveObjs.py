@@ -13,7 +13,7 @@ try:
 
 finally:
     for element in objs:
-        try:
+        if (str(element) in os.listdir("./.objs")):
             os.remove("./.objs/" + str(element))
-        finally:
-            shutil.move("./" + str(element), "./.objs/" + str(element))
+        
+        shutil.move("./" + str(element), "./.objs/" + str(element))

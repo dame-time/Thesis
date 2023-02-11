@@ -8,32 +8,31 @@ FILENAME = Main
 CC = clang++
 
 # Include path
-IDIR = -I./Includes -I./Includes/libigl
+IDIR = -I/usr/local/include/eigen3 -I./Includes -I./Includes/libigl -I./Includes/imgui -I./Includes/imguizmo -I./System
 
 # compiler flags:
 CCFLAGS  = -g -O3 -mmacosx-version-min=11.1 -Wall -Wno-invalid-offsetof -std=c++11
 
 # linker flags:
-LFLAGS = -L./Includes/Libraries -lglfw3 -lassimp -lassimpd -lz -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
+LFLAGS = -lpthread -L./Includes/Libraries -lglfw3 -lassimp -lassimpd -lz -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
 
 SOURCES = ./Includes/src/glad.c $(shell python ./getCPPFilePaths.py)
-PARTIAL_SOURCES = $(shell python ./findAllObjs.py $(ARGS))
-
-OBJECTS = $(SOURCES:.c=.o)
-PARTIAL_OBJECTS = $(PARTIAL_SOURCES:.c=.o)
+COMPILED_SOURCES = $(shell python ./findAllObjs.py)
+PARTIAL_SOURCES = $(shell python ./findNotCompiledObjs.py $(ARGS))
 
 TARGET = ./Build/Thesis.out
 
 .PHONY : all
-all: $(OBJECTS)
-	$(CC) $(CCFLAGS) $(IDIR) $(OBJECTS) -o $(TARGET) $(LFLAGS)
+all:
+	$(CC) $(CCFLAGS) -c $(IDIR) $(SOURCES) $(LFLAGS)
+
+.PHONY : run
+run:
+	$(CC) $(CCFLAGS) $(IDIR) $(COMPILED_SOURCES) -o $(TARGET) $(LFLAGS)
 
 .PHONY : partial
-partial: $(PARTIAL_OBJECTS)
-	$(CC) $(CCFLAGS) $(IDIR) $(PARTIAL_OBJECTS) -o $(TARGET) $(LFLAGS)
-
-.c.o:
-	$(CC) $(CCFLAGS) -c $< -o $@
+partial:
+	$(CC) $(CCFLAGS) -c $(IDIR) $(PARTIAL_SOURCES) $(LFLAGS)
 
 .PHONY : clean
 clean :
