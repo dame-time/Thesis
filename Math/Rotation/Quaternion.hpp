@@ -13,7 +13,7 @@
 #include <cmath>
 
 #include <stdexcept>
-//#define DBL_EPSILON 2.2204460492503131e-16
+#define DBL_EPSILON 2.2204460492503131e-16
 
 namespace Math
 {
