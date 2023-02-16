@@ -21,14 +21,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o.d"
-  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Test/src/Test.cpp" "CMakeFiles/Thesis.dir/Test/src/Test.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Test/src/Test.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp" "CMakeFiles/Thesis.dir/main.cpp.o" "gcc" "CMakeFiles/Thesis.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imguizmo.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

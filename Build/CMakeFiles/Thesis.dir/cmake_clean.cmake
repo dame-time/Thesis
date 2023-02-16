@@ -25,8 +25,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o.d"
   "CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o"
   "CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o.d"
-  "CMakeFiles/Thesis.dir/Test/src/Test.cpp.o"
-  "CMakeFiles/Thesis.dir/Test/src/Test.cpp.o.d"
   "CMakeFiles/Thesis.dir/main.cpp.o"
   "CMakeFiles/Thesis.dir/main.cpp.o.d"
   "Thesis"

@@ -1,5 +1,8 @@
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_glfw.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_opengl.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_imgui.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imguizmo.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/Thesis.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/edit_cache.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/rebuild_cache.dir

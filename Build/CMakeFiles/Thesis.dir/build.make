@@ -73,211 +73,197 @@ CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: CMakeFiles/Thesis.dir/flags
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: ../Math/Matrix/src/Matrix2.cpp
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o: ../Math/Matrix/src/Matrix3.cpp
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o: ../Math/Matrix/src/Matrix4.cpp
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp > CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp -o CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o: ../Math/Point/src/Point2.cpp
 CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point2.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point2.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o: ../Math/Point/src/Point3.cpp
 CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point3.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point3.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o: ../Math/Point/src/Point4.cpp
 CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp > CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point/src/Point4.cpp -o CMakeFiles/Thesis.dir/Math/Point/src/Point4.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o: ../Math/Rotation/src/Quaternion.cpp
 CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o -MF CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o -MF CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp
 
 CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp > CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp > CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp -o CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation/src/Quaternion.cpp -o CMakeFiles/Thesis.dir/Math/Rotation/src/Quaternion.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o: ../Math/Vector/src/Vector2.cpp
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector2.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector2.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o: ../Math/Vector/src/Vector3.cpp
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector3.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector3.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o: ../Math/Vector/src/Vector4.cpp
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp > CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector/src/Vector4.cpp -o CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o: ../Math/Versor/src/Versor2.cpp
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor2.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o: ../Math/Versor/src/Versor3.cpp
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor3.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.s
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o: ../Math/Versor/src/Versor4.cpp
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o -MF CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o.d -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp > CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.i
 
 CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.s
-
-CMakeFiles/Thesis.dir/Test/src/Test.cpp.o: CMakeFiles/Thesis.dir/flags.make
-CMakeFiles/Thesis.dir/Test/src/Test.cpp.o: ../Test/src/Test.cpp
-CMakeFiles/Thesis.dir/Test/src/Test.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Thesis.dir/Test/src/Test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/Test/src/Test.cpp.o -MF CMakeFiles/Thesis.dir/Test/src/Test.cpp.o.d -o CMakeFiles/Thesis.dir/Test/src/Test.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Test/src/Test.cpp
-
-CMakeFiles/Thesis.dir/Test/src/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/Test/src/Test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Test/src/Test.cpp > CMakeFiles/Thesis.dir/Test/src/Test.cpp.i
-
-CMakeFiles/Thesis.dir/Test/src/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/Test/src/Test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Test/src/Test.cpp -o CMakeFiles/Thesis.dir/Test/src/Test.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor/src/Versor4.cpp -o CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.s
 
 CMakeFiles/Thesis.dir/main.cpp.o: CMakeFiles/Thesis.dir/flags.make
 CMakeFiles/Thesis.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Thesis.dir/main.cpp.o: CMakeFiles/Thesis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Thesis.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/main.cpp.o -MF CMakeFiles/Thesis.dir/main.cpp.o.d -o CMakeFiles/Thesis.dir/main.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Thesis.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thesis.dir/main.cpp.o -MF CMakeFiles/Thesis.dir/main.cpp.o.d -o CMakeFiles/Thesis.dir/main.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp
 
 CMakeFiles/Thesis.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thesis.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp > CMakeFiles/Thesis.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp > CMakeFiles/Thesis.dir/main.cpp.i
 
 CMakeFiles/Thesis.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thesis.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp -o CMakeFiles/Thesis.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp -o CMakeFiles/Thesis.dir/main.cpp.s
 
 # Object files for target Thesis
 Thesis_OBJECTS = \
@@ -294,7 +280,6 @@ Thesis_OBJECTS = \
 "CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o" \
 "CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o" \
 "CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o" \
-"CMakeFiles/Thesis.dir/Test/src/Test.cpp.o" \
 "CMakeFiles/Thesis.dir/main.cpp.o"
 
 # External object files for target Thesis
@@ -313,14 +298,15 @@ Thesis: CMakeFiles/Thesis.dir/Math/Vector/src/Vector4.cpp.o
 Thesis: CMakeFiles/Thesis.dir/Math/Versor/src/Versor2.cpp.o
 Thesis: CMakeFiles/Thesis.dir/Math/Versor/src/Versor3.cpp.o
 Thesis: CMakeFiles/Thesis.dir/Math/Versor/src/Versor4.cpp.o
-Thesis: CMakeFiles/Thesis.dir/Test/src/Test.cpp.o
 Thesis: CMakeFiles/Thesis.dir/main.cpp.o
 Thesis: CMakeFiles/Thesis.dir/build.make
-Thesis: _deps/glad-build/libglad.a
 Thesis: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
+Thesis: libimguizmo.a
+Thesis: libimgui.a
 Thesis: _deps/glfw-build/src/libglfw3.a
+Thesis: _deps/glad-build/libglad.a
 Thesis: CMakeFiles/Thesis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Thesis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Thesis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thesis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

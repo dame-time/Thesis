@@ -30,9 +30,6 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
@@ -299,8 +296,20 @@ FETCHCONTENT_SOURCE_DIR_GLAD:PATH=
 FETCHCONTENT_SOURCE_DIR_GLFW:PATH=
 
 //When not empty, overrides where to find pre-populated content
+// for imgui
+FETCHCONTENT_SOURCE_DIR_IMGUI:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for imguizmo
+FETCHCONTENT_SOURCE_DIR_IMGUIZMO:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for libigl
 FETCHCONTENT_SOURCE_DIR_LIBIGL:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for libigl_imgui_fonts
+FETCHCONTENT_SOURCE_DIR_LIBIGL_IMGUI_FONTS:PATH=
 
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
@@ -314,8 +323,17 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GLAD:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of glfw
 FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of imgui
+FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of imguizmo
+FETCHCONTENT_UPDATES_DISCONNECTED_IMGUIZMO:BOOL=OFF
+
 //Enables UPDATE_DISCONNECTED behavior just for population of libigl
 FETCHCONTENT_UPDATES_DISCONNECTED_LIBIGL:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of libigl_imgui_fonts
+FETCHCONTENT_UPDATES_DISCONNECTED_LIBIGL_IMGUI_FONTS:BOOL=OFF
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/local/bin/git
@@ -401,6 +419,9 @@ LIBIGL_RESTRICTED_TRIANGLE:BOOL=OFF
 //Use libigl as static library
 LIBIGL_USE_STATIC_LIBRARY:BOOL=OFF
 
+//Use ImGui
+LIBIGL_WITH_OPENGL_GLFW_IMGUI:BOOL=ON
+
 //Build target igl::xml
 LIBIGL_XML:BOOL=OFF
 
@@ -465,8 +486,6 @@ CMAKE_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
