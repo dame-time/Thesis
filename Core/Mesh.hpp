@@ -27,6 +27,9 @@ namespace Core {
             void matrixToNormals();
             void matrixToFaces();
 
+            Eigen::RowVector3d getCenterOfMass();
+            double getRadius();
+
         public:
             std::vector<Math::Vector3> vertices;
             std::vector<Math::Vector3> normals;

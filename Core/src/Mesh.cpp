@@ -4,6 +4,9 @@
 
 #include <igl/triangle/triangulate.h>
 #include <igl/readOBJ.h>
+#include <igl/centroid.h>
+#include <igl/opengl/glfw/Viewer.h>
+// #include <igl/translate.h>
 
 namespace Core {
     Mesh::Mesh(igl::opengl::glfw::Viewer &currentViewer) : ID(this->ID), viewer(currentViewer) {
@@ -19,6 +22,10 @@ namespace Core {
 
         this->triangulateQuads(this->v,this->f, this->n);
 
+        // Translate the mesh to the origin
+        this->v = this->v.rowwise() - getCenterOfMass();
+        std::cout << "Centroid: " << getCenterOfMass() << std::endl;
+
         matrixToVertices();
         matrixToFaces();
         matrixToNormals();
@@ -32,6 +39,14 @@ namespace Core {
 
         this->triangulateQuads(v, f, n);
 
+        // Translate the mesh to the origin
+        v = v.rowwise() - getCenterOfMass();
+
+        std::cout << "Centroid: " << getCenterOfMass() << std::endl;
+        igl::per_face_normals(v, f, n);
+
+        std::cout << "Radius: " << getRadius() << std::endl;
+        
         matrixToVertices();
         matrixToFaces();
         matrixToNormals();
@@ -53,6 +68,35 @@ namespace Core {
             faces.push_back(f(i, 1));
             faces.push_back(f(i, 2));
         }
+    }
+
+    Eigen::RowVector3d Mesh::getCenterOfMass()
+    {
+        Eigen::RowVector3d centroid;
+        igl::centroid(v, f, centroid);
+
+        return centroid;
+    }
+
+    double Mesh::getRadius() {
+        // Compute the maximum distance between the center and any vertex
+        double max_distance = 0;
+
+        auto centerOfMass = getCenterOfMass();
+
+        for (int i = 0; i < v.rows(); i++)
+        {
+            double dist = (v.row(i) - centerOfMass).norm();
+            if (dist > max_distance)
+            {
+                max_distance = dist;
+            }
+        }
+
+        // Compute radius
+        double radius = max_distance;
+
+        return radius;
     }
 
     void Mesh::triangulateQuads(Eigen::MatrixXd &V, Eigen::MatrixXi &F, Eigen::MatrixXd &N) {
@@ -94,7 +138,7 @@ namespace Core {
     void Mesh::test() {
         Math::Vector3 sphereCenter;
         float sphereRadius;
-        const float MAX_RADIUS = 1.f;
+        const float MAX_RADIUS = 10.f;
         
         SQEM sqem(vertices[0], normals[0]);
         for (int i = 1; i < vertices.size(); i++)
@@ -103,18 +147,22 @@ namespace Core {
         sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
 
         std::cout << "    Result: optimal sphere centered at [" << sphereCenter[0] << ", " << sphereCenter[1] << ", " << sphereCenter[2] << "], with radius " << sphereRadius << "." << std::endl;
-        Mesh sphere(this->v, this->f, this->n, this->viewer);
+        Mesh sphere("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
         sphere.addToScene();
+        auto radius = sphere.getRadius();
+        // setting sphere as unitary sphere
+        sphere.resize(1 / radius);
         sphere.resize(sphereRadius);
         sphere.translate(sphereCenter);
+        std::cout << sphere.getCenterOfMass() << std::endl;
+        std::cout << sphere.getRadius() << std::endl;
     }
 
     void Mesh::resize(const double&& size) {
-        std::cout << size << std::endl;
         for (int i = 0; i < v.rows(); i++) {
-            v.row(i)[0] /= size;
-            v.row(i)[1] /= size;
-            v.row(i)[2] /= size;
+            v.row(i)[0] *= size;
+            v.row(i)[1] *= size;
+            v.row(i)[2] *= size;
         }
         matrixToVertices();
         igl::per_face_normals(this->v, this->f, this->n);
