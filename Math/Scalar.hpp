@@ -3,8 +3,8 @@
 
 namespace Math
 {
-    typedef float Scalar;
-    typedef float Degree;
+    typedef double Scalar;
+    typedef double Degree;
 }
 
 #endif

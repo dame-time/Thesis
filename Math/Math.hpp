@@ -11,7 +11,7 @@
 
 namespace Math
 {
-    typedef float Scalar;
+    typedef double Scalar;
 
     const Scalar EPSILON = 1e-10;
 

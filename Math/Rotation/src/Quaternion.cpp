@@ -45,7 +45,7 @@ namespace Math {
         Vector3 immm = q.immaginary;
         Scalar real = q.real;
 
-        angle = 2.f * std::acos(real);
+        angle = 2.0 * std::acos(real);
 
         double s = std::sqrt(1 - (real * real));
 
@@ -155,12 +155,12 @@ namespace Math {
         auto r1 = vecMatrix.row1;
         auto r2 = vecMatrix.row2;
 
-        float realPart = std::sqrt(1 + r0[0] + r1[1] + r2[2]) / 2.f;
+        float realPart = std::sqrt(1 + r0[0] + r1[1] + r2[2]) / 2.0;
 
         return Quaternion(
-            (r2[1] - r1[2]) / (4.f * realPart),
-            (r0[2] - r2[0]) / (4.f * realPart),
-            (r1[0] - r0[1]) / (4.f * realPart),
+            (r2[1] - r1[2]) / (4.0 * realPart),
+            (r0[2] - r2[0]) / (4.0 * realPart),
+            (r1[0] - r0[1]) / (4.0 * realPart),
             realPart
         );
     }
@@ -168,10 +168,10 @@ namespace Math {
     Quaternion Quaternion::Matrix4ToQuaternion(const Matrix4& matrix)
     {
         Quaternion q;
-        q.real = std::sqrt(std::max(0.0f, 1 + matrix.data[0] + matrix.data[5] + matrix.data[10])) / 2;
-        q.immaginary.coordinates.x = std::sqrt(std::max(0.0f, 1 + matrix.data[0] - matrix.data[5] - matrix.data[10])) / 2;
-        q.immaginary.coordinates.y = std::sqrt(std::max(0.0f, 1 - matrix.data[0] + matrix.data[5] - matrix.data[10])) / 2;
-        q.immaginary.coordinates.z = std::sqrt(std::max(0.0f, 1 - matrix.data[0] - matrix.data[5] + matrix.data[10])) / 2;
+        q.real = std::sqrt(std::max(0.0, 1 + matrix.data[0] + matrix.data[5] + matrix.data[10])) / 2;
+        q.immaginary.coordinates.x = std::sqrt(std::max(0.0, 1 + matrix.data[0] - matrix.data[5] - matrix.data[10])) / 2;
+        q.immaginary.coordinates.y = std::sqrt(std::max(0.0, 1 - matrix.data[0] + matrix.data[5] - matrix.data[10])) / 2;
+        q.immaginary.coordinates.z = std::sqrt(std::max(0.0, 1 - matrix.data[0] - matrix.data[5] + matrix.data[10])) / 2;
         int signX = (q.immaginary.coordinates.x * (matrix.data[9] - matrix.data[6])) > 0 ? 1 : ((q.immaginary.coordinates.x * (matrix.data[9] - matrix.data[6]) < 0) ? -1 : 0);
         int signY = (q.immaginary.coordinates.y * (matrix.data[2] - matrix.data[8])) > 0 ? 1 : ((q.immaginary.coordinates.x * (matrix.data[2] - matrix.data[8]) < 0) ? -1 : 0);
         int signZ = (q.immaginary.coordinates.z * (matrix.data[4] - matrix.data[1])) > 0 ? 1 : ((q.immaginary.coordinates.x * (matrix.data[4] - matrix.data[1]) < 0) ? -1 : 0);
@@ -257,9 +257,9 @@ namespace Math {
         Scalar inverse = 1 / (sqx + sqy + sqz + sqw);
 
         return Matrix3 (
-            (sqx - sqy - sqz + sqw) * inverse, 2.f * (tmp1 - tmp2) * inverse, 2.f * (tmp11 + tmp21) * inverse,
-            2.f * (tmp1 + tmp2) * inverse, (-sqx + sqy - sqz + sqw) * inverse, 2.f * (tmp12 - tmp22) * inverse,
-            2.f * (tmp11 - tmp21) * inverse, 2.f * (tmp12 + tmp22) * inverse, (-sqx - sqy + sqz + sqw) * inverse
+            (sqx - sqy - sqz + sqw) * inverse, 2.0 * (tmp1 - tmp2) * inverse, 2.0 * (tmp11 + tmp21) * inverse,
+            2.0 * (tmp1 + tmp2) * inverse, (-sqx + sqy - sqz + sqw) * inverse, 2.0 * (tmp12 - tmp22) * inverse,
+            2.0 * (tmp11 - tmp21) * inverse, 2.0 * (tmp12 + tmp22) * inverse, (-sqx - sqy + sqz + sqw) * inverse
         );
     }
 
