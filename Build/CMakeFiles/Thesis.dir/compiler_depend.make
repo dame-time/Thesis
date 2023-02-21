@@ -751,7 +751,8 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   _deps/triangle-src/triangle.h \
   _deps/libigl-src/include/igl/centroid.h \
   _deps/libigl-src/include/igl/centroid.cpp \
-  _deps/libigl-src/include/igl/centroid.h
+  _deps/libigl-src/include/igl/centroid.h \
+  _deps/libigl-src/include/igl/per_face_normals.h
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: ../Math/Matrix/src/Matrix2.cpp \
   ../Math/Matrix/Matrix2.hpp \

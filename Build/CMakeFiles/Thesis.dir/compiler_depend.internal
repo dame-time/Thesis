@@ -753,6 +753,7 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o
  /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/_deps/libigl-src/include/igl/centroid.h
  /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/_deps/libigl-src/include/igl/centroid.cpp
  /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/_deps/libigl-src/include/igl/centroid.h
+ /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/_deps/libigl-src/include/igl/per_face_normals.h
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o
  /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp
