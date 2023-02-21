@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
   // Plot the mesh
   igl::opengl::glfw::Viewer viewer;
 
-  Core::Mesh mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", viewer);
+  Core::Mesh mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Cube.obj", viewer);
   mesh.addToScene();
 
   // mesh.resize(10.0);
