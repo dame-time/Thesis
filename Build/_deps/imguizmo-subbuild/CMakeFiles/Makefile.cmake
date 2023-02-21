@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "CMakeLists.txt"
   "imguizmo-populate-prefix/tmp/imguizmo-populate-cfgcmd.txt.in"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/ExternalProject-gitupdate.cmake.in"
@@ -32,7 +30,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-gitinfo.txt"
   "imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake"
   "imguizmo-populate-prefix/tmp/imguizmo-populate-cfgcmd.txt"

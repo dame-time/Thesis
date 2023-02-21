@@ -6,5 +6,5 @@ C_DEFINES = -D_GLFW_USE_CONFIG_H
 
 C_INCLUDES = -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/include -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/src -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src
 
-C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -Wall -Wno-missing-field-initializers -Wno-objc-multiple-method-names -std=c99
+C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -Wall -Wno-missing-field-initializers -Wno-objc-multiple-method-names -std=c99
 

@@ -227,6 +227,19 @@ imguizmo/fast:
 .PHONY : imguizmo/fast
 
 #=============================================================================
+# Target rules for targets named igl_restricted_triangle
+
+# Build rule for target.
+igl_restricted_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igl_restricted_triangle
+.PHONY : igl_restricted_triangle
+
+# fast build rule for target.
+igl_restricted_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/igl_restricted_triangle.dir/build.make CMakeFiles/igl_restricted_triangle.dir/build
+.PHONY : igl_restricted_triangle/fast
+
+#=============================================================================
 # Target rules for targets named Thesis
 
 # Build rule for target.
@@ -277,6 +290,43 @@ glad: cmake_check_build_system
 glad/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/glad-build/CMakeFiles/glad.dir/build.make _deps/glad-build/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named triangle
+
+# Build rule for target.
+triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle
+.PHONY : triangle
+
+# fast build rule for target.
+triangle/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
+.PHONY : triangle/fast
+
+Core/src/Mesh.o: Core/src/Mesh.cpp.o
+.PHONY : Core/src/Mesh.o
+
+# target to build an object file
+Core/src/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o
+.PHONY : Core/src/Mesh.cpp.o
+
+Core/src/Mesh.i: Core/src/Mesh.cpp.i
+.PHONY : Core/src/Mesh.i
+
+# target to preprocess a source file
+Core/src/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.i
+.PHONY : Core/src/Mesh.cpp.i
+
+Core/src/Mesh.s: Core/src/Mesh.cpp.s
+.PHONY : Core/src/Mesh.s
+
+# target to generate assembly for a file
+Core/src/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.s
+.PHONY : Core/src/Mesh.cpp.s
 
 Math/Matrix/src/Matrix2.o: Math/Matrix/src/Matrix2.cpp.o
 .PHONY : Math/Matrix/src/Matrix2.o
@@ -849,8 +899,13 @@ help:
 	@echo "... igl_glfw"
 	@echo "... igl_imgui"
 	@echo "... igl_opengl"
+	@echo "... igl_restricted_triangle"
 	@echo "... imgui"
 	@echo "... imguizmo"
+	@echo "... triangle"
+	@echo "... Core/src/Mesh.o"
+	@echo "... Core/src/Mesh.i"
+	@echo "... Core/src/Mesh.s"
 	@echo "... Math/Matrix/src/Matrix2.o"
 	@echo "... Math/Matrix/src/Matrix2.i"
 	@echo "... Math/Matrix/src/Matrix2.s"

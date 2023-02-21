@@ -3,6 +3,7 @@
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_imgui.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imguizmo.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_restricted_triangle.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/Thesis.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/edit_cache.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/rebuild_cache.dir
@@ -37,3 +38,10 @@
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/install.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/install/local.dir
 /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/install/strip.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/triangle.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/edit_cache.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/rebuild_cache.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/list_install_components.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/install.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/install/local.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/install/strip.dir

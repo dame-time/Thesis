@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "CMakeLists.txt"
   "imgui-populate-prefix/tmp/imgui-populate-cfgcmd.txt.in"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/ExternalProject-gitupdate.cmake.in"
@@ -32,7 +30,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-gitinfo.txt"
   "imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake"
   "imgui-populate-prefix/tmp/imgui-populate-cfgcmd.txt"

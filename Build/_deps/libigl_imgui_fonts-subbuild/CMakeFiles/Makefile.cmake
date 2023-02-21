@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "CMakeLists.txt"
   "libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-cfgcmd.txt.in"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/ExternalProject-gitupdate.cmake.in"
@@ -32,7 +30,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-gitinfo.txt"
   "libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake"
   "libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-cfgcmd.txt"

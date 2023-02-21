@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core/src/Mesh.cpp" "CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix2.cpp" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix3.cpp" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o.d"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix/src/Matrix4.cpp" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o" "gcc" "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix4.cpp.o.d"
@@ -30,6 +31,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Build triangle executable
+BUILD_EXECUTABLE:BOOL=OFF
+
+//Build libtriangle library
+BUILD_LIBRARY:BOOL=ON
+
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
 
@@ -23,9 +29,8 @@ CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -81,8 +86,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -311,6 +316,10 @@ FETCHCONTENT_SOURCE_DIR_LIBIGL:PATH=
 // for libigl_imgui_fonts
 FETCHCONTENT_SOURCE_DIR_LIBIGL_IMGUI_FONTS:PATH=
 
+//When not empty, overrides where to find pre-populated content
+// for triangle
+FETCHCONTENT_SOURCE_DIR_TRIANGLE:PATH=
+
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
@@ -334,6 +343,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED_LIBIGL:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of libigl_imgui_fonts
 FETCHCONTENT_UPDATES_DISCONNECTED_LIBIGL_IMGUI_FONTS:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of triangle
+FETCHCONTENT_UPDATES_DISCONNECTED_TRIANGLE:BOOL=OFF
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/local/bin/git
@@ -460,6 +472,15 @@ libigl_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 libigl_SOURCE_DIR:STATIC=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/libigl-src
+
+//Value Computed by CMake
+triangle_BINARY_DIR:STATIC=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build
+
+//Value Computed by CMake
+triangle_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+triangle_SOURCE_DIR:STATIC=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src
 
 
 ########################
@@ -594,7 +615,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
