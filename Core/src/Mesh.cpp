@@ -6,7 +6,7 @@
 #include <igl/readOBJ.h>
 #include <igl/centroid.h>
 #include <igl/opengl/glfw/Viewer.h>
-// #include <igl/translate.h>
+#include <igl/per_face_normals.h>
 
 namespace Core {
     Mesh::Mesh(igl::opengl::glfw::Viewer &currentViewer) : ID(this->ID), viewer(currentViewer) {
@@ -45,8 +45,6 @@ namespace Core {
         std::cout << "Centroid: " << getCenterOfMass() << std::endl;
         igl::per_face_normals(v, f, n);
 
-        std::cout << "Radius: " << getRadius() << std::endl;
-        
         matrixToVertices();
         matrixToFaces();
         matrixToNormals();
@@ -139,10 +137,38 @@ namespace Core {
         Math::Vector3 sphereCenter;
         float sphereRadius;
         const float MAX_RADIUS = 10.f;
-        
-        SQEM sqem(vertices[0], normals[0]);
-        for (int i = 1; i < vertices.size(); i++)
-            sqem += SQEM(vertices[i], normals[i]);
+
+        Eigen::MatrixXd triangleCenters(f.rows(), 3);
+        std::vector<Math::Vector3> centersVec;
+        std::vector<Math::Vector3> normalsVec;
+        for (int i = 0; i < f.rows(); i++)
+        {
+            Eigen::RowVector3i face = f.row(i);
+            Eigen::MatrixXd verts(3, 3);
+            verts.row(0) = v.row(face[0]);
+            verts.row(1) = v.row(face[1]);
+            verts.row(2) = v.row(face[2]);
+            Eigen::RowVector3d center = verts.colwise().mean();
+            triangleCenters.row(i) = center;
+            Math::Vector3 centerVec(center(0), center(1), center(2));
+            centersVec.push_back(centerVec);
+            Math::Vector3 e1(verts(1, 0) - verts(0, 0), verts(1, 1) - verts(0, 1), verts(1, 2) - verts(0, 2));
+            Math::Vector3 e2(verts(2, 0) - verts(0, 0), verts(2, 1) - verts(0, 1), verts(2, 2) - verts(0, 2));
+            Math::Vector3 normal = e1.cross(e2).normalized();
+            normalsVec.push_back(normal);
+        }
+
+        // for (int i = 0; i < centersVec.size(); i++)
+        // {
+        //     std::cout << "    Triangle " << i << " center: ";
+        //     centersVec[i].print();
+        //     std::cout << ", normal: ";
+        //     normalsVec[i].print();
+        // }
+
+        SQEM sqem(centersVec[0], normalsVec[0]);
+        for (int i = 1; i < centersVec.size(); i++)
+            sqem += SQEM(centersVec[i], normalsVec[i]);
 
         sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
 
