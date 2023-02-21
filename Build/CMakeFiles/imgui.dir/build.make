@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imgui.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o: _deps/imgui-src/imgui.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/imgui.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.i: cmake_force
@@ -86,7 +86,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o: _deps/imgui-src/imgui_demo.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/imgui_demo.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o: _deps/imgui-src/imgui_draw.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/imgui_draw.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: _deps/imgui-src/imgui_widgets.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/imgui_widgets.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o: _deps/imgui-src/imgui_tables.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/imgui_tables.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: _deps/imgui-src/backends/imgui_impl_opengl3.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.s: cmake_fo
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: _deps/imgui-src/backends/imgui_impl_glfw.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.i: cmake_force
@@ -170,7 +170,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.s: cmake_force
 CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o: CMakeFiles/imgui.dir/flags.make
 CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o: _deps/imgui-src/misc/cpp/imgui_stdlib.cpp
 CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o -MF CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o.d -o CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp
 
 CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.i: cmake_force
@@ -205,7 +205,7 @@ libimgui.a: CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o
 libimgui.a: CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o
 libimgui.a: CMakeFiles/imgui.dir/build.make
 libimgui.a: CMakeFiles/imgui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libimgui.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libimgui.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
 
@@ -218,6 +218,6 @@ CMakeFiles/imgui.dir/clean:
 .PHONY : CMakeFiles/imgui.dir/clean
 
 CMakeFiles/imgui.dir/depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imgui.dir/depend
 

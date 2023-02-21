@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

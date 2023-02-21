@@ -7,9 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "_deps/glad-src/CMakeLists.txt"
   "_deps/glfw-src/CMake/glfw3.pc.in"
   "_deps/glfw-src/CMake/glfw3Config.cmake.in"
@@ -40,6 +37,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/libigl-src/cmake/recipes/external/triangle.cmake"
   "_deps/triangle-src/CMakeLists.txt"
   "../CMakeLists.txt"
+  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "../cmake/libigl.cmake"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCInformation.cmake"

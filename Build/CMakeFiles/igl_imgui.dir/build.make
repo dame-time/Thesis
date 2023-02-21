@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 # Utility rule file for igl_imgui.
 
@@ -78,6 +78,6 @@ CMakeFiles/igl_imgui.dir/clean:
 .PHONY : CMakeFiles/igl_imgui.dir/clean
 
 CMakeFiles/igl_imgui.dir/depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/igl_imgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles/igl_imgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/igl_imgui.dir/depend
 

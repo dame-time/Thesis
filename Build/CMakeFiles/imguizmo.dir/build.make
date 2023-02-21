@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imguizmo.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/imguizmo.dir/flags.make
 CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: CMakeFiles/imguizmo.dir/flags.make
 CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: _deps/imguizmo-src/ImGuizmo.cpp
 CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: CMakeFiles/imguizmo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o -MF CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o.d -o CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/imguizmo-src/ImGuizmo.cpp
 
 CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.i: cmake_force
@@ -93,7 +93,7 @@ imguizmo_EXTERNAL_OBJECTS =
 libimguizmo.a: CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o
 libimguizmo.a: CMakeFiles/imguizmo.dir/build.make
 libimguizmo.a: CMakeFiles/imguizmo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libimguizmo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libimguizmo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/imguizmo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imguizmo.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/imguizmo.dir/clean:
 .PHONY : CMakeFiles/imguizmo.dir/clean
 
 CMakeFiles/imguizmo.dir/depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imguizmo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles/imguizmo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imguizmo.dir/depend
 

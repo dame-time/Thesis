@@ -27,8 +27,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imguizmo.dir/DependInfo.cmake"
-  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles/imguizmo.dir/DependInfo.cmake"
+  "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles/imgui.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake"
   "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake"

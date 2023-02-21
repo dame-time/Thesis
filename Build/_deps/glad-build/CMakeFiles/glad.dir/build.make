@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 # Include any dependencies generated for this target.
 include _deps/glad-build/CMakeFiles/glad.dir/depend.make
@@ -72,7 +72,7 @@ include _deps/glad-build/CMakeFiles/glad.dir/flags.make
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-build/CMakeFiles/glad.dir/flags.make
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-src/src/glad.c
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: _deps/glad-build/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src/src/glad.c
 
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
@@ -93,7 +93,7 @@ glad_EXTERNAL_OBJECTS =
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/build.make
 _deps/glad-build/libglad.a: _deps/glad-build/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ _deps/glad-build/CMakeFiles/glad.dir/clean:
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/clean
 
 _deps/glad-build/CMakeFiles/glad.dir/depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/depend
 

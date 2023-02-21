@@ -15,7 +15,7 @@
 		"files" : 
 		[
 			"Build/_deps/libigl-src/cmake/igl/igl_add_library.cmake",
-			"Build/_deps/libigl-src/cmake/igl/modules/imgui.cmake",
+			"Build/_deps/libigl-src/cmake/igl/modules/restricted/triangle.cmake",
 			"Build/_deps/libigl-src/cmake/igl/igl_include.cmake",
 			"CMakeLists.txt",
 			"Build/_deps/libigl-src/cmake/igl/igl_target_sources.cmake"
@@ -28,13 +28,13 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 21,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 54,
+				"line" : 51,
 				"parent" : 1
 			},
 			{
@@ -77,8 +77,8 @@
 	{
 		"name" : "Libigl"
 	},
-	"id" : "igl_imgui::@6890427a1f51a3e7e1df",
-	"name" : "igl_imgui",
+	"id" : "igl_restricted_triangle::@6890427a1f51a3e7e1df",
+	"name" : "igl_restricted_triangle",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,21 +92,16 @@
 			[
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				2
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				7,
-				8,
-				9,
-				10
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -114,57 +109,32 @@
 	[
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiHelpers.h",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/cdt.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiMenu.h",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/scaf.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiPlugin.h",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/triangulate.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiTraits.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiWidget.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuizmoWidget.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/SelectionWidget.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiMenu.cpp",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/cdt.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiPlugin.cpp",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/scaf.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuizmoWidget.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 8,
-			"path" : "Build/_deps/libigl-src/include/igl/opengl/glfw/imgui/SelectionWidget.cpp",
+			"path" : "Build/_deps/libigl-src/include/igl/triangle/triangulate.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

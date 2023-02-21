@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 # Include any dependencies generated for this target.
 include _deps/triangle-build/CMakeFiles/triangle.dir/depend.make
@@ -72,7 +72,7 @@ include _deps/triangle-build/CMakeFiles/triangle.dir/flags.make
 _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o: _deps/triangle-build/CMakeFiles/triangle.dir/flags.make
 _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o: _deps/triangle-src/triangle.cpp
 _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o: _deps/triangle-build/CMakeFiles/triangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o"
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o -MF CMakeFiles/triangle.dir/triangle.cpp.o.d -o CMakeFiles/triangle.dir/triangle.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src/triangle.cpp
 
 _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.i: cmake_force
@@ -93,7 +93,7 @@ triangle_EXTERNAL_OBJECTS =
 _deps/triangle-build/libtriangle.a: _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o
 _deps/triangle-build/libtriangle.a: _deps/triangle-build/CMakeFiles/triangle.dir/build.make
 _deps/triangle-build/libtriangle.a: _deps/triangle-build/CMakeFiles/triangle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtriangle.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtriangle.a"
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build && $(CMAKE_COMMAND) -P CMakeFiles/triangle.dir/cmake_clean_target.cmake
 	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ _deps/triangle-build/CMakeFiles/triangle.dir/clean:
 .PHONY : _deps/triangle-build/CMakeFiles/triangle.dir/clean
 
 _deps/triangle-build/CMakeFiles/triangle.dir/depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidepaollilo/Desktop/Workspace/C++/Thesis /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/triangle-build/CMakeFiles/triangle.dir/depend
 

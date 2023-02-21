@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build
+CMAKE_BINARY_DIR = /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build//CMakeFiles/progress.marks
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/CMakeFiles 0
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build//CMakeFiles/progress.marks
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/clean
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/preinstall
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/preinstall
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/triangle-build/CMakeFiles/triangle.dir/rule:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/CMakeFiles/triangle.dir/rule
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/triangle-build/CMakeFiles/triangle.dir/rule
 .PHONY : _deps/triangle-build/CMakeFiles/triangle.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ triangle: _deps/triangle-build/CMakeFiles/triangle.dir/rule
 
 # fast build rule for target.
 triangle/fast:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
 .PHONY : triangle/fast
 
 triangle.o: triangle.cpp.o
@@ -180,7 +180,7 @@ triangle.o: triangle.cpp.o
 
 # target to build an object file
 triangle.cpp.o:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.o
 .PHONY : triangle.cpp.o
 
 triangle.i: triangle.cpp.i
@@ -188,7 +188,7 @@ triangle.i: triangle.cpp.i
 
 # target to preprocess a source file
 triangle.cpp.i:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.i
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.i
 .PHONY : triangle.cpp.i
 
 triangle.s: triangle.cpp.s
@@ -196,7 +196,7 @@ triangle.s: triangle.cpp.s
 
 # target to generate assembly for a file
 triangle.cpp.s:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.s
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -748,7 +748,10 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   _deps/libigl-src/include/igl/triangle/triangulate.h \
   _deps/libigl-src/include/igl/igl_inline.h \
   _deps/libigl-src/include/igl/triangle/triangulate.cpp \
-  _deps/triangle-src/triangle.h
+  _deps/triangle-src/triangle.h \
+  _deps/libigl-src/include/igl/centroid.h \
+  _deps/libigl-src/include/igl/centroid.cpp \
+  _deps/libigl-src/include/igl/centroid.h
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: ../Math/Matrix/src/Matrix2.cpp \
   ../Math/Matrix/Matrix2.hpp \
@@ -4762,14 +4765,6 @@ _deps/imguizmo-src/ImGuizmo.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/xsaveintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/fxsrintrin.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/shaintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/xtestintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbf16intrin.h:
@@ -5017,6 +5012,8 @@ _deps/libigl-src/include/igl/max_size.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
 
 _deps/libigl-src/include/igl/readOBJ.cpp:
+
+_deps/libigl-src/include/igl/centroid.cpp:
 
 _deps/libigl-src/include/igl/project.cpp:
 
@@ -5323,6 +5320,8 @@ _deps/eigen-src/Eigen/src/SparseQR/SparseQR.h:
 _deps/eigen-src/Eigen/src/SparseCore/MappedSparseMatrix.h:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseMatrix.h:
+
+_deps/libigl-src/include/igl/centroid.h:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseAssign.h:
 
@@ -5976,6 +5975,10 @@ _deps/imgui-src/imstb_textedit.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/fxsrintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx2intrin.h:
 
 _deps/libigl-src/include/igl/EPS.cpp:
@@ -6263,6 +6266,10 @@ _deps/eigen-src/Eigen/src/Core/Visitor.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 _deps/libigl-src/include/igl/opengl/MeshGL.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/shaintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/complex:
 
