@@ -17,6 +17,7 @@ include(libigl)
 include_directories(Math Math/Vector/ Math/Versor/ Math/Rotation/ Math/Point/ Math/Matrix/ Core/)
 
 # Enable the target igl::glfw
+igl_include(core)
 igl_include(glfw)
 igl_include(imgui)
 igl_include(restricted triangle)
@@ -44,5 +45,5 @@ get_property(includes DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIR
 # endforeach()
 
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle)
+target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle igl::core)
 target_include_directories(${PROJECT_NAME} PUBLIC ${includes})
