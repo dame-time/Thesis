@@ -6,6 +6,8 @@
 #include <Vector3.hpp>
 
 #include <Eigen/Dense>
+#include <Eigen/Core>
+#include <Eigen/SparseCore>
 
 #include <vector>
 #include <string>
@@ -30,6 +32,11 @@ namespace Core {
             Eigen::RowVector3d getCenterOfMass();
             double getRadius();
 
+            void getSQEMForFace(const Math::Vector3& faceCenter, const Math::Vector3& faceNormal);
+            void getSQEMForFaces(std::vector<Math::Vector3> facesCenter, std::vector<Math::Vector3> facesNormal);
+
+            Eigen::Matrix4d computeQuadric(const Eigen::MatrixXd& V, const Eigen::MatrixXi& F, int vtx);
+
         public:
             std::vector<Math::Vector3> vertices;
             std::vector<Math::Vector3> normals;
@@ -47,7 +54,11 @@ namespace Core {
             void resize(const Math::Vector3& size);
             void translate(const Math::Vector3& translation);
 
+            void simplifyMesh(const int& targetVertices);
+
             void test();
+
+            void setMeshNotFilled();
 
             ~Mesh();
     };
