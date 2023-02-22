@@ -1,5 +1,5 @@
 {
-	"backtrace" : 6,
+	"backtrace" : 8,
 	"backtraceGraph" : 
 	{
 		"commands" : 
@@ -8,7 +8,7 @@
 			"igl_add_library",
 			"include",
 			"_igl_include_full",
-			"igl_include",
+			"igl_include_optional",
 			"target_sources",
 			"igl_target_sources"
 		],
@@ -17,59 +17,70 @@
 			"Build/_deps/libigl-src/cmake/igl/igl_add_library.cmake",
 			"Build/_deps/libigl-src/cmake/igl/modules/restricted/triangle.cmake",
 			"Build/_deps/libigl-src/cmake/igl/igl_include.cmake",
-			"CMakeLists.txt",
+			"Build/_deps/libigl-src/cmake/libigl.cmake",
+			"Build/_deps/libigl-src/CMakeLists.txt",
 			"Build/_deps/libigl-src/cmake/igl/igl_target_sources.cmake"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 3
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 1
 			},
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 23,
-				"parent" : 0
+				"line" : 33,
+				"parent" : 2
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 51,
-				"parent" : 1
+				"line" : 40,
+				"parent" : 3
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 32,
-				"parent" : 2
+				"parent" : 4
 			},
 			{
 				"file" : 1,
-				"parent" : 3
+				"parent" : 5
 			},
 			{
 				"command" : 1,
 				"file" : 1,
 				"line" : 2,
-				"parent" : 4
+				"parent" : 6
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 24,
-				"parent" : 5
+				"parent" : 7
 			},
 			{
 				"command" : 6,
 				"file" : 1,
 				"line" : 14,
-				"parent" : 4
+				"parent" : 6
 			},
 			{
 				"command" : 5,
-				"file" : 4,
+				"file" : 5,
 				"line" : 6,
-				"parent" : 7
+				"parent" : 9
 			}
 		]
 	},
@@ -77,12 +88,12 @@
 	{
 		"name" : "Libigl"
 	},
-	"id" : "igl_restricted_triangle::@6890427a1f51a3e7e1df",
+	"id" : "igl_restricted_triangle::@7e03116a751a0a925ea3",
 	"name" : "igl_restricted_triangle",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "_deps/libigl-build",
+		"source" : "Build/_deps/libigl-src"
 	},
 	"sourceGroups" : 
 	[
@@ -108,32 +119,32 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/cdt.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/scaf.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/triangulate.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/cdt.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/scaf.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 10,
 			"path" : "Build/_deps/libigl-src/include/igl/triangle/triangulate.cpp",
 			"sourceGroupIndex" : 1
 		}

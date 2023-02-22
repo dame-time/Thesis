@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "_deps/triangle-build/libtriangle.a"
+			"path" : "lib/libtriangle.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,13 +12,11 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_compile_definitions",
-			"include_directories"
+			"target_compile_definitions"
 		],
 		"files" : 
 		[
-			"Build/_deps/triangle-src/CMakeLists.txt",
-			"CMakeLists.txt"
+			"Build/_deps/triangle-src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -36,15 +34,6 @@
 				"file" : 0,
 				"line" : 9,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 17,
-				"parent" : 3
 			}
 		]
 	},
@@ -69,37 +58,6 @@
 				{
 					"backtrace" : 2,
 					"define" : "TRILIBRARY"
-				}
-			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core"
 				}
 			],
 			"language" : "CXX",

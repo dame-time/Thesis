@@ -321,7 +321,7 @@ Thesis: libimguizmo.a
 Thesis: libimgui.a
 Thesis: _deps/glfw-build/src/libglfw3.a
 Thesis: _deps/glad-build/libglad.a
-Thesis: _deps/triangle-build/libtriangle.a
+Thesis: lib/libtriangle.a
 Thesis: CMakeFiles/Thesis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Thesis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thesis.dir/link.txt --verbose=$(VERBOSE)

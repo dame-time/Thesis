@@ -227,19 +227,6 @@ imguizmo/fast:
 .PHONY : imguizmo/fast
 
 #=============================================================================
-# Target rules for targets named igl_restricted_triangle
-
-# Build rule for target.
-igl_restricted_triangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igl_restricted_triangle
-.PHONY : igl_restricted_triangle
-
-# fast build rule for target.
-igl_restricted_triangle/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igl_restricted_triangle.dir/build.make CMakeFiles/igl_restricted_triangle.dir/build
-.PHONY : igl_restricted_triangle/fast
-
-#=============================================================================
 # Target rules for targets named Thesis
 
 # Build rule for target.
@@ -266,6 +253,32 @@ igl_core/fast:
 .PHONY : igl_core/fast
 
 #=============================================================================
+# Target rules for targets named igl_restricted_triangle
+
+# Build rule for target.
+igl_restricted_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igl_restricted_triangle
+.PHONY : igl_restricted_triangle
+
+# fast build rule for target.
+igl_restricted_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/libigl-build/CMakeFiles/igl_restricted_triangle.dir/build.make _deps/libigl-build/CMakeFiles/igl_restricted_triangle.dir/build
+.PHONY : igl_restricted_triangle/fast
+
+#=============================================================================
+# Target rules for targets named triangle
+
+# Build rule for target.
+triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle
+.PHONY : triangle
+
+# fast build rule for target.
+triangle/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
+.PHONY : triangle/fast
+
+#=============================================================================
 # Target rules for targets named glfw
 
 # Build rule for target.
@@ -290,19 +303,6 @@ glad: cmake_check_build_system
 glad/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/glad-build/CMakeFiles/glad.dir/build.make _deps/glad-build/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
-
-#=============================================================================
-# Target rules for targets named triangle
-
-# Build rule for target.
-triangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle
-.PHONY : triangle
-
-# fast build rule for target.
-triangle/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
-.PHONY : triangle/fast
 
 Core/src/Mesh.o: Core/src/Mesh.cpp.o
 .PHONY : Core/src/Mesh.o

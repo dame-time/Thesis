@@ -94,10 +94,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/imgui-subbuild/CMakeLists.txt"
   "_deps/imguizmo-subbuild/CMakeLists.txt"
   "_deps/libigl_imgui_fonts-subbuild/CMakeLists.txt"
-  "_deps/triangle-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/eigen-subbuild/CMakeLists.txt"
+  "_deps/triangle-subbuild/CMakeLists.txt"
   "_deps/libigl-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/triangle-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/glfw-build/src/glfw3Config.cmake"
   "_deps/glfw-build/src/glfw3ConfigVersion.cmake"
   "_deps/glfw-build/src/glfw3.pc"
@@ -105,7 +106,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/glfw-build/src/glfw_config.h"
   "_deps/glfw-build/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/glad-build/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "_deps/triangle-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -115,10 +115,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/igl_imgui.dir/DependInfo.cmake"
   "CMakeFiles/imgui.dir/DependInfo.cmake"
   "CMakeFiles/imguizmo.dir/DependInfo.cmake"
-  "CMakeFiles/igl_restricted_triangle.dir/DependInfo.cmake"
   "CMakeFiles/Thesis.dir/DependInfo.cmake"
   "_deps/libigl-build/CMakeFiles/igl_core.dir/DependInfo.cmake"
+  "_deps/libigl-build/CMakeFiles/igl_restricted_triangle.dir/DependInfo.cmake"
+  "_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/glad-build/CMakeFiles/glad.dir/DependInfo.cmake"
-  "_deps/triangle-build/CMakeFiles/triangle.dir/DependInfo.cmake"
   )

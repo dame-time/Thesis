@@ -120,6 +120,11 @@
   "file": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/main.cpp"
 },
 {
+  "directory": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build",
+  "command": "/usr/bin/clang++ -DANSI_DECLARATORS -DTRILIBRARY  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -std=gnu++11 -o CMakeFiles/triangle.dir/triangle.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src/triangle.cpp",
+  "file": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src/triangle.cpp"
+},
+{
   "directory": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/include -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/src -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-build/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -Wall -Wno-missing-field-initializers -Wno-objc-multiple-method-names -std=c99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/src/context.c",
   "file": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glfw-src/src/context.c"
@@ -198,10 +203,5 @@
   "directory": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-build",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src/src/glad.c",
   "file": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/glad-src/src/glad.c"
-},
-{
-  "directory": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build",
-  "command": "/usr/bin/clang++ -DANSI_DECLARATORS -DTRILIBRARY -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Vector -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Versor -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Rotation -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Point -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Math/Matrix -I/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Core -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC -std=gnu++11 -o CMakeFiles/triangle.dir/triangle.cpp.o -c /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src/triangle.cpp",
-  "file": "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-src/triangle.cpp"
 }
 ]

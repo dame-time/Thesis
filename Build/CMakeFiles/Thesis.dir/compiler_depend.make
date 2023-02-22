@@ -752,7 +752,70 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   _deps/libigl-src/include/igl/centroid.h \
   _deps/libigl-src/include/igl/centroid.cpp \
   _deps/libigl-src/include/igl/centroid.h \
-  _deps/libigl-src/include/igl/per_face_normals.h
+  _deps/libigl-src/include/igl/per_face_normals.h \
+  _deps/libigl-src/include/igl/is_edge_manifold.h \
+  _deps/libigl-src/include/igl/is_edge_manifold.cpp \
+  _deps/libigl-src/include/igl/is_edge_manifold.h \
+  _deps/libigl-src/include/igl/oriented_facets.h \
+  _deps/libigl-src/include/igl/oriented_facets.cpp \
+  _deps/libigl-src/include/igl/unique_simplices.h \
+  _deps/libigl-src/include/igl/unique_simplices.cpp \
+  _deps/libigl-src/include/igl/unique_edge_map.h \
+  _deps/libigl-src/include/igl/unique_edge_map.cpp \
+  _deps/libigl-src/include/igl/cumsum.h \
+  _deps/libigl-src/include/igl/cumsum.cpp \
+  _deps/libigl-src/include/igl/qslim.h \
+  _deps/libigl-src/include/igl/qslim.cpp \
+  _deps/libigl-src/include/igl/qslim.h \
+  _deps/libigl-src/include/igl/collapse_edge.h \
+  _deps/libigl-src/include/igl/min_heap.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
+  _deps/libigl-src/include/igl/decimate_callback_types.h \
+  _deps/libigl-src/include/igl/collapse_edge.cpp \
+  _deps/libigl-src/include/igl/circulation.h \
+  _deps/libigl-src/include/igl/circulation.cpp \
+  _deps/libigl-src/include/igl/edge_collapse_is_valid.h \
+  _deps/libigl-src/include/igl/edge_collapse_is_valid.cpp \
+  _deps/libigl-src/include/igl/intersect.h \
+  _deps/libigl-src/include/igl/intersect.cpp \
+  _deps/libigl-src/include/igl/unique.h \
+  _deps/libigl-src/include/igl/unique.cpp \
+  _deps/libigl-src/include/igl/decimate_trivial_callbacks.h \
+  _deps/libigl-src/include/igl/decimate_trivial_callbacks.cpp \
+  _deps/libigl-src/include/igl/connect_boundary_to_infinity.h \
+  _deps/libigl-src/include/igl/connect_boundary_to_infinity.cpp \
+  _deps/libigl-src/include/igl/decimate.h \
+  _deps/libigl-src/include/igl/decimate.cpp \
+  _deps/libigl-src/include/igl/edge_flaps.h \
+  _deps/libigl-src/include/igl/edge_flaps.cpp \
+  _deps/libigl-src/include/igl/remove_unreferenced.h \
+  _deps/libigl-src/include/igl/remove_unreferenced.cpp \
+  _deps/libigl-src/include/igl/max_faces_stopping_condition.h \
+  _deps/libigl-src/include/igl/max_faces_stopping_condition.cpp \
+  _deps/libigl-src/include/igl/shortest_edge_and_midpoint.h \
+  _deps/libigl-src/include/igl/shortest_edge_and_midpoint.cpp \
+  _deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.h \
+  _deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.cpp \
+  _deps/libigl-src/include/igl/quadric_binary_plus_operator.h \
+  _deps/libigl-src/include/igl/quadric_binary_plus_operator.cpp \
+  _deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.h \
+  _deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.cpp \
+  _deps/libigl-src/include/igl/boundary_loop.h \
+  _deps/libigl-src/include/igl/boundary_loop.cpp \
+  _deps/libigl-src/include/igl/boundary_loop.h \
+  _deps/libigl-src/include/igl/triangle_triangle_adjacency.h \
+  _deps/libigl-src/include/igl/triangle_triangle_adjacency.cpp \
+  _deps/libigl-src/include/igl/vertex_triangle_adjacency.h \
+  _deps/libigl-src/include/igl/vertex_triangle_adjacency.cpp \
+  _deps/libigl-src/include/igl/is_border_vertex.h \
+  _deps/libigl-src/include/igl/is_border_vertex.cpp \
+  _deps/libigl-src/include/igl/edge_topology.h \
+  _deps/libigl-src/include/igl/edge_topology.cpp \
+  _deps/libigl-src/include/igl/edge_topology.h \
+  _deps/libigl-src/include/igl/edge_flaps.h \
+  _deps/libigl-src/include/igl/remove_unreferenced.h \
+  _deps/libigl-src/include/igl/boundary_facets.h \
+  _deps/libigl-src/include/igl/unique_edge_map.h
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: ../Math/Matrix/src/Matrix2.cpp \
   ../Math/Matrix/Matrix2.hpp \
@@ -4768,65 +4831,77 @@ _deps/imguizmo-src/ImGuizmo.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/xtestintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbf16intrin.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/rtmintrin.h:
 
-../Core/src/Mesh.cpp:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/vaesintrin.h:
 
-../Math/Matrix/src/Matrix2.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512bf16intrin.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/pkuintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512pfintrin.h:
 
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiHelpers.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmivlintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmiintrin.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512ifmavlintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512ifmaintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512erintrin.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vldqintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlcdintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbwintrin.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbitalgintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlvnniintrin.h:
 
-_deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vnniintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vpopcntdqintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512cdintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512bitalgintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512bwintrin.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512fintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/fmaintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/lzcntintrin.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/bmi2intrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/bmiintrin.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/f16cintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx2intrin.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/clwbintrin.h:
 
-_deps/eigen-src/Eigen/src/Core/CwiseTernaryOp.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__wmmintrin_pclmul.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/clflushoptintrin.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__wmmintrin_aes.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/immintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/movdirintrin.h:
+
+_deps/imgui-src/imgui_internal.h:
 
 _deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuizmoWidget.h:
 
-_deps/libigl-src/include/igl/opengl/destroy_shader_program.h:
-
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiMenu.cpp:
-
 _deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiMenu.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h:
+_deps/libigl_imgui_fonts-src/imgui_fonts_droid_sans.h:
 
-_deps/imgui-src/backends/imgui_impl_glfw.h:
+_deps/imgui-src/backends/imgui_impl_opengl3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/float.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/float.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h:
-
-_deps/imgui-src/imconfig.h:
 
 _deps/imgui-src/imgui.h:
 
@@ -4858,6 +4933,72 @@ _deps/eigen-src/Eigen/src/Core/ProductEvaluators.h:
 
 ../Math/Matrix/Matrix2.hpp:
 
+_deps/libigl-src/include/igl/adjacency_list.cpp:
+
+_deps/libigl-src/include/igl/reorder.cpp:
+
+_deps/libigl-src/include/igl/is_border_vertex.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmi2intrin.h:
+
+_deps/libigl-src/include/igl/file_dialog_save.cpp:
+
+_deps/libigl-src/include/igl/triangle_triangle_adjacency.cpp:
+
+_deps/libigl-src/include/igl/boundary_loop.cpp:
+
+_deps/libigl-src/include/igl/quadric_binary_plus_operator.cpp:
+
+_deps/libigl-src/include/igl/quadric_binary_plus_operator.h:
+
+_deps/eigen-src/Eigen/src/SparseCore/SparseFuzzy.h:
+
+_deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.cpp:
+
+_deps/libigl-src/include/igl/edge_flaps.h:
+
+_deps/libigl-src/include/igl/decimate.h:
+
+_deps/libigl-src/include/igl/connect_boundary_to_infinity.h:
+
+_deps/eigen-src/Eigen/SparseCore:
+
+_deps/libigl-src/include/igl/trackball.h:
+
+_deps/libigl-src/include/igl/unique.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h:
+
+_deps/libigl-src/include/igl/intersect.cpp:
+
+_deps/libigl-src/include/igl/edge_collapse_is_valid.h:
+
+_deps/libigl-src/include/igl/read_triangle_mesh.h:
+
+_deps/libigl-src/include/igl/circulation.cpp:
+
+_deps/libigl-src/include/igl/decimate_callback_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue:
+
+_deps/libigl-src/include/igl/min_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
+
+_deps/libigl-src/include/igl/qslim.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h:
+
+_deps/libigl-src/include/igl/unique_edge_map.h:
+
+_deps/eigen-src/Eigen/src/SparseCore/SparseBlock.h:
+
+_deps/libigl-src/include/igl/opengl/ViewerCore.cpp:
+
+_deps/libigl-src/include/igl/vertex_triangle_adjacency.h:
+
+_deps/libigl-src/include/igl/oriented_facets.cpp:
+
 ../Math/Point/Point2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/endian.h:
@@ -4868,15 +5009,13 @@ _deps/eigen-src/Eigen/src/Core/Replicate.h:
 
 ../Math/Vector/Vector2.hpp:
 
-_deps/eigen-src/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/gfniintrin.h:
-
 _deps/libigl-src/include/igl/unproject.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/smmintrin.h:
 
 _deps/libigl-src/include/igl/normalize_quat.cpp:
+
+_deps/libigl-src/include/igl/is_edge_manifold.cpp:
 
 _deps/libigl-src/include/igl/canonical_quaternions.cpp:
 
@@ -4886,27 +5025,15 @@ _deps/libigl-src/include/igl/snap_to_canonical_view_quat.cpp:
 
 _deps/libigl-src/include/igl/snap_to_canonical_view_quat.h:
 
-_deps/eigen-src/Eigen/SparseCore:
-
-_deps/libigl-src/include/igl/trackball.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbwintrin.h:
-
 _deps/libigl-src/include/igl/quat_mult.cpp:
 
 _deps/libigl-src/include/igl/quat_mult.h:
 
-_deps/libigl_imgui_fonts-src/imgui_fonts_droid_sans.h:
-
 _deps/libigl-src/include/igl/file_dialog_save.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlvbmi2intrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
 
 _deps/libigl-src/include/igl/writeOFF.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/pkuintrin.h:
 
 _deps/libigl-src/include/igl/writeOFF.h:
 
@@ -4926,9 +5053,17 @@ _deps/libigl-src/include/igl/find.h:
 
 _deps/libigl-src/include/igl/slice_sorted.cpp:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmiintrin.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiHelpers.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
 
 ../Math/Vector/src/Vector2.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map:
+
+_deps/libigl-src/include/igl/cumsum.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h:
 
@@ -4966,6 +5101,10 @@ _deps/libigl-src/include/igl/readWRL.h:
 
 _deps/libigl-src/include/igl/readPLY.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlbf16intrin.h:
+
+_deps/libigl-src/include/igl/circulation.h:
+
 _deps/libigl-src/include/igl/FileMemoryStream.h:
 
 _deps/libigl-src/include/igl/read_file_binary.cpp:
@@ -4980,10 +5119,6 @@ _deps/libigl-src/include/igl/quat_to_mat.h:
 
 _deps/libigl-src/include/igl/readOFF.cpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/i386/_structs.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512dqintrin.h:
-
 _deps/eigen-src/Eigen/src/SparseCore/SparseMap.h:
 
 _deps/libigl-src/include/igl/readOFF.h:
@@ -4992,11 +5127,7 @@ _deps/libigl-src/include/igl/readMESH.cpp:
 
 _deps/libigl-src/include/igl/MshLoader.cpp:
 
-_deps/libigl-src/include/igl/read_triangle_mesh.h:
-
 _deps/libigl-src/include/igl/polygons_to_triangles.cpp:
-
-_deps/imgui-src/backends/imgui_impl_opengl3.h:
 
 _deps/eigen-src/Eigen/src/Core/VectorwiseOp.h:
 
@@ -5004,7 +5135,11 @@ _deps/libigl-src/include/igl/min_size.h:
 
 _deps/libigl-src/include/igl/max_size.cpp:
 
+_deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.h:
+
 _deps/libigl-src/include/igl/deprecated.h:
+
+_deps/libigl-src/include/igl/max_faces_stopping_condition.cpp:
 
 _deps/eigen-src/Eigen/src/SparseLU/SparseLU_kernel_bmod.h:
 
@@ -5060,6 +5195,8 @@ _deps/eigen-src/Eigen/src/Geometry/Translation.h:
 
 _deps/libigl-src/include/igl/look_at.h:
 
+_deps/libigl-src/include/igl/decimate_trivial_callbacks.h:
+
 _deps/eigen-src/Eigen/src/LU/Determinant.h:
 
 _deps/libigl-src/include/igl/snap_to_fixed_up.h:
@@ -5081,6 +5218,8 @@ _deps/libigl-src/include/igl/material_colors.h:
 ../Math/Versor/src/Versor2.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/dirent.h:
+
+_deps/libigl-src/include/igl/connect_boundary_to_infinity.cpp:
 
 _deps/eigen-src/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h:
 
@@ -5118,10 +5257,6 @@ _deps/libigl-src/include/igl/massmatrix.h:
 
 _deps/libigl-src/include/igl/dihedral_angles.cpp:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/movdirintrin.h:
-
-_deps/imgui-src/imgui_internal.h:
-
 _deps/libigl-src/include/igl/volume.cpp:
 
 _deps/libigl-src/include/igl/volume.h:
@@ -5140,10 +5275,6 @@ _deps/libigl-src/include/igl/file_dialog_open.cpp:
 
 _deps/libigl-src/include/igl/colon.h:
 
-_deps/libigl-src/include/igl/adjacency_list.cpp:
-
-_deps/libigl-src/include/igl/reorder.cpp:
-
 _deps/libigl-src/include/igl/reorder.h:
 
 _deps/eigen-src/Eigen/src/Core/util/ReenableStupidWarnings.h:
@@ -5156,6 +5287,8 @@ _deps/eigen-src/Eigen/src/QR/HouseholderQR.h:
 
 _deps/libigl-src/include/igl/sort.cpp:
 
+_deps/libigl-src/include/igl/unique_edge_map.cpp:
+
 _deps/libigl-src/include/igl/readSTL.cpp:
 
 _deps/eigen-src/Eigen/src/Core/Transpositions.h:
@@ -5163,10 +5296,6 @@ _deps/eigen-src/Eigen/src/Core/Transpositions.h:
 _deps/libigl-src/include/igl/sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread:
-
-_deps/libigl-src/include/igl/opengl/glfw/Viewer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h:
 
 _deps/libigl-src/include/igl/default_num_threads.cpp:
 
@@ -5186,17 +5315,19 @@ _deps/eigen-src/Eigen/src/Geometry/Homogeneous.h:
 
 _deps/libigl-src/include/igl/cotmatrix.h:
 
+_deps/libigl-src/include/igl/remove_unreferenced.h:
+
 _deps/libigl-src/include/igl/per_face_normals.h:
 
 _deps/libigl-src/include/igl/opengl/ViewerData.cpp:
 
 _deps/libigl-src/include/igl/colormap.cpp:
 
-_deps/eigen-src/Eigen/src/SparseCore/SparseBlock.h:
-
-_deps/libigl-src/include/igl/opengl/ViewerCore.cpp:
-
 _deps/libigl-src/include/igl/readPLY.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vnniintrin.h:
+
+_deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/invpcidintrin.h:
 
@@ -5210,7 +5341,11 @@ _deps/libigl-src/include/igl/axis_angle_to_quat.h:
 
 _deps/eigen-src/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
 
+_deps/libigl-src/include/igl/unique_simplices.h:
+
 _deps/eigen-src/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h:
+
+_deps/libigl-src/include/igl/edge_collapse_is_valid.cpp:
 
 _deps/eigen-src/Eigen/src/Core/util/StaticAssert.h:
 
@@ -5228,7 +5363,15 @@ _deps/eigen-src/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
 
 _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sched.h:
+
+_deps/libigl-src/include/igl/is_edge_manifold.h:
+
 _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_dfs.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/gfniintrin.h:
+
+_deps/eigen-src/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
 
 _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Memory.h:
 
@@ -5268,13 +5411,7 @@ _deps/eigen-src/Eigen/src/SparseCore/SparseSolverBase.h:
 
 _deps/libigl-src/include/igl/trackball.cpp:
 
-_deps/eigen-src/Eigen/src/SparseCore/SparseFuzzy.h:
-
 _deps/eigen-src/Eigen/src/SparseCore/SparsePermutation.h:
-
-_deps/eigen-src/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avxintrin.h:
 
 _deps/libigl-src/include/igl/boundary_facets.cpp:
 
@@ -5296,9 +5433,15 @@ _deps/libigl-src/include/igl/face_areas.cpp:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseTranspose.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/lzcntintrin.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono:
+
+_deps/libigl-src/include/igl/remove_unreferenced.cpp:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
+
+_deps/eigen-src/Eigen/src/Core/Redux.h:
+
+_deps/libigl-src/include/igl/decimate_trivial_callbacks.cpp:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
 
@@ -5309,8 +5452,6 @@ _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
 _deps/eigen-src/Eigen/src/SparseCore/SparseRef.h:
 
 _deps/eigen-src/Eigen/src/SparseCore/SparseVector.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/vaesintrin.h:
 
 _deps/eigen-src/Eigen/src/Core/MapBase.h:
 
@@ -5348,6 +5489,8 @@ _deps/eigen-src/Eigen/src/Eigenvalues/RealQZ.h:
 
 _deps/eigen-src/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
+_deps/libigl-src/include/igl/intersect.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio:
 
 _deps/eigen-src/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
@@ -5373,6 +5516,10 @@ _deps/eigen-src/Eigen/src/Geometry/Umeyama.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h:
 
 _deps/eigen-src/Eigen/src/Geometry/ParametrizedLine.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlvbmi2intrin.h:
+
+_deps/libigl-src/include/igl/is_border_vertex.cpp:
 
 _deps/libigl-src/include/igl/opengl/glfw/ViewerPlugin.h:
 
@@ -5404,6 +5551,8 @@ _deps/libigl-src/include/igl/tinyply.h:
 
 _deps/eigen-src/Eigen/src/SVD/JacobiSVD.h:
 
+_deps/libigl-src/include/igl/edge_topology.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef:
 
 _deps/eigen-src/Eigen/src/Core/SelfAdjointView.h:
@@ -5417,6 +5566,10 @@ _deps/eigen-src/Eigen/src/SVD/UpperBidiagonalization.h:
 _deps/eigen-src/Eigen/src/misc/RealSvd2x2.h:
 
 _deps/eigen-src/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avxintrin.h:
+
+_deps/eigen-src/Eigen/src/QR/ColPivHouseholderQR.h:
 
 _deps/libigl-src/include/igl/opengl/ViewerData.h:
 
@@ -5460,6 +5613,10 @@ _deps/libigl-src/include/igl/opengl/destroy_shader_program.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream:
 
+_deps/imgui-src/imconfig.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h:
+
 _deps/libigl-src/include/igl/opengl/print_program_info_log.cpp:
 
 _deps/eigen-src/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h:
@@ -5480,13 +5637,7 @@ _deps/eigen-src/Eigen/src/SparseCore/SparseUtil.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/vpclmulqdqintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_mcontext.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mmintrin.h:
 
@@ -5517,8 +5668,6 @@ _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h:
 _deps/libigl-src/include/igl/opengl/gl.h:
 
 _deps/libigl-src/include/igl/opengl/MeshGL.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512fintrin.h:
 
 _deps/eigen-src/Eigen/src/Core/GlobalFunctions.h:
 
@@ -5580,13 +5729,15 @@ _deps/libigl-src/include/igl/unproject.cpp:
 
 _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/fmaintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h:
 
 _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
 ../Math/Scalar.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/Viewer.h:
 
 _deps/eigen-src/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
@@ -5599,8 +5750,6 @@ _deps/eigen-src/Eigen/src/Core/arch/SSE/TypeCasting.h:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mm_malloc.h:
 
 _deps/eigen-src/Eigen/src/Core/Inverse.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmivlintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
@@ -5658,11 +5807,11 @@ _deps/eigen-src/Eigen/src/Core/ConditionEstimator.h:
 
 _deps/eigen-src/Eigen/src/Core/Dot.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmi2intrin.h:
-
-_deps/libigl-src/include/igl/file_dialog_save.cpp:
-
 _deps/eigen-src/Eigen/src/Core/CwiseBinaryOp.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiMenu.cpp:
+
+_deps/libigl-src/include/igl/opengl/destroy_shader_program.h:
 
 _deps/libigl-src/include/igl/opengl/print_program_info_log.h:
 
@@ -5676,7 +5825,11 @@ _deps/libigl-src/include/igl/triangle/triangulate.h:
 
 _deps/eigen-src/Eigen/src/Cholesky/LLT.h:
 
-_deps/eigen-src/Eigen/src/Core/Redux.h:
+_deps/libigl-src/include/igl/shortest_edge_and_midpoint.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/vpclmulqdqintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar:
 
 _deps/eigen-src/Eigen/src/Core/util/BlasUtil.h:
 
@@ -5689,8 +5842,6 @@ _deps/eigen-src/Eigen/src/Core/util/MKL_support.h:
 _deps/libigl-src/include/igl/opengl/verasansmono_compressed.h:
 
 _deps/eigen-src/Eigen/src/Core/Assign.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h:
 
 _deps/eigen-src/Eigen/src/Core/CoreEvaluators.h:
 
@@ -5737,8 +5888,6 @@ _deps/eigen-src/Eigen/src/Core/arch/CUDA/PacketMathHalf.h:
 _deps/libigl-src/include/igl/boundary_facets.h:
 
 _deps/eigen-src/Eigen/src/Core/arch/CUDA/Half.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/immintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/signal.h:
 
@@ -5808,11 +5957,17 @@ _deps/eigen-src/Eigen/src/Eigenvalues/EigenSolver.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
 
+_deps/libigl-src/include/igl/collapse_edge.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list:
 
 _deps/eigen-src/Eigen/src/Core/NumTraits.h:
 
 _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/clflushoptintrin.h:
+
+_deps/eigen-src/Eigen/src/Core/CwiseTernaryOp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_isset.h:
 
@@ -5831,6 +5986,8 @@ _deps/libigl-src/include/igl/pathinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
 
 _deps/eigen-src/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+_deps/libigl-src/include/igl/oriented_facets.h:
 
 _deps/libigl-src/include/igl/cotmatrix.cpp:
 
@@ -5854,13 +6011,19 @@ _deps/eigen-src/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_addr_t.h:
 
+_deps/libigl-src/include/igl/collapse_edge.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 _deps/libigl-src/include/igl/cross.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h:
 
+_deps/libigl-src/include/igl/triangle_triangle_adjacency.h:
+
 _deps/eigen-src/Eigen/src/Core/BandMatrix.h:
+
+_deps/libigl-src/include/igl/boundary_loop.h:
 
 _deps/eigen-src/Eigen/src/Geometry/EulerAngles.h:
 
@@ -5869,8 +6032,6 @@ _deps/eigen-src/Eigen/src/Geometry/EulerAngles.h:
 _deps/eigen-src/Eigen/src/Core/Diagonal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_char.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vldqintrin.h:
 
 _deps/eigen-src/Eigen/src/Core/SolveTriangular.h:
 
@@ -5884,9 +6045,11 @@ _deps/eigen-src/Eigen/src/Core/functors/BinaryFunctors.h:
 
 _deps/eigen-src/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
-
 ../Math/Matrix/Matrix3.hpp:
+
+_deps/eigen-src/Eigen/src/LU/arch/Inverse_SSE.h:
+
+_deps/libigl-src/include/igl/cumsum.h:
 
 _deps/libigl-src/include/igl/repmat.h:
 
@@ -5904,7 +6067,7 @@ _deps/eigen-src/Eigen/src/SparseLU/SparseLU_relax_snode.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/float.h:
+_deps/libigl-src/include/igl/max_faces_stopping_condition.h:
 
 _deps/libigl-src/include/igl/normalize_row_sums.cpp:
 
@@ -5924,13 +6087,17 @@ _deps/libigl-src/include/igl/readMSH.h:
 
 _deps/eigen-src/Eigen/LU:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sched.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream:
+
+_deps/libigl-src/include/igl/unique.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_mcontext.h:
+
+_deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.h:
+
+_deps/libigl-src/include/igl/edge_topology.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 
@@ -5944,8 +6111,6 @@ _deps/glad-src/include/KHR/khrplatform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/waitpkgintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h:
@@ -5953,6 +6118,8 @@ _deps/glad-src/include/KHR/khrplatform.h:
 _deps/eigen-src/Eigen/src/Core/util/Meta.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional:
+
+_deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
@@ -5966,11 +6133,15 @@ _deps/eigen-src/Eigen/src/Geometry/Rotation2D.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_limits.h:
 
+_deps/libigl-src/include/igl/decimate.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/limits.h:
+
+_deps/libigl-src/include/igl/unique_simplices.cpp:
 
 _deps/imgui-src/imstb_textedit.h:
 
@@ -5979,8 +6150,6 @@ _deps/imgui-src/imstb_textedit.h:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/fxsrintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx2intrin.h:
 
 _deps/libigl-src/include/igl/EPS.cpp:
 
@@ -6050,9 +6219,19 @@ _deps/eigen-src/Eigen/src/SparseCore/AmbiVector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512dqintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/i386/_structs.h:
+
 _deps/eigen-src/Eigen/src/Householder/BlockHouseholder.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512bf16intrin.h:
+
+../Core/src/Mesh.cpp:
+
+../Math/Matrix/src/Matrix2.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -6106,7 +6285,9 @@ _deps/eigen-src/Eigen/src/LU/PartialPivLU.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512ifmavlintrin.h:
+_deps/imgui-src/backends/imgui_impl_glfw.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h:
 
@@ -6178,6 +6359,8 @@ _deps/eigen-src/Eigen/src/Geometry/AlignedBox.h:
 
 _deps/glad-src/include/glad/glad.h:
 
+_deps/libigl-src/include/igl/edge_flaps.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 _deps/eigen-src/Eigen/src/Core/DiagonalProduct.h:
@@ -6190,8 +6373,6 @@ _deps/eigen-src/Eigen/src/Core/arch/CUDA/TypeCasting.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__wmmintrin_pclmul.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream:
 
 _deps/libigl-src/include/igl/internal_angles.h:
@@ -6203,8 +6384,6 @@ _deps/eigen-src/Eigen/src/Core/DenseCoeffsBase.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
 
 _deps/eigen-src/Eigen/src/Core/util/XprHelper.h:
-
-_deps/eigen-src/Eigen/src/LU/arch/Inverse_SSE.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h:
 
@@ -6222,13 +6401,13 @@ _deps/eigen-src/Eigen/Cholesky:
 
 _deps/libigl-src/include/igl/default_num_threads.h:
 
+_deps/libigl-src/include/igl/qslim.cpp:
+
 ../Math/Matrix/src/Matrix3.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/machine/_structs.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/f16cintrin.h:
 
 _deps/libigl-src/include/igl/basename.h:
 
@@ -6239,8 +6418,6 @@ _deps/libigl-src/include/igl/basename.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h:
 
 _deps/eigen-src/Eigen/src/Eigenvalues/Tridiagonalization.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vlcdintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
 
@@ -6255,6 +6432,8 @@ _deps/eigen-src/Eigen/Core:
 _deps/eigen-src/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+_deps/libigl-src/include/igl/vertex_triangle_adjacency.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h:
 
@@ -6314,8 +6493,6 @@ _deps/eigen-src/Eigen/src/Core/arch/Default/Settings.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stddef.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512cdintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h:
@@ -6330,10 +6507,6 @@ _deps/libigl-src/include/igl/colormap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/rtmintrin.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__wmmintrin_aes.h:
-
 _deps/eigen-src/Eigen/SparseLU:
 
 _deps/eigen-src/Eigen/src/Core/functors/UnaryFunctors.h:
@@ -6344,11 +6517,11 @@ _deps/eigen-src/Eigen/src/Core/functors/UnaryFunctors.h:
 
 _deps/eigen-src/Eigen/src/Core/util/Memory.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h:
-
 _deps/libigl-src/include/igl/opengl/bind_vertex_attrib_array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios:
+
+_deps/libigl-src/include/igl/shortest_edge_and_midpoint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/endian.h:
 

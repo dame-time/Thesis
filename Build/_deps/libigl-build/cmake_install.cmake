@@ -57,3 +57,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xeigenx" OR NOT CMAKE_INSTALL_COMPON
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/eigen" TYPE FILE FILES "/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/libigl-build/CMakeFiles/Export/lib/cmake/eigen/EigenTargets.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Build/_deps/triangle-build/cmake_install.cmake")
+endif()
+

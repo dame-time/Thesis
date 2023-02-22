@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../lib/libtriangle.a"
+  "../../lib/libtriangle.pdb"
   "CMakeFiles/triangle.dir/triangle.cpp.o"
   "CMakeFiles/triangle.dir/triangle.cpp.o.d"
-  "libtriangle.a"
-  "libtriangle.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

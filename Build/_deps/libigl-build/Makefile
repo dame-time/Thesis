@@ -174,6 +174,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... igl_core"
+	@echo "... igl_restricted_triangle"
 .PHONY : help
 
 

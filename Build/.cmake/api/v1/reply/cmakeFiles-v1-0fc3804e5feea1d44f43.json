@@ -380,44 +380,6 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "Build/_deps/libigl-src/cmake/igl/modules/restricted/triangle.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/GNUInstallDirs.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "Build/_deps/libigl-src/cmake/recipes/external/triangle.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FetchContent.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindGit.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
-		},
-		{
-			"isGenerated" : true,
 			"path" : "Build/_deps/libigl-src/CMakeLists.txt"
 		},
 		{
@@ -536,6 +498,48 @@
 		},
 		{
 			"isGenerated" : true,
+			"path" : "Build/_deps/libigl-src/cmake/igl/modules/restricted/triangle.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Build/_deps/libigl-src/cmake/recipes/external/triangle.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Build/_deps/triangle-src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
 			"path" : "Build/_deps/glfw-src/CMakeLists.txt"
 		},
 		{
@@ -612,10 +616,6 @@
 		{
 			"isGenerated" : true,
 			"path" : "Build/_deps/glad-src/CMakeLists.txt"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "Build/_deps/triangle-src/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

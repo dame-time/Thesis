@@ -2071,7 +2071,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "LIBIGL_USE_STATIC_LIBRARY",

@@ -9,8 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						2,
-						4,
+						3,
 						5
 					],
 					"hasInstallRule" : true,
@@ -27,13 +26,16 @@
 						4,
 						5,
 						6,
-						7,
 						8,
 						9
 					]
 				},
 				{
 					"build" : "_deps/libigl-build",
+					"childIndexes" : 
+					[
+						2
+					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-_deps.libigl-build-Debug-34ea6090fb2cfce94d46.json",
 					"minimumCMakeVersion" : 
@@ -45,14 +47,30 @@
 					"source" : "Build/_deps/libigl-src",
 					"targetIndexes" : 
 					[
-						3
+						3,
+						7
+					]
+				},
+				{
+					"build" : "_deps/triangle-build",
+					"jsonFile" : "directory-_deps.triangle-build-Debug-b977e3ba50b4261f283f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Build/_deps/triangle-src",
+					"targetIndexes" : 
+					[
+						10
 					]
 				},
 				{
 					"build" : "_deps/glfw-build",
 					"childIndexes" : 
 					[
-						3
+						4
 					],
 					"jsonFile" : "directory-_deps.glfw-build-Debug-0fbd32601dc69e48384b.json",
 					"minimumCMakeVersion" : 
@@ -60,7 +78,7 @@
 						"string" : "3.1"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 2,
+					"projectIndex" : 3,
 					"source" : "Build/_deps/glfw-src"
 				},
 				{
@@ -70,8 +88,8 @@
 					{
 						"string" : "3.1"
 					},
-					"parentIndex" : 2,
-					"projectIndex" : 2,
+					"parentIndex" : 3,
+					"projectIndex" : 3,
 					"source" : "Build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
@@ -86,26 +104,11 @@
 						"string" : "3.1"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 3,
+					"projectIndex" : 4,
 					"source" : "Build/_deps/glad-src",
 					"targetIndexes" : 
 					[
 						1
-					]
-				},
-				{
-					"build" : "_deps/triangle-build",
-					"jsonFile" : "directory-_deps.triangle-build-Debug-b977e3ba50b4261f283f.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.1"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 4,
-					"source" : "Build/_deps/triangle-src",
-					"targetIndexes" : 
-					[
-						10
 					]
 				}
 			],
@@ -116,7 +119,6 @@
 					"childIndexes" : 
 					[
 						1,
-						2,
 						3,
 						4
 					],
@@ -131,12 +133,15 @@
 						4,
 						5,
 						6,
-						7,
 						8,
 						9
 					]
 				},
 				{
+					"childIndexes" : 
+					[
+						2
+					],
 					"directoryIndexes" : 
 					[
 						1
@@ -145,14 +150,27 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						3,
+						7
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
-						2,
-						3
+						2
+					],
+					"name" : "triangle",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
 					],
 					"name" : "GLFW",
 					"parentIndex" : 0,
@@ -164,25 +182,13 @@
 				{
 					"directoryIndexes" : 
 					[
-						4
+						5
 					],
 					"name" : "glad",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						1
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						5
-					],
-					"name" : "triangle",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						10
 					]
 				}
 			],
@@ -191,23 +197,23 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Thesis::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Thesis-Debug-0967cd4f34a88c06b556.json",
+					"jsonFile" : "target-Thesis-Debug-0e74bd25b7a563bdba74.json",
 					"name" : "Thesis",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 4,
+					"directoryIndex" : 5,
 					"id" : "glad::@f022c46af7fd79d63a94",
 					"jsonFile" : "target-glad-Debug-e8939ab754cf6a5e8e2f.json",
 					"name" : "glad",
-					"projectIndex" : 3
+					"projectIndex" : 4
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "glfw::@fa9f4482d3a2b070f206",
 					"jsonFile" : "target-glfw-Debug-e0258b17fdb17ae205e7.json",
 					"name" : "glfw",
-					"projectIndex" : 2
+					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 1,
@@ -238,11 +244,11 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "igl_restricted_triangle::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-igl_restricted_triangle-Debug-978c71ee46fbdd38cc6d.json",
+					"directoryIndex" : 1,
+					"id" : "igl_restricted_triangle::@7e03116a751a0a925ea3",
+					"jsonFile" : "target-igl_restricted_triangle-Debug-b3b95f4f6383286f9f07.json",
 					"name" : "igl_restricted_triangle",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
@@ -259,11 +265,11 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 2,
 					"id" : "triangle::@afb7f2633d2441d2a5b6",
-					"jsonFile" : "target-triangle-Debug-070696e916b6aad309a8.json",
+					"jsonFile" : "target-triangle-Debug-5b4b8dc170a770942853.json",
 					"name" : "triangle",
-					"projectIndex" : 4
+					"projectIndex" : 2
 				}
 			]
 		}

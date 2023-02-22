@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libtriangle.a"
+  "../../lib/libtriangle.a"
 )
