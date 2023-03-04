@@ -1,6 +1,7 @@
 #include "../Mesh.hpp"
 
 #include "../SQEM.h"
+#include "../MinimumBoundingSphere.hpp"
 
 #include <igl/triangle/triangulate.h>
 #include <igl/readOBJ.h>
@@ -19,6 +20,8 @@
 
 #include <igl/unique_edge_map.h>
 
+#include <cmath>
+
 namespace Core {
     Mesh::Mesh(igl::opengl::glfw::Viewer &currentViewer) : ID(this->ID), viewer(currentViewer) {
         this->_ID = -1;
@@ -35,7 +38,6 @@ namespace Core {
 
         // Translate the mesh to the origin
         this->v = this->v.rowwise() - getCenterOfMass();
-        std::cout << "Centroid: " << getCenterOfMass() << std::endl;
 
         matrixToVertices();
         matrixToFaces();
@@ -53,7 +55,6 @@ namespace Core {
         // Translate the mesh to the origin
         v = v.rowwise() - getCenterOfMass();
 
-        std::cout << "Centroid: " << getCenterOfMass() << std::endl;
         igl::per_face_normals(v, f, n);
 
         matrixToVertices();
@@ -132,19 +133,11 @@ namespace Core {
             F = F_out;
 
             igl::per_face_normals(V, F, N);
-
-            std::cout << "Mesh was triangulated!" << std::endl;
         }
-        else if (F.cols() == 3)
-            std::cout << "Mesh is already triangulated!" << std::endl;
-        else
-            std::cerr << "Mesh contains neither triangles nor quads!" << std::endl;
     }
 
     void Mesh::addToScene() {
         this->_ID = viewer.append_mesh();
-
-        std::cout << "Mesh added to scene with ID " << this->_ID << std::endl;
 
         viewer.data_list[this->ID].set_mesh(v, f);
         viewer.data_list[this->ID].set_normals(n);
@@ -180,21 +173,25 @@ namespace Core {
             return;
         }
 
-        std::cout << "Vertices before: " << vertices.size() << std::endl;
+        std::cout << "Vertices before: " << v.rows() << std::endl;
+        std::cout << "Faces before: " << f.rows() << std::endl;
 
         // Initialize simplified mesh with the original mesh
-        Eigen::MatrixXd vtx = v;
-        Eigen::MatrixXi fcs = f;
-        Eigen::VectorXi J, I;
+        // Eigen::MatrixXd vtx = v;
+        // Eigen::MatrixXi fcs = f;
+        // Eigen::VectorXi J, I;
 
-        std::cout << v.size() << std::endl;
+        // std::cout << v.size() << std::endl;
 
-        igl::qslim(v, f, targetVertices, vtx, fcs, J, I);
+        // igl::qslim(v, f, targetVertices, vtx, fcs, J, I);
 
-        std::cout << vtx.size() << std::endl;
+        // std::cout << vtx.size() << std::endl;
 
-        v = vtx;
-        f = fcs;
+        // v = vtx;
+        // f = fcs;
+
+        simplify_quadric_error(v, f, targetVertices);
+
         n.resize(v.rows(), v.cols());
         igl::per_face_normals(v, f, n);
 
@@ -202,7 +199,8 @@ namespace Core {
         matrixToFaces();
         matrixToNormals();
 
-        std::cout << "Vertices after: " << vertices.size() << std::endl;
+        std::cout << "Vertices after: " << v.rows() << std::endl;
+        std::cout << "Faces after: " << f.rows() << std::endl;
     }
 
     void Mesh::test() {
@@ -230,57 +228,230 @@ namespace Core {
             normalsVec.push_back(normal);
         }
 
+        std::unordered_map<int, std::vector<std::vector<Math::Vector3>>> vf;
+        MinimumBoundingSphere::getVertexToTripletMap(v, f, vf);
+
+        int partitions = 5;
+        int steps = vf.size() / partitions;
+
+        // // FIXME: SEG FAULT
+        // std::vector<std::vector<std::vector<std::vector<Math::Vector3>>>> batches(partitions);
+
+        // int idx = 0;
+        // for (const auto& pair : vf)
+        // {
+        //     batches[idx % steps].push_back(pair.second);
+        //     idx++;
+        // }
+        // //
+
+        // SQEM sqem;
+        // for (int i = 0; i < batches.size(); i++) {
+        //     sqem.setZero();
+        //     for (int j = 0; j < batches[i].size(); j++) {
+        //         auto analyzedV = batches[i][j];
+        //         for (int k = 0; k < analyzedV.size(); k++) {
+        //             auto v0 = analyzedV[k][0];
+        //             auto v1 = analyzedV[k][1];
+        //             auto v2 = analyzedV[k][2];
+
+        //             auto centroid = MinimumBoundingSphere::ComputeCentroid(v0, v1, v2);
+        //             auto normal = (v1 - v0).cross(v2 - v0);
+        //             normal = normal.normalized();
+
+        //             sqem += SQEM(centroid, normal);
+        //         }
+        //     }
+        //     sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
+
+        //     Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+        //     s.addToScene();
+
+        //     // setting sphere as unitary sphere
+        //     auto radius = s.getRadius();
+        //     s.resize(1 / radius);
+
+        //     // Setting the optimal sphere
+        //     s.resize(sphereRadius);
+        //     s.translate(sphereCenter);
+
+        //     std::cout << sphereRadius << std::endl;
+        //     sphereCenter.print();
+        // }
+
+        // ======================================================
+
+        SQEM sqem;
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < vf[i].size(); j++) {
+
+                auto centroid = MinimumBoundingSphere::ComputeCentroid(vf[i][j][0], vf[i][j][1], vf[i][j][2]);
+                auto normal = (vf[i][j][1] - vf[i][j][0]).cross(vf[i][j][2] - vf[i][j][0]);
+                normal = normal.normalized();
+
+                Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+
+                s.addToScene();
+                // setting sphere as unitary sphere
+                auto radius = s.getRadius();
+                s.resize(1 / radius);
+
+                // Setting the optimal sphere
+                s.resize(0.05f);
+                s.translate(centroid);
+
+                sqem += SQEM(centroid, normal);
+            }
+        }
+
+        sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
+
+        Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+
+        s.addToScene();
+        // setting sphere as unitary sphere
+        auto radius = s.getRadius();
+        s.resize(1 / radius);
+
+        // Setting the optimal sphere
+        s.resize(sphereRadius);
+        s.translate(sphereCenter);
+
+        std::cout << sphereRadius << std::endl;
+        sphereCenter.print();
+
+        sqem.setZero();
+
+        for (int i = vf.size() - 5; i < vf.size(); i++) {
+            for (int j = 0; j < vf[i].size(); j++) {
+
+                auto centroid = MinimumBoundingSphere::ComputeCentroid(vf[i][j][0], vf[i][j][1], vf[i][j][2]);
+                auto normal = (vf[i][j][1] - vf[i][j][0]).cross(vf[i][j][2] - vf[i][j][0]);
+                normal = normal.normalized();
+
+                Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+
+                s.addToScene();
+                // setting sphere as unitary sphere
+                auto radius = s.getRadius();
+                s.resize(1 / radius);
+
+                // Setting the optimal sphere
+                s.resize(0.05f);
+                s.translate(centroid);
+
+                sqem += SQEM(centroid, normal);
+            }
+        }
+
+        sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
+
+        Mesh s1("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+
+        s1.addToScene();
+        // setting sphere as unitary sphere
+        radius = s1.getRadius();
+        s1.resize(1 / radius);
+
+        // Setting the optimal sphere
+        s1.resize(sphereRadius);
+        s1.translate(sphereCenter);
+
+        std::cout << sphereRadius << std::endl;
+        sphereCenter.print();
+
+        // ============================================
+
+        // std::vector<std::vector<Math::Vector3>> faces;
+        // std::vector<std::vector<Math::Vector3>> normalsBatch;
+        // std::vector<Math::Vector3> centroids;
+        // std::vector<Math::Vector3> normals;
+        // MinimumBoundingSphere::extractFaceVertices(v, f, faces);
+        // MinimumBoundingSphere::extractFaceNormals(v, f, n, normalsBatch);
+
+        // for (int i = 0; i < faces.size(); i++) {
+        //     auto centroid = MinimumBoundingSphere::ComputeCentroid(faces[i][0], faces[i][1], faces[i][2]);
+        //     auto normal = normalsBatch[i][0] + normalsBatch[i][1] + normalsBatch[i][2];
+        //     normal /= 3;
+
+        //     centroids.push_back(centroid);
+        //     normals.push_back(normal.normalized());
+        // }
+
+        // for (int i = 0; i < centroids.size(); i++) {
+        //     SQEM sqem = SQEM(centroids[i], normals[i]);
+        //     centroids[i].print();
+
+        //     Math::Vector3 sphereCenter;
+        //     float sphereRadius = 0.0f;
+        //     float MAX_RADIUS = 100.f;
+
+        //     sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
+
+        //     sphereCenter.print();
+            
+        //     Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+
+        //     s.addToScene();
+        //     // setting sphere as unitary sphere
+        //     auto radius = s.getRadius();
+
+        //     // Setting the optimal sphere
+        //     s.resize(sphereRadius + 0.1f);
+        //     s.translate(sphereCenter);
+        // }
+
         // for (int i = 0; i < centersVec.size(); i++)
         //     getSQEMForFace(centersVec[i], normalsVec[i]);
 
-        getSQEMForFaces(centersVec, normalsVec);
+        // getSQEMForFaces(centersVec, normalsVec);
 
-        // for (int i = 0; i < centersVec.size(); i++)
+        // MinimumBoundingSphere::GetAdjacentVertices(v, f, n);
+
+        // auto spheres = MinimumBoundingSphere::ComputeWithFaces(v, f, n, 6);
+        // for (auto sphere : spheres)
         // {
-        //     std::cout << "    Triangle " << i << " center: ";
-        //     centersVec[i].print();
-        //     std::cout << ", normal: ";
-        //     normalsVec[i].print();
+        //     if (sphere.radius <= 0.0f)
+        //         continue;
+
+        //     std::cout << "    Sphere: center: ";
+        //     sphere.center.print();
+        //     std::cout << ", radius: " << sphere.radius << std::endl;
+
+        //     Mesh s("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+        //     s.addToScene();
+
+        //     // setting sphere as unitary sphere
+        //     auto radius = s.getRadius();
+        //     s.resize(1 / radius);
+
+        //     // Setting the optimal sphere
+        //     s.resize(sphere.radius);
+        //     s.translate(sphere.center);
         // }
-
-        // SQEM sqem(centersVec[0], normalsVec[0]);
-        // for (int i = 1; i < centersVec.size(); i++)
-        //     sqem += SQEM(centersVec[i], normalsVec[i]);
-
-        // sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
-
-        // std::cout << "    Result: optimal sphere centered at [" << sphereCenter[0] << ", " << sphereCenter[1] << ", " << sphereCenter[2] << "], with radius " << sphereRadius << "." << std::endl;
-        // Mesh sphere("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
-        // sphere.addToScene();
-        // auto radius = sphere.getRadius();
-        // // setting sphere as unitary sphere
-        // sphere.resize(1 / radius);
-        // sphere.resize(sphereRadius);
-        // sphere.translate(sphereCenter);
-        // std::cout << sphere.getCenterOfMass() << std::endl;
-        // std::cout << sphere.getRadius() << std::endl;
     }
 
     void Mesh::getSQEMForFace(const Math::Vector3 &faceCenter, const Math::Vector3 &faceNormal) {
-        Math::Vector3 sphereCenter;
-        float sphereRadius;
-        const float MAX_RADIUS = 10.f;
+        // Math::Vector3 sphereCenter;
+        // float sphereRadius;
+        // const float MAX_RADIUS = 10.f;
 
-        SQEM sqem(faceCenter, faceNormal);
-        sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
+        // SQEM sqem(faceCenter, faceNormal);
+        // sqem.minimize(sphereCenter, sphereRadius, Math::Vector3(-MAX_RADIUS, -MAX_RADIUS, -MAX_RADIUS), Math::Vector3(MAX_RADIUS, MAX_RADIUS, MAX_RADIUS));
         
-        std::cout << "    Result: optimal sphere centered at [" << sphereCenter[0] << ", " << sphereCenter[1] << ", " << sphereCenter[2] << "], with radius " << sphereRadius << "." << std::endl;
+        // std::cout << "    Result: optimal sphere centered at [" << sphereCenter[0] << ", " << sphereCenter[1] << ", " << sphereCenter[2] << "], with radius " << sphereRadius << "." << std::endl;
         
-        Mesh sphere("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
-        sphere.addToScene();
+        // Mesh sphere("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", this->viewer);
+        // sphere.addToScene();
 
-        // setting sphere as unitary sphere
-        auto radius = sphere.getRadius();
-        sphere.resize(1 / radius);
+        // // setting sphere as unitary sphere
+        // auto radius = sphere.getRadius();
+        // sphere.resize(1 / radius);
 
-        // Setting the optimal sphere
-        sphere.resize(sphereRadius);
-        sphere.translate(sphereCenter);
+        // // Setting the optimal sphere
+        // sphere.resize(sphereRadius);
+        // sphere.translate(sphereCenter);
 
         // std::cout << sphere.getCenterOfMass() << std::endl;
         // std::cout << sphere.getRadius() << std::endl;
@@ -312,7 +483,7 @@ namespace Core {
         std::cout << sphere.getRadius() << std::endl;
     }
 
-    void Mesh::resize(const double&& size) {
+    void Mesh::resize(const double& size) {
         for (int i = 0; i < v.rows(); i++) {
             v.row(i)[0] *= size;
             v.row(i)[1] *= size;

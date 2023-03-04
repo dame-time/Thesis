@@ -75,6 +75,7 @@ namespace Math
             Scalar angleBetween (const Vector3& vector) const;
 
             Vector3 lerp(const Vector3& vector, const Scalar& t) const;
+            Vector3 lerp(const Vector3& vector1, const Vector3 vector2, const Scalar& t) const;
             
             bool isZero() const;
             void clear();

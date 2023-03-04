@@ -177,6 +177,15 @@ namespace Math {
         return *this * (1 - t) + vector * t;
     }
 
+    Vector4 Vector4::lerp(const Vector4 &v1, const Vector4 &v2, const Scalar &t) const
+    {
+        // Compute the interpolated value
+        float s = 1 - t;
+        Vector4 result = *this * s * s + v1 * 2 * s * t + v2 * t * t;
+
+        return result;
+    }
+
     Quaternion Vector4::toQuaternion() const {
         return Quaternion(this->coordinates.x, this->coordinates.y, this->coordinates.z, this->coordinates.w);
     }

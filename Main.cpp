@@ -6,6 +6,7 @@
 #include <igl/readOBJ.h>
 
 #include <Mesh.hpp>
+#include <SphereMesh.hpp>
 
 #include <iostream>
 
@@ -16,16 +17,25 @@ int main(int argc, char *argv[])
   igl::opengl::glfw::Viewer viewer;
 
   Core::Mesh mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Cube.obj", viewer);
-  mesh.addToScene();
+  SM::SphereMesh sm(mesh, viewer);
+  // mesh.simplifyMesh(260);
+
+  // sm.initialize();
+  // mesh.addToScene();
+  sm.constructTest();
+  sm.render();
 
   // mesh.resize(10.0);
-  mesh.test();
 
   // Set up the ImGui plugin
   igl::opengl::glfw::imgui::ImGuiPlugin imgui_plugin;
   viewer.plugins.push_back(&imgui_plugin);
   igl::opengl::glfw::imgui::ImGuiMenu menu;
   imgui_plugin.widgets.push_back(&menu);
+
+  // mesh.setMeshNotFilled();
+
+  // mesh.test();
 
   // // Iterate over all meshes in the viewer
   // for (size_t i = 0; i < viewer.data_list.size(); i++)

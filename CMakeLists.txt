@@ -41,8 +41,9 @@ get_property(includes DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIR
 
 # Print each directory
 # foreach(include_dir ${includes})
-#     message("Include directory: ${include_dir}")
+# message("Include directory: ${include_dir}")
 # endforeach()
+# message(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle igl::core)

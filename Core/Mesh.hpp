@@ -9,16 +9,14 @@
 #include <Eigen/Core>
 #include <Eigen/SparseCore>
 
+#include <MeshUtils.hpp>
+
 #include <vector>
 #include <string>
 
 namespace Core {
     class Mesh {
         private:
-            Eigen::MatrixXd v;
-            Eigen::MatrixXi f;
-            Eigen::MatrixXd n;
-
             igl::opengl::glfw::Viewer& viewer;
 
             int _ID;
@@ -30,7 +28,6 @@ namespace Core {
             void matrixToFaces();
 
             Eigen::RowVector3d getCenterOfMass();
-            double getRadius();
 
             void getSQEMForFace(const Math::Vector3& faceCenter, const Math::Vector3& faceNormal);
             void getSQEMForFaces(std::vector<Math::Vector3> facesCenter, std::vector<Math::Vector3> facesNormal);
@@ -38,6 +35,10 @@ namespace Core {
             Eigen::Matrix4d computeQuadric(const Eigen::MatrixXd& V, const Eigen::MatrixXi& F, int vtx);
 
         public:
+            Eigen::MatrixXd v;
+            Eigen::MatrixXi f;
+            Eigen::MatrixXd n;
+
             std::vector<Math::Vector3> vertices;
             std::vector<Math::Vector3> normals;
             std::vector<int> faces;
@@ -50,7 +51,7 @@ namespace Core {
 
             void addToScene();
 
-            void resize(const double&& size);
+            void resize(const double& size);
             void resize(const Math::Vector3& size);
             void translate(const Math::Vector3& translation);
 
@@ -58,7 +59,31 @@ namespace Core {
 
             void test();
 
+            double getRadius();
+
             void setMeshNotFilled();
+
+            static Mesh* generateSphereMesh(igl::opengl::glfw::Viewer &currentViewer)
+            {
+                static Eigen::MatrixXd vtx;
+                static Eigen::MatrixXi fcs;
+                static Eigen::MatrixXd nrm;
+
+                Mesh* s;
+
+                if (vtx.size() <= 0)
+                {
+                    s = new Mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", currentViewer);
+                    vtx = s->v;
+                    fcs = s->f;
+                    nrm = s->n;
+                }
+                else {
+                    s = new Mesh(vtx, fcs, nrm, currentViewer);
+                }
+
+                return s;
+            }
 
             ~Mesh();
     };

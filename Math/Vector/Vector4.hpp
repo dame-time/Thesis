@@ -70,6 +70,7 @@ namespace Math
             Scalar angleBetween (const Vector4& vector) const;
 
             Vector4 lerp(const Vector4& vector, const Scalar& t) const;
+            Vector4 lerp(const Vector4 &v1, const Vector4 &v2, const Scalar &t) const;
 
             Quaternion toQuaternion() const;
 

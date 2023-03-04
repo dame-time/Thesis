@@ -199,6 +199,15 @@ namespace Math {
         return *this * (1 - t) + vector * t;
     }
 
+    Vector3 Vector3::lerp(const Vector3 &v2, const Vector3 v3, const Scalar &t) const
+    {
+        // Compute the interpolated value
+        float s = 1 - t;
+        Vector3 result = s * s * *this + 2 * s * t * v2 + t * t * v3;
+
+        return result;
+    }
+
     bool Vector3::isZero() const {
         return this->squareMagnitude() == 0;
     }
