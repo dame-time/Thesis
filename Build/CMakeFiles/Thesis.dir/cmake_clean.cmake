@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o"
   "CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o.d"
+  "CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.o"
+  "CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.o.d"
+  "CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.o"
+  "CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.o.d"
   "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o"
   "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o.d"
   "CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix3.cpp.o"

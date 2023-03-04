@@ -328,6 +328,54 @@ Core/src/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.s
 .PHONY : Core/src/Mesh.cpp.s
 
+Core/src/MeshUtils.o: Core/src/MeshUtils.cpp.o
+.PHONY : Core/src/MeshUtils.o
+
+# target to build an object file
+Core/src/MeshUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.o
+.PHONY : Core/src/MeshUtils.cpp.o
+
+Core/src/MeshUtils.i: Core/src/MeshUtils.cpp.i
+.PHONY : Core/src/MeshUtils.i
+
+# target to preprocess a source file
+Core/src/MeshUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.i
+.PHONY : Core/src/MeshUtils.cpp.i
+
+Core/src/MeshUtils.s: Core/src/MeshUtils.cpp.s
+.PHONY : Core/src/MeshUtils.s
+
+# target to generate assembly for a file
+Core/src/MeshUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.s
+.PHONY : Core/src/MeshUtils.cpp.s
+
+Core/src/SphereMesh.o: Core/src/SphereMesh.cpp.o
+.PHONY : Core/src/SphereMesh.o
+
+# target to build an object file
+Core/src/SphereMesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.o
+.PHONY : Core/src/SphereMesh.cpp.o
+
+Core/src/SphereMesh.i: Core/src/SphereMesh.cpp.i
+.PHONY : Core/src/SphereMesh.i
+
+# target to preprocess a source file
+Core/src/SphereMesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.i
+.PHONY : Core/src/SphereMesh.cpp.i
+
+Core/src/SphereMesh.s: Core/src/SphereMesh.cpp.s
+.PHONY : Core/src/SphereMesh.s
+
+# target to generate assembly for a file
+Core/src/SphereMesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.s
+.PHONY : Core/src/SphereMesh.cpp.s
+
 Math/Matrix/src/Matrix2.o: Math/Matrix/src/Matrix2.cpp.o
 .PHONY : Math/Matrix/src/Matrix2.o
 
@@ -906,6 +954,12 @@ help:
 	@echo "... Core/src/Mesh.o"
 	@echo "... Core/src/Mesh.i"
 	@echo "... Core/src/Mesh.s"
+	@echo "... Core/src/MeshUtils.o"
+	@echo "... Core/src/MeshUtils.i"
+	@echo "... Core/src/MeshUtils.s"
+	@echo "... Core/src/SphereMesh.o"
+	@echo "... Core/src/SphereMesh.i"
+	@echo "... Core/src/SphereMesh.s"
 	@echo "... Math/Matrix/src/Matrix2.o"
 	@echo "... Math/Matrix/src/Matrix2.i"
 	@echo "... Math/Matrix/src/Matrix2.s"

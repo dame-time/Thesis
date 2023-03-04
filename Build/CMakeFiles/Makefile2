@@ -257,7 +257,7 @@ CMakeFiles/imgui.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 CMakeFiles/imgui.dir/all: _deps/glad-build/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45 "Built target imgui"
 .PHONY : CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,7 +285,7 @@ CMakeFiles/imguizmo.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 CMakeFiles/imguizmo.dir/all: _deps/glad-build/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imguizmo.dir/build.make CMakeFiles/imguizmo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imguizmo.dir/build.make CMakeFiles/imguizmo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=44,45 "Built target imguizmo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=46,47 "Built target imguizmo"
 .PHONY : CMakeFiles/imguizmo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,19 +313,19 @@ CMakeFiles/Thesis.dir/all: CMakeFiles/imgui.dir/all
 CMakeFiles/Thesis.dir/all: CMakeFiles/imguizmo.dir/all
 CMakeFiles/Thesis.dir/all: _deps/libigl-build/CMakeFiles/igl_core.dir/all
 CMakeFiles/Thesis.dir/all: _deps/libigl-build/CMakeFiles/igl_restricted_triangle.dir/all
-CMakeFiles/Thesis.dir/all: CMakeFiles/igl_glfw.dir/all
-CMakeFiles/Thesis.dir/all: CMakeFiles/igl_opengl.dir/all
 CMakeFiles/Thesis.dir/all: _deps/triangle-build/CMakeFiles/triangle.dir/all
 CMakeFiles/Thesis.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 CMakeFiles/Thesis.dir/all: _deps/glad-build/CMakeFiles/glad.dir/all
+CMakeFiles/Thesis.dir/all: CMakeFiles/igl_glfw.dir/all
+CMakeFiles/Thesis.dir/all: CMakeFiles/igl_opengl.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thesis.dir/build.make CMakeFiles/Thesis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target Thesis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Thesis"
 .PHONY : CMakeFiles/Thesis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Thesis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles 49
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Thesis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles 0
 .PHONY : CMakeFiles/Thesis.dir/rule
@@ -398,7 +398,7 @@ _deps/libigl-build/CMakeFiles/igl_restricted_triangle.dir/clean:
 _deps/triangle-build/CMakeFiles/triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/triangle-build/CMakeFiles/triangle.dir/build.make _deps/triangle-build/CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=46,47 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=48,49 "Built target triangle"
 .PHONY : _deps/triangle-build/CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -424,7 +424,7 @@ _deps/triangle-build/CMakeFiles/triangle.dir/clean:
 _deps/glfw-build/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -450,7 +450,7 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/clean:
 _deps/glad-build/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glad-build/CMakeFiles/glad.dir/build.make _deps/glad-build/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glad-build/CMakeFiles/glad.dir/build.make _deps/glad-build/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=17,18 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/build/CMakeFiles --progress-num=19,20 "Built target glad"
 .PHONY : _deps/glad-build/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.

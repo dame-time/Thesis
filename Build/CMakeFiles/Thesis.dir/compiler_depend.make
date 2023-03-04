@@ -744,6 +744,29 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   ../Math/Point/Point2.hpp \
   ../Math/Versor/Versor3.hpp \
   ../Math/Point/Point3.hpp \
+  ../Core/MeshUtils.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
+  ../Core/SQEM.h \
+  ../Core/MinimumBoundingSphere.hpp \
+  _deps/libigl-src/include/igl/adjacency_matrix.h \
+  _deps/libigl-src/include/igl/adjacency_matrix.cpp \
+  _deps/libigl-src/include/igl/adjacency_matrix.h \
+  _deps/libigl-src/include/igl/vertex_triangle_adjacency.h \
+  _deps/libigl-src/include/igl/vertex_triangle_adjacency.cpp \
+  _deps/libigl-src/include/igl/vertex_triangle_adjacency.h \
+  _deps/libigl-src/include/igl/cumsum.h \
+  _deps/libigl-src/include/igl/cumsum.cpp \
+  _deps/libigl-src/include/igl/edge_topology.h \
+  _deps/libigl-src/include/igl/edge_topology.cpp \
+  _deps/libigl-src/include/igl/edge_topology.h \
+  _deps/libigl-src/include/igl/is_edge_manifold.h \
+  _deps/libigl-src/include/igl/is_edge_manifold.cpp \
+  _deps/libigl-src/include/igl/oriented_facets.h \
+  _deps/libigl-src/include/igl/oriented_facets.cpp \
+  _deps/libigl-src/include/igl/unique_simplices.h \
+  _deps/libigl-src/include/igl/unique_simplices.cpp \
+  _deps/libigl-src/include/igl/unique_edge_map.h \
+  _deps/libigl-src/include/igl/unique_edge_map.cpp \
   ../Core/SQEM.h \
   _deps/libigl-src/include/igl/triangle/triangulate.h \
   _deps/libigl-src/include/igl/igl_inline.h \
@@ -754,22 +777,11 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   _deps/libigl-src/include/igl/centroid.h \
   _deps/libigl-src/include/igl/per_face_normals.h \
   _deps/libigl-src/include/igl/is_edge_manifold.h \
-  _deps/libigl-src/include/igl/is_edge_manifold.cpp \
-  _deps/libigl-src/include/igl/is_edge_manifold.h \
-  _deps/libigl-src/include/igl/oriented_facets.h \
-  _deps/libigl-src/include/igl/oriented_facets.cpp \
-  _deps/libigl-src/include/igl/unique_simplices.h \
-  _deps/libigl-src/include/igl/unique_simplices.cpp \
-  _deps/libigl-src/include/igl/unique_edge_map.h \
-  _deps/libigl-src/include/igl/unique_edge_map.cpp \
-  _deps/libigl-src/include/igl/cumsum.h \
-  _deps/libigl-src/include/igl/cumsum.cpp \
   _deps/libigl-src/include/igl/qslim.h \
   _deps/libigl-src/include/igl/qslim.cpp \
   _deps/libigl-src/include/igl/qslim.h \
   _deps/libigl-src/include/igl/collapse_edge.h \
   _deps/libigl-src/include/igl/min_heap.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
   _deps/libigl-src/include/igl/decimate_callback_types.h \
   _deps/libigl-src/include/igl/collapse_edge.cpp \
   _deps/libigl-src/include/igl/circulation.h \
@@ -805,17 +817,1420 @@ CMakeFiles/Thesis.dir/Core/src/Mesh.cpp.o: ../Core/src/Mesh.cpp \
   _deps/libigl-src/include/igl/boundary_loop.h \
   _deps/libigl-src/include/igl/triangle_triangle_adjacency.h \
   _deps/libigl-src/include/igl/triangle_triangle_adjacency.cpp \
-  _deps/libigl-src/include/igl/vertex_triangle_adjacency.h \
-  _deps/libigl-src/include/igl/vertex_triangle_adjacency.cpp \
   _deps/libigl-src/include/igl/is_border_vertex.h \
   _deps/libigl-src/include/igl/is_border_vertex.cpp \
-  _deps/libigl-src/include/igl/edge_topology.h \
-  _deps/libigl-src/include/igl/edge_topology.cpp \
-  _deps/libigl-src/include/igl/edge_topology.h \
   _deps/libigl-src/include/igl/edge_flaps.h \
   _deps/libigl-src/include/igl/remove_unreferenced.h \
   _deps/libigl-src/include/igl/boundary_facets.h \
   _deps/libigl-src/include/igl/unique_edge_map.h
+
+CMakeFiles/Thesis.dir/Core/src/MeshUtils.cpp.o: ../Core/src/MeshUtils.cpp \
+  ../Core/MeshUtils.hpp \
+  _deps/eigen-src/Eigen/Core \
+  _deps/eigen-src/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  _deps/eigen-src/Eigen/src/Core/util/Macros.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/complex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_def.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
+  _deps/eigen-src/Eigen/src/Core/util/MKL_support.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/emmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/xmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mm_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/pmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/tmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/smmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/popcntintrin.h \
+  _deps/eigen-src/Eigen/src/Core/util/Constants.h \
+  _deps/eigen-src/Eigen/src/Core/util/Meta.h \
+  _deps/eigen-src/Eigen/src/Core/util/ForwardDeclarations.h \
+  _deps/eigen-src/Eigen/src/Core/util/StaticAssert.h \
+  _deps/eigen-src/Eigen/src/Core/util/XprHelper.h \
+  _deps/eigen-src/Eigen/src/Core/util/Memory.h \
+  _deps/eigen-src/Eigen/src/Core/NumTraits.h \
+  _deps/eigen-src/Eigen/src/Core/MathFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/GenericPacketMath.h \
+  _deps/eigen-src/Eigen/src/Core/MathFunctionsImpl.h \
+  _deps/eigen-src/Eigen/src/Core/arch/Default/ConjHelper.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/PacketMath.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/Complex.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/Half.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  _deps/eigen-src/Eigen/src/Core/arch/Default/Settings.h \
+  _deps/eigen-src/Eigen/src/Core/functors/TernaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/BinaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/UnaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/NullaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/StlFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/AssignmentFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/Complex.h \
+  _deps/eigen-src/Eigen/src/Core/IO.h \
+  _deps/eigen-src/Eigen/src/Core/DenseCoeffsBase.h \
+  _deps/eigen-src/Eigen/src/Core/DenseBase.h \
+  _deps/eigen-src/Eigen/src/plugins/BlockMethods.h \
+  _deps/eigen-src/Eigen/src/Core/MatrixBase.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/Core/EigenBase.h \
+  _deps/eigen-src/Eigen/src/Core/Product.h \
+  _deps/eigen-src/Eigen/src/Core/CoreEvaluators.h \
+  _deps/eigen-src/Eigen/src/Core/AssignEvaluator.h \
+  _deps/eigen-src/Eigen/src/Core/Assign.h \
+  _deps/eigen-src/Eigen/src/Core/ArrayBase.h \
+  _deps/eigen-src/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/Core/util/BlasUtil.h \
+  _deps/eigen-src/Eigen/src/Core/DenseStorage.h \
+  _deps/eigen-src/Eigen/src/Core/NestByValue.h \
+  _deps/eigen-src/Eigen/src/Core/ReturnByValue.h \
+  _deps/eigen-src/Eigen/src/Core/NoAlias.h \
+  _deps/eigen-src/Eigen/src/Core/PlainObjectBase.h \
+  _deps/eigen-src/Eigen/src/Core/Matrix.h \
+  _deps/eigen-src/Eigen/src/Core/Array.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseTernaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseUnaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseNullaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseUnaryView.h \
+  _deps/eigen-src/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/Dot.h \
+  _deps/eigen-src/Eigen/src/Core/StableNorm.h \
+  _deps/eigen-src/Eigen/src/Core/Stride.h \
+  _deps/eigen-src/Eigen/src/Core/MapBase.h \
+  _deps/eigen-src/Eigen/src/Core/Map.h \
+  _deps/eigen-src/Eigen/src/Core/Ref.h \
+  _deps/eigen-src/Eigen/src/Core/Block.h \
+  _deps/eigen-src/Eigen/src/Core/VectorBlock.h \
+  _deps/eigen-src/Eigen/src/Core/Transpose.h \
+  _deps/eigen-src/Eigen/src/Core/DiagonalMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/Diagonal.h \
+  _deps/eigen-src/Eigen/src/Core/DiagonalProduct.h \
+  _deps/eigen-src/Eigen/src/Core/Redux.h \
+  _deps/eigen-src/Eigen/src/Core/Visitor.h \
+  _deps/eigen-src/Eigen/src/Core/Fuzzy.h \
+  _deps/eigen-src/Eigen/src/Core/Swap.h \
+  _deps/eigen-src/Eigen/src/Core/CommaInitializer.h \
+  _deps/eigen-src/Eigen/src/Core/GeneralProduct.h \
+  _deps/eigen-src/Eigen/src/Core/Solve.h \
+  _deps/eigen-src/Eigen/src/Core/Inverse.h \
+  _deps/eigen-src/Eigen/src/Core/SolverBase.h \
+  _deps/eigen-src/Eigen/src/Core/PermutationMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/Transpositions.h \
+  _deps/eigen-src/Eigen/src/Core/TriangularMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/SelfAdjointView.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  _deps/eigen-src/Eigen/src/Core/products/Parallelizer.h \
+  _deps/eigen-src/Eigen/src/Core/ProductEvaluators.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/SolveTriangular.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointProduct.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularSolverVector.h \
+  _deps/eigen-src/Eigen/src/Core/BandMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/CoreIterators.h \
+  _deps/eigen-src/Eigen/src/Core/ConditionEstimator.h \
+  _deps/eigen-src/Eigen/src/Core/BooleanRedux.h \
+  _deps/eigen-src/Eigen/src/Core/Select.h \
+  _deps/eigen-src/Eigen/src/Core/VectorwiseOp.h \
+  _deps/eigen-src/Eigen/src/Core/Random.h \
+  _deps/eigen-src/Eigen/src/Core/Replicate.h \
+  _deps/eigen-src/Eigen/src/Core/Reverse.h \
+  _deps/eigen-src/Eigen/src/Core/ArrayWrapper.h \
+  _deps/eigen-src/Eigen/src/Core/GlobalFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
+  _deps/libigl-src/include/igl/readOBJ.h \
+  _deps/libigl-src/include/igl/igl_inline.h \
+  _deps/libigl-src/include/igl/readOBJ.cpp \
+  _deps/libigl-src/include/igl/list_to_matrix.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  _deps/libigl-src/include/igl/list_to_matrix.cpp \
+  _deps/eigen-src/Eigen/Dense \
+  _deps/eigen-src/Eigen/LU \
+  _deps/eigen-src/Eigen/src/misc/Kernel.h \
+  _deps/eigen-src/Eigen/src/misc/Image.h \
+  _deps/eigen-src/Eigen/src/LU/FullPivLU.h \
+  _deps/eigen-src/Eigen/src/LU/PartialPivLU.h \
+  _deps/eigen-src/Eigen/src/LU/Determinant.h \
+  _deps/eigen-src/Eigen/src/LU/InverseImpl.h \
+  _deps/eigen-src/Eigen/src/LU/arch/Inverse_SSE.h \
+  _deps/eigen-src/Eigen/Cholesky \
+  _deps/eigen-src/Eigen/Jacobi \
+  _deps/eigen-src/Eigen/src/Jacobi/Jacobi.h \
+  _deps/eigen-src/Eigen/src/Cholesky/LLT.h \
+  _deps/eigen-src/Eigen/src/Cholesky/LDLT.h \
+  _deps/eigen-src/Eigen/QR \
+  _deps/eigen-src/Eigen/Householder \
+  _deps/eigen-src/Eigen/src/Householder/Householder.h \
+  _deps/eigen-src/Eigen/src/Householder/HouseholderSequence.h \
+  _deps/eigen-src/Eigen/src/Householder/BlockHouseholder.h \
+  _deps/eigen-src/Eigen/src/QR/HouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/FullPivHouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/ColPivHouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  _deps/eigen-src/Eigen/SVD \
+  _deps/eigen-src/Eigen/src/misc/RealSvd2x2.h \
+  _deps/eigen-src/Eigen/src/SVD/UpperBidiagonalization.h \
+  _deps/eigen-src/Eigen/src/SVD/SVDBase.h \
+  _deps/eigen-src/Eigen/src/SVD/JacobiSVD.h \
+  _deps/eigen-src/Eigen/src/SVD/BDCSVD.h \
+  _deps/eigen-src/Eigen/Geometry \
+  _deps/eigen-src/Eigen/src/Geometry/OrthoMethods.h \
+  _deps/eigen-src/Eigen/src/Geometry/EulerAngles.h \
+  _deps/eigen-src/Eigen/src/Geometry/Homogeneous.h \
+  _deps/eigen-src/Eigen/src/Geometry/RotationBase.h \
+  _deps/eigen-src/Eigen/src/Geometry/Rotation2D.h \
+  _deps/eigen-src/Eigen/src/Geometry/Quaternion.h \
+  _deps/eigen-src/Eigen/src/Geometry/AngleAxis.h \
+  _deps/eigen-src/Eigen/src/Geometry/Transform.h \
+  _deps/eigen-src/Eigen/src/Geometry/Translation.h \
+  _deps/eigen-src/Eigen/src/Geometry/Scaling.h \
+  _deps/eigen-src/Eigen/src/Geometry/Hyperplane.h \
+  _deps/eigen-src/Eigen/src/Geometry/ParametrizedLine.h \
+  _deps/eigen-src/Eigen/src/Geometry/AlignedBox.h \
+  _deps/eigen-src/Eigen/src/Geometry/Umeyama.h \
+  _deps/eigen-src/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  _deps/eigen-src/Eigen/Eigenvalues \
+  _deps/eigen-src/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/EigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealQZ.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealQZ.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  _deps/libigl-src/include/igl/max_size.h \
+  _deps/libigl-src/include/igl/max_size.cpp \
+  _deps/libigl-src/include/igl/min_size.h \
+  _deps/libigl-src/include/igl/min_size.cpp \
+  _deps/libigl-src/include/igl/polygon_corners.h \
+  _deps/libigl-src/include/igl/polygon_corners.cpp \
+  _deps/libigl-src/include/igl/polygons_to_triangles.h \
+  _deps/libigl-src/include/igl/polygons_to_triangles.cpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
+  _deps/libigl-src/include/igl/per_face_normals.h \
+  _deps/libigl-src/include/igl/per_face_normals.cpp \
+  _deps/libigl-src/include/igl/cotmatrix.h \
+  _deps/eigen-src/Eigen/Sparse \
+  _deps/eigen-src/Eigen/SparseCore \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseUtil.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMatrixBase.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/BlockMethods.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseAssign.h \
+  _deps/eigen-src/Eigen/src/SparseCore/CompressedStorage.h \
+  _deps/eigen-src/Eigen/src/SparseCore/AmbiVector.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCompressedBase.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMap.h \
+  _deps/eigen-src/Eigen/src/SparseCore/MappedSparseMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseVector.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseRef.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseTranspose.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseBlock.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDot.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseRedux.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDenseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseTriangularView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/TriangularSolver.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparsePermutation.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseFuzzy.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSolverBase.h \
+  _deps/eigen-src/Eigen/OrderingMethods \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Amd.h \
+  _deps/eigen-src/Eigen/src/Core/util/NonMPL2.h \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Ordering.h \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+  _deps/eigen-src/Eigen/SparseCholesky \
+  _deps/eigen-src/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  _deps/eigen-src/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+  _deps/eigen-src/Eigen/src/Core/util/NonMPL2.h \
+  _deps/eigen-src/Eigen/SparseLU \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Structs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLUImpl.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseColEtree.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Memory.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_pivotL.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_pruneL.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Utils.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU.h \
+  _deps/eigen-src/Eigen/SparseQR \
+  _deps/eigen-src/Eigen/src/SparseQR/SparseQR.h \
+  _deps/eigen-src/Eigen/IterativeLinearSolvers \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  _deps/libigl-src/include/igl/cotmatrix.cpp \
+  _deps/libigl-src/include/igl/cotmatrix_entries.h \
+  _deps/libigl-src/include/igl/cotmatrix_entries.cpp \
+  _deps/libigl-src/include/igl/doublearea.h \
+  _deps/libigl-src/include/igl/doublearea.cpp \
+  _deps/libigl-src/include/igl/edge_lengths.h \
+  _deps/libigl-src/include/igl/edge_lengths.cpp \
+  _deps/libigl-src/include/igl/squared_edge_lengths.h \
+  _deps/libigl-src/include/igl/squared_edge_lengths.cpp \
+  _deps/libigl-src/include/igl/parallel_for.h \
+  _deps/libigl-src/include/igl/default_num_threads.h \
+  _deps/libigl-src/include/igl/default_num_threads.cpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
+  _deps/libigl-src/include/igl/sort.h \
+  _deps/libigl-src/include/igl/sort.cpp \
+  _deps/libigl-src/include/igl/SortableRow.h \
+  _deps/libigl-src/include/igl/reorder.h \
+  _deps/libigl-src/include/igl/reorder.cpp \
+  _deps/libigl-src/include/igl/IndexComparison.h \
+  _deps/libigl-src/include/igl/colon.h \
+  _deps/libigl-src/include/igl/colon.cpp \
+  _deps/libigl-src/include/igl/LinSpaced.h \
+  _deps/libigl-src/include/igl/face_areas.h \
+  _deps/libigl-src/include/igl/face_areas.cpp \
+  _deps/libigl-src/include/igl/volume.h \
+  _deps/libigl-src/include/igl/volume.cpp \
+  _deps/libigl-src/include/igl/cross.h \
+  _deps/libigl-src/include/igl/cross.cpp \
+  _deps/libigl-src/include/igl/dihedral_angles.h \
+  _deps/libigl-src/include/igl/dihedral_angles.cpp \
+  _deps/libigl-src/include/igl/verbose.h \
+  _deps/libigl-src/include/igl/massmatrix.h \
+  _deps/libigl-src/include/igl/massmatrix.cpp \
+  _deps/libigl-src/include/igl/massmatrix_intrinsic.h \
+  _deps/libigl-src/include/igl/massmatrix_intrinsic.cpp \
+  _deps/libigl-src/include/igl/normalize_row_sums.h \
+  _deps/libigl-src/include/igl/normalize_row_sums.cpp \
+  _deps/libigl-src/include/igl/sparse.h \
+  _deps/libigl-src/include/igl/sparse.cpp \
+  _deps/libigl-src/include/igl/repmat.h \
+  _deps/libigl-src/include/igl/repmat.cpp \
+  _deps/libigl-src/include/igl/pinv.h \
+  _deps/libigl-src/include/igl/deprecated.h \
+  _deps/libigl-src/include/igl/pinv.cpp \
+  _deps/libigl-src/include/igl/diag.h \
+  _deps/libigl-src/include/igl/diag.cpp \
+  _deps/eigen-src/unsupported/Eigen/SparseExtra \
+  _deps/eigen-src/Eigen/Sparse \
+  _deps/eigen-src/Eigen/src/Core/util/DisableStupidWarnings.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/RandomSetter.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/MarketIO.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/dirent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/dirent.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h \
+  _deps/eigen-src/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  _deps/libigl-src/include/igl/per_vertex_normals.h \
+  _deps/libigl-src/include/igl/per_vertex_normals.cpp \
+  _deps/libigl-src/include/igl/get_seconds.h \
+  _deps/libigl-src/include/igl/get_seconds.cpp \
+  _deps/libigl-src/include/igl/internal_angles.h \
+  _deps/libigl-src/include/igl/internal_angles.cpp \
+  _deps/libigl-src/include/igl/qslim.h \
+  _deps/libigl-src/include/igl/qslim.cpp \
+  _deps/libigl-src/include/igl/collapse_edge.h \
+  _deps/libigl-src/include/igl/min_heap.h \
+  _deps/libigl-src/include/igl/decimate_callback_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set \
+  _deps/libigl-src/include/igl/collapse_edge.cpp \
+  _deps/libigl-src/include/igl/circulation.h \
+  _deps/libigl-src/include/igl/circulation.cpp \
+  _deps/libigl-src/include/igl/edge_collapse_is_valid.h \
+  _deps/libigl-src/include/igl/edge_collapse_is_valid.cpp \
+  _deps/libigl-src/include/igl/intersect.h \
+  _deps/libigl-src/include/igl/intersect.cpp \
+  _deps/libigl-src/include/igl/unique.h \
+  _deps/libigl-src/include/igl/unique.cpp \
+  _deps/libigl-src/include/igl/sortrows.h \
+  _deps/libigl-src/include/igl/sortrows.cpp \
+  _deps/libigl-src/include/igl/matrix_to_list.h \
+  _deps/libigl-src/include/igl/matrix_to_list.cpp \
+  _deps/libigl-src/include/igl/decimate_trivial_callbacks.h \
+  _deps/libigl-src/include/igl/decimate_trivial_callbacks.cpp \
+  _deps/libigl-src/include/igl/connect_boundary_to_infinity.h \
+  _deps/libigl-src/include/igl/connect_boundary_to_infinity.cpp \
+  _deps/libigl-src/include/igl/boundary_facets.h \
+  _deps/libigl-src/include/igl/boundary_facets.cpp \
+  _deps/libigl-src/include/igl/face_occurrences.h \
+  _deps/libigl-src/include/igl/face_occurrences.cpp \
+  _deps/libigl-src/include/igl/unique_rows.h \
+  _deps/libigl-src/include/igl/unique_rows.cpp \
+  _deps/libigl-src/include/igl/accumarray.h \
+  _deps/libigl-src/include/igl/accumarray.cpp \
+  _deps/libigl-src/include/igl/slice_mask.h \
+  _deps/libigl-src/include/igl/slice_mask.cpp \
+  _deps/libigl-src/include/igl/slice.h \
+  _deps/libigl-src/include/igl/slice.cpp \
+  _deps/libigl-src/include/igl/slice_sorted.h \
+  _deps/libigl-src/include/igl/slice_sorted.cpp \
+  _deps/libigl-src/include/igl/find.h \
+  _deps/libigl-src/include/igl/find.cpp \
+  _deps/libigl-src/include/igl/decimate.h \
+  _deps/libigl-src/include/igl/decimate.cpp \
+  _deps/libigl-src/include/igl/edge_flaps.h \
+  _deps/libigl-src/include/igl/edge_flaps.cpp \
+  _deps/libigl-src/include/igl/unique_edge_map.h \
+  _deps/libigl-src/include/igl/unique_edge_map.cpp \
+  _deps/libigl-src/include/igl/oriented_facets.h \
+  _deps/libigl-src/include/igl/oriented_facets.cpp \
+  _deps/libigl-src/include/igl/unique_simplices.h \
+  _deps/libigl-src/include/igl/unique_simplices.cpp \
+  _deps/libigl-src/include/igl/cumsum.h \
+  _deps/libigl-src/include/igl/cumsum.cpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  _deps/libigl-src/include/igl/is_edge_manifold.h \
+  _deps/libigl-src/include/igl/is_edge_manifold.cpp \
+  _deps/libigl-src/include/igl/remove_unreferenced.h \
+  _deps/libigl-src/include/igl/remove_unreferenced.cpp \
+  _deps/libigl-src/include/igl/max_faces_stopping_condition.h \
+  _deps/libigl-src/include/igl/max_faces_stopping_condition.cpp \
+  _deps/libigl-src/include/igl/shortest_edge_and_midpoint.h \
+  _deps/libigl-src/include/igl/shortest_edge_and_midpoint.cpp \
+  _deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.h \
+  _deps/libigl-src/include/igl/per_vertex_point_to_plane_quadrics.cpp \
+  _deps/libigl-src/include/igl/quadric_binary_plus_operator.h \
+  _deps/libigl-src/include/igl/quadric_binary_plus_operator.cpp \
+  _deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.h \
+  _deps/libigl-src/include/igl/qslim_optimal_collapse_edge_callbacks.cpp
+
+CMakeFiles/Thesis.dir/Core/src/SphereMesh.cpp.o: ../Core/src/SphereMesh.cpp \
+  ../Core/SphereMesh.hpp \
+  _deps/libigl-src/include/igl/opengl/glfw/Viewer.h \
+  _deps/libigl-src/include/igl/igl_inline.h \
+  _deps/libigl-src/include/igl/opengl/MeshGL.h \
+  _deps/libigl-src/include/igl/igl_inline.h \
+  _deps/eigen-src/Eigen/Core \
+  _deps/eigen-src/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  _deps/eigen-src/Eigen/src/Core/util/Macros.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/complex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_def.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
+  _deps/eigen-src/Eigen/src/Core/util/MKL_support.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/emmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/xmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/mm_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/pmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/tmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/smmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/popcntintrin.h \
+  _deps/eigen-src/Eigen/src/Core/util/Constants.h \
+  _deps/eigen-src/Eigen/src/Core/util/Meta.h \
+  _deps/eigen-src/Eigen/src/Core/util/ForwardDeclarations.h \
+  _deps/eigen-src/Eigen/src/Core/util/StaticAssert.h \
+  _deps/eigen-src/Eigen/src/Core/util/XprHelper.h \
+  _deps/eigen-src/Eigen/src/Core/util/Memory.h \
+  _deps/eigen-src/Eigen/src/Core/NumTraits.h \
+  _deps/eigen-src/Eigen/src/Core/MathFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/GenericPacketMath.h \
+  _deps/eigen-src/Eigen/src/Core/MathFunctionsImpl.h \
+  _deps/eigen-src/Eigen/src/Core/arch/Default/ConjHelper.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/PacketMath.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/Complex.h \
+  _deps/eigen-src/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/Half.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  _deps/eigen-src/Eigen/src/Core/arch/Default/Settings.h \
+  _deps/eigen-src/Eigen/src/Core/functors/TernaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/BinaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/UnaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/NullaryFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/StlFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/functors/AssignmentFunctors.h \
+  _deps/eigen-src/Eigen/src/Core/arch/CUDA/Complex.h \
+  _deps/eigen-src/Eigen/src/Core/IO.h \
+  _deps/eigen-src/Eigen/src/Core/DenseCoeffsBase.h \
+  _deps/eigen-src/Eigen/src/Core/DenseBase.h \
+  _deps/eigen-src/Eigen/src/plugins/BlockMethods.h \
+  _deps/eigen-src/Eigen/src/Core/MatrixBase.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/Core/EigenBase.h \
+  _deps/eigen-src/Eigen/src/Core/Product.h \
+  _deps/eigen-src/Eigen/src/Core/CoreEvaluators.h \
+  _deps/eigen-src/Eigen/src/Core/AssignEvaluator.h \
+  _deps/eigen-src/Eigen/src/Core/Assign.h \
+  _deps/eigen-src/Eigen/src/Core/ArrayBase.h \
+  _deps/eigen-src/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/Core/util/BlasUtil.h \
+  _deps/eigen-src/Eigen/src/Core/DenseStorage.h \
+  _deps/eigen-src/Eigen/src/Core/NestByValue.h \
+  _deps/eigen-src/Eigen/src/Core/ReturnByValue.h \
+  _deps/eigen-src/Eigen/src/Core/NoAlias.h \
+  _deps/eigen-src/Eigen/src/Core/PlainObjectBase.h \
+  _deps/eigen-src/Eigen/src/Core/Matrix.h \
+  _deps/eigen-src/Eigen/src/Core/Array.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseTernaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseUnaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseNullaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/CwiseUnaryView.h \
+  _deps/eigen-src/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/Core/Dot.h \
+  _deps/eigen-src/Eigen/src/Core/StableNorm.h \
+  _deps/eigen-src/Eigen/src/Core/Stride.h \
+  _deps/eigen-src/Eigen/src/Core/MapBase.h \
+  _deps/eigen-src/Eigen/src/Core/Map.h \
+  _deps/eigen-src/Eigen/src/Core/Ref.h \
+  _deps/eigen-src/Eigen/src/Core/Block.h \
+  _deps/eigen-src/Eigen/src/Core/VectorBlock.h \
+  _deps/eigen-src/Eigen/src/Core/Transpose.h \
+  _deps/eigen-src/Eigen/src/Core/DiagonalMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/Diagonal.h \
+  _deps/eigen-src/Eigen/src/Core/DiagonalProduct.h \
+  _deps/eigen-src/Eigen/src/Core/Redux.h \
+  _deps/eigen-src/Eigen/src/Core/Visitor.h \
+  _deps/eigen-src/Eigen/src/Core/Fuzzy.h \
+  _deps/eigen-src/Eigen/src/Core/Swap.h \
+  _deps/eigen-src/Eigen/src/Core/CommaInitializer.h \
+  _deps/eigen-src/Eigen/src/Core/GeneralProduct.h \
+  _deps/eigen-src/Eigen/src/Core/Solve.h \
+  _deps/eigen-src/Eigen/src/Core/Inverse.h \
+  _deps/eigen-src/Eigen/src/Core/SolverBase.h \
+  _deps/eigen-src/Eigen/src/Core/PermutationMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/Transpositions.h \
+  _deps/eigen-src/Eigen/src/Core/TriangularMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/SelfAdjointView.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  _deps/eigen-src/Eigen/src/Core/products/Parallelizer.h \
+  _deps/eigen-src/Eigen/src/Core/ProductEvaluators.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/SolveTriangular.h \
+  _deps/eigen-src/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointProduct.h \
+  _deps/eigen-src/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularMatrixVector.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/products/TriangularSolverVector.h \
+  _deps/eigen-src/Eigen/src/Core/BandMatrix.h \
+  _deps/eigen-src/Eigen/src/Core/CoreIterators.h \
+  _deps/eigen-src/Eigen/src/Core/ConditionEstimator.h \
+  _deps/eigen-src/Eigen/src/Core/BooleanRedux.h \
+  _deps/eigen-src/Eigen/src/Core/Select.h \
+  _deps/eigen-src/Eigen/src/Core/VectorwiseOp.h \
+  _deps/eigen-src/Eigen/src/Core/Random.h \
+  _deps/eigen-src/Eigen/src/Core/Replicate.h \
+  _deps/eigen-src/Eigen/src/Core/Reverse.h \
+  _deps/eigen-src/Eigen/src/Core/ArrayWrapper.h \
+  _deps/eigen-src/Eigen/src/Core/GlobalFunctions.h \
+  _deps/eigen-src/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  _deps/libigl-src/include/igl/opengl/MeshGL.cpp \
+  _deps/libigl-src/include/igl/opengl/bind_vertex_attrib_array.h \
+  _deps/libigl-src/include/igl/opengl/gl.h \
+  _deps/glad-src/include/glad/glad.h \
+  _deps/glad-src/include/KHR/khrplatform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_inttypes.h \
+  _deps/libigl-src/include/igl/opengl/bind_vertex_attrib_array.cpp \
+  _deps/libigl-src/include/igl/opengl/create_shader_program.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  _deps/libigl-src/include/igl/opengl/create_shader_program.cpp \
+  _deps/libigl-src/include/igl/opengl/load_shader.h \
+  _deps/libigl-src/include/igl/opengl/load_shader.cpp \
+  _deps/libigl-src/include/igl/opengl/print_shader_info_log.h \
+  _deps/libigl-src/include/igl/opengl/print_shader_info_log.cpp \
+  _deps/libigl-src/include/igl/opengl/print_program_info_log.h \
+  _deps/libigl-src/include/igl/opengl/print_program_info_log.cpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
+  _deps/libigl-src/include/igl/opengl/destroy_shader_program.h \
+  _deps/libigl-src/include/igl/opengl/destroy_shader_program.cpp \
+  _deps/libigl-src/include/igl/opengl/report_gl_error.h \
+  _deps/libigl-src/include/igl/opengl/report_gl_error.cpp \
+  _deps/libigl-src/include/igl/verbose.h \
+  _deps/libigl-src/include/igl/opengl/verasansmono_compressed.h \
+  _deps/libigl-src/include/igl/igl_inline.h \
+  _deps/libigl-src/include/igl/opengl/verasansmono_compressed.cpp \
+  _deps/libigl-src/include/igl/opengl/ViewerCore.h \
+  _deps/libigl-src/include/igl/opengl/MeshGL.h \
+  _deps/eigen-src/Eigen/Geometry \
+  _deps/eigen-src/Eigen/SVD \
+  _deps/eigen-src/Eigen/QR \
+  _deps/eigen-src/Eigen/Cholesky \
+  _deps/eigen-src/Eigen/Jacobi \
+  _deps/eigen-src/Eigen/src/Jacobi/Jacobi.h \
+  _deps/eigen-src/Eigen/src/Cholesky/LLT.h \
+  _deps/eigen-src/Eigen/src/Cholesky/LDLT.h \
+  _deps/eigen-src/Eigen/Householder \
+  _deps/eigen-src/Eigen/src/Householder/Householder.h \
+  _deps/eigen-src/Eigen/src/Householder/HouseholderSequence.h \
+  _deps/eigen-src/Eigen/src/Householder/BlockHouseholder.h \
+  _deps/eigen-src/Eigen/src/QR/HouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/FullPivHouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/ColPivHouseholderQR.h \
+  _deps/eigen-src/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  _deps/eigen-src/Eigen/src/misc/RealSvd2x2.h \
+  _deps/eigen-src/Eigen/src/SVD/UpperBidiagonalization.h \
+  _deps/eigen-src/Eigen/src/SVD/SVDBase.h \
+  _deps/eigen-src/Eigen/src/SVD/JacobiSVD.h \
+  _deps/eigen-src/Eigen/src/SVD/BDCSVD.h \
+  _deps/eigen-src/Eigen/LU \
+  _deps/eigen-src/Eigen/src/misc/Kernel.h \
+  _deps/eigen-src/Eigen/src/misc/Image.h \
+  _deps/eigen-src/Eigen/src/LU/FullPivLU.h \
+  _deps/eigen-src/Eigen/src/LU/PartialPivLU.h \
+  _deps/eigen-src/Eigen/src/LU/Determinant.h \
+  _deps/eigen-src/Eigen/src/LU/InverseImpl.h \
+  _deps/eigen-src/Eigen/src/LU/arch/Inverse_SSE.h \
+  _deps/eigen-src/Eigen/src/Geometry/OrthoMethods.h \
+  _deps/eigen-src/Eigen/src/Geometry/EulerAngles.h \
+  _deps/eigen-src/Eigen/src/Geometry/Homogeneous.h \
+  _deps/eigen-src/Eigen/src/Geometry/RotationBase.h \
+  _deps/eigen-src/Eigen/src/Geometry/Rotation2D.h \
+  _deps/eigen-src/Eigen/src/Geometry/Quaternion.h \
+  _deps/eigen-src/Eigen/src/Geometry/AngleAxis.h \
+  _deps/eigen-src/Eigen/src/Geometry/Transform.h \
+  _deps/eigen-src/Eigen/src/Geometry/Translation.h \
+  _deps/eigen-src/Eigen/src/Geometry/Scaling.h \
+  _deps/eigen-src/Eigen/src/Geometry/Hyperplane.h \
+  _deps/eigen-src/Eigen/src/Geometry/ParametrizedLine.h \
+  _deps/eigen-src/Eigen/src/Geometry/AlignedBox.h \
+  _deps/eigen-src/Eigen/src/Geometry/Umeyama.h \
+  _deps/eigen-src/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  _deps/libigl-src/include/igl/serialize.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  _deps/eigen-src/Eigen/Dense \
+  _deps/eigen-src/Eigen/Eigenvalues \
+  _deps/eigen-src/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/EigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealQZ.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/RealQZ.h \
+  _deps/eigen-src/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  _deps/eigen-src/Eigen/Sparse \
+  _deps/eigen-src/Eigen/SparseCore \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseUtil.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMatrixBase.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  _deps/eigen-src/Eigen/src/plugins/BlockMethods.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseAssign.h \
+  _deps/eigen-src/Eigen/src/SparseCore/CompressedStorage.h \
+  _deps/eigen-src/Eigen/src/SparseCore/AmbiVector.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCompressedBase.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseMap.h \
+  _deps/eigen-src/Eigen/src/SparseCore/MappedSparseMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseVector.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseRef.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseTranspose.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseBlock.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDot.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseRedux.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseDenseProduct.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseTriangularView.h \
+  _deps/eigen-src/Eigen/src/SparseCore/TriangularSolver.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparsePermutation.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseFuzzy.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseSolverBase.h \
+  _deps/eigen-src/Eigen/OrderingMethods \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Amd.h \
+  _deps/eigen-src/Eigen/src/Core/util/NonMPL2.h \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Ordering.h \
+  _deps/eigen-src/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+  _deps/eigen-src/Eigen/SparseCholesky \
+  _deps/eigen-src/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  _deps/eigen-src/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+  _deps/eigen-src/Eigen/src/Core/util/NonMPL2.h \
+  _deps/eigen-src/Eigen/SparseLU \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Structs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLUImpl.h \
+  _deps/eigen-src/Eigen/src/SparseCore/SparseColEtree.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Memory.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_pivotL.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_pruneL.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU_Utils.h \
+  _deps/eigen-src/Eigen/src/SparseLU/SparseLU.h \
+  _deps/eigen-src/Eigen/SparseQR \
+  _deps/eigen-src/Eigen/src/SparseQR/SparseQR.h \
+  _deps/eigen-src/Eigen/IterativeLinearSolvers \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+  _deps/eigen-src/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  _deps/libigl-src/include/igl/opengl/ViewerCore.cpp \
+  _deps/libigl-src/include/igl/opengl/ViewerData.h \
+  _deps/libigl-src/include/igl/colormap.h \
+  _deps/libigl-src/include/igl/colormap.cpp \
+  _deps/libigl-src/include/igl/colormap.h \
+  _deps/libigl-src/include/igl/opengl/ViewerData.cpp \
+  _deps/libigl-src/include/igl/per_face_normals.h \
+  _deps/libigl-src/include/igl/per_face_normals.cpp \
+  _deps/libigl-src/include/igl/cotmatrix.h \
+  _deps/libigl-src/include/igl/cotmatrix.cpp \
+  _deps/libigl-src/include/igl/cotmatrix_entries.h \
+  _deps/libigl-src/include/igl/cotmatrix_entries.cpp \
+  _deps/libigl-src/include/igl/doublearea.h \
+  _deps/libigl-src/include/igl/doublearea.cpp \
+  _deps/libigl-src/include/igl/edge_lengths.h \
+  _deps/libigl-src/include/igl/edge_lengths.cpp \
+  _deps/libigl-src/include/igl/squared_edge_lengths.h \
+  _deps/libigl-src/include/igl/squared_edge_lengths.cpp \
+  _deps/libigl-src/include/igl/parallel_for.h \
+  _deps/libigl-src/include/igl/default_num_threads.h \
+  _deps/libigl-src/include/igl/default_num_threads.cpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
+  _deps/libigl-src/include/igl/sort.h \
+  _deps/libigl-src/include/igl/sort.cpp \
+  _deps/libigl-src/include/igl/SortableRow.h \
+  _deps/libigl-src/include/igl/reorder.h \
+  _deps/libigl-src/include/igl/reorder.cpp \
+  _deps/libigl-src/include/igl/IndexComparison.h \
+  _deps/libigl-src/include/igl/colon.h \
+  _deps/libigl-src/include/igl/colon.cpp \
+  _deps/libigl-src/include/igl/LinSpaced.h \
+  _deps/libigl-src/include/igl/face_areas.h \
+  _deps/libigl-src/include/igl/face_areas.cpp \
+  _deps/libigl-src/include/igl/volume.h \
+  _deps/libigl-src/include/igl/volume.cpp \
+  _deps/libigl-src/include/igl/cross.h \
+  _deps/libigl-src/include/igl/cross.cpp \
+  _deps/libigl-src/include/igl/dihedral_angles.h \
+  _deps/libigl-src/include/igl/dihedral_angles.cpp \
+  _deps/libigl-src/include/igl/massmatrix.h \
+  _deps/libigl-src/include/igl/massmatrix.cpp \
+  _deps/libigl-src/include/igl/massmatrix_intrinsic.h \
+  _deps/libigl-src/include/igl/massmatrix_intrinsic.cpp \
+  _deps/libigl-src/include/igl/normalize_row_sums.h \
+  _deps/libigl-src/include/igl/normalize_row_sums.cpp \
+  _deps/libigl-src/include/igl/sparse.h \
+  _deps/libigl-src/include/igl/sparse.cpp \
+  _deps/libigl-src/include/igl/repmat.h \
+  _deps/libigl-src/include/igl/repmat.cpp \
+  _deps/libigl-src/include/igl/pinv.h \
+  _deps/libigl-src/include/igl/deprecated.h \
+  _deps/libigl-src/include/igl/pinv.cpp \
+  _deps/libigl-src/include/igl/diag.h \
+  _deps/libigl-src/include/igl/diag.cpp \
+  _deps/eigen-src/unsupported/Eigen/SparseExtra \
+  _deps/eigen-src/Eigen/Sparse \
+  _deps/eigen-src/Eigen/src/Core/util/DisableStupidWarnings.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/RandomSetter.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/MarketIO.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/dirent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/dirent.h \
+  _deps/eigen-src/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h \
+  _deps/eigen-src/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  _deps/libigl-src/include/igl/material_colors.h \
+  _deps/libigl-src/include/igl/per_vertex_normals.h \
+  _deps/libigl-src/include/igl/per_vertex_normals.cpp \
+  _deps/libigl-src/include/igl/get_seconds.h \
+  _deps/libigl-src/include/igl/get_seconds.cpp \
+  _deps/libigl-src/include/igl/internal_angles.h \
+  _deps/libigl-src/include/igl/internal_angles.cpp \
+  _deps/libigl-src/include/igl/quat_to_mat.h \
+  _deps/libigl-src/include/igl/quat_to_mat.cpp \
+  _deps/libigl-src/include/igl/snap_to_fixed_up.h \
+  _deps/libigl-src/include/igl/snap_to_fixed_up.cpp \
+  _deps/libigl-src/include/igl/look_at.h \
+  _deps/libigl-src/include/igl/look_at.cpp \
+  _deps/libigl-src/include/igl/frustum.h \
+  _deps/libigl-src/include/igl/frustum.cpp \
+  _deps/libigl-src/include/igl/ortho.h \
+  _deps/libigl-src/include/igl/ortho.cpp \
+  _deps/libigl-src/include/igl/barycenter.h \
+  _deps/libigl-src/include/igl/barycenter.cpp \
+  _deps/libigl-src/include/igl/PI.h \
+  _deps/libigl-src/include/igl/opengl/glfw/ViewerPlugin.h \
+  _deps/libigl-src/include/igl/opengl/glfw/Viewer.cpp \
+  _deps/glfw-src/include/GLFW/glfw3.h \
+  _deps/libigl-src/include/igl/project.h \
+  _deps/libigl-src/include/igl/project.cpp \
+  _deps/libigl-src/include/igl/project.h \
+  _deps/libigl-src/include/igl/get_seconds.h \
+  _deps/libigl-src/include/igl/readOBJ.h \
+  _deps/libigl-src/include/igl/readOBJ.cpp \
+  _deps/libigl-src/include/igl/readOBJ.h \
+  _deps/libigl-src/include/igl/list_to_matrix.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  _deps/libigl-src/include/igl/list_to_matrix.cpp \
+  _deps/libigl-src/include/igl/max_size.h \
+  _deps/libigl-src/include/igl/max_size.cpp \
+  _deps/libigl-src/include/igl/min_size.h \
+  _deps/libigl-src/include/igl/min_size.cpp \
+  _deps/libigl-src/include/igl/polygon_corners.h \
+  _deps/libigl-src/include/igl/polygon_corners.cpp \
+  _deps/libigl-src/include/igl/polygons_to_triangles.h \
+  _deps/libigl-src/include/igl/polygons_to_triangles.cpp \
+  _deps/libigl-src/include/igl/read_triangle_mesh.h \
+  _deps/libigl-src/include/igl/read_triangle_mesh.cpp \
+  _deps/libigl-src/include/igl/read_triangle_mesh.h \
+  _deps/libigl-src/include/igl/readMSH.h \
+  _deps/libigl-src/include/igl/readMSH.cpp \
+  _deps/libigl-src/include/igl/MshLoader.h \
+  _deps/libigl-src/include/igl/MshLoader.cpp \
+  _deps/libigl-src/include/igl/readMESH.h \
+  _deps/libigl-src/include/igl/readMESH.cpp \
+  _deps/libigl-src/include/igl/readOFF.h \
+  _deps/libigl-src/include/igl/readOFF.cpp \
+  _deps/libigl-src/include/igl/readSTL.h \
+  _deps/libigl-src/include/igl/readSTL.cpp \
+  _deps/libigl-src/include/igl/string_utils.h \
+  _deps/libigl-src/include/igl/string_utils.cpp \
+  _deps/libigl-src/include/igl/read_file_binary.h \
+  _deps/libigl-src/include/igl/read_file_binary.cpp \
+  _deps/libigl-src/include/igl/FileMemoryStream.h \
+  _deps/libigl-src/include/igl/readPLY.h \
+  _deps/libigl-src/include/igl/tinyply.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__hash_table \
+  _deps/libigl-src/include/igl/tinyply.cpp \
+  _deps/libigl-src/include/igl/readPLY.cpp \
+  _deps/libigl-src/include/igl/readWRL.h \
+  _deps/libigl-src/include/igl/readWRL.cpp \
+  _deps/libigl-src/include/igl/pathinfo.h \
+  _deps/libigl-src/include/igl/pathinfo.cpp \
+  _deps/libigl-src/include/igl/dirname.h \
+  _deps/libigl-src/include/igl/dirname.cpp \
+  _deps/libigl-src/include/igl/basename.h \
+  _deps/libigl-src/include/igl/basename.cpp \
+  _deps/libigl-src/include/igl/boundary_facets.h \
+  _deps/libigl-src/include/igl/boundary_facets.cpp \
+  _deps/libigl-src/include/igl/face_occurrences.h \
+  _deps/libigl-src/include/igl/face_occurrences.cpp \
+  _deps/libigl-src/include/igl/matrix_to_list.h \
+  _deps/libigl-src/include/igl/matrix_to_list.cpp \
+  _deps/libigl-src/include/igl/unique_rows.h \
+  _deps/libigl-src/include/igl/unique_rows.cpp \
+  _deps/libigl-src/include/igl/sortrows.h \
+  _deps/libigl-src/include/igl/sortrows.cpp \
+  _deps/libigl-src/include/igl/accumarray.h \
+  _deps/libigl-src/include/igl/accumarray.cpp \
+  _deps/libigl-src/include/igl/slice_mask.h \
+  _deps/libigl-src/include/igl/slice_mask.cpp \
+  _deps/libigl-src/include/igl/slice.h \
+  _deps/libigl-src/include/igl/slice.cpp \
+  _deps/libigl-src/include/igl/slice_sorted.h \
+  _deps/libigl-src/include/igl/slice_sorted.cpp \
+  _deps/libigl-src/include/igl/find.h \
+  _deps/libigl-src/include/igl/find.cpp \
+  _deps/libigl-src/include/igl/adjacency_list.h \
+  _deps/libigl-src/include/igl/adjacency_list.cpp \
+  _deps/libigl-src/include/igl/adjacency_list.h \
+  _deps/libigl-src/include/igl/writeOBJ.h \
+  _deps/libigl-src/include/igl/writeOBJ.cpp \
+  _deps/libigl-src/include/igl/writeOBJ.h \
+  _deps/libigl-src/include/igl/writeOFF.h \
+  _deps/libigl-src/include/igl/writeOFF.cpp \
+  _deps/libigl-src/include/igl/writeOFF.h \
+  _deps/libigl-src/include/igl/massmatrix.h \
+  _deps/libigl-src/include/igl/file_dialog_open.h \
+  _deps/libigl-src/include/igl/file_dialog_open.cpp \
+  _deps/libigl-src/include/igl/file_dialog_open.h \
+  _deps/libigl-src/include/igl/file_dialog_save.h \
+  _deps/libigl-src/include/igl/file_dialog_save.cpp \
+  _deps/libigl-src/include/igl/file_dialog_save.h \
+  _deps/libigl-src/include/igl/quat_mult.h \
+  _deps/libigl-src/include/igl/quat_mult.cpp \
+  _deps/libigl-src/include/igl/quat_mult.h \
+  _deps/libigl-src/include/igl/axis_angle_to_quat.h \
+  _deps/libigl-src/include/igl/axis_angle_to_quat.cpp \
+  _deps/libigl-src/include/igl/axis_angle_to_quat.h \
+  _deps/libigl-src/include/igl/EPS.h \
+  _deps/libigl-src/include/igl/EPS.cpp \
+  _deps/libigl-src/include/igl/trackball.h \
+  _deps/libigl-src/include/igl/trackball.cpp \
+  _deps/libigl-src/include/igl/trackball.h \
+  _deps/libigl-src/include/igl/dot.h \
+  _deps/libigl-src/include/igl/dot.cpp \
+  _deps/libigl-src/include/igl/two_axis_valuator_fixed_up.h \
+  _deps/libigl-src/include/igl/two_axis_valuator_fixed_up.cpp \
+  _deps/libigl-src/include/igl/two_axis_valuator_fixed_up.h \
+  _deps/libigl-src/include/igl/snap_to_canonical_view_quat.h \
+  _deps/libigl-src/include/igl/snap_to_canonical_view_quat.cpp \
+  _deps/libigl-src/include/igl/snap_to_canonical_view_quat.h \
+  _deps/libigl-src/include/igl/canonical_quaternions.h \
+  _deps/libigl-src/include/igl/canonical_quaternions.cpp \
+  _deps/libigl-src/include/igl/normalize_quat.h \
+  _deps/libigl-src/include/igl/normalize_quat.cpp \
+  _deps/libigl-src/include/igl/unproject.h \
+  _deps/libigl-src/include/igl/unproject.cpp \
+  _deps/libigl-src/include/igl/unproject.h \
+  ../Math/Vector/Vector3.hpp \
+  ../Math/Scalar.hpp \
+  ../Math/Vector/Vector2.hpp \
+  ../Math/Math.hpp \
+  ../Math/Versor/Versor2.hpp \
+  ../Math/Point/Point2.hpp \
+  ../Math/Versor/Versor3.hpp \
+  ../Math/Point/Point3.hpp \
+  ../Math/Vector/Vector4.hpp \
+  ../Math/Versor/Versor4.hpp \
+  ../Math/Point/Point4.hpp \
+  ../Math/Rotation/Quaternion.hpp \
+  ../Math/Matrix/Matrix3.hpp \
+  ../Math/Scalar.hpp \
+  ../Math/Vector/Vector3.hpp \
+  ../Math/Matrix/Matrix2.hpp \
+  ../Math/Vector/Vector2.hpp \
+  ../Math/Matrix/Matrix4.hpp \
+  ../Math/Vector/Vector4.hpp \
+  ../Math/Matrix/Matrix4.hpp \
+  ../Core/Mesh.hpp \
+  ../Core/MeshUtils.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
+  ../Core/SQEM.h
 
 CMakeFiles/Thesis.dir/Math/Matrix/src/Matrix2.cpp.o: ../Math/Matrix/src/Matrix2.cpp \
   ../Math/Matrix/Matrix2.hpp \
@@ -4790,7 +6205,22 @@ CMakeFiles/Thesis.dir/main.cpp.o: ../main.cpp \
   ../Math/Versor/Versor2.hpp \
   ../Math/Point/Point2.hpp \
   ../Math/Versor/Versor3.hpp \
-  ../Math/Point/Point3.hpp
+  ../Math/Point/Point3.hpp \
+  ../Core/MeshUtils.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
+  ../Core/SphereMesh.hpp \
+  ../Math/Vector/Vector4.hpp \
+  ../Math/Versor/Versor4.hpp \
+  ../Math/Point/Point4.hpp \
+  ../Math/Rotation/Quaternion.hpp \
+  ../Math/Matrix/Matrix3.hpp \
+  ../Math/Scalar.hpp \
+  ../Math/Vector/Vector3.hpp \
+  ../Math/Matrix/Matrix2.hpp \
+  ../Math/Vector/Vector2.hpp \
+  ../Math/Matrix/Matrix4.hpp \
+  ../Math/Vector/Vector4.hpp \
+  ../Math/Matrix/Matrix4.hpp
 
 
 _deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuizmoWidget.cpp:
@@ -4905,6 +6335,14 @@ _deps/imgui-src/backends/imgui_impl_opengl3.h:
 
 _deps/imgui-src/imgui.h:
 
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiTraits.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmiintrin.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiHelpers.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiPlugin.cpp:
+
 _deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiPlugin.h:
 
 ../main.cpp:
@@ -4919,6 +6357,10 @@ _deps/eigen-src/Eigen/src/OrderingMethods/Ordering.h:
 
 ../Math/Point/src/Point2.cpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h:
+
+../Math/Matrix/Matrix2.hpp:
+
 ../Math/Rotation/Quaternion.hpp:
 
 ../Math/Point/Point4.hpp:
@@ -4929,9 +6371,11 @@ _deps/eigen-src/Eigen/src/Core/ProductEvaluators.h:
 
 ../Math/Vector/Vector4.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h:
 
-../Math/Matrix/Matrix2.hpp:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdarg.h:
+
+../Core/src/MeshUtils.cpp:
 
 _deps/libigl-src/include/igl/adjacency_list.cpp:
 
@@ -4979,8 +6423,6 @@ _deps/libigl-src/include/igl/circulation.cpp:
 
 _deps/libigl-src/include/igl/decimate_callback_types.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue:
-
 _deps/libigl-src/include/igl/min_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
@@ -4991,13 +6433,19 @@ _deps/libigl-src/include/igl/qslim.h:
 
 _deps/libigl-src/include/igl/unique_edge_map.h:
 
+_deps/libigl-src/include/igl/oriented_facets.cpp:
+
 _deps/eigen-src/Eigen/src/SparseCore/SparseBlock.h:
 
 _deps/libigl-src/include/igl/opengl/ViewerCore.cpp:
 
 _deps/libigl-src/include/igl/vertex_triangle_adjacency.h:
 
-_deps/libigl-src/include/igl/oriented_facets.cpp:
+_deps/eigen-src/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+_deps/libigl-src/include/igl/adjacency_matrix.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue:
 
 ../Math/Point/Point2.hpp:
 
@@ -5024,6 +6472,8 @@ _deps/libigl-src/include/igl/canonical_quaternions.h:
 _deps/libigl-src/include/igl/snap_to_canonical_view_quat.cpp:
 
 _deps/libigl-src/include/igl/snap_to_canonical_view_quat.h:
+
+../Core/SphereMesh.hpp:
 
 _deps/libigl-src/include/igl/quat_mult.cpp:
 
@@ -5052,10 +6502,6 @@ _deps/eigen-src/Eigen/src/QR/FullPivHouseholderQR.h:
 _deps/libigl-src/include/igl/find.h:
 
 _deps/libigl-src/include/igl/slice_sorted.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/avx512vbmiintrin.h:
-
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiHelpers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
 
@@ -5217,6 +6663,8 @@ _deps/libigl-src/include/igl/material_colors.h:
 
 ../Math/Versor/src/Versor2.cpp:
 
+_deps/libigl-src/include/igl/adjacency_matrix.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/dirent.h:
 
 _deps/libigl-src/include/igl/connect_boundary_to_infinity.cpp:
@@ -5299,6 +6747,10 @@ _deps/libigl-src/include/igl/sort.h:
 
 _deps/libigl-src/include/igl/default_num_threads.cpp:
 
+_deps/libigl-src/include/igl/colormap.cpp:
+
+../Core/MeshUtils.hpp:
+
 _deps/libigl-src/include/igl/squared_edge_lengths.h:
 
 _deps/libigl-src/include/igl/doublearea.cpp:
@@ -5320,8 +6772,6 @@ _deps/libigl-src/include/igl/remove_unreferenced.h:
 _deps/libigl-src/include/igl/per_face_normals.h:
 
 _deps/libigl-src/include/igl/opengl/ViewerData.cpp:
-
-_deps/libigl-src/include/igl/colormap.cpp:
 
 _deps/libigl-src/include/igl/readPLY.cpp:
 
@@ -5499,10 +6949,6 @@ _deps/eigen-src/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
 _deps/eigen-src/Eigen/src/SparseLU/SparseLU_column_dfs.h:
 
-_deps/eigen-src/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
-
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiWidget.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack:
@@ -5660,10 +7106,6 @@ _deps/eigen-src/Eigen/src/Eigenvalues/ComplexSchur.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/inttypes.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdarg.h:
 
 _deps/libigl-src/include/igl/opengl/gl.h:
 
@@ -5898,8 +7340,6 @@ _deps/eigen-src/Eigen/src/Core/AssignEvaluator.h:
 _deps/eigen-src/Eigen/src/Core/ReturnByValue.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h:
-
-_deps/eigen-src/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 _deps/eigen-src/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
@@ -6291,8 +7731,6 @@ _deps/imgui-src/backends/imgui_impl_glfw.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h:
 
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiTraits.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/ctype.h:
 
 _deps/libigl-src/include/igl/massmatrix_intrinsic.cpp:
@@ -6336,6 +7774,10 @@ _deps/libigl-src/include/igl/opengl/load_shader.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h:
 
 _deps/eigen-src/Eigen/src/Core/IO.h:
+
+_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiWidget.h:
+
+_deps/eigen-src/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 _deps/eigen-src/Eigen/src/Eigenvalues/RealSchur.h:
 
@@ -6384,6 +7826,8 @@ _deps/eigen-src/Eigen/src/Core/DenseCoeffsBase.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
 
 _deps/eigen-src/Eigen/src/Core/util/XprHelper.h:
+
+../Core/src/SphereMesh.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h:
 
@@ -6457,6 +7901,8 @@ _deps/libigl-src/include/igl/opengl/MeshGL.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
 
+../Core/MinimumBoundingSphere.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
 
 _deps/libigl-src/include/igl/IndexComparison.h:
@@ -6528,8 +7974,6 @@ _deps/libigl-src/include/igl/shortest_edge_and_midpoint.h:
 _deps/eigen-src/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h:
-
-_deps/libigl-src/include/igl/opengl/glfw/imgui/ImGuiPlugin.cpp:
 
 _deps/libigl-src/include/igl/opengl/print_shader_info_log.cpp:
 
