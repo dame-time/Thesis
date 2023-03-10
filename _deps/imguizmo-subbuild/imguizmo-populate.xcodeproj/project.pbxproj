@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5A210648C22D49109B59F682 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1514B50C6D76459055F0E209 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CBEAD56F74444785A9041493 /* imguizmo-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F58BA44E2F144F31961E7DFD /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */;
+			buildPhases = (
+				B0870653C1CAD4C7860DDFC1 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir */,
+				AC7F0F1B35FE922AFCB162B5 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download */,
+				44DFF8A4D7F467B15CD4143E /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update */,
+				C958CB58EE6B8144ACAD6083 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch */,
+				9F4210DF7876FA1BAD031C4B /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure */,
+				9583563B4C197BBEE265DA4D /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build */,
+				F2B5FE7343687C1737263765 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install */,
+				78AAB7997940090BFF6B7E03 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-test */,
+				72CFE6FAAEDF23C17E447A5C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-complete */,
+				93769D5DC59DCEFB15D05096 /* Generate CMakeFiles/imguizmo-populate */,
+			);
+			dependencies = (
+				F536D2E5F744417B9C5BCDF6 /* PBXTargetDependency */,
+			);
+			name = "imguizmo-populate";
+			productName = "imguizmo-populate";
+		};
+		D6E76F0D897E44428A10E6FF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5483F7CC485941EF9088A40A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				ABE9105798E9AC7094549545 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EFC019C1C5B7412083A83A5A /* PBXTargetDependency */,
+				72DE088B4B2D4D5B92FBA197 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		0D770EBAB0264120BB848A13 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		2A50565234C84C0EA55543D6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		69783B5A02B748EEB9C2EE74 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DE3979ED1D1B4C64A4F3628D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		27CCAC869E75488EABCF1E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEAD56F74444785A9041493;
+			remoteInfo = "imguizmo-populate";
+		};
+		3781F090BAA34C9DBDB1753B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B64CDA4F334AF6B67E9825;
+			remoteInfo = ZERO_CHECK;
+		};
+		A3B11AFFF5AC4B5AB62CA680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B64CDA4F334AF6B67E9825;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB07975763F4FD08182422D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AA9C38F2CACF476D8A4CE51A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1137ABA5A6F345DF9E350B9C /* imguizmo-populate */ = {
+			isa = PBXGroup;
+			children = (
+				87099EE4362E4C59BBEBE282 /* CMake Rules */,
+				AA9C38F2CACF476D8A4CE51A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
+			);
+			name = "imguizmo-populate";
+			sourceTree = "<group>";
+		};
+		86B6B9D418D04131AFA4EC16 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F1A7ACC3136E40ED88E8E540 /* CMake Rules */,
+				4AB07975763F4FD08182422D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		87099EE4362E4C59BBEBE282 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		93AA2DD7608A4D5FB149A040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A41E8EE9458486E8F6515BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECC39BFB5794479AD898404 = {
+			isa = PBXGroup;
+			children = (
+				1137ABA5A6F345DF9E350B9C /* imguizmo-populate */,
+				86B6B9D418D04131AFA4EC16 /* ALL_BUILD */,
+				93AA2DD7608A4D5FB149A040 /* Products */,
+				9A41E8EE9458486E8F6515BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1A7ACC3136E40ED88E8E540 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		6C3CE355AE4044F8830B7B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = C45D93FE8AA44E10A0265959 /* Build configuration list for PBXProject "imguizmo-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				69783B5A02B748EEB9C2EE74 /* Debug */,
+				DE3979ED1D1B4C64A4F3628D /* Release */,
+				2A50565234C84C0EA55543D6 /* MinSizeRel */,
+				0D770EBAB0264120BB848A13 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EECC39BFB5794479AD898404;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				D6E76F0D897E44428A10E6FF /* ALL_BUILD */,
+				99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */,
+				CBEAD56F74444785A9041493 /* imguizmo-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1514B50C6D76459055F0E209 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		44DFF8A4D7F467B15CD4143E /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		72CFE6FAAEDF23C17E447A5C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-test","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-complete";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		78AAB7997940090BFF6B7E03 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-test";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93769D5DC59DCEFB15D05096 /* Generate CMakeFiles/imguizmo-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-complete"			);
+			name = "Generate CMakeFiles/imguizmo-populate";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9583563B4C197BBEE265DA4D /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F4210DF7876FA1BAD031C4B /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-cfgcmd.txt"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		A6880C8D30AC9E6319FB4FF7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ABE9105798E9AC7094549545 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		AC7F0F1B35FE922AFCB162B5 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-gitinfo.txt"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B0870653C1CAD4C7860DDFC1 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C958CB58EE6B8144ACAD6083 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-update"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F2B5FE7343687C1737263765 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-build"			);
+			name = "Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imguizmo-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DE088B4B2D4D5B92FBA197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */;
+			targetProxy = 3781F090BAA34C9DBDB1753B /* PBXContainerItemProxy */;
+		};
+		EFC019C1C5B7412083A83A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEAD56F74444785A9041493 /* imguizmo-populate */;
+			targetProxy = 27CCAC869E75488EABCF1E26 /* PBXContainerItemProxy */;
+		};
+		F536D2E5F744417B9C5BCDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */;
+			targetProxy = A3B11AFFF5AC4B5AB62CA680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A96564D92A42DE99BD1404 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2F164CF541DF4DA5ACF9C40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		48F9D28E93BE4BAC8ADC3B5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		50AE5F501D5F4DC08DD133EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = Debug;
+		};
+		5565012B7AB545748C42840E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		59F27E7D535942BB86ADA907 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6B4A743551194AEFB78B75DC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		85556CD0FCF540B7B88A3D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9264A238144046E7A8395B14 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BC2514E5F93E468EAB7025E8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0DC8579424B457DBAAF6672 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CE9FB8F90E1848A3B9DF426F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E87E59D12CDA459F90470815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E89A304F8A05471C993B458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F8FE6D53079B451495FBA4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FE5CA9EA1EE048C7810A87A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5483F7CC485941EF9088A40A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F164CF541DF4DA5ACF9C40D /* Debug */,
+				5565012B7AB545748C42840E /* Release */,
+				9264A238144046E7A8395B14 /* MinSizeRel */,
+				C0DC8579424B457DBAAF6672 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A210648C22D49109B59F682 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89A304F8A05471C993B458F /* Debug */,
+				F8FE6D53079B451495FBA4F3 /* Release */,
+				BC2514E5F93E468EAB7025E8 /* MinSizeRel */,
+				59F27E7D535942BB86ADA907 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C45D93FE8AA44E10A0265959 /* Build configuration list for PBXProject "imguizmo-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AE5F501D5F4DC08DD133EC /* Debug */,
+				FE5CA9EA1EE048C7810A87A5 /* Release */,
+				6B4A743551194AEFB78B75DC /* MinSizeRel */,
+				03A96564D92A42DE99BD1404 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F58BA44E2F144F31961E7DFD /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87E59D12CDA459F90470815 /* Debug */,
+				85556CD0FCF540B7B88A3D74 /* Release */,
+				CE9FB8F90E1848A3B9DF426F /* MinSizeRel */,
+				48F9D28E93BE4BAC8ADC3B5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C3CE355AE4044F8830B7B00 /* Project object */;
+}

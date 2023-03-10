@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CDA8F3FCE3B4B8489A83A33 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9EA4A8583D4429B8DFF6781 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5B1D63B4313882B216FBCA0D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		85B8B662E07F416BBD117B51 /* triangle-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8F0AD87F7074908977873B0 /* Build configuration list for PBXAggregateTarget "triangle-populate" */;
+			buildPhases = (
+				EDF32F0DAA5A597387A29BBF /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir */,
+				352ABB045E83B3D20E36B405 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download */,
+				114ACB79ACA9C228F842A742 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update */,
+				948808D147E8D9DA97BD2F41 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch */,
+				7DF94B01233D4E71A1139537 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure */,
+				FB5FFC8089A76269B868CBBF /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build */,
+				AD08F2FC46B70973A855F95E /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install */,
+				AABBECF90266914334431A4E /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-test */,
+				6B62B4F925F0D1EE446C399C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-complete */,
+				58A5CFE7D7EF79B33DF37DD4 /* Generate CMakeFiles/triangle-populate */,
+			);
+			dependencies = (
+				6940A6447A2F4368B10366E0 /* PBXTargetDependency */,
+			);
+			name = "triangle-populate";
+			productName = "triangle-populate";
+		};
+		E5BCA0FDBD944FD9A12990F9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C02315EC4BAD4205BC918142 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1AA52CA5FB2F342B12EA92AF /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				CD756D7614AD4C7DA8BD0689 /* PBXTargetDependency */,
+				4AF8A327D93E43BC817AB3E6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		28B23A7E59994DD3BBD1880F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		55D67A989E8A4C5D83367E88 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		79A9671554FD4623B2684BC6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		97EC4FB8C2594681BF1B7441 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		23BECF3377E84CDDA7751F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604865C5B64842E0A33BD025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDA8F3FCE3B4B8489A83A33;
+			remoteInfo = ZERO_CHECK;
+		};
+		4CEDE4B4B35B4B32BEB2F60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604865C5B64842E0A33BD025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B8B662E07F416BBD117B51;
+			remoteInfo = "triangle-populate";
+		};
+		E5AAFF19BD9B4BD99171E035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604865C5B64842E0A33BD025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDA8F3FCE3B4B8489A83A33;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BEC33D687FB4DAEAAA45B3C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		809BB4F018744915B8B0B986 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		173229A0957F46C9BC0953F5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		364E10094F874809A463F623 /* triangle-populate */ = {
+			isa = PBXGroup;
+			children = (
+				8B32D34086E9480EB0C04FEE /* CMake Rules */,
+				809BB4F018744915B8B0B986 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeLists.txt */,
+			);
+			name = "triangle-populate";
+			sourceTree = "<group>";
+		};
+		890AAB888FA54CD9831FFF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B32D34086E9480EB0C04FEE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9298C7F2A4EE473A97A877B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6CBEF9306F94D04A5C395EE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				173229A0957F46C9BC0953F5 /* CMake Rules */,
+				6BEC33D687FB4DAEAAA45B3C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FDAF4E28438B4E83BF604166 = {
+			isa = PBXGroup;
+			children = (
+				364E10094F874809A463F623 /* triangle-populate */,
+				A6CBEF9306F94D04A5C395EE /* ALL_BUILD */,
+				890AAB888FA54CD9831FFF22 /* Products */,
+				9298C7F2A4EE473A97A877B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		604865C5B64842E0A33BD025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4634A4BB643846FC83D8E5E6 /* Build configuration list for PBXProject "triangle-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				28B23A7E59994DD3BBD1880F /* Debug */,
+				97EC4FB8C2594681BF1B7441 /* Release */,
+				55D67A989E8A4C5D83367E88 /* MinSizeRel */,
+				79A9671554FD4623B2684BC6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FDAF4E28438B4E83BF604166;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				E5BCA0FDBD944FD9A12990F9 /* ALL_BUILD */,
+				0CDA8F3FCE3B4B8489A83A33 /* ZERO_CHECK */,
+				85B8B662E07F416BBD117B51 /* triangle-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114ACB79ACA9C228F842A742 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		1AA52CA5FB2F342B12EA92AF /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		352ABB045E83B3D20E36B405 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/triangle-populate-gitinfo.txt"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		58A5CFE7D7EF79B33DF37DD4 /* Generate CMakeFiles/triangle-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-complete"			);
+			name = "Generate CMakeFiles/triangle-populate";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/triangle-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5B1D63B4313882B216FBCA0D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6B62B4F925F0D1EE446C399C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-download","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-test","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-complete";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7DF94B01233D4E71A1139537 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp/triangle-populate-cfgcmd.txt"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		948808D147E8D9DA97BD2F41 /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-update"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AABBECF90266914334431A4E /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-test";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		AD08F2FC46B70973A855F95E /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B8B1D95BB1F6B9EB882083FA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EDF32F0DAA5A597387A29BBF /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FB5FFC8089A76269B868CBBF /* Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-configure"			);
+			name = "Generate triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/triangle-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/triangle-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF8A327D93E43BC817AB3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDA8F3FCE3B4B8489A83A33 /* ZERO_CHECK */;
+			targetProxy = 23BECF3377E84CDDA7751F7C /* PBXContainerItemProxy */;
+		};
+		6940A6447A2F4368B10366E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDA8F3FCE3B4B8489A83A33 /* ZERO_CHECK */;
+			targetProxy = E5AAFF19BD9B4BD99171E035 /* PBXContainerItemProxy */;
+		};
+		CD756D7614AD4C7DA8BD0689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B8B662E07F416BBD117B51 /* triangle-populate */;
+			targetProxy = 4CEDE4B4B35B4B32BEB2F60F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12D9901CEB554F9EA5A9432B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "triangle-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		15B02464E5444EE6BC2CC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/build";
+			};
+			name = Debug;
+		};
+		27BFC29A71974A17A73D3E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/build";
+			};
+			name = Release;
+		};
+		2FABB4D46EC143A1A6D26CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		36FCF7ACFE97431B828EC67D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3933FC379CFF4BD6B3032265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		39ABC7E6B5974477BE09A91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		50523A6214394B46A52C7D91 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		5C111DBC2D0F46FBB8825247 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		62278D1EEB32452AA0BBCF65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "triangle-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		66FC54B70FBA43778F20C19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7CD3C981C3754B8182E4A637 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		7D3E334675414C918D8C99C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89043BE6DC364F91AC6B4EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "triangle-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E865364CE96A4E0F9407C1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "triangle-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F3F1FF1F69CA4FAAAAC2D9F3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4634A4BB643846FC83D8E5E6 /* Build configuration list for PBXProject "triangle-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B02464E5444EE6BC2CC818 /* Debug */,
+				27BFC29A71974A17A73D3E15 /* Release */,
+				50523A6214394B46A52C7D91 /* MinSizeRel */,
+				7CD3C981C3754B8182E4A637 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9EA4A8583D4429B8DFF6781 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FABB4D46EC143A1A6D26CD6 /* Debug */,
+				3933FC379CFF4BD6B3032265 /* Release */,
+				36FCF7ACFE97431B828EC67D /* MinSizeRel */,
+				5C111DBC2D0F46FBB8825247 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C02315EC4BAD4205BC918142 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ABC7E6B5974477BE09A91A /* Debug */,
+				66FC54B70FBA43778F20C19C /* Release */,
+				7D3E334675414C918D8C99C8 /* MinSizeRel */,
+				F3F1FF1F69CA4FAAAAC2D9F3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8F0AD87F7074908977873B0 /* Build configuration list for PBXAggregateTarget "triangle-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E865364CE96A4E0F9407C1C4 /* Debug */,
+				89043BE6DC364F91AC6B4EBA /* Release */,
+				62278D1EEB32452AA0BBCF65 /* MinSizeRel */,
+				12D9901CEB554F9EA5A9432B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604865C5B64842E0A33BD025 /* Project object */;
+}

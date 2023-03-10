@@ -4,6 +4,7 @@
 #include <Scalar.hpp>
 #include <Vector3.hpp>
 #include <Versor4.hpp>
+#include <Matrix4.hpp>
 #include <Point4.hpp>
 #include <Quaternion.hpp>
 #include <Math.hpp>

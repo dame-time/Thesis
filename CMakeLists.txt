@@ -46,5 +46,6 @@ get_property(includes DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIR
 # message(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(${PROJECT_NAME} ${SOURCES})
+target_compile_options(${PROJECT_NAME} PUBLIC -g -O2)
 target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle igl::core)
 target_include_directories(${PROJECT_NAME} PUBLIC ${includes})

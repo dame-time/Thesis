@@ -28,6 +28,8 @@ namespace Math
                 const Scalar& v9, const Scalar& v10, const Scalar& v11, const Scalar& v12,
                 const Scalar& v13, const Scalar& v14, const Scalar& v15, const Scalar& v16);
 
+        void setZero();
+
         void operator*=(const Matrix4& mat);
         void operator*=(const Scalar& value);
         void operator+=(const Matrix4& mat);
@@ -47,6 +49,10 @@ namespace Math
         Matrix3 toMatrix3();
         static Matrix3 toMatrix3(const Matrix4& mat);
         Matrix4 transposed() const;
+
+        void setTopLeftMatrix3(const Matrix3& mat);
+        void setRowVector(int rowIndex, const Vector4& vector);
+        void setColumnVector(int columnIndex, const Vector4& vector);
 
         //We transform direction vectors not considering the translation part
         Vector3 transformDirection(const Vector3& vec) const;

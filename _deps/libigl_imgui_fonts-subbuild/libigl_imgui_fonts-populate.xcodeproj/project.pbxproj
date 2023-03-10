@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		84AEA34CBC914F3192E0C26F /* libigl_imgui_fonts-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3DD8514B16A14E579845CB4D /* Build configuration list for PBXAggregateTarget "libigl_imgui_fonts-populate" */;
+			buildPhases = (
+				B2233330408D68985A6D3D27 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir */,
+				D74A5326D65785776211AFD5 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download */,
+				505D4109F8A715BDDE9378BA /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update */,
+				121E6CF5F7B79DD309595551 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch */,
+				4E1F74B8FBCC892CDB27C389 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure */,
+				0026262D78389ED89475DF23 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build */,
+				30AF369B3C8B96ECB63E304A /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install */,
+				2D6E6EE9760BE66F7766BE4C /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-test */,
+				8AC7FE2D1E00B621B92F4924 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-complete */,
+				D0699FDA594B0FFF1A99ECDC /* Generate CMakeFiles/libigl_imgui_fonts-populate */,
+			);
+			dependencies = (
+				F72571E463994D198DE8929F /* PBXTargetDependency */,
+			);
+			name = "libigl_imgui_fonts-populate";
+			productName = "libigl_imgui_fonts-populate";
+		};
+		8CB48A3BBA1D462484B6B1C3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7DABD65A9DA41948D856EBD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				88EA6E400ED2A91E898E740F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F8A75B9EB0864DE8B9CB0AB7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ED4DED06C9D4D788CC86729 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DC35F7F7693AED425D4B5609 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6F28AAF7971543D696403E2A /* PBXTargetDependency */,
+				86BB516104D5493DB7E2B88F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		179509E06B3943ABAF7B21C8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		57202DF5F8B845F1B44E70C1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5E11782312FC401C89130695 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C6E2A8D642074B8297474838 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB6BA68F76B4483A21E0C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB13DFBFDD2F4DD6B74F1A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB48A3BBA1D462484B6B1C3;
+			remoteInfo = ZERO_CHECK;
+		};
+		37407E0E387D483FB89C487F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB13DFBFDD2F4DD6B74F1A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AEA34CBC914F3192E0C26F;
+			remoteInfo = "libigl_imgui_fonts-populate";
+		};
+		E5BCC066C3BD4765BF143257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB13DFBFDD2F4DD6B74F1A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB48A3BBA1D462484B6B1C3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C198DD2CBDF487388B389E7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E08A154C0B674C9FAD5BC26A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		452775EBCB6A4D67AAA571EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		768E4776708D4021BEBAC111 = {
+			isa = PBXGroup;
+			children = (
+				8908163746874D4DBAE04520 /* libigl_imgui_fonts-populate */,
+				E87AED06E730437EA656D278 /* ALL_BUILD */,
+				8ABABAE69421444B872BC0F8 /* Products */,
+				452775EBCB6A4D67AAA571EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8908163746874D4DBAE04520 /* libigl_imgui_fonts-populate */ = {
+			isa = PBXGroup;
+			children = (
+				B8ACFB68D24E45BE8954605F /* CMake Rules */,
+				6C198DD2CBDF487388B389E7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeLists.txt */,
+			);
+			name = "libigl_imgui_fonts-populate";
+			sourceTree = "<group>";
+		};
+		8ABABAE69421444B872BC0F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC923C6CCE0D4809A0D3258D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B8ACFB68D24E45BE8954605F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E87AED06E730437EA656D278 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AC923C6CCE0D4809A0D3258D /* CMake Rules */,
+				E08A154C0B674C9FAD5BC26A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		CB13DFBFDD2F4DD6B74F1A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 03B06D1FB9064D80A25EDA98 /* Build configuration list for PBXProject "libigl_imgui_fonts-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C6E2A8D642074B8297474838 /* Debug */,
+				5E11782312FC401C89130695 /* Release */,
+				57202DF5F8B845F1B44E70C1 /* MinSizeRel */,
+				179509E06B3943ABAF7B21C8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 768E4776708D4021BEBAC111;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				F8A75B9EB0864DE8B9CB0AB7 /* ALL_BUILD */,
+				8CB48A3BBA1D462484B6B1C3 /* ZERO_CHECK */,
+				84AEA34CBC914F3192E0C26F /* libigl_imgui_fonts-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0026262D78389ED89475DF23 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		121E6CF5F7B79DD309595551 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2D6E6EE9760BE66F7766BE4C /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-test";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		30AF369B3C8B96ECB63E304A /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4E1F74B8FBCC892CDB27C389 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-cfgcmd.txt"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		505D4109F8A715BDDE9378BA /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		88EA6E400ED2A91E898E740F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8AC7FE2D1E00B621B92F4924 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-build","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-configure","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-install","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-test","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-complete";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A5666AF7476C55731339BFA3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B2233330408D68985A6D3D27 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D0699FDA594B0FFF1A99ECDC /* Generate CMakeFiles/libigl_imgui_fonts-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-complete"			);
+			name = "Generate CMakeFiles/libigl_imgui_fonts-populate";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D74A5326D65785776211AFD5 /* Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-gitinfo.txt"			);
+			name = "Generate libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl_imgui_fonts-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl_imgui_fonts-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DC35F7F7693AED425D4B5609 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F28AAF7971543D696403E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AEA34CBC914F3192E0C26F /* libigl_imgui_fonts-populate */;
+			targetProxy = 37407E0E387D483FB89C487F /* PBXContainerItemProxy */;
+		};
+		86BB516104D5493DB7E2B88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB48A3BBA1D462484B6B1C3 /* ZERO_CHECK */;
+			targetProxy = E5BCC066C3BD4765BF143257 /* PBXContainerItemProxy */;
+		};
+		F72571E463994D198DE8929F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB48A3BBA1D462484B6B1C3 /* ZERO_CHECK */;
+			targetProxy = 0BB6BA68F76B4483A21E0C62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10A02103848445AE9A532401 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		2B7D8A8904BC4AA38D2B5D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/build";
+			};
+			name = Release;
+		};
+		2EA97AF734B14BE6A455338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/build";
+			};
+			name = Debug;
+		};
+		4168CFE60A0A47EA8CE120B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		433AE5EBA108492C900388A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5F596F381D04439B9EE31DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		646C7C6AD369419CB60E8155 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		655C9B3744B44EEDBB755B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		75B20BE803B0485C9503178D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		959F913DDBAC4621822F10F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl_imgui_fonts-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AFED423C03A1496EBBA55A2D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl_imgui_fonts-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B10F952795104B34A96DAF73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C65AB6D5BE514BAFB90120B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DDF51C72643048E39A1A9DBD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl_imgui_fonts-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E7FDCCB309EB49A8B5576CC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FC04FE9A7D7D48BF9A05F482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl_imgui_fonts-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl_imgui_fonts-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B06D1FB9064D80A25EDA98 /* Build configuration list for PBXProject "libigl_imgui_fonts-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA97AF734B14BE6A455338B /* Debug */,
+				2B7D8A8904BC4AA38D2B5D5D /* Release */,
+				10A02103848445AE9A532401 /* MinSizeRel */,
+				E7FDCCB309EB49A8B5576CC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DD8514B16A14E579845CB4D /* Build configuration list for PBXAggregateTarget "libigl_imgui_fonts-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC04FE9A7D7D48BF9A05F482 /* Debug */,
+				959F913DDBAC4621822F10F8 /* Release */,
+				AFED423C03A1496EBBA55A2D /* MinSizeRel */,
+				DDF51C72643048E39A1A9DBD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ED4DED06C9D4D788CC86729 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F596F381D04439B9EE31DB3 /* Debug */,
+				655C9B3744B44EEDBB755B94 /* Release */,
+				4168CFE60A0A47EA8CE120B5 /* MinSizeRel */,
+				646C7C6AD369419CB60E8155 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7DABD65A9DA41948D856EBD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433AE5EBA108492C900388A3 /* Debug */,
+				75B20BE803B0485C9503178D /* Release */,
+				B10F952795104B34A96DAF73 /* MinSizeRel */,
+				C65AB6D5BE514BAFB90120B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB13DFBFDD2F4DD6B74F1A19 /* Project object */;
+}

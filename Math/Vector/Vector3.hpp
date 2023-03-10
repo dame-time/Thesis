@@ -49,6 +49,9 @@ namespace Math
             Vector3 cross(const Vector3& vector) const;
             Vector3 componentWise(const Vector3& vector) const;
 
+            Vector3 componentWiseMinimum(const Vector3& vector) const;
+            Vector3 componentWiseMaximum(const Vector3& vector) const;
+
             Scalar magnitude() const;
             Scalar squareMagnitude() const;
             Vector3 normalized() const;
@@ -91,6 +94,23 @@ namespace Math
     };
 
     Vector3 operator * (const Scalar& k, const Vector3& vector);
+    template<class T>
+    inline T lerp (const T& a, const T& b, double t)
+    {
+        return (1 - t) * a + t * b;
+    }
+}
+
+namespace std
+{
+    template <>
+    struct hash<Math::Vector3>
+    {
+            size_t operator()(const Math::Vector3 &v) const
+            {
+                return std::hash<double>()(v.coordinates.x) ^ std::hash<double>()(v.coordinates.y) ^ std::hash<double>()(v.coordinates.z);
+            }
+    };
 }
 
 #endif

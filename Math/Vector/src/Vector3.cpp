@@ -73,6 +73,16 @@ namespace Math {
         );
     }
 
+    Vector3 Vector3::componentWiseMinimum(const Vector3& vector) const
+    {
+        return Vector3(std::min(this->coordinates.x, vector.coordinates.x), std::min(this->coordinates.y, vector.coordinates.y), std::min(this->coordinates.z, vector.coordinates.z));
+    }
+
+    Vector3 Vector3::componentWiseMaximum(const Vector3& vector) const
+    {
+        return Vector3(std::max(this->coordinates.x, vector.coordinates.x), std::max(this->coordinates.y, vector.coordinates.y), std::max(this->coordinates.z, vector.coordinates.z));
+    }
+
     Scalar Vector3::magnitude() const {
         return std::sqrt(this->squareMagnitude());
     }

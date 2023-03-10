@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeFiles/CMakeFiles/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-build.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-download.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-install.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-test.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/CMakeFiles/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

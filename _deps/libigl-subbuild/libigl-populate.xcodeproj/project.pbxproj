@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4BC565F11624415F92D768D6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06E5B52F4165465AB3C32B75 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				20B0946A39A84599A44F2F14 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				850D0BB764544DDEAE4547BC /* PBXTargetDependency */,
+				771FB1BCE9BD4DBB9E439DCF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BB73BCB00AB04A37821E34F8 /* libigl-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F9F8ABEA0124FA69057736E /* Build configuration list for PBXAggregateTarget "libigl-populate" */;
+			buildPhases = (
+				8AF5B598BAFF9FBA12D211B3 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir */,
+				A60224DD732AEFA6BBEDB99E /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download */,
+				EE5C660263B87A4F4EDFD245 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update */,
+				8D48F59D8A76384628D8A25D /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch */,
+				DA28F2CAFDF45ECCC9ECE92C /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure */,
+				4B5075B24B98A07A97ECB0C2 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build */,
+				03F3EF33AA4D37AD486B6C69 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install */,
+				46970477E6A758230023504C /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-test */,
+				5A02E9DD6ED1741768CC4047 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-complete */,
+				E92D2877CB03175DD29DC2DA /* Generate CMakeFiles/libigl-populate */,
+			);
+			dependencies = (
+				2E02F2098C3A40E2B1984283 /* PBXTargetDependency */,
+			);
+			name = "libigl-populate";
+			productName = "libigl-populate";
+		};
+		C0F729523FE742A58679AC3F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C009A73ADF374FE1A350D736 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F81194960A0BB0542B53AAE5 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		192F5D5E34664E96B3DAD777 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5AFCF1C312864F3C9EBD3E58 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D91A925F3B2F4D89B385C1EF /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EC514CAB43EF4B4F892E5F50 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		24C822714C244754A0A18C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB73BCB00AB04A37821E34F8;
+			remoteInfo = "libigl-populate";
+		};
+		6F7011DE2C44423D96D714DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F729523FE742A58679AC3F;
+			remoteInfo = ZERO_CHECK;
+		};
+		DBD8FA480E324DC6BB20628B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F729523FE742A58679AC3F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1D60E7D26D4F3A8CB5D407 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		35657E5C3F70401C885BFD5B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E8FF6054E00404381515401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35392825797E4028B3778148 /* libigl-populate */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A93E9F4AB42A59B89B69E /* CMake Rules */,
+				35657E5C3F70401C885BFD5B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
+			);
+			name = "libigl-populate";
+			sourceTree = "<group>";
+		};
+		41E28CC02B8B4460800C54BB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		425F9F10517B4C17BB9D7B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F7A93E9F4AB42A59B89B69E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9FF2336B02C14B3BA5D2144B = {
+			isa = PBXGroup;
+			children = (
+				35392825797E4028B3778148 /* libigl-populate */,
+				F7F9D2DFAD7E427F89538CDE /* ALL_BUILD */,
+				0E8FF6054E00404381515401 /* Products */,
+				425F9F10517B4C17BB9D7B0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F9D2DFAD7E427F89538CDE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				41E28CC02B8B4460800C54BB /* CMake Rules */,
+				0A1D60E7D26D4F3A8CB5D407 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		EB8C30B192BA4C2A81E49AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 2D029A1994C64D969207773C /* Build configuration list for PBXProject "libigl-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				EC514CAB43EF4B4F892E5F50 /* Debug */,
+				5AFCF1C312864F3C9EBD3E58 /* Release */,
+				D91A925F3B2F4D89B385C1EF /* MinSizeRel */,
+				192F5D5E34664E96B3DAD777 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9FF2336B02C14B3BA5D2144B;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				4BC565F11624415F92D768D6 /* ALL_BUILD */,
+				C0F729523FE742A58679AC3F /* ZERO_CHECK */,
+				BB73BCB00AB04A37821E34F8 /* libigl-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F3EF33AA4D37AD486B6C69 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		20B0946A39A84599A44F2F14 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		466B7512E047E6E407B5DC05 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		46970477E6A758230023504C /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-test";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		4B5075B24B98A07A97ECB0C2 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5A02E9DD6ED1741768CC4047 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-build","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-install","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-test","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-complete";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8AF5B598BAFF9FBA12D211B3 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8D48F59D8A76384628D8A25D /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A60224DD732AEFA6BBEDB99E /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-gitinfo.txt"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DA28F2CAFDF45ECCC9ECE92C /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-cfgcmd.txt"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/libigl-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E92D2877CB03175DD29DC2DA /* Generate CMakeFiles/libigl-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-complete"			);
+			name = "Generate CMakeFiles/libigl-populate";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/libigl-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EE5C660263B87A4F4EDFD245 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download"			);
+			name = "Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/libigl-populate-prefix/tmp/libigl-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F81194960A0BB0542B53AAE5 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E02F2098C3A40E2B1984283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F729523FE742A58679AC3F /* ZERO_CHECK */;
+			targetProxy = 6F7011DE2C44423D96D714DA /* PBXContainerItemProxy */;
+		};
+		771FB1BCE9BD4DBB9E439DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB73BCB00AB04A37821E34F8 /* libigl-populate */;
+			targetProxy = 24C822714C244754A0A18C3C /* PBXContainerItemProxy */;
+		};
+		850D0BB764544DDEAE4547BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F729523FE742A58679AC3F /* ZERO_CHECK */;
+			targetProxy = DBD8FA480E324DC6BB20628B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0855D7B8566F4F9E9303BDF5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		101248B9BEC04ADE9A61E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		29294D57BA1D496F9A6A4F43 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3D95EB81B6824631A6D728EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = Release;
+		};
+		451207D6E46A4A4AB6C079EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		537AB3F86A8C4E08944698EA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		625F9E1C878F43899DEC999B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7058E60492244544B9039341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8C02C1A1B73840048EA4475A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A1AD2EFF00614498B0548337 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		A4C3C952F1A34D448910FF4F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AB29FD79FA5F483F922C0EE9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC297F4328B544C9ACE86FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D98912AC61BB4219BEF16041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = Debug;
+		};
+		F8A3BB63FA024CC98D1A6582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F93C941944B14054BE06E8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E5B52F4165465AB3C32B75 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451207D6E46A4A4AB6C079EA /* Debug */,
+				7058E60492244544B9039341 /* Release */,
+				625F9E1C878F43899DEC999B /* MinSizeRel */,
+				29294D57BA1D496F9A6A4F43 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1F9F8ABEA0124FA69057736E /* Build configuration list for PBXAggregateTarget "libigl-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93C941944B14054BE06E8C9 /* Debug */,
+				F8A3BB63FA024CC98D1A6582 /* Release */,
+				AB29FD79FA5F483F922C0EE9 /* MinSizeRel */,
+				537AB3F86A8C4E08944698EA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D029A1994C64D969207773C /* Build configuration list for PBXProject "libigl-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98912AC61BB4219BEF16041 /* Debug */,
+				3D95EB81B6824631A6D728EB /* Release */,
+				A1AD2EFF00614498B0548337 /* MinSizeRel */,
+				A4C3C952F1A34D448910FF4F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C009A73ADF374FE1A350D736 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC297F4328B544C9ACE86FE9 /* Debug */,
+				101248B9BEC04ADE9A61E453 /* Release */,
+				0855D7B8566F4F9E9303BDF5 /* MinSizeRel */,
+				8C02C1A1B73840048EA4475A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8C30B192BA4C2A81E49AD6 /* Project object */;
+}

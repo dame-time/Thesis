@@ -60,6 +60,14 @@ namespace Math
         data[15] = vec4[3];
     }
 
+    void Matrix4::setZero()
+    {
+        data[0] = 0, data[1] = 0, data[2] = 0, data[3] = 0,
+        data[4] = 0, data[5] = 0, data[6] = 0, data[7] = 0,
+        data[8] = 0, data[9] = 0, data[10] = 0, data[11] = 0,
+        data[12] = 0, data[13] = 0, data[14] = 0, data[15] = 0;
+    }
+
     void Matrix4::operator*=(const Matrix4& mat)
     {
         Scalar temp1, temp2, temp3, temp4;
@@ -339,6 +347,52 @@ namespace Math
         result.data[15] = this->data[15];
 
         return result;
+    }
+
+    void Matrix4::setTopLeftMatrix3(const Matrix3 &mat)
+    {
+        this->data[0] = mat.data[0];
+        this->data[1] = mat.data[1];
+        this->data[2] = mat.data[2];
+
+        this->data[4] = mat.data[3];
+        this->data[5] = mat.data[4];
+        this->data[6] = mat.data[5];
+
+        this->data[8] = mat.data[6];
+        this->data[9] = mat.data[7];
+        this->data[10] = mat.data[8];
+    }
+
+    void Matrix4::setRowVector(int rowIndex, const Vector4 &vector)
+    {
+        if (rowIndex > 3 || rowIndex < 0) {
+            std::cerr << "In Matrix4::setRowVector(...) you specified a overflown rowIndex -> " << rowIndex << " this should be in range [0, 3]" << std::endl;
+            return;
+        }
+
+        int index = rowIndex * 4;
+
+        this->data[index] = vector.coordinates.x;
+        this->data[index + 1] = vector.coordinates.y;
+        this->data[index + 2] = vector.coordinates.z;
+        this->data[index + 3] = vector.coordinates.w;
+    }
+
+    void Matrix4::setColumnVector(int columnIndex, const Vector4 &vector)
+    {
+        if (columnIndex > 3 || columnIndex < 0)
+        {
+            std::cerr << "In Matrix4::setColumnVector(...) you specified a overflown rowIndex -> " << columnIndex << " this should be in range [0, 3]" << std::endl;
+            return;
+        }
+
+        int index = columnIndex;
+
+        this->data[index] = vector.coordinates.x;
+        this->data[index + 4] = vector.coordinates.y;
+        this->data[index + 8] = vector.coordinates.z;
+        this->data[index + 12] = vector.coordinates.w;
     }
 
     Matrix3 Matrix4::toMatrix3()

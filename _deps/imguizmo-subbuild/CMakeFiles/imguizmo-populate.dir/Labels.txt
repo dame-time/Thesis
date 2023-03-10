@@ -1,0 +1,14 @@
+# Target labels
+ imguizmo-populate
+# Source files and their labels
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeFiles/CMakeFiles/imguizmo-populate-complete.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-build.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-configure.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-download.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-install.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-mkdir.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-patch.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-test.rule
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/CMakeFiles/imguizmo-populate-update.rule

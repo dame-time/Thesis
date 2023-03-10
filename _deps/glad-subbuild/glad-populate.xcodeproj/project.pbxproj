@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		34024CA416BC48C29257B8DA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8694D403F5E74952A975A3BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FA2C5CAC9147A6DF9B29BCAD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				602A35CBA2804806A3642749 /* PBXTargetDependency */,
+				A7DF47F1D5FF44F2B7315547 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		74166B1319C54F518C03F826 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D815A8FE1F4D40D093062CB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1D9E5B140E98164E4B5F0DA4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CC18D6A05C994842B6CD29C6 /* glad-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46D37A1F505D4B9899327443 /* Build configuration list for PBXAggregateTarget "glad-populate" */;
+			buildPhases = (
+				32B910A5E886A92D3BBA4476 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir */,
+				EF1E3292F61E79EA949DFC7B /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download */,
+				238216EBEF06277C0C6FE598 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update */,
+				D8B4D8BE55695525AB37FF2A /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch */,
+				2B4B1F2EBF77C40C28CA92C6 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure */,
+				26CB6C593BD64DC89E7F939F /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build */,
+				588C74C4CA232E02CA880BC2 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install */,
+				8A15E1F9BD57736DF52C3DFC /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-test */,
+				A79A177789C65A4BB8711A95 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-complete */,
+				85469BF1B16EF1267EF44099 /* Generate CMakeFiles/glad-populate */,
+			);
+			dependencies = (
+				C647BF91629A4A0C92D5A3FC /* PBXTargetDependency */,
+			);
+			name = "glad-populate";
+			productName = "glad-populate";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		05486F5DC8874DF4B171973B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		38E0DC39FA284F1192D5B3A8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AF7927F09DFB4D3EB931F385 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F862C91A277B4F81A2900863 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		27F1DA186B5D4BD9BACBFC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523E84CA3FC546129F8597F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74166B1319C54F518C03F826;
+			remoteInfo = ZERO_CHECK;
+		};
+		858DADC8572B460E9C682962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523E84CA3FC546129F8597F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74166B1319C54F518C03F826;
+			remoteInfo = ZERO_CHECK;
+		};
+		F7B243E02E5A4B5C84D05357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523E84CA3FC546129F8597F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC18D6A05C994842B6CD29C6;
+			remoteInfo = "glad-populate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368EB756210B42C1BCB55FDF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E55FA43572F24C8BA6DEF5B3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4BCCA23E69C24A9B971439FC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		52281CFAACE14881922A8939 /* glad-populate */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D203586164506826B65DE /* CMake Rules */,
+				368EB756210B42C1BCB55FDF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeLists.txt */,
+			);
+			name = "glad-populate";
+			sourceTree = "<group>";
+		};
+		6F9D203586164506826B65DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7CDABBC5FE5C412BB295C0A0 = {
+			isa = PBXGroup;
+			children = (
+				52281CFAACE14881922A8939 /* glad-populate */,
+				A0A702A9CB14486F827DC7CA /* ALL_BUILD */,
+				D8922B1ACB5142C4852BF883 /* Products */,
+				FC13D98E94BF4DC38B54FBA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A702A9CB14486F827DC7CA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCA23E69C24A9B971439FC /* CMake Rules */,
+				E55FA43572F24C8BA6DEF5B3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D8922B1ACB5142C4852BF883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC13D98E94BF4DC38B54FBA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		523E84CA3FC546129F8597F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 2ED2B222DE3E496BA824B356 /* Build configuration list for PBXProject "glad-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F862C91A277B4F81A2900863 /* Debug */,
+				38E0DC39FA284F1192D5B3A8 /* Release */,
+				05486F5DC8874DF4B171973B /* MinSizeRel */,
+				AF7927F09DFB4D3EB931F385 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7CDABBC5FE5C412BB295C0A0;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				34024CA416BC48C29257B8DA /* ALL_BUILD */,
+				74166B1319C54F518C03F826 /* ZERO_CHECK */,
+				CC18D6A05C994842B6CD29C6 /* glad-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D9E5B140E98164E4B5F0DA4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  make -f /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		238216EBEF06277C0C6FE598 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		26CB6C593BD64DC89E7F939F /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2B4B1F2EBF77C40C28CA92C6 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-cfgcmd.txt"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		32B910A5E886A92D3BBA4476 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		588C74C4CA232E02CA880BC2 /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		85469BF1B16EF1267EF44099 /* Generate CMakeFiles/glad-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-complete"			);
+			name = "Generate CMakeFiles/glad-populate";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/glad-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8A15E1F9BD57736DF52C3DFC /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-test";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A79A177789C65A4BB8711A95 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-build","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-configure","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-install","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-test","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-complete";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E make_directory /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-complete
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		ABB9F2A08A8F3CC0D4DD9ED5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8B4D8BE55695525AB37FF2A /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-update"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E echo_append
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF1E3292F61E79EA949DFC7B /* Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-mkdir","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-gitinfo.txt"			);
+			name = "Generate glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glad-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/tmp/glad-populate-gitclone.cmake
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -E touch /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glad-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FA2C5CAC9147A6DF9B29BCAD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		602A35CBA2804806A3642749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC18D6A05C994842B6CD29C6 /* glad-populate */;
+			targetProxy = F7B243E02E5A4B5C84D05357 /* PBXContainerItemProxy */;
+		};
+		A7DF47F1D5FF44F2B7315547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74166B1319C54F518C03F826 /* ZERO_CHECK */;
+			targetProxy = 27F1DA186B5D4BD9BACBFC54 /* PBXContainerItemProxy */;
+		};
+		C647BF91629A4A0C92D5A3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74166B1319C54F518C03F826 /* ZERO_CHECK */;
+			targetProxy = 858DADC8572B460E9C682962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042034039E6D4E50A9EC9608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/build";
+			};
+			name = Debug;
+		};
+		0BF225FDBEFB4BB683F23D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glad-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3254D3EECB844F758E89F7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B992D4AB64345F4A7119575 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		3BA431BAD06A469D9A7460AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D6316DBCA4F47BCB67F96B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glad-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E320A7F84764B6DB5AF25C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/build";
+			};
+			name = Release;
+		};
+		75508A656ECB4BB9B2FED21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		76A7E96EC6FB42D589059936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7ED590BA213B464A9869057B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8CE13DDE7DE641758BFC3B4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		93996DF3232A4257BD0BF9BA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		B195B84F700E4036AB53BC46 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BAF6B2E4CAED4A6C946B8585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glad-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CE20CBB4BD5E48FF9D9B65CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FBE4B01454854CEE85515F21 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glad-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED2B222DE3E496BA824B356 /* Build configuration list for PBXProject "glad-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042034039E6D4E50A9EC9608 /* Debug */,
+				5E320A7F84764B6DB5AF25C9 /* Release */,
+				93996DF3232A4257BD0BF9BA /* MinSizeRel */,
+				3B992D4AB64345F4A7119575 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46D37A1F505D4B9899327443 /* Build configuration list for PBXAggregateTarget "glad-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF225FDBEFB4BB683F23D9B /* Debug */,
+				BAF6B2E4CAED4A6C946B8585 /* Release */,
+				5D6316DBCA4F47BCB67F96B4 /* MinSizeRel */,
+				FBE4B01454854CEE85515F21 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8694D403F5E74952A975A3BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75508A656ECB4BB9B2FED21F /* Debug */,
+				CE20CBB4BD5E48FF9D9B65CA /* Release */,
+				B195B84F700E4036AB53BC46 /* MinSizeRel */,
+				8CE13DDE7DE641758BFC3B4B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D815A8FE1F4D40D093062CB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A7E96EC6FB42D589059936 /* Debug */,
+				3254D3EECB844F758E89F7FC /* Release */,
+				3BA431BAD06A469D9A7460AE /* MinSizeRel */,
+				7ED590BA213B464A9869057B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523E84CA3FC546129F8597F2 /* Project object */;
+}

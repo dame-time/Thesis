@@ -15,6 +15,23 @@
 #include <string>
 
 namespace Core {
+    struct Face 
+    {
+        int i, j, k;
+
+        Face() : i(0), j(0), k(0) {};
+        Face(int a, int b, int c) : i(a), j(b), k(c) {};
+    };
+
+    struct Vertex
+    {
+        Math::Vector3 position;
+        Math::Vector3 normal;
+
+        Vertex() : position(Math::Vector3()), normal(Math::Vector3(1, 0, 0)) {}
+        Vertex(const Math::Vector3& p, const Math::Vector3& n) : position(p), normal(n) {}
+    };
+
     class Mesh {
         private:
             igl::opengl::glfw::Viewer& viewer;
@@ -24,13 +41,9 @@ namespace Core {
             void triangulateQuads(Eigen::MatrixXd &V, Eigen::MatrixXi &F, Eigen::MatrixXd &N);
             
             void matrixToVertices();
-            void matrixToNormals();
             void matrixToFaces();
 
             Eigen::RowVector3d getCenterOfMass();
-
-            void getSQEMForFace(const Math::Vector3& faceCenter, const Math::Vector3& faceNormal);
-            void getSQEMForFaces(std::vector<Math::Vector3> facesCenter, std::vector<Math::Vector3> facesNormal);
 
             Eigen::Matrix4d computeQuadric(const Eigen::MatrixXd& V, const Eigen::MatrixXi& F, int vtx);
 
@@ -39,15 +52,14 @@ namespace Core {
             Eigen::MatrixXi f;
             Eigen::MatrixXd n;
 
-            std::vector<Math::Vector3> vertices;
-            std::vector<Math::Vector3> normals;
-            std::vector<int> faces;
+            std::vector<Vertex> vertices;
+            std::vector<Face> faces;
 
             const int& ID;
 
             Mesh(igl::opengl::glfw::Viewer& currentViewer);
             Mesh(const Eigen::MatrixXd &v, const Eigen::MatrixXi &f, const Eigen::MatrixXd &n, igl::opengl::glfw::Viewer &currentViewer);
-            Mesh(const std::string&& path, igl::opengl::glfw::Viewer& currentViewer);
+            Mesh(const std::string& path, igl::opengl::glfw::Viewer& currentViewer);
 
             void addToScene();
 
@@ -57,30 +69,46 @@ namespace Core {
 
             void simplifyMesh(const int& targetVertices);
 
-            void test();
-
             double getRadius();
 
             void setMeshNotFilled();
+            void setMeshFilled();
 
-            static Mesh* generateSphereMesh(igl::opengl::glfw::Viewer &currentViewer)
+            Mesh& operator = (const Mesh& other)
             {
-                static Eigen::MatrixXd vtx;
-                static Eigen::MatrixXi fcs;
-                static Eigen::MatrixXd nrm;
+                this->v = other.v;
+                this->f = other.f;
+                this->n = other.n;
 
-                Mesh* s;
+                this->vertices = other.vertices;
+                this->faces = other.faces;
 
-                if (vtx.size() <= 0)
-                {
-                    s = new Mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", currentViewer);
-                    vtx = s->v;
-                    fcs = s->f;
-                    nrm = s->n;
-                }
-                else {
-                    s = new Mesh(vtx, fcs, nrm, currentViewer);
-                }
+                this->_ID = other.ID;
+                this->viewer = other.viewer;
+
+                return *this;
+            }
+
+            static Mesh generateSphereMesh(igl::opengl::glfw::Viewer &currentViewer, Math::Vector3 color)
+            {
+                // static Eigen::MatrixXd vtx;
+                // static Eigen::MatrixXi fcs;
+                // static Eigen::MatrixXd nrm;
+
+                Mesh s = Mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", currentViewer);
+
+                s.addToScene();
+
+                s.setMeshFilled();
+
+                // setting sphere as unitary sphere
+                auto r = s.getRadius();
+                s.resize(1 / r);
+
+                Eigen::MatrixXd C(s.f.rows(), 3);
+                C.rowwise() = Eigen::RowVector3d(color.coordinates.x, color.coordinates.y, color.coordinates.z);
+
+                currentViewer.data_list[s.ID].set_colors(C);
 
                 return s;
             }

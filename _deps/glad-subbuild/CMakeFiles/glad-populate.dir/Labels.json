@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/glad-populate"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/glad-populate.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/CMakeFiles/CMakeFiles/glad-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-build.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-download.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-install.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-test.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/CMakeFiles/glad-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-populate"
+		],
+		"name" : "glad-populate"
+	}
+}

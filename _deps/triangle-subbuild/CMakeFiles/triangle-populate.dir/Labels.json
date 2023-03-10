@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/triangle-populate"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/triangle-populate.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/CMakeFiles/CMakeFiles/triangle-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-build.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-download.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-install.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-test.rule"
+		},
+		{
+			"file" : "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-subbuild/triangle-populate-prefix/src/triangle-populate-stamp/CMakeFiles/triangle-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"triangle-populate"
+		],
+		"name" : "triangle-populate"
+	}
+}
