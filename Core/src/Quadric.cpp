@@ -14,15 +14,14 @@ namespace SM
 
     Quadric::Quadric (const Math::Vector3 &faceOrigin, const Math::Vector3 &faceNormal)
     {
-        Math::Vector3 matrixTopLeftRow = Math::Vector3(faceNormal.dot(faceNormal), faceNormal.dot(faceNormal), faceNormal.dot(faceNormal));
         A.setZero();
-        A.setTopLeftMatrix3(Math::Matrix3(matrixTopLeftRow, matrixTopLeftRow, matrixTopLeftRow));
+        A.setTopLeftMatrix3(faceNormal.outer(faceNormal));
         A.setRowVector(3, Math::Vector4(faceNormal, 1));
         A.setColumnVector(3, Math::Vector4(faceNormal, 1));
-        A *= 2;
-
-        auto omogeneousFaceNormalPoint = Math::Vector4(faceNormal, 1);
-        b = omogeneousFaceNormalPoint * (2 * faceNormal.dot(faceOrigin));
+//        A *= 2;
+        
+        Math::Vector4 omogeneousFaceNormalPoint = Math::Vector4(faceNormal, 1);
+        b = omogeneousFaceNormalPoint * (2 * -faceNormal.dot(faceOrigin));
 
         c = faceNormal.dot(faceOrigin) * faceNormal.dot(faceOrigin);
     }
@@ -65,16 +64,17 @@ namespace SM
 
     double Quadric::evaluateSQEM (const Math::Vector4 &s)
     {
-        return 0.5 * s.dot(A * s) - 2 * b.dot(s) + c;
+//        return 0.5 * s.dot(A * s) - 2 * b.dot(s) + c;
+        return s.dot(A * s) - 2 * b.dot(s) + c;
     }
 
-    Math::Vector4 Quadric::minimize()
+    Math::Vector4 Quadric::minimizer() const
     {
         Math::Vector4 result;
 
         try
         {
-            result = A.inverse() * 2 *  b;
+            result = A.inverse() * (-b/2);
         }
         catch (const std::exception& e)
         {

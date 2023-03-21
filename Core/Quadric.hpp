@@ -50,11 +50,6 @@ namespace SM
                 return  q;
             }
 
-            static Math::Vector4 minimizeInitialQuadric(const Quadric& quadric)
-            {
-                return quadric.A.inverse() * ((-quadric.b)/2);
-            }
-
             Quadric operator + (const Quadric& quadric);
             Quadric operator * (const double& multiplier);
 
@@ -63,7 +58,7 @@ namespace SM
 
             double evaluateSQEM (const Math::Vector4& sphere);
 
-            Math::Vector4 minimize();
+            Math::Vector4 minimizer () const;
 
             void print ();
     };

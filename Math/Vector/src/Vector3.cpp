@@ -1,5 +1,7 @@
 #include <Vector3.hpp>
 
+#include <Matrix3.hpp>
+
 namespace Math {
     Vector3::Vector3() {
         coordinates = Vector3Coordinates<Scalar>();
@@ -192,6 +194,15 @@ namespace Math {
         this->coordinates.x /= k;
         this->coordinates.y /= k;
         this->coordinates.z /= k;
+    }
+
+    Matrix3 Vector3::outer(const Vector3& vector) const
+    {
+        return Matrix3(
+                       this->coordinates.x * vector.coordinates.x, this->coordinates.x * vector.coordinates.y, this->coordinates.x * vector.coordinates.z,
+                       this->coordinates.y * vector.coordinates.x, this->coordinates.y * vector.coordinates.y, this->coordinates.y * vector.coordinates.z,
+                       this->coordinates.z * vector.coordinates.x, this->coordinates.z * vector.coordinates.y, this->coordinates.z * vector.coordinates.z
+                       );
     }
 
     Scalar Vector3::distance(const Vector3& vector1, const Vector3& vector2)

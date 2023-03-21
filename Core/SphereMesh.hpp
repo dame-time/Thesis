@@ -11,6 +11,9 @@
 
 #include <vector>
 #include <cfloat>
+#include <queue>
+#include <set>
+#include <limits>
 
 namespace SM
 {
@@ -87,10 +90,8 @@ namespace SM
 
     class Sphere
     {
-        private:
-            Quadric quadric;
-
         public:
+            Quadric quadric;
             Region region;
 
             Math::Vector3 center;
@@ -108,47 +109,110 @@ namespace SM
             Sphere lerp(const Sphere &s, double t);
     };
 
+    struct CollapsableEdge
+    {
+        Sphere i, j;
+        
+        int idxI, idxJ;
+        
+        double error;
+        
+        CollapsableEdge(const Sphere& _i, const Sphere& _j, int _idxI, int _idxJ)
+        {
+            updateEdge(_i, _j, _idxI, _idxJ);
+        }
+        
+        void updateEdge(const Sphere& _i, const Sphere& _j, int _idxI, int _idxJ)
+        {
+            i = _i;
+            j = _j;
+            idxI = _idxI;
+            idxJ = _idxJ;
+            
+            updateError();
+        }
+        
+        bool containsIndex(int a)
+        {
+            return a == idxI || a == idxJ;
+        }
+        
+        void updateError()
+        {
+            error = 0;
+            
+            error += i.getSphereQuadric().evaluateSQEM(Math::Vector4(i.center, i.radius));
+            error += j.getSphereQuadric().evaluateSQEM(Math::Vector4(j.center, j.radius));
+        }
+    };
+
+    struct CollapsableEdgeErrorComparator
+    {
+        bool operator() (const CollapsableEdge& a, const CollapsableEdge& b)
+        {
+            // Smallest element to the top
+            return a.error > b.error;
+        }
+    };
+
     class SphereMesh
     {
-    private:
-        igl::opengl::glfw::Viewer &viewer;
-
-        std::vector<Sphere> sphere;
-
-        std::vector<Triangle> triangle;
-        std::vector<Edge> edge;
-
-        void removeDegenerates();
-
-        void drawSpheresOverEdge(const Edge &e) const;
-        void drawSpheresOverTriangle(const Triangle& t) const;
-
-        Math::Vector3 getTriangleCentroid(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
-        Math::Vector3 getTriangleCentroid(const Triangle &t);
-
-        Math::Vector3 getTriangleNormal(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
-        Math::Vector3 getTriangleNormal(const Triangle &t);
-
-        void getVertexAdjacentTriangles(int vertexIndex, std::vector<Triangle> &adjacentTraingles);
-
-        int getSphereIndexFromVertex(const Math::Vector3 &vertex);
-
-    public:
-        SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius = 0.1f);
-
-        void constructTest();
-
-        void render() const;
-        void renderSpheresOnly() const;
-        void renderWireframe() const;
-
-        void simplify() const;
-
-        void collapseEdge(int edgeIndex);
-        void collapseTriangleSide(int triangleIndex, int sideNumber);
-
-        void collapse(int sphereIndexA, int sphereIndexB);
-
-        void clear();
+        private:
+            std::vector<CollapsableEdge> collapseCosts;
+        
+            igl::opengl::glfw::Viewer &viewer;
+            
+            std::vector<Sphere> sphere;
+            
+            std::vector<Triangle> triangle;
+            std::vector<Edge> edge;
+        
+            std::vector<int> renderedSpheres;
+            
+            void initializeSphereMeshTriangles(const std::vector<Core::Face>& Faces);
+            void initializeSpheres(const std::vector<Core::Vertex>& vertices);
+            
+            void computeSpheresProperties(const std::vector<Core::Vertex>& vertices);
+        
+            void setCollapseCosts();
+        
+            CollapsableEdge selectEdgeToCollapse();
+            Sphere collapseEdgeIntoSphere(const CollapsableEdge& edgeToCollapse);
+            
+            void removeDegenerates();
+            
+            void drawSpheresOverEdge(const Edge &e);
+            void drawSpheresOverTriangle(const Triangle& t);
+            
+            Math::Vector3 getTriangleCentroid(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
+            
+            Math::Vector3 getTriangleNormal(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
+            
+            void getVertexAdjacentTriangles(int vertexIndex, std::vector<Triangle> &adjacentTraingles);
+        
+            std::set<int> getNeighborVertices(int i);
+            
+        public:
+            SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius = 0.1f);
+            
+            void constructTest();
+            
+            void renderSelectedSpheresOnly();
+            void render();
+            void renderSpheresOnly();
+            void renderWireframe();
+            void clearRenderedMeshes();
+            
+            void simplify() const;
+            
+            void collapseEdge(int edgeIndex);
+            void collapseTriangleSide(int triangleIndex, int sideNumber);
+            
+            void collapse(int sphereIndexA, int sphereIndexB);
+            
+            void collapseSphereMesh();
+            void collapseSphereMesh(int n);
+            
+            void clear();
     };
 }

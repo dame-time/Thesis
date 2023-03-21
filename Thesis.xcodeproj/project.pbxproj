@@ -662,6 +662,7 @@
 		4398C57A13B74C9EB0558948 /* posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = "_deps/glfw-src/src/posix_thread.h"; sourceTree = SOURCE_ROOT; };
 		43AD502EAF2C408DB62452AF /* project.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = project.h; path = "_deps/libigl-src/include/igl/project.h"; sourceTree = SOURCE_ROOT; };
 		43B4FC58ED7C41C79AC61B26 /* seam_edges.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_edges.cpp; path = "_deps/libigl-src/include/igl/seam_edges.cpp"; sourceTree = SOURCE_ROOT; };
+		43E0B4BE29BBC664008A1933 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		43F6FF30DA33401E91D9756A /* random_points_on_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random_points_on_mesh.cpp; path = "_deps/libigl-src/include/igl/random_points_on_mesh.cpp"; sourceTree = SOURCE_ROOT; };
 		443B6917DBB2437FAE86E8AD /* find_zero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = find_zero.cpp; path = "_deps/libigl-src/include/igl/find_zero.cpp"; sourceTree = SOURCE_ROOT; };
 		4451514DDDB94F06A63A88F3 /* find_cross_field_singularities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = find_cross_field_singularities.cpp; path = "_deps/libigl-src/include/igl/find_cross_field_singularities.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2709,6 +2710,7 @@
 		BB5BFD48D1234F8CBFFF71CD = {
 			isa = PBXGroup;
 			children = (
+				43E0B4BE29BBC664008A1933 /* Assets */,
 				2728085555974D15A519D5A3 /* Libigl */,
 				C8D9730691A247A3A9039F5C /* ThirdParty */,
 				102649B3DD934BE8ABAA8142 /* Thesis */,

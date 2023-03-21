@@ -22,6 +22,7 @@ namespace Math
     class Vector2;
     class Versor3;
     class Point3;
+    class Matrix3;
 
     class Vector3
     {
@@ -48,6 +49,7 @@ namespace Math
             Scalar dot(const Vector3& vector) const;
             Vector3 cross(const Vector3& vector) const;
             Vector3 componentWise(const Vector3& vector) const;
+            Matrix3 outer(const Vector3& vector) const;
 
             Vector3 componentWiseMinimum(const Vector3& vector) const;
             Vector3 componentWiseMaximum(const Vector3& vector) const;

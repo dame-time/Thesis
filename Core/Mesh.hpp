@@ -73,6 +73,8 @@ namespace Core {
 
             void setMeshNotFilled();
             void setMeshFilled();
+        
+            void setColor(const Math::Vector3& color);
 
             Mesh& operator = (const Mesh& other)
             {

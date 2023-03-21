@@ -246,6 +246,14 @@ namespace Core {
         this->viewer.data_list[this->_ID].show_lines = false;
     }
 
+    void Mesh::setColor(const Math::Vector3& color)
+    {
+        Eigen::MatrixXd C(f.rows(), 3);
+        C.rowwise() = Eigen::RowVector3d(color.coordinates.x, color.coordinates.y, color.coordinates.z);
+
+        this->viewer.data_list[ID].set_colors(C);
+    }
+
     Mesh::~Mesh() {
         // TODO
     }

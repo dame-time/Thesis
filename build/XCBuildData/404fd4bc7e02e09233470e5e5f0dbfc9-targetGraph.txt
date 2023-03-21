@@ -1,0 +1,49 @@
+Target dependency graph (14 targets)
+ZERO_CHECK in Thesis
+igl_glfw in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+igl_opengl in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+igl_imgui in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+glfw in Thesis
+glad in Thesis
+imgui in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+imguizmo in Thesis, depends on:
+imgui in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+igl_core in Thesis
+igl_restricted_triangle in Thesis
+triangle in Thesis
+Thesis in Thesis, depends on:
+igl_glfw in Thesis (explicit)
+igl_opengl in Thesis (explicit)
+igl_imgui in Thesis (explicit)
+imgui in Thesis (explicit)
+imguizmo in Thesis (explicit)
+igl_core in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+igl_restricted_triangle in Thesis (explicit)
+triangle in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+ALL_BUILD in Thesis, depends on:
+igl_glfw in Thesis (explicit)
+igl_opengl in Thesis (explicit)
+igl_imgui in Thesis (explicit)
+imgui in Thesis (explicit)
+imguizmo in Thesis (explicit)
+Thesis in Thesis (explicit)
+igl_core in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+igl_restricted_triangle in Thesis (explicit)
+triangle in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+install in Thesis, depends on:
+ALL_BUILD in Thesis (explicit)
