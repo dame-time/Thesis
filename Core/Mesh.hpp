@@ -27,6 +27,8 @@ namespace Core {
     {
         Math::Vector3 position;
         Math::Vector3 normal;
+        
+        Math::Vector2 curvature;
 
         Vertex() : position(Math::Vector3()), normal(Math::Vector3(1, 0, 0)) {}
         Vertex(const Math::Vector3& p, const Math::Vector3& n) : position(p), normal(n) {}
@@ -46,6 +48,8 @@ namespace Core {
             Eigen::RowVector3d getCenterOfMass();
 
             Eigen::Matrix4d computeQuadric(const Eigen::MatrixXd& V, const Eigen::MatrixXi& F, int vtx);
+        
+            void computePerVertexCurvature();
 
         public:
             Eigen::MatrixXd v;

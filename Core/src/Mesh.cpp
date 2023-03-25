@@ -8,6 +8,7 @@
 #include <igl/centroid.h>
 #include <igl/opengl/glfw/Viewer.h>
 #include <igl/per_face_normals.h>
+#include <igl/principal_curvature.h>
 
 #include <igl/is_edge_manifold.h>
 #include <igl/qslim.h>
@@ -58,6 +59,8 @@ namespace Core {
 
         matrixToVertices();
         matrixToFaces();
+        
+        computePerVertexCurvature();
     }
 
     void Mesh::matrixToVertices() {
@@ -72,6 +75,19 @@ namespace Core {
 
         for (int i = 0; i < f.rows(); i++)
             faces.push_back(Face(f(i, 0), f(i, 1), f(i, 2)));
+    }
+
+    void Mesh::computePerVertexCurvature()
+    {
+        Eigen::MatrixXd PD1, PD2;
+        Eigen::VectorXd PV1, PV2;
+        
+        std::vector<int> bad_vertices;
+        
+        igl::principal_curvature(this->v, this->f, PD1, PD2, PV1, PV2, bad_vertices);
+        
+        for (int i = 0; i < this->vertices.size(); i++)
+            vertices[i].curvature = Math::Vector2(PV1(i, 0), PV2(i, 0));
     }
 
     Eigen::RowVector3d Mesh::getCenterOfMass()

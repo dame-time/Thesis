@@ -34,6 +34,7 @@ namespace Math
         void operator*=(const Scalar& value);
         void operator+=(const Matrix4& mat);
         void operator-=(const Matrix4& mat);
+        void operator/=(const Scalar& dividend);
 
         Matrix4 operator*(const Matrix4& mat) const;
         Vector4 operator*(const Vector4& vec) const;
@@ -41,6 +42,8 @@ namespace Math
         Matrix4 operator+(const Matrix4& mat) const;
         Matrix4 operator-(const Matrix4& mat) const;
         Matrix4 operator-() const;
+        Matrix4 operator/(const Scalar& dividend) const;
+        
         void operator=(const Matrix4& mat);
 
         void setInverse(const Matrix4& mat);

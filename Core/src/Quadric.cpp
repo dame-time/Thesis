@@ -18,7 +18,6 @@ namespace SM
         A.setTopLeftMatrix3(faceNormal.outer(faceNormal));
         A.setRowVector(3, Math::Vector4(faceNormal, 1));
         A.setColumnVector(3, Math::Vector4(faceNormal, 1));
-//        A *= 2;
         
         Math::Vector4 omogeneousFaceNormalPoint = Math::Vector4(faceNormal, 1);
         b = omogeneousFaceNormalPoint * (2 * -faceNormal.dot(faceOrigin));
@@ -68,9 +67,11 @@ namespace SM
         return s.dot(A * s) - 2 * b.dot(s) + c;
     }
 
-    Math::Vector4 Quadric::minimizer() const
+    Math::Vector4 Quadric::minimizer()
     {
         Math::Vector4 result;
+        
+        const double minRadius = 0.01;
 
         try
         {
@@ -79,6 +80,24 @@ namespace SM
         catch (const std::exception& e)
         {
             std::cerr << "Matrix has determinat 0 for this quadric" << std::endl;
+        }
+        
+        if (result.coordinates.w < 0)
+        {
+            const int newQuadricWeight = 1000;
+            
+            Quadric q = Quadric();
+            
+            q.A = Math::Matrix4(0, 0, 0, 0,
+                                0, 0, 0, 0,
+                                0, 0, 0, 0,
+                                0, 0, 0, 1);
+            q.b = Math::Vector4(0, 0, 0, -minRadius * 2);
+            q.c = minRadius;
+            
+            auto newQ = *this + (q * newQuadricWeight);
+            
+            result = newQ.A.inverse() * (-newQ.b/2);
         }
 
         return result;

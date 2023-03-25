@@ -194,6 +194,11 @@ namespace Math {
         return this->squareMagnitude() == 0;
     }
 
+    Vector3 Vector4::truncateToVector3() const
+    {
+        return Vector3(coordinates.x, coordinates.y, coordinates.z);
+    }
+
     Versor4 Vector4::asVersor4() const {
         return Versor4(coordinates.x, coordinates.y, coordinates.z, coordinates.w);
     }

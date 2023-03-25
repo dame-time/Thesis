@@ -22,10 +22,11 @@ namespace SM
         private:
             static std::vector<Math::Vector3> directions;
             
-            std::vector<Math::Vector3> vertices;
             std::vector<Math::Vector2> intervals;
 
             std::vector<Math::Vector3> unitSphereSampler(int numberOfDirections);
+        
+            void initializeIntervals();
 
         public:
             double directionalWidth;
@@ -42,12 +43,13 @@ namespace SM
                         Region::directions.push_back(sphereSamples[i]);
                     }
                 }
+                
+                initializeIntervals();
             }
 
             Region(const Math::Vector3& initialVertex) 
             { 
                 directionalWidth = DBL_MAX;
-                vertices.push_back(initialVertex); 
 
                 if (Region::directions.size() == 0)
                 {
@@ -58,7 +60,8 @@ namespace SM
                     }
                 }
 
-                computeIntervals();
+                initializeIntervals();
+                addVertex(initialVertex);
             }
 
             void computeIntervals();
@@ -66,7 +69,7 @@ namespace SM
             void addVertex(const Math::Vector3& v);
             void addVertices(const std::vector<Math::Vector3>& verticesRange);
 
-            void join(const Region& region);
+            void join(Region& region);
     };
 
     struct Triangle
@@ -103,8 +106,17 @@ namespace SM
 
             Quadric getSphereQuadric();
 
-            void addFace(const Math::Vector3& centroid, const Math::Vector3& normal);
+            void addFace(const Math::Vector3& centroid, const Math::Vector3& normal, double weight = 1.0);
             void addQuadric(const Quadric& q);
+        
+            void operator = (const Sphere& s)
+            {
+                this->quadric = s.quadric;
+                this->region = s.region;
+                
+                this->center = s.center;
+                this->radius = s.radius;
+            }
 
             Sphere lerp(const Sphere &s, double t);
     };
@@ -116,6 +128,11 @@ namespace SM
         int idxI, idxJ;
         
         double error;
+        
+        CollapsableEdge()
+        {
+            updateEdge(Sphere(), Sphere(), -1, -1);
+        }
         
         CollapsableEdge(const Sphere& _i, const Sphere& _j, int _idxI, int _idxJ)
         {
@@ -138,7 +155,7 @@ namespace SM
         }
         
         void updateError()
-        {
+        {            
             error = 0;
             
             error += i.getSphereQuadric().evaluateSQEM(Math::Vector4(i.center, i.radius));
@@ -155,18 +172,29 @@ namespace SM
         }
     };
 
+    struct AABB
+    {
+        double minX;
+        double maxX;
+        
+        double minY;
+        double maxY;
+        
+        double minZ;
+        double maxZ;
+    };
+
     class SphereMesh
     {
         private:
             std::vector<CollapsableEdge> collapseCosts;
-        
-            igl::opengl::glfw::Viewer &viewer;
             
             std::vector<Sphere> sphere;
             
             std::vector<Triangle> triangle;
             std::vector<Edge> edge;
         
+            igl::opengl::glfw::Viewer &viewer;
             std::vector<int> renderedSpheres;
             
             void initializeSphereMeshTriangles(const std::vector<Core::Face>& Faces);
@@ -175,35 +203,45 @@ namespace SM
             void computeSpheresProperties(const std::vector<Core::Vertex>& vertices);
         
             void setCollapseCosts();
+            void updateCollapseCosts(const Sphere& newSphere, int i, int j);
+            void recalculateCollapseCosts(int edgeIndexToErase, const Sphere& newSphere, int i, int j);
+        
+            CollapsableEdge getBestCollapseBruteForce();
+            CollapsableEdge getBestCollapseInConnectivity();
         
             CollapsableEdge selectEdgeToCollapse();
             Sphere collapseEdgeIntoSphere(const CollapsableEdge& edgeToCollapse);
             
+            void updateEdgesAfterCollapse(int i, int j);
+            void updateTrianglessAfterCollapse(int i, int j);
             void removeDegenerates();
             
-            void drawSpheresOverEdge(const Edge &e);
-            void drawSpheresOverTriangle(const Triangle& t);
+            void drawSpheresOverEdge(const Edge &e, int nSpheres = 4);
+            void drawSpheresOverTriangle(const Triangle& t, int nSpheres = 4);
+        
+            void renderEdge(const Math::Vector3& p1, const Math::Vector3& p2, const Math::Vector3& color = Math::Vector3(1, 0, 0));
+        
+            void computeAABB(const std::vector<Core::Vertex>& vertices);
             
             Math::Vector3 getTriangleCentroid(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
-            
             Math::Vector3 getTriangleNormal(const Math::Vector3 &v1, const Math::Vector3 &v2, const Math::Vector3 &v3);
-            
-            void getVertexAdjacentTriangles(int vertexIndex, std::vector<Triangle> &adjacentTraingles);
         
-            std::set<int> getNeighborVertices(int i);
-            
         public:
+            AABB axisAlignedBoundingBox;
+        
             SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius = 0.1f);
             
             void constructTest();
             
             void renderSelectedSpheresOnly();
+            void renderFastSelectedSpheresOnly();
             void render();
+            void renderWithNSpherePerEdge(int n);
             void renderSpheresOnly();
-            void renderWireframe();
+            void renderConnectivity();
+        
+            void clearRenderedEdges();
             void clearRenderedMeshes();
-            
-            void simplify() const;
             
             void collapseEdge(int edgeIndex);
             void collapseTriangleSide(int triangleIndex, int sideNumber);
@@ -212,6 +250,11 @@ namespace SM
             
             void collapseSphereMesh();
             void collapseSphereMesh(int n);
+            void collapseSphereMeshFast();
+            void collapseSphereMeshFast(int n);
+        
+            bool canCollapseSphereMesh();
+            int maxNumberOfCollapses();
             
             void clear();
     };

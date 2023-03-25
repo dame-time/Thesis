@@ -77,6 +77,8 @@ namespace Math
 
             bool isZero() const;
             bool areEquals(const Vector4& vector) const;
+        
+            Vector3 truncateToVector3() const;
 
             Versor4 asVersor4() const;
             Point4 asPoint4() const;

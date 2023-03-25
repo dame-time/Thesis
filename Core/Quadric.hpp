@@ -1,5 +1,6 @@
 #pragma once
 
+#include <Vector3.hpp>
 #include <Vector4.hpp>
 #include <Matrix4.hpp>
 
@@ -22,7 +23,7 @@ namespace SM
             Quadric();
             Quadric(const Math::Vector3& faceOrigin, const Math::Vector3& faceNormal);
 
-            static Quadric initializeQuadricFromVertex(const Core::Vertex& vertex, double targetSphereRadius = 1.0f)
+            static Quadric initializeQuadricFromVertex(const Core::Vertex& vertex, double targetSphereRadius = 1.0)
             {
                 Quadric q;
 
@@ -31,7 +32,6 @@ namespace SM
                 bool b = Math::Math::sign(vertex.position.coordinates.y) != Math::Math::sign(vertex.normal.coordinates.y);
                 bool c = Math::Math::sign(vertex.position.coordinates.z) != Math::Math::sign(vertex.normal.coordinates.z);
 
-                // FIXME: utile nel caso del cubo, non so se sia sempre utile
                 // possibile fix effettuare un clamp su t, al massimo puo' assumere le coordinate del vertice stesso
                 Math::Vector3 n = vertex.normal;
                 if (vertex.normal.coordinates.x != 0 && a)
@@ -58,7 +58,7 @@ namespace SM
 
             double evaluateSQEM (const Math::Vector4& sphere);
 
-            Math::Vector4 minimizer () const;
+            Math::Vector4 minimizer ();
 
             void print ();
     };

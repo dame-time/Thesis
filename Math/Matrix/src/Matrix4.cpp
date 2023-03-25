@@ -136,6 +136,11 @@ namespace Math
         }
     }
 
+    void Matrix4::operator/=(const Scalar& dividend)
+    {
+        *this = (Matrix4(*this) / dividend);
+    }
+
     Matrix4 Matrix4::operator*(const Matrix4& mat) const
     {
         Matrix4 result = Matrix4(*this);
@@ -170,6 +175,16 @@ namespace Math
                        -data[4], -data[5], -data[6], -data[7],
                        -data[8], -data[9], -data[10], -data[11],
                        -data[12], -data[13], -data[14], -data[15]);
+    }
+
+    Matrix4 Matrix4::operator/(const Scalar& d) const
+    {
+        Matrix4 res = Matrix4(*this);
+        
+        for (int i = 0; i < 16; i++)
+            res.data[i] /= d;
+        
+        return res;
     }
 
     void Matrix4::operator=(const Matrix4& mat)
