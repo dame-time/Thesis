@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		3E30551CDF1146539A5EC4BE /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5AB7F1F197D64A74834040CE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 4AC6D57760D14297B8253EE8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				944CD48C034DA63EEDE90387 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				10945330443B47EE846C519E /* PBXTargetDependency */,
-				FCB7D1D15BC54EEFA141328A /* PBXTargetDependency */,
+				8C5D980682B5440991D2EC07 /* PBXTargetDependency */,
+				A7FDD074D2D846F78A67A9D9 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		4F47ADE5AF534EBCA5795278 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DE14AB698DD44857BDFFBFC6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 601261631C4E4608BF5821B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				A0771AFA202E9392418AED56 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -33,7 +33,7 @@
 		};
 		E65640FF2C934AF3BED73180 /* glfw-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3B38743ABFE74267A355E233 /* Build configuration list for PBXAggregateTarget "glfw-populate" */;
+			buildConfigurationList = DD32F10950184B5EA3BC1984 /* Build configuration list for PBXAggregateTarget "glfw-populate" */;
 			buildPhases = (
 				FEC2934264DBE40FC3553E03 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir */,
 				1C7BFC2A94552DFAB9979E3C /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download */,
@@ -47,7 +47,7 @@
 				7F294D42796BA4B0AA80798F /* Generate CMakeFiles/glfw-populate */,
 			);
 			dependencies = (
-				7831BC5D8BB2478ABEA6E19A /* PBXTargetDependency */,
+				FFDFB7D9059B4145A08A49A2 /* PBXTargetDependency */,
 			);
 			name = "glfw-populate";
 			productName = "glfw-populate";
@@ -55,52 +55,52 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		0983CA457B4B45A8840EBF5C /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		98B067A75B6C42FC8ED81CEE /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		A8213EA5F23746A5855CCE6F /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		F42AFE54A0FD4598B1D6D17E /* MinSizeRel */ = {
+		2DE98671BEB146109D599707 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		30D9C60134B84EDD8813191A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D2AC7D6453D04657B474D5A2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E51080E4185046A893DC66D7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		5347839176264AD0AA36AD49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E45D4434541D47BC956B5C2E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E65640FF2C934AF3BED73180;
-			remoteInfo = "glfw-populate";
-		};
-		84450C93A1344308B1D419AA /* PBXContainerItemProxy */ = {
+		53DFEEFCACDC4F4FBFF49546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E45D4434541D47BC956B5C2E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4F47ADE5AF534EBCA5795278;
 			remoteInfo = ZERO_CHECK;
 		};
-		B676D1B1B5404D62A9032A8A /* PBXContainerItemProxy */ = {
+		C007F061800E4131A467DC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45D4434541D47BC956B5C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65640FF2C934AF3BED73180;
+			remoteInfo = "glfw-populate";
+		};
+		E5EA1AA0B419498680BFA6B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E45D4434541D47BC956B5C2E /* Project object */;
 			proxyType = 1;
@@ -110,65 +110,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		257E7CD726AC4E7FA25A9C34 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		42CB5A52440540AA9431FADB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E30CCD00D57947D5A0D4CECD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EFE03416A87E4A39882D53E5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		3438DDAFD3CB4EE5AEC51418 = {
+		20BFB766E82F40658B031086 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				E0C8A8DDD6DA4DACB346419C /* glfw-populate */,
-				C024A0F2BCDF4FC3943D34AB /* ALL_BUILD */,
-				9EA81FD99A0E4B9E91A7C9F8 /* Products */,
-				C83369629A3445938EAAE3BE /* Frameworks */,
+				28A13FE11EFD47BC84DE5CA2 /* CMake Rules */,
+				EFE03416A87E4A39882D53E5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */,
 			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		63E54C73D3174172B59AA643 /* CMake Rules */ = {
+		28A13FE11EFD47BC84DE5CA2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		9EA81FD99A0E4B9E91A7C9F8 /* Products */ = {
+		2FFA7BD75D574D45BA819AAF = {
+			isa = PBXGroup;
+			children = (
+				FFEC9C93AD65470897FC37C6 /* glfw-populate */,
+				20BFB766E82F40658B031086 /* ALL_BUILD */,
+				CAC48A0CC6DC43EB87F45207 /* Products */,
+				E07D983B70324CCCA59966F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A84A5F649F4C48C6B1A0F15A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CAC48A0CC6DC43EB87F45207 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C024A0F2BCDF4FC3943D34AB /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				EEEF4CCADDEF469AAB06356B /* CMake Rules */,
-				42CB5A52440540AA9431FADB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		C83369629A3445938EAAE3BE /* Frameworks */ = {
+		E07D983B70324CCCA59966F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0C8A8DDD6DA4DACB346419C /* glfw-populate */ = {
+		FFEC9C93AD65470897FC37C6 /* glfw-populate */ = {
 			isa = PBXGroup;
 			children = (
-				63E54C73D3174172B59AA643 /* CMake Rules */,
-				257E7CD726AC4E7FA25A9C34 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */,
+				A84A5F649F4C48C6B1A0F15A /* CMake Rules */,
+				E30CCD00D57947D5A0D4CECD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/CMakeLists.txt */,
 			);
 			name = "glfw-populate";
-			sourceTree = "<group>";
-		};
-		EEEF4CCADDEF469AAB06356B /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,18 +180,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = E4290C92820242F483383C77 /* Build configuration list for PBXProject "glfw-populate" */;
+			buildConfigurationList = CBE22B4E9D404CCAA8120C26 /* Build configuration list for PBXProject "glfw-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				A8213EA5F23746A5855CCE6F /* Debug */,
-				0983CA457B4B45A8840EBF5C /* Release */,
-				F42AFE54A0FD4598B1D6D17E /* MinSizeRel */,
-				98B067A75B6C42FC8ED81CEE /* RelWithDebInfo */,
+				D2AC7D6453D04657B474D5A2 /* Debug */,
+				E51080E4185046A893DC66D7 /* Release */,
+				2DE98671BEB146109D599707 /* MinSizeRel */,
+				30D9C60134B84EDD8813191A /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 3438DDAFD3CB4EE5AEC51418;
+			mainGroup = 2FFA7BD75D574D45BA819AAF;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -697,207 +697,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10945330443B47EE846C519E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F47ADE5AF534EBCA5795278 /* ZERO_CHECK */;
-			targetProxy = 84450C93A1344308B1D419AA /* PBXContainerItemProxy */;
-		};
-		7831BC5D8BB2478ABEA6E19A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F47ADE5AF534EBCA5795278 /* ZERO_CHECK */;
-			targetProxy = B676D1B1B5404D62A9032A8A /* PBXContainerItemProxy */;
-		};
-		FCB7D1D15BC54EEFA141328A /* PBXTargetDependency */ = {
+		8C5D980682B5440991D2EC07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E65640FF2C934AF3BED73180 /* glfw-populate */;
-			targetProxy = 5347839176264AD0AA36AD49 /* PBXContainerItemProxy */;
+			targetProxy = C007F061800E4131A467DC08 /* PBXContainerItemProxy */;
+		};
+		A7FDD074D2D846F78A67A9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F47ADE5AF534EBCA5795278 /* ZERO_CHECK */;
+			targetProxy = 53DFEEFCACDC4F4FBFF49546 /* PBXContainerItemProxy */;
+		};
+		FFDFB7D9059B4145A08A49A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F47ADE5AF534EBCA5795278 /* ZERO_CHECK */;
+			targetProxy = E5EA1AA0B419498680BFA6B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24C795A6FD954F63A736F6A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "glfw-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		29BA60533E41499487A899B6 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "glfw-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4756D02BB27648DFBFF260E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4B41CFBA017F4A05985076BF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5EC19A40FC8C41A18BCFFB20 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "glfw-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		64FA045E1625409AA60018F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
-			};
-			name = Debug;
-		};
-		71AFAB7F19FC45EE9BC7A6AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		787AB661D9F442DB84CF3F63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
-			};
-			name = Release;
-		};
-		7F35EF04B9C749B48EED6A6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "glfw-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		8FDC8760B84A40E9BD37BBB7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		94FB8CB9FB0747EBB73D86F1 /* RelWithDebInfo */ = {
+		0AF97856AE9943EAB46493E7 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -908,7 +726,160 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		A99DA6C0FF004CB8A08ADDC8 /* Release */ = {
+		1AAD0EED590545F3A5C3D5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glfw-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2267C3187AC64FF5B57869C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2780583C92434C04B61D9BEB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2F68432C01A648D4B33036DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
+			};
+			name = Debug;
+		};
+		3792976BB71B4A5191A4B24F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glfw-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		477B7FB4F83F4305B7E5552A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		51A75F6D8FD44242B5346F3E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		643FB1F69EF9464F896DA1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
+			};
+			name = Release;
+		};
+		6CF845E788EB4D26912F2127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glfw-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8C1D3F42C3394A7DA7003A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -928,38 +899,7 @@ fi
 			};
 			name = Release;
 		};
-		B188B3E0D2AD4C7C81A59D16 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		BF285F387BFB41AC93371DDB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild/build";
-			};
-			name = MinSizeRel;
-		};
-		F3859DA3C2D64CFEBA71F316 /* Debug */ = {
+		A8EE20991488452D80D5499F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -979,7 +919,47 @@ fi
 			};
 			name = Debug;
 		};
-		FE3B83DD796640FCA73EE48F /* RelWithDebInfo */ = {
+		CB4316B7AAB8488DAE64CD40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glfw-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D5E7EC8CE16744759379FB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DFF21B601CA648D8A8E3A56F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -992,6 +972,26 @@ fi
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E7D2951D70E544E2A53E2A12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glfw-subbuild";
 				USE_HEADERMAP = NO;
@@ -1002,46 +1002,46 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B38743ABFE74267A355E233 /* Build configuration list for PBXAggregateTarget "glfw-populate" */ = {
+		4AC6D57760D14297B8253EE8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F35EF04B9C749B48EED6A6B /* Debug */,
-				24C795A6FD954F63A736F6A3 /* Release */,
-				29BA60533E41499487A899B6 /* MinSizeRel */,
-				5EC19A40FC8C41A18BCFFB20 /* RelWithDebInfo */,
+				A8EE20991488452D80D5499F /* Debug */,
+				DFF21B601CA648D8A8E3A56F /* Release */,
+				51A75F6D8FD44242B5346F3E /* MinSizeRel */,
+				2780583C92434C04B61D9BEB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5AB7F1F197D64A74834040CE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		601261631C4E4608BF5821B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3859DA3C2D64CFEBA71F316 /* Debug */,
-				4756D02BB27648DFBFF260E9 /* Release */,
-				8FDC8760B84A40E9BD37BBB7 /* MinSizeRel */,
-				FE3B83DD796640FCA73EE48F /* RelWithDebInfo */,
+				D5E7EC8CE16744759379FB28 /* Debug */,
+				8C1D3F42C3394A7DA7003A03 /* Release */,
+				2267C3187AC64FF5B57869C8 /* MinSizeRel */,
+				E7D2951D70E544E2A53E2A12 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DE14AB698DD44857BDFFBFC6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		CBE22B4E9D404CCAA8120C26 /* Build configuration list for PBXProject "glfw-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71AFAB7F19FC45EE9BC7A6AF /* Debug */,
-				A99DA6C0FF004CB8A08ADDC8 /* Release */,
-				B188B3E0D2AD4C7C81A59D16 /* MinSizeRel */,
-				4B41CFBA017F4A05985076BF /* RelWithDebInfo */,
+				2F68432C01A648D4B33036DD /* Debug */,
+				643FB1F69EF9464F896DA1F7 /* Release */,
+				477B7FB4F83F4305B7E5552A /* MinSizeRel */,
+				0AF97856AE9943EAB46493E7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E4290C92820242F483383C77 /* Build configuration list for PBXProject "glfw-populate" */ = {
+		DD32F10950184B5EA3BC1984 /* Build configuration list for PBXAggregateTarget "glfw-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64FA045E1625409AA60018F4 /* Debug */,
-				787AB661D9F442DB84CF3F63 /* Release */,
-				BF285F387BFB41AC93371DDB /* MinSizeRel */,
-				94FB8CB9FB0747EBB73D86F1 /* RelWithDebInfo */,
+				1AAD0EED590545F3A5C3D5A6 /* Debug */,
+				6CF845E788EB4D26912F2127 /* Release */,
+				CB4316B7AAB8488DAE64CD40 /* MinSizeRel */,
+				3792976BB71B4A5191A4B24F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

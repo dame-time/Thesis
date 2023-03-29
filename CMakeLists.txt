@@ -22,6 +22,18 @@ igl_include(glfw)
 igl_include(imgui)
 igl_include(restricted triangle)
 
+# FetchContent module
+include(FetchContent)
+
+# YAML-CPP
+FetchContent_Declare(
+  yaml_cpp
+  GIT_REPOSITORY https://github.com/jbeder/yaml-cpp.git
+  GIT_TAG yaml-cpp-0.7.0
+)
+
+FetchContent_MakeAvailable(yaml_cpp)
+
 # Add your project files
 file(GLOB_RECURSE SOURCES "*.cpp" "*.hpp")
 
@@ -31,21 +43,7 @@ foreach(source ${SOURCES})
     endif()
 endforeach()
 
-# message("Sources:")
-# foreach(source ${SOURCES})
-#     message("  ${source}")
-# endforeach()
-
-# Retrieve the include directories of the current project
-get_property(includes DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
-
-# Print each directory
-# foreach(include_dir ${includes})
-# message("Include directory: ${include_dir}")
-# endforeach()
-# message(${CMAKE_CURRENT_SOURCE_DIR})
-
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_compile_options(${PROJECT_NAME} PUBLIC -g -O2)
-target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle igl::core)
-target_include_directories(${PROJECT_NAME} PUBLIC ${includes})
+target_link_libraries(${PROJECT_NAME} PUBLIC igl::glfw igl::imgui igl_restricted::triangle igl::core yaml-cpp)
+target_include_directories(${PROJECT_NAME} PUBLIC ${includes} ${yaml_cpp_SOURCE_DIR}/include)

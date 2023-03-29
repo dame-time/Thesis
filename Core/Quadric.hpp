@@ -49,6 +49,21 @@ namespace SM
 
                 return  q;
             }
+        
+            Math::Matrix4 getA() const
+            {
+                return A;
+            }
+        
+            Math::Vector4 getB() const
+            {
+                return b;
+            }
+        
+            double getC() const
+            {
+                return c;
+            }
 
             Quadric operator + (const Quadric& quadric);
             Quadric operator * (const double& multiplier);

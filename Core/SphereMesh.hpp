@@ -10,6 +10,7 @@
 #include <Quadric.hpp>
 
 #include <vector>
+#include <string>
 #include <cfloat>
 #include <queue>
 #include <set>
@@ -93,7 +94,14 @@ namespace SM
 
     class Sphere
     {
+        private:
+            std::vector<int> renderedSpheres;
+        
         public:
+            std::vector<Core::Vertex> vertices;
+        
+            int renderedMeshID;
+        
             Quadric quadric;
             Region region;
 
@@ -109,6 +117,11 @@ namespace SM
             void addFace(const Math::Vector3& centroid, const Math::Vector3& normal, double weight = 1.0);
             void addQuadric(const Quadric& q);
         
+            void addVertex(const Core::Vertex& vertex);
+        
+            void renderAssociatedVertices(igl::opengl::glfw::Viewer &viewer);
+            void clearRenderedSpheres(igl::opengl::glfw::Viewer &viewer);
+        
             void operator = (const Sphere& s)
             {
                 this->quadric = s.quadric;
@@ -116,6 +129,7 @@ namespace SM
                 
                 this->center = s.center;
                 this->radius = s.radius;
+                this->vertices = s.vertices;
             }
 
             Sphere lerp(const Sphere &s, double t);
@@ -240,6 +254,9 @@ namespace SM
             void renderSpheresOnly();
             void renderConnectivity();
         
+            void renderSphereVertices(int i);
+            void clearRenderedSphereVertices();
+        
             void clearRenderedEdges();
             void clearRenderedMeshes();
             
@@ -255,6 +272,8 @@ namespace SM
         
             bool canCollapseSphereMesh();
             int maxNumberOfCollapses();
+        
+            void saveYAML(const std::string& path = ".");
             
             void clear();
     };

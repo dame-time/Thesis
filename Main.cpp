@@ -3,7 +3,12 @@
 #include <igl/opengl/glfw/imgui/ImGuiMenu.h>
 #include <igl/opengl/glfw/imgui/ImGuizmoWidget.h>
 #include <igl/triangle/triangulate.h>
+#include <igl/unproject_onto_mesh.h>
 #include <igl/readOBJ.h>
+
+#include <Eigen/Dense>
+#include <Eigen/Core>
+#include <Eigen/SparseCore>
 
 #include <Mesh.hpp>
 #include <Math.hpp>
@@ -13,7 +18,7 @@
 
 void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm)
 {
-    ImGui::SetNextWindowContentSize(ImVec2(500, 300));
+    ImGui::SetNextWindowContentSize(ImVec2(500, 500));
     // Start a new ImGui window
     ImGui::Begin("My Custom Window");
 
@@ -151,6 +156,20 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm
     {
         sm.clearRenderedMeshes();
     }
+    
+    ImGui::Separator();
+    
+    if (ImGui::Button("Clear All Sphere Vertices"))
+    {
+        sm.clearRenderedSphereVertices();
+    }
+    
+    ImGui::Separator();
+    
+    if (ImGui::Button("Save Sphere Mesh To YAML"))
+    {
+        sm.saveYAML();
+    }
 
     // End the ImGui window
     ImGui::End();
@@ -158,12 +177,10 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm
 
 int main(int argc, char *argv[])
 {
-
-  // Plot the mesh
   igl::opengl::glfw::Viewer viewer;
 
-  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/hand-1000.obj", viewer);
-//  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/camel-poses/camel-reference-4040.obj", viewer);
+//  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/hand-1000.obj", viewer);
+  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/camel-poses/camel-reference-600.obj", viewer);
   SM::SphereMesh sm(mesh, viewer);
 
   sm.renderSpheresOnly();
@@ -182,9 +199,56 @@ int main(int argc, char *argv[])
       drawImGuiMenu(menu, sm);
   };
 
-  mesh.setMeshNotFilled();
+    // Callback for when the mouse is clicked
+    viewer.callback_mouse_down =
+        [&](igl::opengl::glfw::Viewer &viewer, int, int) -> bool {
+            float x = viewer.current_mouse_x;
+            float y = viewer.core().viewport(3) - viewer.current_mouse_y;
+            Eigen::Vector2f click_pos(x, y);
 
-  // mesh.test();
+            int picked_mesh = -1;
+            int picked_face = -1;
+            float min_distance = std::numeric_limits<float>::max();
+            Eigen::Vector3f bc;
+
+            // Iterate over all meshes to find the closest intersection
+            for (size_t i = 0; i < viewer.data_list.size(); ++i) {
+                int fid;
+                Eigen::Vector3f _bc;
+                
+                if (i == mesh.ID)
+                    continue;
+
+                if (igl::unproject_onto_mesh(click_pos, viewer.core().view, viewer.core().proj, viewer.core().viewport,
+                                             viewer.data_list[i].V, viewer.data_list[i].F, fid, _bc)) {
+                    Eigen::Vector3f intersection = viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 0)).cast<float>() * _bc(0) +
+                                                    viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 1)).cast<float>() * _bc(1) +
+                                                    viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 2)).cast<float>() * _bc(2);
+                    
+                    Eigen::Vector3f click_pos_3d;
+                    Eigen::Vector3f click_pos_3f(x, y, 0.0f);
+                    igl::unproject(click_pos_3f, viewer.core().view, viewer.core().proj, viewer.core().viewport,
+                                   click_pos_3d);
+                    float distance = (intersection - click_pos_3d).squaredNorm();
+
+                    if (distance < min_distance) {
+                        min_distance = distance;
+                        picked_mesh = i;
+                        picked_face = fid;
+                        bc = _bc;
+                    }
+                }
+            }
+
+            if (picked_mesh >= 0) {
+                std::cout << "Picked mesh index: " << picked_mesh << std::endl;
+                sm.renderSphereVertices(picked_mesh);
+            }
+
+            return false;
+        };
+    
+  mesh.setMeshNotFilled();
 
   viewer.launch();
 }

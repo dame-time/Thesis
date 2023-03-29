@@ -1,3 +1,4 @@
+#define _LIBCPP_NO_EXPERIMENTAL_DEPRECATION_WARNING_FILESYSTEM
 #include "../SphereMesh.hpp"
 
 #include "../SQEM.h"
@@ -8,9 +9,60 @@
 #include <Eigen/Core>
 #include <Eigen/SparseCore>
 
+#include <yaml-cpp/yaml.h>
+
+#include <experimental/filesystem>
 #include <algorithm>
 #include <cassert>
 #include <cmath>
+
+void YAMLSerializeVector3(YAML::Emitter& out, const Math::Vector3& vector) {
+    out << YAML::BeginMap;
+    out << YAML::Key << "X" << YAML::Value << vector.coordinates.x;
+    out << YAML::Key << "Y" << YAML::Value << vector.coordinates.y;
+    out << YAML::Key << "Z" << YAML::Value << vector.coordinates.z;
+    out << YAML::EndMap;
+}
+
+void YAMLSerializeVector4(YAML::Emitter& out, const Math::Vector4& vector) {
+    out << YAML::BeginMap;
+    out << YAML::Key << "X" << YAML::Value << vector.coordinates.x;
+    out << YAML::Key << "Y" << YAML::Value << vector.coordinates.y;
+    out << YAML::Key << "Z" << YAML::Value << vector.coordinates.z;
+    out << YAML::Key << "W" << YAML::Value << vector.coordinates.w;
+    out << YAML::EndMap;
+}
+
+void YAMLSerializeMatrix4(YAML::Emitter& out, const Math::Matrix4& matrix) {
+    out << YAML::BeginMap;
+    out << YAML::Key << "0" << YAML::Value << matrix.data[0];
+    out << YAML::Key << "1" << YAML::Value << matrix.data[1];
+    out << YAML::Key << "2" << YAML::Value << matrix.data[2];
+    out << YAML::Key << "3" << YAML::Value << matrix.data[3];
+    out << YAML::Key << "4" << YAML::Value << matrix.data[4];
+    out << YAML::Key << "5" << YAML::Value << matrix.data[5];
+    out << YAML::Key << "6" << YAML::Value << matrix.data[6];
+    out << YAML::Key << "7" << YAML::Value << matrix.data[7];
+    out << YAML::Key << "8" << YAML::Value << matrix.data[8];
+    out << YAML::Key << "9" << YAML::Value << matrix.data[9];
+    out << YAML::Key << "10" << YAML::Value << matrix.data[10];
+    out << YAML::Key << "11" << YAML::Value << matrix.data[11];
+    out << YAML::Key << "12" << YAML::Value << matrix.data[12];
+    out << YAML::Key << "13" << YAML::Value << matrix.data[13];
+    out << YAML::Key << "14" << YAML::Value << matrix.data[14];
+    out << YAML::Key << "15" << YAML::Value << matrix.data[15];
+    out << YAML::EndMap;
+}
+
+void YAMLSerializeQuadric(YAML::Emitter& out, SM::Quadric& q) {
+    out << YAML::BeginMap;
+    out << YAML::Key << "A" << YAML::Value;
+    YAMLSerializeMatrix4(out, q.getA());
+    out << YAML::Key << "b" << YAML::Value;
+    YAMLSerializeVector4(out, q.getB());
+    out << YAML::Key << "c" << YAML::Value << q.getC();
+    out << YAML::EndMap;
+}
 
 namespace SM {
     std::vector<Math::Vector3> Region::directions;
@@ -69,7 +121,7 @@ namespace SM {
 
     void SphereMesh::setCollapseCosts()
     {
-        const double EPSILON = 1.5;
+        const double EPSILON = 0.5;
         collapseCosts.clear();
         
         for (int i = 0; i < sphere.size(); i++)
@@ -88,7 +140,7 @@ namespace SM {
 
     CollapsableEdge SphereMesh::getBestCollapseBruteForce()
     {
-        const double EPSILON = 1.5;
+        const double EPSILON = 0.1;
         
         assert(sphere.size() > 1);
         
@@ -121,7 +173,7 @@ namespace SM {
 
     CollapsableEdge SphereMesh::getBestCollapseInConnectivity()
     {
-        const double EPSILON = 1.5;
+        const double EPSILON = DBL_MAX;
         
         assert(triangle.size() > 0 || edge.size() > 0);
         
@@ -200,9 +252,10 @@ namespace SM {
                     double totalK2 = 0.33 * vertices[triangle[j].i].curvature[1] + 0.33 * vertices[triangle[j].j].curvature[1] + 0.33 * vertices[triangle[j].k].curvature[1];
                     
 //                    TODO: Chiedi al prof quale dei due e' meglio
-//                    weight *= (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
+                    weight *= (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
 //                    weight = (weight + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
-                    weight = (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
+//                    weight = (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
+//                    weight += (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
 
                     sphere[i].addFace(centroid, normal, weight);
                     sphere[i].region.addVertex(vertices[triangle[j].i].position);
@@ -365,6 +418,8 @@ namespace SM {
             s.resize(sphere[i].radius);
             s.translate(sphere[i].center);
             
+            sphere[i].renderedMeshID = s.ID;
+            
             renderedSpheres.push_back(s.ID);
         }
     }
@@ -387,6 +442,8 @@ namespace SM {
             s.resize(r + 0.01f);
             s.translate(e.i.center);
             
+            e.i.renderedMeshID = s.ID;
+            
             renderedSpheres.push_back(s.ID);
         }
         
@@ -401,6 +458,8 @@ namespace SM {
             
             s.resize(r + 0.01f);
             s.translate(e.j.center);
+            
+            e.j.renderedMeshID = s.ID;
             
             renderedSpheres.push_back(s.ID);
         }
@@ -424,6 +483,8 @@ namespace SM {
             s.resize(r + 0.01f);
             s.translate(e.i.center);
             
+            e.i.renderedMeshID = s.ID;
+            
             renderedSpheres.push_back(s.ID);
         }
         
@@ -439,8 +500,23 @@ namespace SM {
             s.resize(r + 0.01f);
             s.translate(e.j.center);
             
+            e.j.renderedMeshID = s.ID;
+            
             renderedSpheres.push_back(s.ID);
         }
+    }
+
+    void SphereMesh::renderSphereVertices(int i)
+    {
+        for (int idx = 0; idx < i; idx++)
+            if (sphere[idx].renderedMeshID == i)
+                sphere[idx].renderAssociatedVertices(this->viewer);
+    }
+
+    void SphereMesh::clearRenderedSphereVertices()
+    {
+        for (int idx = 0; idx < sphere.size(); idx++)
+            sphere[idx].clearRenderedSpheres(viewer);
     }
 
     void SphereMesh::clearRenderedEdges()
@@ -473,6 +549,16 @@ namespace SM {
         Sphere newSphere = Sphere();
         newSphere.addQuadric(collapsedSphereA.getSphereQuadric());
         newSphere.addQuadric(collapsedSphereB.getSphereQuadric());
+        
+//      FIXME: This is done only for rendering
+        for (int k = 0; k < sphere[i].vertices.size(); k++)
+            newSphere.addVertex(sphere[i].vertices[k]);
+        
+        for (int k = 0; k < sphere[j].vertices.size(); k++)
+            newSphere.addVertex(sphere[j].vertices[k]);
+//
+        std::cout << "New Sphere vertices -> " << sphere[j].vertices.size() + sphere[i].vertices.size() << std::endl;
+        
         newSphere.region.join(collapsedSphereA.region);
         newSphere.region.join(collapsedSphereB.region);
         
@@ -489,8 +575,6 @@ namespace SM {
 
         sphere.pop_back();
         
-//        setCollapseCosts();
-//        updateCollapseCosts(newSphere, e.idxI, e.idxJ);
         updateEdgesAfterCollapse(e.idxI, e.idxJ);
         updateTrianglessAfterCollapse(e.idxI, e.idxJ);
         
@@ -616,6 +700,15 @@ namespace SM {
         Sphere newSphere = Sphere();
         newSphere.addQuadric(sphere[i].getSphereQuadric());
         newSphere.addQuadric(sphere[j].getSphereQuadric());
+        
+//      FIXME: This is done only for rendering
+        for (int k = 0; k < sphere[i].vertices.size(); k++)
+            newSphere.addVertex(sphere[i].vertices[k]);
+        
+        for (int k = 0; k < sphere[j].vertices.size(); k++)
+            newSphere.addVertex(sphere[j].vertices[k]);
+//
+        
         newSphere.region = sphere[i].region;
         newSphere.region.join(sphere[j].region);
 
@@ -697,6 +790,60 @@ namespace SM {
         return collapseCosts.size();
     }
 
+    void SphereMesh::saveYAML(const std::string& path)
+    {
+        YAML::Emitter out;
+        
+        out << YAML::Comment("Sphere Mesh YAML @ author Davide Paolillo");
+        out << YAML::Key << "Spheres" << YAML::Value;
+        out << YAML::BeginSeq;
+            for (int i = 0; i < sphere.size(); i++)
+            {
+                out << YAML::BeginMap;
+                    out << YAML::Key << "Center" << YAML::Value;
+                    YAMLSerializeVector3(out, sphere[i].center);
+                    out << YAML::Key << "Radius" << YAML::Value << sphere[i].radius;
+                    out << YAML::Key << "Quadric" << YAML::Value;
+                    YAMLSerializeQuadric(out, sphere[i].quadric);
+                out << YAML::EndMap;
+            }
+        out << YAML::EndSeq;
+        out << YAML::Key << "Connectivity" << YAML::Value;
+        out << YAML::BeginMap;
+            out << YAML::Key << "Edges" << YAML::Value;
+            out << YAML::BeginSeq;
+                for (int i = 0; i < edge.size(); i++)
+                {
+                    out << YAML::BeginMap;
+                        out << YAML::Key << "E1" << YAML::Value << edge[i].i;
+                        out << YAML::Key << "E2" << YAML::Value << edge[i].j;
+                    out << YAML::EndMap;
+                }
+            out << YAML::EndSeq;
+            out << YAML::Key << "Triangles" << YAML::Value;
+            out << YAML::BeginSeq;
+                for (int i = 0; i < triangle.size(); i++)
+                {
+                    out << YAML::BeginMap;
+                        out << YAML::Key << "T0" << YAML::Value << triangle[i].i;
+                        out << YAML::Key << "T1" << YAML::Value << triangle[i].j;
+                        out << YAML::Key << "T2" << YAML::Value << triangle[i].k;
+                    out << YAML::EndMap;
+                }
+            out << YAML::EndSeq;
+        out << YAML::EndMap;
+        
+        
+        namespace fs = std::experimental::filesystem;
+        
+        fs::path cwd = fs::current_path();
+        
+        std::ofstream fout("SphereMesh.yaml");
+        std::cout << "File location: " << cwd << std::endl;
+        fout << out.c_str();
+        fout.close();
+    }
+
     Sphere::Sphere()
     {
         quadric = Quadric();
@@ -711,6 +858,8 @@ namespace SM {
         auto result = quadric.minimizer();
         this->center = result.toQuaternion().immaginary;
         this->radius = result.coordinates.w;
+        
+        this->vertices.push_back(vertex);
     }
 
     Sphere::Sphere(const Math::Vector3& center, double radius)
@@ -752,6 +901,35 @@ namespace SM {
              this->radius = this->region.directionalWidth;
         
 //        this->radius = Math::Math::clamp(0.01, DBL_MAX, this->radius);
+    }
+
+    void Sphere::addVertex(const Core::Vertex& vertex)
+    {
+        vertices.push_back(vertex);
+    }
+
+    void Sphere::renderAssociatedVertices(igl::opengl::glfw::Viewer &viewer)
+    {
+        const Math::Vector3 color = Math::Vector3(0, 1, 0);
+        
+        for (int i = 0; i < vertices.size(); i++)
+        {
+            // The point is inside the triangle
+            Core::Mesh s = Core::Mesh::generateSphereMesh(viewer, color);
+            
+            s.resize(0.01f);
+            s.translate(vertices[i].position);
+            
+            renderedSpheres.push_back(s.ID);
+        }
+    }
+
+    void Sphere::clearRenderedSpheres(igl::opengl::glfw::Viewer &viewer)
+    {
+        for (int i = 0; i < renderedSpheres.size(); i++)
+            viewer.data_list[renderedSpheres[i]].clear();
+        
+        renderedSpheres.clear();
     }
 
     Sphere Sphere::lerp(const Sphere &s, double t)

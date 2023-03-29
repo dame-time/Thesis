@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		4BC565F11624415F92D768D6 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 06E5B52F4165465AB3C32B75 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = C7F9F99D7D2D456B9B7A3F3F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				20B0946A39A84599A44F2F14 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				850D0BB764544DDEAE4547BC /* PBXTargetDependency */,
-				771FB1BCE9BD4DBB9E439DCF /* PBXTargetDependency */,
+				1B049F301D0A4E4EB50556A5 /* PBXTargetDependency */,
+				30BA08AFE4114C6BB9C42BB7 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		BB73BCB00AB04A37821E34F8 /* libigl-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1F9F8ABEA0124FA69057736E /* Build configuration list for PBXAggregateTarget "libigl-populate" */;
+			buildConfigurationList = CE298396CF4A4D0BB68699E0 /* Build configuration list for PBXAggregateTarget "libigl-populate" */;
 			buildPhases = (
 				8AF5B598BAFF9FBA12D211B3 /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-mkdir */,
 				A60224DD732AEFA6BBEDB99E /* Generate libigl-populate-prefix/src/libigl-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libigl-populate-download */,
@@ -36,14 +36,14 @@
 				E92D2877CB03175DD29DC2DA /* Generate CMakeFiles/libigl-populate */,
 			);
 			dependencies = (
-				2E02F2098C3A40E2B1984283 /* PBXTargetDependency */,
+				EA074CE9AA294A37982E8BCD /* PBXTargetDependency */,
 			);
 			name = "libigl-populate";
 			productName = "libigl-populate";
 		};
 		C0F729523FE742A58679AC3F /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C009A73ADF374FE1A350D736 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 57BA38AF0E304572BEB2C4BF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				F81194960A0BB0542B53AAE5 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -55,52 +55,52 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		192F5D5E34664E96B3DAD777 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		5AFCF1C312864F3C9EBD3E58 /* Release */ = {
+		9561E449E8C044418831FD43 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		D91A925F3B2F4D89B385C1EF /* MinSizeRel */ = {
+		9ABB93525D794467B19909D0 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		EC514CAB43EF4B4F892E5F50 /* Debug */ = {
+		B1C79A2095FE4BCCBB59195A /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		C0F8E32D8E9140DABE4555B5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		24C822714C244754A0A18C3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB73BCB00AB04A37821E34F8;
-			remoteInfo = "libigl-populate";
-		};
-		6F7011DE2C44423D96D714DA /* PBXContainerItemProxy */ = {
+		00645A524DC7484193452678 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C0F729523FE742A58679AC3F;
 			remoteInfo = ZERO_CHECK;
 		};
-		DBD8FA480E324DC6BB20628B /* PBXContainerItemProxy */ = {
+		42BB5377C1E34A79A692BE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB73BCB00AB04A37821E34F8;
+			remoteInfo = "libigl-populate";
+		};
+		B9FFE398472346A482D038A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB8C30B192BA4C2A81E49AD6 /* Project object */;
 			proxyType = 1;
@@ -110,63 +110,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1D60E7D26D4F3A8CB5D407 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		35657E5C3F70401C885BFD5B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ABD45AD639B04F21A7589B4A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BD95016A5FE2464A9501C0D3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0E8FF6054E00404381515401 /* Products */ = {
+		11439628369D40DC93C578C0 /* libigl-populate */ = {
+			isa = PBXGroup;
+			children = (
+				B85D9916FB7D4E2D8F08FF56 /* CMake Rules */,
+				ABD45AD639B04F21A7589B4A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
+			);
+			name = "libigl-populate";
+			sourceTree = "<group>";
+		};
+		4510FAAD06CC4733A9875B47 = {
+			isa = PBXGroup;
+			children = (
+				11439628369D40DC93C578C0 /* libigl-populate */,
+				E6DAD79F81724A0983D652D1 /* ALL_BUILD */,
+				5ED9D2979AC74C0FB6EA0A96 /* Products */,
+				D474FB3B6E2247D4ABC62825 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED9D2979AC74C0FB6EA0A96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35392825797E4028B3778148 /* libigl-populate */ = {
-			isa = PBXGroup;
-			children = (
-				7F7A93E9F4AB42A59B89B69E /* CMake Rules */,
-				35657E5C3F70401C885BFD5B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
-			);
-			name = "libigl-populate";
-			sourceTree = "<group>";
-		};
-		41E28CC02B8B4460800C54BB /* CMake Rules */ = {
+		7D17CA25FEC0493D903BD561 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		425F9F10517B4C17BB9D7B0B /* Frameworks */ = {
+		B85D9916FB7D4E2D8F08FF56 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D474FB3B6E2247D4ABC62825 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7F7A93E9F4AB42A59B89B69E /* CMake Rules */ = {
+		E6DAD79F81724A0983D652D1 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		9FF2336B02C14B3BA5D2144B = {
-			isa = PBXGroup;
-			children = (
-				35392825797E4028B3778148 /* libigl-populate */,
-				F7F9D2DFAD7E427F89538CDE /* ALL_BUILD */,
-				0E8FF6054E00404381515401 /* Products */,
-				425F9F10517B4C17BB9D7B0B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		F7F9D2DFAD7E427F89538CDE /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				41E28CC02B8B4460800C54BB /* CMake Rules */,
-				0A1D60E7D26D4F3A8CB5D407 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
+				7D17CA25FEC0493D903BD561 /* CMake Rules */,
+				BD95016A5FE2464A9501C0D3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -180,18 +180,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 2D029A1994C64D969207773C /* Build configuration list for PBXProject "libigl-populate" */;
+			buildConfigurationList = 9BF2F2143D97422897C01A3C /* Build configuration list for PBXProject "libigl-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				EC514CAB43EF4B4F892E5F50 /* Debug */,
-				5AFCF1C312864F3C9EBD3E58 /* Release */,
-				D91A925F3B2F4D89B385C1EF /* MinSizeRel */,
-				192F5D5E34664E96B3DAD777 /* RelWithDebInfo */,
+				B1C79A2095FE4BCCBB59195A /* Debug */,
+				9561E449E8C044418831FD43 /* Release */,
+				C0F8E32D8E9140DABE4555B5 /* MinSizeRel */,
+				9ABB93525D794467B19909D0 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 9FF2336B02C14B3BA5D2144B;
+			mainGroup = 4510FAAD06CC4733A9875B47;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -697,218 +697,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E02F2098C3A40E2B1984283 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C0F729523FE742A58679AC3F /* ZERO_CHECK */;
-			targetProxy = 6F7011DE2C44423D96D714DA /* PBXContainerItemProxy */;
-		};
-		771FB1BCE9BD4DBB9E439DCF /* PBXTargetDependency */ = {
+		1B049F301D0A4E4EB50556A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BB73BCB00AB04A37821E34F8 /* libigl-populate */;
-			targetProxy = 24C822714C244754A0A18C3C /* PBXContainerItemProxy */;
+			targetProxy = 42BB5377C1E34A79A692BE78 /* PBXContainerItemProxy */;
 		};
-		850D0BB764544DDEAE4547BC /* PBXTargetDependency */ = {
+		30BA08AFE4114C6BB9C42BB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C0F729523FE742A58679AC3F /* ZERO_CHECK */;
-			targetProxy = DBD8FA480E324DC6BB20628B /* PBXContainerItemProxy */;
+			targetProxy = 00645A524DC7484193452678 /* PBXContainerItemProxy */;
+		};
+		EA074CE9AA294A37982E8BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F729523FE742A58679AC3F /* ZERO_CHECK */;
+			targetProxy = B9FFE398472346A482D038A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0855D7B8566F4F9E9303BDF5 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		101248B9BEC04ADE9A61E453 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		29294D57BA1D496F9A6A4F43 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3D95EB81B6824631A6D728EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
-			};
-			name = Release;
-		};
-		451207D6E46A4A4AB6C079EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		537AB3F86A8C4E08944698EA /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "libigl-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		625F9E1C878F43899DEC999B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7058E60492244544B9039341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8C02C1A1B73840048EA4475A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A1AD2EFF00614498B0548337 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
-			};
-			name = MinSizeRel;
-		};
-		A4C3C952F1A34D448910FF4F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
-			};
-			name = RelWithDebInfo;
-		};
-		AB29FD79FA5F483F922C0EE9 /* MinSizeRel */ = {
+		089D8DD96F784D56A6EE4019 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -928,7 +735,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		CC297F4328B544C9ACE86FE9 /* Debug */ = {
+		19C48512481045EF9D7739EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -948,7 +755,7 @@ fi
 			};
 			name = Debug;
 		};
-		D98912AC61BB4219BEF16041 /* Debug */ = {
+		26D1C9AAF7374789B2B98DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -959,7 +766,138 @@ fi
 			};
 			name = Debug;
 		};
-		F8A3BB63FA024CC98D1A6582 /* Release */ = {
+		306780FB597A4398B8EE583D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		3A63D8BC94BC4A99B7862383 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		44ACBDAF83B14ED1B4D26761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		459B3AF5FB3B46F6872D6073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8CB0E78C4F344FAF87D6E42A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9FAADD941FB643A58AA38BBC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD3BAABC2A384CF1BFB93569 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B240C82B16724E2DB2E4D7BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -979,7 +917,49 @@ fi
 			};
 			name = Release;
 		};
-		F93C941944B14054BE06E8C9 /* Debug */ = {
+		B80D21D4FFB44FBEAC99BBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DE530256F96A44708C1303D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = Release;
+		};
+		E5D26D42AC174949ADD0405B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F77365C6D564499B86258E57 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -992,6 +972,26 @@ fi
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "libigl-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF28AEB92E2D459B82801BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-subbuild";
 				USE_HEADERMAP = NO;
@@ -1002,46 +1002,46 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06E5B52F4165465AB3C32B75 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		57BA38AF0E304572BEB2C4BF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				451207D6E46A4A4AB6C079EA /* Debug */,
-				7058E60492244544B9039341 /* Release */,
-				625F9E1C878F43899DEC999B /* MinSizeRel */,
-				29294D57BA1D496F9A6A4F43 /* RelWithDebInfo */,
+				19C48512481045EF9D7739EC /* Debug */,
+				44ACBDAF83B14ED1B4D26761 /* Release */,
+				AD3BAABC2A384CF1BFB93569 /* MinSizeRel */,
+				3A63D8BC94BC4A99B7862383 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1F9F8ABEA0124FA69057736E /* Build configuration list for PBXAggregateTarget "libigl-populate" */ = {
+		9BF2F2143D97422897C01A3C /* Build configuration list for PBXProject "libigl-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F93C941944B14054BE06E8C9 /* Debug */,
-				F8A3BB63FA024CC98D1A6582 /* Release */,
-				AB29FD79FA5F483F922C0EE9 /* MinSizeRel */,
-				537AB3F86A8C4E08944698EA /* RelWithDebInfo */,
+				26D1C9AAF7374789B2B98DC0 /* Debug */,
+				DE530256F96A44708C1303D4 /* Release */,
+				306780FB597A4398B8EE583D /* MinSizeRel */,
+				E5D26D42AC174949ADD0405B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D029A1994C64D969207773C /* Build configuration list for PBXProject "libigl-populate" */ = {
+		C7F9F99D7D2D456B9B7A3F3F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D98912AC61BB4219BEF16041 /* Debug */,
-				3D95EB81B6824631A6D728EB /* Release */,
-				A1AD2EFF00614498B0548337 /* MinSizeRel */,
-				A4C3C952F1A34D448910FF4F /* RelWithDebInfo */,
+				FF28AEB92E2D459B82801BB5 /* Debug */,
+				B80D21D4FFB44FBEAC99BBD4 /* Release */,
+				9FAADD941FB643A58AA38BBC /* MinSizeRel */,
+				8CB0E78C4F344FAF87D6E42A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C009A73ADF374FE1A350D736 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		CE298396CF4A4D0BB68699E0 /* Build configuration list for PBXAggregateTarget "libigl-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC297F4328B544C9ACE86FE9 /* Debug */,
-				101248B9BEC04ADE9A61E453 /* Release */,
-				0855D7B8566F4F9E9303BDF5 /* MinSizeRel */,
-				8C02C1A1B73840048EA4475A /* RelWithDebInfo */,
+				459B3AF5FB3B46F6872D6073 /* Debug */,
+				B240C82B16724E2DB2E4D7BE /* Release */,
+				089D8DD96F784D56A6EE4019 /* MinSizeRel */,
+				F77365C6D564499B86258E57 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

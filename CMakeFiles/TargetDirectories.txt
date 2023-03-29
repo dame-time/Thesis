@@ -25,3 +25,15 @@
 /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build/CMakeFiles/install.dir
 /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build/CMakeFiles/ALL_BUILD.dir
 /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build/CMakeFiles/ZERO_CHECK.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/Experimental.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/Nightly.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/Continuous.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/NightlyMemoryCheck.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/install.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/ALL_BUILD.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/CMakeFiles/ZERO_CHECK.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util/CMakeFiles/yaml-cpp-parse.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util/CMakeFiles/yaml-cpp-read.dir
+/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util/CMakeFiles/install.dir

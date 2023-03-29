@@ -21,7 +21,6 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/davidepaollilo/Worksp
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/libigl-src/cmake/recipes/external/triangle.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CheckCSourceCompiles.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CheckIncludeFile.c.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CheckIncludeFile.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/CheckLibraryExists.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FetchContent.cmake))
@@ -32,6 +31,16 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/FindThreads.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/GNUInstallDirs.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.22.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/davidepaollilo/Workspaces/C++/Thesis/CMakeFiles/cmake.verify_globs))
+
+.NOTPARALLEL:
+
+.PHONY: all VERIFY_GLOBS
+
+all: VERIFY_GLOBS /Users/davidepaollilo/Workspaces/C++/Thesis/CMakeFiles/cmake.check_cache
+
+VERIFY_GLOBS:
+	/usr/local/Cellar/cmake/3.22.3/bin/cmake -P /Users/davidepaollilo/Workspaces/C++/Thesis/CMakeFiles/VerifyGlobs.cmake
 
 /Users/davidepaollilo/Workspaces/C++/Thesis/CMakeFiles/cmake.check_cache: $(TARGETS)
 	/usr/local/Cellar/cmake/3.22.3/bin/cmake -H/Users/davidepaollilo/Workspaces/C++/Thesis -B/Users/davidepaollilo/Workspaces/C++/Thesis

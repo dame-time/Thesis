@@ -1,0 +1,118 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e99967a060cc6f057e718b3afea46fe7beb7"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999858b09f8bd51eb1444d473022a39d986"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999eed7ac4d7d4f9ffe8cac03af4a75b8bd"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e99903ebdd70dee45f8cf40b4e0e0ee7534d"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999e7a62166fd91c189fa669889cc6637c2"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999922ad359654391742f5a6ab52ce62e09"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999a7524b383d8ea861b942548941d4e93a"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999d3394e5d46c898f9bed072f73e873cde"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999db5c2bf0677dbff5a38b6888aff990bd"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e9991ee187a3fef317edb7dfd06e7d4744b8"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e9997ef1304bc3a951fbb7797be9815be1b5"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e9999c689828532545e969a8331f0169e1ab"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e9996d2c509ace525d2f9de2c193639e47a8"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999a293d95335325302e000bcb50b3e0180"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999adfb185249945ed97d20398fa195fb07"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e9990f2279047537ca732ca5a4a9e6c69849"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999b7ae26a32448762db38741a4b71f42fa"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999f6f3ddcdc76a04f7bab2d125fa1077f7"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999111baeaa7ce7e310d2a2b579416f2ae0"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999f63b9a9bb8a500f5aab5d3b73eedeeea"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999cff1635d047c330221f68862b607c8cf"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e999bd598a934092403cb1c2029bf5113d95"
+    },
+    {
+      "guid" : "ed0217f88d9eb748ffc535c2c132e99937df8f0cbbb146dac8e9ff3dcd9c34fb"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/davidepaollilo/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/davidepaollilo/Library/Developer/Xcode/DerivedData/Thesis-gwzaxghyikozjkhldjxficdwyvgj/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/davidepaollilo/Library/Developer/Xcode/DerivedData/Thesis-gwzaxghyikozjkhldjxficdwyvgj/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_UNDEFINED_BEHAVIOR_SANITIZER" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -23,6 +23,9 @@ BUILD_LIBRARY:BOOL=ON
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
 
+//Build the testing tree.
+BUILD_TESTING:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -265,6 +268,22 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to the coverage program that CTest uses for performing coverage
+// inspection
+COVERAGE_COMMAND:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/gcov
+
+//Extra command line flags to pass to the coverage tool
+COVERAGE_EXTRA_FLAGS:STRING=-l
+
+//How many times to retry timed-out CTest submissions.
+CTEST_SUBMIT_RETRY_COUNT:STRING=3
+
+//How long to wait between timed-out CTest submissions.
+CTEST_SUBMIT_RETRY_DELAY:STRING=5
+
+//Maximum time allowed before CTest will kill the test.
+DART_TESTING_TIMEOUT:STRING=1500
+
 //Compile Eigen with MPL2 code only
 EIGEN_MPL2_ONLY:BOOL=OFF
 
@@ -310,6 +329,10 @@ FETCHCONTENT_SOURCE_DIR_LIBIGL_IMGUI_FONTS:PATH=
 // for triangle
 FETCHCONTENT_SOURCE_DIR_TRIANGLE:PATH=
 
+//When not empty, overrides where to find pre-populated content
+// for yaml_cpp
+FETCHCONTENT_SOURCE_DIR_YAML_CPP:PATH=
+
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
@@ -336,6 +359,12 @@ FETCHCONTENT_UPDATES_DISCONNECTED_LIBIGL_IMGUI_FONTS:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of triangle
 FETCHCONTENT_UPDATES_DISCONNECTED_TRIANGLE:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of yaml_cpp
+FETCHCONTENT_UPDATES_DISCONNECTED_YAML_CPP:BOOL=OFF
+
+//Path to a program.
+GITCOMMAND:FILEPATH=/Applications/Xcode.app/Contents/Developer/usr/bin/git
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/local/bin/git
@@ -427,6 +456,15 @@ LIBIGL_WITH_OPENGL_GLFW_IMGUI:BOOL=ON
 //Build target igl::xml
 LIBIGL_XML:BOOL=OFF
 
+//Command to build the project
+MAKECOMMAND:STRING=/usr/local/Cellar/cmake/3.22.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+
+//Path to the memory checking command, used for memory error detection.
+MEMORYCHECK_COMMAND:FILEPATH=/usr/local/bin/valgrind
+
+//File that contains suppressions for the memory checker
+MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
+
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework
 
@@ -436,6 +474,9 @@ OPENGL_gl_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework
 
+//Name of the computer/site where compile is being run
+SITE:STRING=Galaxy-A51-de-Esprit.station
+
 //Value Computed by CMake
 Thesis_BINARY_DIR:STATIC=/Users/davidepaollilo/Workspaces/C++/Thesis
 
@@ -444,6 +485,30 @@ Thesis_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Thesis_SOURCE_DIR:STATIC=/Users/davidepaollilo/Workspaces/C++/Thesis
+
+//Build yaml-cpp shared library
+YAML_BUILD_SHARED_LIBS:BOOL=OFF
+
+//Value Computed by CMake
+YAML_CPP_BINARY_DIR:STATIC=/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build
+
+//Enable yaml-cpp contrib in library
+YAML_CPP_BUILD_CONTRIB:BOOL=ON
+
+//Enable parse tools
+YAML_CPP_BUILD_TOOLS:BOOL=ON
+
+//Path to a program.
+YAML_CPP_CLANG_FORMAT_EXE:FILEPATH=YAML_CPP_CLANG_FORMAT_EXE-NOTFOUND
+
+//Format source
+YAML_CPP_FORMAT_SOURCE:BOOL=ON
+
+//Value Computed by CMake
+YAML_CPP_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+YAML_CPP_SOURCE_DIR:STATIC=/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src
 
 //Value Computed by CMake
 glad_BINARY_DIR:STATIC=/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/glad-build
@@ -495,6 +560,8 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
 CMAKE_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/cpack
+//ADVANCED property for variable: CMAKE_CTEST_COMMAND
+CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.22.3/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -597,7 +664,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -640,12 +707,38 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: COVERAGE_COMMAND
+COVERAGE_COMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
+COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
+CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
+CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+Continuous_GUID_CMAKE:INTERNAL=3D55A2A491DB4FB7A05AE8BE
+//ADVANCED property for variable: DART_TESTING_TIMEOUT
+DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+Experimental_GUID_CMAKE:INTERNAL=779F53483A514704B7889A57
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework][cfound components: OpenGL ][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MAKECOMMAND
+MAKECOMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MEMORYCHECK_COMMAND
+MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
+MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+NightlyMemoryCheck_GUID_CMAKE:INTERNAL=241F22E0662E4ABF9ECFEE06
+//Stored Xcode object GUID
+Nightly_GUID_CMAKE:INTERNAL=ED793309F320413B8D28F13A
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
@@ -657,13 +750,19 @@ PROJECT_GLFW_GUID_CMAKE:INTERNAL=5B43EECA30A64C89AA779787
 //Stored Xcode object GUID
 PROJECT_Thesis_GUID_CMAKE:INTERNAL=742F0203B2BD4E59926E165B
 //Stored Xcode object GUID
+PROJECT_YAML_CPP_GUID_CMAKE:INTERNAL=4A35AC4085DF4C04B189B379
+//Stored Xcode object GUID
 PROJECT_glad_GUID_CMAKE:INTERNAL=4BD4EBF93CAF4DFFA5626405
 //Stored Xcode object GUID
 PROJECT_libigl_GUID_CMAKE:INTERNAL=D52CB5EC602E4480A7BAA241
 //Stored Xcode object GUID
 PROJECT_triangle_GUID_CMAKE:INTERNAL=B2E651B849004ABEB8DCDA3C
+//ADVANCED property for variable: SITE
+SITE-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
 Thesis_GUID_CMAKE:INTERNAL=7EDF99376B7A4E989FB20A57
+//Enable generation of yaml-cpp install targets
+YAML_CPP_INSTALL:INTERNAL=OFF
 //Stored Xcode object GUID
 ZERO_CHECK_GUID_CMAKE:INTERNAL=BDAD338ED8EE49F7A60E8446
 //CMAKE_INSTALL_PREFIX during last run
@@ -690,4 +789,14 @@ imguizmo_GUID_CMAKE:INTERNAL=EC0F43DEA81B411EB7060B5B
 install_GUID_CMAKE:INTERNAL=64165CD79904475D86A3EC42
 //Stored Xcode object GUID
 triangle_GUID_CMAKE:INTERNAL=C5B753465F1040E988B49228
+//Stored Xcode object GUID
+uninstall_GUID_CMAKE:INTERNAL=E023C0C8432B4FF9A8F40805
+//Stored Xcode object GUID
+yaml-cpp-parse_GUID_CMAKE:INTERNAL=0D3D929F581E49CC8DA88C02
+//Stored Xcode object GUID
+yaml-cpp-read_GUID_CMAKE:INTERNAL=C56D4D69375148CC9654F4FA
+//Stored Xcode object GUID
+yaml-cpp-sandbox_GUID_CMAKE:INTERNAL=2DF62F2DE52C4A6087AC864A
+//Stored Xcode object GUID
+yaml-cpp_GUID_CMAKE:INTERNAL=42A36B1F0B3941288476E1B0
 
