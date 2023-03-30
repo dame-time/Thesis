@@ -170,6 +170,11 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm
     {
         sm.saveYAML();
     }
+    
+    if (ImGui::Button("Save Sphere Mesh To TXT"))
+    {
+        sm.saveTXT();
+    }
 
     // End the ImGui window
     ImGui::End();

@@ -790,7 +790,7 @@ namespace SM {
         return collapseCosts.size();
     }
 
-    void SphereMesh::saveYAML(const std::string& path)
+    void SphereMesh::saveYAML(const std::string& path, const std::string& fn)
     {
         YAML::Emitter out;
         
@@ -838,9 +838,68 @@ namespace SM {
         
         fs::path cwd = fs::current_path();
         
-        std::ofstream fout("SphereMesh.yaml");
+        std::string separator = std::string(1, fs::path::preferred_separator);
+        
+        std::string filePath = fn;
+        std::string folderPath = "." + separator;
+        if (path != ".")
+        {
+            folderPath = path;
+        }
+        
+        std::ofstream fout(folderPath + filePath);
         std::cout << "File location: " << cwd << std::endl;
         fout << out.c_str();
+        fout.close();
+    }
+
+    void SphereMesh::saveTXT(const std::string& path, const std::string& fn)
+    {
+        std::string fileContent = "#Sphere Mesh TXT \n";
+        
+        fileContent += " ------- \n";
+        fileContent += "Spheres - " + std::to_string(sphere.size()) + " : \n";
+        
+        for (int i = 0; i < sphere.size(); i++)
+        {
+            Math::Vector4 s = Math::Vector4(sphere[i].center[0], sphere[i].center[1], sphere[i].center[2], sphere[i].radius);
+            fileContent += "\t- Sphere " + std::to_string(i) + " : ( " + std::to_string(s[0]) + ", " + std::to_string(s[1]) + ", " + std::to_string(s[2]) + ", " + std::to_string(s[3]) + " ) \n";
+        }
+        
+        fileContent += " ------- \n";
+        fileContent += "Connectivity \n";
+        
+        if (triangle.size() > 0)
+            fileContent += "\tTriangles - " + std::to_string(triangle.size()) + " : \n";
+        for (int i = 0; i < triangle.size(); i++)
+        {
+            fileContent += "\t\t- Triangle " + std::to_string(i) + " : ( " + std::to_string(triangle[i].i) + ", " + std::to_string(triangle[i].j) + ", " + std::to_string(triangle[i].k) + " ) \n";
+        }
+        
+        if (edge.size() > 0)
+            fileContent += "\tEdges - " + std::to_string(edge.size()) + " : \n";
+        for (int i = 0; i < edge.size(); i++)
+        {
+            fileContent += "\t\t- Edge " + std::to_string(i) + " : ( " + std::to_string(edge[i].i) + ", " + std::to_string(edge[i].j) + " ) \n";
+        }
+        fileContent += " ==================== \n";
+        
+        namespace fs = std::experimental::filesystem;
+        
+        fs::path cwd = fs::current_path();
+        
+        std::string separator = std::string(1, fs::path::preferred_separator);
+        
+        std::string filePath = fn;
+        std::string folderPath = "." + separator;
+        if (path != ".")
+        {
+            folderPath = path;
+        }
+        
+        std::ofstream fout(folderPath + filePath);
+        std::cout << "File location: " << cwd << std::endl;
+        fout << fileContent.c_str();
         fout.close();
     }
 

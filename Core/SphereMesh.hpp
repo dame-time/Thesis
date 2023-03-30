@@ -273,7 +273,8 @@ namespace SM
             bool canCollapseSphereMesh();
             int maxNumberOfCollapses();
         
-            void saveYAML(const std::string& path = ".");
+            void saveYAML(const std::string& path = ".", const std::string& fileName = "SphereMesh.yaml");
+            void saveTXT(const std::string& path = ".", const std::string& fileName = "SphereMesh.txt");
             
             void clear();
     };
