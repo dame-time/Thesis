@@ -245,10 +245,8 @@ int main(int argc, char *argv[])
                 }
             }
 
-            if (picked_mesh >= 0) {
-                std::cout << "Picked mesh index: " << picked_mesh << std::endl;
+            if (picked_mesh >= 0)
                 sm.renderSphereVertices(picked_mesh);
-            }
 
             return false;
         };

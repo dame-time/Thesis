@@ -9,8 +9,6 @@
 #include <Eigen/Core>
 #include <Eigen/SparseCore>
 
-#include <MeshUtils.hpp>
-
 #include <vector>
 #include <string>
 
@@ -71,8 +69,6 @@ namespace Core {
             void resize(const Math::Vector3& size);
             void translate(const Math::Vector3& translation);
 
-            void simplifyMesh(const int& targetVertices);
-
             double getRadius();
 
             void setMeshNotFilled();
@@ -97,10 +93,6 @@ namespace Core {
 
             static Mesh generateSphereMesh(igl::opengl::glfw::Viewer &currentViewer, Math::Vector3 color)
             {
-                // static Eigen::MatrixXd vtx;
-                // static Eigen::MatrixXi fcs;
-                // static Eigen::MatrixXd nrm;
-
                 Mesh s = Mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", currentViewer);
 
                 s.addToScene();

@@ -1,8 +1,5 @@
 #include "../Mesh.hpp"
 
-#include "../SQEM.h"
-#include "../MinimumBoundingSphere.hpp"
-
 #include <igl/triangle/triangulate.h>
 #include <igl/readOBJ.h>
 #include <igl/centroid.h>
@@ -168,44 +165,6 @@ namespace Core {
         }
 
         return Q;
-    }
-
-    void Mesh::simplifyMesh(const int& targetVertices)
-    {
-        auto isManifold = igl::is_edge_manifold(f);
-        if (isManifold == false)
-        {
-            std::cout << "Mesh is not manifold!" << std::endl;
-            return;
-        }
-
-        std::cout << "Vertices before: " << v.rows() << std::endl;
-        std::cout << "Faces before: " << f.rows() << std::endl;
-
-        // Initialize simplified mesh with the original mesh
-        // Eigen::MatrixXd vtx = v;
-        // Eigen::MatrixXi fcs = f;
-        // Eigen::VectorXi J, I;
-
-        // std::cout << v.size() << std::endl;
-
-        // igl::qslim(v, f, targetVertices, vtx, fcs, J, I);
-
-        // std::cout << vtx.size() << std::endl;
-
-        // v = vtx;
-        // f = fcs;
-
-        simplify_quadric_error(v, f, targetVertices);
-
-        n.resize(v.rows(), v.cols());
-        igl::per_face_normals(v, f, n);
-
-        matrixToVertices();
-        matrixToFaces();
-
-        std::cout << "Vertices after: " << v.rows() << std::endl;
-        std::cout << "Faces after: " << f.rows() << std::endl;
     }
 
     void Mesh::resize(const double& size) {

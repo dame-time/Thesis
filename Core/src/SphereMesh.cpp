@@ -557,7 +557,6 @@ namespace SM {
         for (int k = 0; k < sphere[j].vertices.size(); k++)
             newSphere.addVertex(sphere[j].vertices[k]);
 //
-        std::cout << "New Sphere vertices -> " << sphere[j].vertices.size() + sphere[i].vertices.size() << std::endl;
         
         newSphere.region.join(collapsedSphereA.region);
         newSphere.region.join(collapsedSphereB.region);
