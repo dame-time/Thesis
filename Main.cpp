@@ -21,7 +21,7 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm
     ImGui::SetNextWindowContentSize(ImVec2(500, 500));
     // Start a new ImGui window
     ImGui::Begin("My Custom Window");
-
+    
     // Create a button
     if (ImGui::Button("Collapse Best BF Sphere Mesh Edge"))
     {
@@ -175,83 +175,140 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, SM::SphereMesh& sm
     {
         sm.saveTXT();
     }
-
+    
+    ImGui::Separator();
+    
+    ImGui::Text("Click over a sphere in order to select it for collapse and visualize its relative vertices");
+    ImGui::Text("Press 'R' to reset the selection");
+    ImGui::Text("Press 'C' to collapse the last two spheres selected");
+    ImGui::Text("Press 'E' to reset the Sphere Mesh to the original Sphere Mesh");
+    
     // End the ImGui window
     ImGui::End();
 }
 
+int selectSphere(igl::opengl::glfw::Viewer &viewer, Core::Mesh& mesh, SM::SphereMesh& sm)
+{
+    float x = viewer.current_mouse_x;
+    float y = viewer.core().viewport(3) - viewer.current_mouse_y;
+    Eigen::Vector2f click_pos(x, y);
+    
+    int picked_mesh = -1;
+    int picked_face = -1;
+    float min_distance = std::numeric_limits<float>::max();
+    Eigen::Vector3f bc;
+    
+    // Iterate over all meshes to find the closest intersection
+    for (size_t i = 0; i < viewer.data_list.size(); ++i) {
+        int fid;
+        Eigen::Vector3f _bc;
+        
+        if (i == mesh.ID)
+            continue;
+        
+        if (igl::unproject_onto_mesh(click_pos, viewer.core().view, viewer.core().proj, viewer.core().viewport,
+                                     viewer.data_list[i].V, viewer.data_list[i].F, fid, _bc)) {
+            Eigen::Vector3f intersection = viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 0)).cast<float>() * _bc(0) +
+            viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 1)).cast<float>() * _bc(1) +
+            viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 2)).cast<float>() * _bc(2);
+            
+            Eigen::Vector3f click_pos_3d;
+            Eigen::Vector3f click_pos_3f(x, y, 0.0f);
+            igl::unproject(click_pos_3f, viewer.core().view, viewer.core().proj, viewer.core().viewport,
+                           click_pos_3d);
+            float distance = (intersection - click_pos_3d).squaredNorm();
+            
+            if (distance < min_distance) {
+                min_distance = distance;
+                picked_mesh = i;
+                picked_face = fid;
+                bc = _bc;
+            }
+        }
+    }
+    
+    if (picked_mesh >= 0)
+        sm.renderSphereVertices(picked_mesh);
+    
+    return picked_mesh;
+}
+
 int main(int argc, char *argv[])
 {
-  igl::opengl::glfw::Viewer viewer;
-
-//  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/hand-1000.obj", viewer);
-  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/camel-poses/camel-reference-600.obj", viewer);
-  SM::SphereMesh sm(mesh, viewer);
-
-  sm.renderSpheresOnly();
-  mesh.addToScene();
-
-  // mesh.resize(10.0);
-
-  // Set up the ImGui plugin
-  igl::opengl::glfw::imgui::ImGuiPlugin imgui_plugin;
-  viewer.plugins.push_back(&imgui_plugin);
-  igl::opengl::glfw::imgui::ImGuiMenu menu;
-  imgui_plugin.widgets.push_back(&menu);
+    static std::vector<int> pickedMeshes;
+    igl::opengl::glfw::Viewer viewer;
     
-  menu.callback_draw_custom_window = [&]()
-  {
-      drawImGuiMenu(menu, sm);
-  };
-
+    std::string path = "/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/camel-poses/camel-reference-600.obj";
+    
+    //  Core::Mesh mesh("/Users/davidepaollilo/Workspaces/C++/Thesis/Assets/Models/hand-1000.obj", viewer);
+    Core::Mesh mesh(path, viewer);
+    SM::SphereMesh sm(mesh, viewer);
+    
+    sm.renderSpheresOnly();
+    mesh.addToScene();
+    
+    // mesh.resize(10.0);
+    
+    // Set up the ImGui plugin
+    igl::opengl::glfw::imgui::ImGuiPlugin imgui_plugin;
+    viewer.plugins.push_back(&imgui_plugin);
+    igl::opengl::glfw::imgui::ImGuiMenu menu;
+    imgui_plugin.widgets.push_back(&menu);
+    
+    menu.callback_draw_custom_window = [&]()
+    {
+        drawImGuiMenu(menu, sm);
+    };
+    
     // Callback for when the mouse is clicked
     viewer.callback_mouse_down =
-        [&](igl::opengl::glfw::Viewer &viewer, int, int) -> bool {
-            float x = viewer.current_mouse_x;
-            float y = viewer.core().viewport(3) - viewer.current_mouse_y;
-            Eigen::Vector2f click_pos(x, y);
-
-            int picked_mesh = -1;
-            int picked_face = -1;
-            float min_distance = std::numeric_limits<float>::max();
-            Eigen::Vector3f bc;
-
-            // Iterate over all meshes to find the closest intersection
-            for (size_t i = 0; i < viewer.data_list.size(); ++i) {
-                int fid;
-                Eigen::Vector3f _bc;
-                
-                if (i == mesh.ID)
-                    continue;
-
-                if (igl::unproject_onto_mesh(click_pos, viewer.core().view, viewer.core().proj, viewer.core().viewport,
-                                             viewer.data_list[i].V, viewer.data_list[i].F, fid, _bc)) {
-                    Eigen::Vector3f intersection = viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 0)).cast<float>() * _bc(0) +
-                                                    viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 1)).cast<float>() * _bc(1) +
-                                                    viewer.data_list[i].V.row(viewer.data_list[i].F(fid, 2)).cast<float>() * _bc(2);
-                    
-                    Eigen::Vector3f click_pos_3d;
-                    Eigen::Vector3f click_pos_3f(x, y, 0.0f);
-                    igl::unproject(click_pos_3f, viewer.core().view, viewer.core().proj, viewer.core().viewport,
-                                   click_pos_3d);
-                    float distance = (intersection - click_pos_3d).squaredNorm();
-
-                    if (distance < min_distance) {
-                        min_distance = distance;
-                        picked_mesh = i;
-                        picked_face = fid;
-                        bc = _bc;
-                    }
-                }
-            }
-
-            if (picked_mesh >= 0)
-                sm.renderSphereVertices(picked_mesh);
-
-            return false;
-        };
+    [&](igl::opengl::glfw::Viewer &viewer, int button, int) -> bool {
+        int pickedMesh = selectSphere(viewer, mesh, sm);
+        if (pickedMesh >= 0)
+        {
+            pickedMeshes.push_back(pickedMesh);
+            sm.colorSelectedSphere(pickedMesh);
+        }
+        
+        return false;
+    };
     
-  mesh.setMeshNotFilled();
-
-  viewer.launch();
+    viewer.callback_key_down = [&](igl::opengl::glfw::Viewer &viewer, unsigned int key, int modifiers) -> bool {
+        if (key == GLFW_KEY_C) { // Replace 'X' with the key you want to use
+            if (pickedMeshes.size() < 2)
+                return false;
+            
+            if (pickedMeshes[pickedMeshes.size() - 1] == pickedMeshes[pickedMeshes.size() - 2])
+                return false;
+            
+            sm.clearRenderedMeshes();
+            sm.collapse(pickedMeshes[pickedMeshes.size() - 1], pickedMeshes[pickedMeshes.size() - 2]);
+            sm.renderSpheresOnly();
+            pickedMeshes.clear();
+            
+            return true;
+        }
+        
+        if (key == GLFW_KEY_R)
+        {
+            pickedMeshes.clear();
+            sm.resetColorOfSpheres();
+            sm.clearRenderedSphereVertices();
+            return true;
+        }
+        
+        if (key == GLFW_KEY_E)
+        {
+            sm.clearRenderedMeshes();
+            sm.reset();
+            sm.renderSpheresOnly();
+            return true;
+        }
+        
+        return false;
+    };
+    
+    mesh.setMeshNotFilled();
+    
+    viewer.launch();
 }

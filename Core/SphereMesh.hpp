@@ -204,6 +204,7 @@ namespace SM
             std::vector<CollapsableEdge> collapseCosts;
             
             std::vector<Sphere> sphere;
+            std::vector<Sphere> initialSpheres;
             
             std::vector<Triangle> triangle;
             std::vector<Edge> edge;
@@ -257,6 +258,9 @@ namespace SM
             void renderSphereVertices(int i);
             void clearRenderedSphereVertices();
         
+            void colorSelectedSphere(int i);
+            void resetColorOfSpheres();
+        
             void clearRenderedEdges();
             void clearRenderedMeshes();
             
@@ -277,5 +281,7 @@ namespace SM
             void saveTXT(const std::string& path = ".", const std::string& fileName = "SphereMesh.txt");
             
             void clear();
+        
+            void reset();
     };
 }

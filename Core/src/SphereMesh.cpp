@@ -76,6 +76,8 @@ namespace SM {
         initializeSpheres(vertices);
         
         computeSpheresProperties(vertices);
+        
+        initialSpheres = sphere;
     }
 
     void SphereMesh::computeAABB(const std::vector<Core::Vertex>& vertices)
@@ -251,11 +253,7 @@ namespace SM {
                     double totalK1 = 0.33 * vertices[triangle[j].i].curvature[0] + 0.33 * vertices[triangle[j].j].curvature[0] + 0.33 * vertices[triangle[j].k].curvature[0];
                     double totalK2 = 0.33 * vertices[triangle[j].i].curvature[1] + 0.33 * vertices[triangle[j].j].curvature[1] + 0.33 * vertices[triangle[j].k].curvature[1];
                     
-//                    TODO: Chiedi al prof quale dei due e' meglio
                     weight *= (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
-//                    weight = (weight + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
-//                    weight = (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
-//                    weight += (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
 
                     sphere[i].addFace(centroid, normal, weight);
                     sphere[i].region.addVertex(vertices[triangle[j].i].position);
@@ -516,7 +514,31 @@ namespace SM {
     void SphereMesh::clearRenderedSphereVertices()
     {
         for (int idx = 0; idx < sphere.size(); idx++)
-            sphere[idx].clearRenderedSpheres(viewer);
+            sphere[idx].clearRenderedSpheres(this->viewer);
+    }
+
+    void SphereMesh::colorSelectedSphere(int i)
+    {
+        for (int idx = 0; idx < i; idx++)
+            if (sphere[idx].renderedMeshID == i)
+            {
+                Eigen::MatrixXd C(this->viewer.data_list[sphere[idx].renderedMeshID].F.rows(), 3);
+                C.rowwise() = Eigen::RowVector3d(0, 0, 1);
+                
+                this->viewer.data_list[sphere[idx].renderedMeshID].set_colors(C);
+                return;
+            }
+    }
+
+    void SphereMesh::resetColorOfSpheres()
+    {
+        for (int idx = 0; idx < sphere.size(); idx++)
+        {
+            Eigen::MatrixXd C(this->viewer.data_list[sphere[idx].renderedMeshID].F.rows(), 3);
+            C.rowwise() = Eigen::RowVector3d(1, 0, 0);
+            
+            this->viewer.data_list[sphere[idx].renderedMeshID].set_colors(C);
+        }
     }
 
     void SphereMesh::clearRenderedEdges()
@@ -687,6 +709,20 @@ namespace SM {
 
     void SphereMesh::collapse(int i, int j)
     {
+        for (int idx = 0; idx < sphere.size(); idx++)
+            if (sphere[idx].renderedMeshID == i)
+            {
+                i = idx;
+                break;
+            }
+        
+        for (int idx = 0; idx < sphere.size(); idx++)
+            if (sphere[idx].renderedMeshID == j)
+            {
+                j = idx;
+                break;
+            }
+        
         assert(i != j);
         assert(i < sphere.size());
         assert(j < sphere.size());
@@ -715,24 +751,8 @@ namespace SM {
 
         sphere[j] = sphere.back();
 
-        int last = sphere.size() - 1;
-        sphere.pop_back();
-
-        for (Edge& e : edge) {
-            if (e.i == j) e.i = i;
-            if (e.j == j) e.j = i;
-            if (e.i == last) e.i = j;
-            if (e.j == last) e.j = j;
-        }
-
-        for (Triangle& t : triangle) {
-            if (t.i == j) t.i = i;
-            if (t.j == j) t.j = i;
-            if (t.k == j) t.k = i;
-            if (t.i == last) t.i = j;
-            if (t.j == last) t.j = j;
-            if (t.k == last) t.k = j;
-        }
+        updateEdgesAfterCollapse(i, j);
+        updateTrianglessAfterCollapse(i, j);
 
         removeDegenerates();
     }
@@ -902,6 +922,11 @@ namespace SM {
         fout.close();
     }
 
+    void SphereMesh::reset()
+    {
+        sphere = initialSpheres;
+    }
+
     Sphere::Sphere()
     {
         quadric = Quadric();
@@ -938,12 +963,9 @@ namespace SM {
         auto result = quadric.minimizer();
         this->center = result.toQuaternion().immaginary;
         this->radius = result.coordinates.w;
-//        this->radius = Math::Math::clamp(0.0, DBL_MAX, this->radius);
 
          if (this->radius > this->region.directionalWidth)
              this->radius = this->region.directionalWidth;
-        
-//        this->radius = Math::Math::clamp(0.01, DBL_MAX, this->radius);
     }
 
     void Sphere::addQuadric(const Quadric& q)
@@ -953,12 +975,9 @@ namespace SM {
         auto result = quadric.minimizer();
         this->center = result.toQuaternion().immaginary;
         this->radius = result.coordinates.w;
-//        this->radius = Math::Math::clamp(0.0, DBL_MAX, this->radius);
 
          if (this->radius > this->region.directionalWidth)
              this->radius = this->region.directionalWidth;
-        
-//        this->radius = Math::Math::clamp(0.01, DBL_MAX, this->radius);
     }
 
     void Sphere::addVertex(const Core::Vertex& vertex)
