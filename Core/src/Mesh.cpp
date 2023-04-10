@@ -4,7 +4,7 @@
 #include <igl/readOBJ.h>
 #include <igl/centroid.h>
 #include <igl/opengl/glfw/Viewer.h>
-#include <igl/per_face_normals.h>
+#include <igl/per_vertex_normals.h>
 #include <igl/principal_curvature.h>
 
 #include <igl/is_edge_manifold.h>
@@ -39,25 +39,36 @@ namespace Core {
 
         matrixToVertices();
         matrixToFaces();
+        
+        updateAABB();
     }
 
     Mesh::Mesh(const std::string& path, igl::opengl::glfw::Viewer &currentViewer) : ID(this->_ID), viewer(currentViewer) {
         this->_ID = -1;
 
         igl::readOBJ(path, v, f);
-        igl::per_face_normals(v, f, n);
+        igl::per_vertex_normals(v, f, n);
 
         this->triangulateQuads(v, f, n);
 
         // Translate the mesh to the origin
         v = v.rowwise() - getCenterOfMass();
 
-        igl::per_face_normals(v, f, n);
+        igl::per_vertex_normals(v, f, n);
 
         matrixToVertices();
         matrixToFaces();
         
         computePerVertexCurvature();
+        
+        updateAABB();
+    }
+
+    void Mesh::updateAABB()
+    {
+        bbox = AABB();
+        for (int i = 0; i < vertices.size(); i++)
+            bbox.addPoint(vertices[i].position);
     }
 
     void Mesh::matrixToVertices() {
@@ -133,7 +144,7 @@ namespace Core {
             V = V_out;
             F = F_out;
 
-            igl::per_face_normals(V, F, N);
+            igl::per_vertex_normals(V, F, N);
         }
     }
 
@@ -174,8 +185,6 @@ namespace Core {
             v.row(i)[2] *= size;
         }
         matrixToVertices();
-        // igl::per_face_normals(this->v, this->f, this->n);
-        // matrixToNormals();
 
         viewer.data_list[this->ID].set_mesh(v, f);
         viewer.data_list[this->ID].set_normals(n);

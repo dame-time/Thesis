@@ -20,7 +20,7 @@ namespace SM
         A.setColumnVector(3, Math::Vector4(faceNormal, 1));
         
         Math::Vector4 omogeneousFaceNormalPoint = Math::Vector4(faceNormal, 1);
-        b = omogeneousFaceNormalPoint * (2 * -faceNormal.dot(faceOrigin));
+        b = omogeneousFaceNormalPoint * (-2 * faceNormal.dot(faceOrigin));
 
         c = faceNormal.dot(faceOrigin) * faceNormal.dot(faceOrigin);
     }
@@ -63,8 +63,7 @@ namespace SM
 
     double Quadric::evaluateSQEM (const Math::Vector4 &s)
     {
-//        return 0.5 * s.dot(A * s) - 2 * b.dot(s) + c;
-        return s.dot(A * s) - 2 * b.dot(s) + c;
+        return s.dot(A * s) + b.dot(s) + c;
     }
 
     Math::Vector4 Quadric::minimizer()
@@ -85,22 +84,38 @@ namespace SM
         if (result.coordinates.w < 0)
         {
             const int newQuadricWeight = 1000;
-            
+
             Quadric q = Quadric();
-            
+
             q.A = Math::Matrix4(0, 0, 0, 0,
                                 0, 0, 0, 0,
                                 0, 0, 0, 0,
                                 0, 0, 0, 1);
             q.b = Math::Vector4(0, 0, 0, -minRadius * 2);
             q.c = minRadius;
-            
+
             auto newQ = *this + (q * newQuadricWeight);
-            
+
             result = newQ.A.inverse() * (-newQ.b/2);
         }
 
         return result;
+    }
+
+    void Quadric::addQuadricToTargetRadius(const double& t)
+    {
+        const int newQuadricWeight = 1000;
+
+        Quadric q = Quadric();
+
+        q.A = Math::Matrix4(0, 0, 0, 0,
+                            0, 0, 0, 0,
+                            0, 0, 0, 0,
+                            0, 0, 0, 1);
+        q.b = Math::Vector4(0, 0, 0, -t * 2);
+        q.c = t;
+
+        *this = *this + q * newQuadricWeight;
     }
 
     void Quadric::print ()

@@ -11,6 +11,8 @@
 
 #include <vector>
 #include <string>
+#include <limits>
+#include <cfloat>
 
 namespace Core {
     struct Face 
@@ -32,6 +34,28 @@ namespace Core {
         Vertex(const Math::Vector3& p, const Math::Vector3& n) : position(p), normal(n) {}
     };
 
+    struct AABB
+    {
+        Math::Vector3 minCorner = Math::Vector3(DBL_MAX, DBL_MAX, DBL_MAX);
+        Math::Vector3 maxCorner = Math::Vector3(-DBL_MAX, -DBL_MAX, -DBL_MAX);
+        
+        void addPoint(const Math::Vector3& p)
+        {
+            for (int i = 0; i < 3; i++)
+                if (p[i] > maxCorner[i])
+                    maxCorner[i] = p[i];
+            
+            for (int i = 0; i < 3; i++)
+                if (p[i] < minCorner[i])
+                    minCorner[i] = p[i];
+        }
+        
+        Math::Vector3 BDD() const
+        {
+            return maxCorner - minCorner;
+        }
+    };
+
     class Mesh {
         private:
             igl::opengl::glfw::Viewer& viewer;
@@ -48,8 +72,12 @@ namespace Core {
             Eigen::Matrix4d computeQuadric(const Eigen::MatrixXd& V, const Eigen::MatrixXi& F, int vtx);
         
             void computePerVertexCurvature();
+        
+            void updateAABB();
 
         public:
+            AABB bbox;
+        
             Eigen::MatrixXd v;
             Eigen::MatrixXi f;
             Eigen::MatrixXd n;
@@ -105,8 +133,32 @@ namespace Core {
 
                 Eigen::MatrixXd C(s.f.rows(), 3);
                 C.rowwise() = Eigen::RowVector3d(color.coordinates.x, color.coordinates.y, color.coordinates.z);
-
+                
                 currentViewer.data_list[s.ID].set_colors(C);
+                currentViewer.data_list[s.ID].set_face_based(true);
+
+                return s;
+            }
+        
+            static Mesh generateSphereMesh(igl::opengl::glfw::Viewer &currentViewer, Math::Vector3 color, std::vector<Mesh*>& renderedMeshes)
+            {
+                Mesh s = Mesh("/Users/davidepaollilo/Desktop/Workspace/C++/Thesis/Assets/Models/Sphere.obj", currentViewer);
+
+                s.addToScene();
+
+                s.setMeshFilled();
+
+                // setting sphere as unitary sphere
+                auto r = s.getRadius();
+                s.resize(1 / r);
+
+                Eigen::MatrixXd C(s.f.rows(), 3);
+                C.rowwise() = Eigen::RowVector3d(color.coordinates.x, color.coordinates.y, color.coordinates.z);
+                
+                currentViewer.data_list[s.ID].set_colors(C);
+                currentViewer.data_list[s.ID].set_face_based(true);
+                
+                renderedMeshes.push_back(&s);
 
                 return s;
             }

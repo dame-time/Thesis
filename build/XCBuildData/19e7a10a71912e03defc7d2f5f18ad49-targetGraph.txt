@@ -1,0 +1,65 @@
+Target dependency graph (22 targets)
+ZERO_CHECK in Thesis
+igl_opengl in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+igl_imgui in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+glfw in Thesis
+glad in Thesis
+imgui in Thesis, depends on:
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+imguizmo in Thesis, depends on:
+imgui in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+igl_glfw in Thesis, depends on:
+ZERO_CHECK in Thesis (explicit)
+igl_core in Thesis
+igl_restricted_triangle in Thesis
+triangle in Thesis
+yaml-cpp in Thesis
+Thesis in Thesis, depends on:
+igl_opengl in Thesis (explicit)
+igl_imgui in Thesis (explicit)
+imgui in Thesis (explicit)
+imguizmo in Thesis (explicit)
+igl_glfw in Thesis (explicit)
+igl_core in Thesis (explicit)
+igl_restricted_triangle in Thesis (explicit)
+triangle in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+yaml-cpp in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+yaml-cpp-sandbox in Thesis, depends on:
+yaml-cpp in Thesis (explicit)
+yaml-cpp-parse in Thesis, depends on:
+yaml-cpp in Thesis (explicit)
+yaml-cpp-read in Thesis, depends on:
+yaml-cpp in Thesis (explicit)
+ALL_BUILD in Thesis, depends on:
+igl_opengl in Thesis (explicit)
+igl_imgui in Thesis (explicit)
+imgui in Thesis (explicit)
+imguizmo in Thesis (explicit)
+Thesis in Thesis (explicit)
+igl_glfw in Thesis (explicit)
+igl_core in Thesis (explicit)
+igl_restricted_triangle in Thesis (explicit)
+triangle in Thesis (explicit)
+glfw in Thesis (explicit)
+glad in Thesis (explicit)
+yaml-cpp in Thesis (explicit)
+yaml-cpp-sandbox in Thesis (explicit)
+yaml-cpp-parse in Thesis (explicit)
+yaml-cpp-read in Thesis (explicit)
+ZERO_CHECK in Thesis (explicit)
+Continuous in Thesis
+Experimental in Thesis
+Nightly in Thesis
+NightlyMemoryCheck in Thesis
+install in Thesis, depends on:
+ALL_BUILD in Thesis (explicit)

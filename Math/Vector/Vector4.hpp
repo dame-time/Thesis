@@ -52,6 +52,7 @@ namespace Math
             Scalar operator [] (const short& i) const;
             Scalar& operator [] (const short& i);
         
+            // This operator * is the dot product
             Scalar operator * (const Vector4& vector) const;
             Vector4 operator + (const Vector4& vector) const;
             Vector4 operator - (const Vector4& vector) const;

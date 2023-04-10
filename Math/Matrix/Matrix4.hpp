@@ -45,6 +45,8 @@ namespace Math
         Matrix4 operator/(const Scalar& dividend) const;
         
         void operator=(const Matrix4& mat);
+        
+        bool operator==(const Matrix4& mat) const;
 
         void setInverse(const Matrix4& mat);
         Matrix4 inverse() const;

@@ -9,71 +9,71 @@
 /* Begin PBXAggregateTarget section */
 		241F22E0662E4ABF9ECFEE06 /* NightlyMemoryCheck */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 418F8B2839174CB5AB77A453 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */;
+			buildConfigurationList = 20D0CE47123346DBA834BCD7 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */;
 			buildPhases = (
 				C8E01292D64C42C7774897C7 /* Generate CMakeFiles/NightlyMemoryCheck */,
 			);
 			dependencies = (
-				A16ABB028FC74562A0D30977 /* PBXTargetDependency */,
+				1637572C3FB2427AA1F01E06 /* PBXTargetDependency */,
 			);
 			name = NightlyMemoryCheck;
 			productName = NightlyMemoryCheck;
 		};
 		3D55A2A491DB4FB7A05AE8BE /* Continuous */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D92E0D7C63144CDC8C714690 /* Build configuration list for PBXAggregateTarget "Continuous" */;
+			buildConfigurationList = C535E625FB894D4EA37CA3F1 /* Build configuration list for PBXAggregateTarget "Continuous" */;
 			buildPhases = (
 				C04AF0562485F2F14B487BEC /* Generate CMakeFiles/Continuous */,
 			);
 			dependencies = (
-				ACBAA7950D154F8F85E2C294 /* PBXTargetDependency */,
+				6E5C884D508A46CFBBE73AEF /* PBXTargetDependency */,
 			);
 			name = Continuous;
 			productName = Continuous;
 		};
 		64165CD79904475D86A3EC42 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B76EAAD1352E44FAB0E39C1F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 006EBDBAA1C04B5EAE37F2D0 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				2CBF48BED98742DB83941703 /* PBXTargetDependency */,
+				C468F4DE23CB4DF3820EC83D /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		6A12938F3F4542C7A3E0000D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 27E96E97BD48400CA716A554 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 29939367E7394ACF9E4F0A9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				D19C306FDBE1E4D76E5C38C3 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				62E0B52FDD8644F6B1E185C6 /* PBXTargetDependency */,
-				0CA4EE81D4DF499D9167C525 /* PBXTargetDependency */,
-				2FEE29B6B1334B95BAA5B06A /* PBXTargetDependency */,
-				E3187D5441934DACBF2F7455 /* PBXTargetDependency */,
-				A32403D6D70C40508558C8A7 /* PBXTargetDependency */,
+				B73DA7430D18499D93230FBC /* PBXTargetDependency */,
+				7DB90D7BD5144EC686666E12 /* PBXTargetDependency */,
+				419715EE8AB949E1BB3C6D3F /* PBXTargetDependency */,
+				E34E8A2134EF4C48B7A60C8E /* PBXTargetDependency */,
+				C346C1BBEF6B487581EE245F /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		779F53483A514704B7889A57 /* Experimental */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4ECD5DACC35C482387115402 /* Build configuration list for PBXAggregateTarget "Experimental" */;
+			buildConfigurationList = 23AC29B925A94F2F97385ABD /* Build configuration list for PBXAggregateTarget "Experimental" */;
 			buildPhases = (
 				4A80DCB95ED80595AF1398F5 /* Generate CMakeFiles/Experimental */,
 			);
 			dependencies = (
-				075B8FD36791477692313621 /* PBXTargetDependency */,
+				7BFA915A853D449CAC54FEE0 /* PBXTargetDependency */,
 			);
 			name = Experimental;
 			productName = Experimental;
 		};
 		BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2140411D2CCF4EE48FBC7A3B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 31E96141C42A4CB6BA627BC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				0507FF00BF4381E55745ABE2 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -84,12 +84,12 @@
 		};
 		ED793309F320413B8D28F13A /* Nightly */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9124535EDE8A414BA5028E4C /* Build configuration list for PBXAggregateTarget "Nightly" */;
+			buildConfigurationList = 0FE314F4AFE64C03AA1E514F /* Build configuration list for PBXAggregateTarget "Nightly" */;
 			buildPhases = (
 				9B43166CDAF53D606B39CB62 /* Generate CMakeFiles/Nightly */,
 			);
 			dependencies = (
-				9E8CBA50B8C54BF6908F146A /* PBXTargetDependency */,
+				52FB72A6B8724B59B0B37391 /* PBXTargetDependency */,
 			);
 			name = Nightly;
 			productName = Nightly;
@@ -97,251 +97,251 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0238EDAE6807473B8D420534 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */ = {isa = PBXBuildFile; fileRef = 90727B99D53E4F94A71838CB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */; };
-		0292B00AD66E408C8AD3524B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 806AEE65F2E24AAA9E01F7E8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
-		046ECDAD6CC747888B79F0D3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 142D6417C92E46CC8B0740A1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */; };
-		0DA7F05DF89B4F3F80E97C3E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */ = {isa = PBXBuildFile; fileRef = 710CD354EBB140FFB4FEF2D7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */; };
-		12CCBFF0BD3C43379F3477F6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */ = {isa = PBXBuildFile; fileRef = BAA8A2FD9D174B4CB12E0FDD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */; };
-		2F5915F3D1054864B69B25E8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */ = {isa = PBXBuildFile; fileRef = 42929CBD20B548C4948B6F55 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */; };
-		32B55B50743249AE952C8211 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */ = {isa = PBXBuildFile; fileRef = DF02F40DE2EE408689362EEB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */; };
-		3D9F53C9CE574704B1D71EC8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */ = {isa = PBXBuildFile; fileRef = 5D99883F04594E4A88FB2728 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */; };
-		3FFCF597E20B44859226214F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */ = {isa = PBXBuildFile; fileRef = 3C8C04A654704B5D9DE3BE6B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */; };
-		44CA7F14D8764163969CEE7F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */ = {isa = PBXBuildFile; fileRef = 32C55BA3BF14497787FC26F6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */; };
-		4859AE82713E41118A84CEF9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */ = {isa = PBXBuildFile; fileRef = 89A816E4F0A846CF8F239E29 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */; };
-		4989115387E841D79BD6CEA1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */ = {isa = PBXBuildFile; fileRef = FB94488910954A94B67BB95B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */; };
-		53088EE0780340AB8723EFAC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */ = {isa = PBXBuildFile; fileRef = 31FD3703186E45D4B77841AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */; };
-		5769C5D0ACAB49FF8432AEF3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */ = {isa = PBXBuildFile; fileRef = C8EE34673A454452B1DE9119 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */; };
-		57A57B350CA4459BB1CA9B44 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */ = {isa = PBXBuildFile; fileRef = E22C848DADD24557B37AD8C3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */; };
-		59F11E40F0AD4168AB72998D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */ = {isa = PBXBuildFile; fileRef = D4F6579E37884FBB80261E06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */; };
-		6742043A805847E7A5AC39BD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */ = {isa = PBXBuildFile; fileRef = 2455D325800E4DA6A394F6AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */; };
-		6DE8032376B84285A4119DF2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */ = {isa = PBXBuildFile; fileRef = B0BBCB08F2CA481AAEA1057E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */; };
-		74DF973778144F21818DA5F5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */ = {isa = PBXBuildFile; fileRef = BBFB317A175A471388031D93 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */; };
-		7D134A1F4B314DA39E5E773B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */ = {isa = PBXBuildFile; fileRef = 8B7D01B05C86471097C3CD46 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */; };
-		7DB207806F774AED80B7AC8A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */ = {isa = PBXBuildFile; fileRef = CACE80B430D043369B282F24 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */; };
-		8A6B10BA869140BEA37776D8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C89A010B839940F59656AFC3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
-		96FDF4AA07FA4237B0C66F1A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */ = {isa = PBXBuildFile; fileRef = B28C7838E4FF4ACF95A13954 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */; };
-		9B3C8105AA9C4635A6D2F016 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */ = {isa = PBXBuildFile; fileRef = 90D16CC2C70A4793AAEE7886 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */; };
-		A3953B593147487B950FBB97 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */ = {isa = PBXBuildFile; fileRef = 018FD4BE443545BCBBFC884E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */; };
-		AD550B0A7259481790017CC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */ = {isa = PBXBuildFile; fileRef = 853BE3DEF6BF4578AA6EE9B1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */; };
-		B3CD2C75419C4284A7391E62 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */ = {isa = PBXBuildFile; fileRef = A893DC987EC54CB3B3C522AC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */; };
-		B866DC658CAA46A09C463334 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */ = {isa = PBXBuildFile; fileRef = 5171213091434B26AC03B652 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */; };
-		BC9A4B51E3124D7EA0B45526 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */ = {isa = PBXBuildFile; fileRef = 53BFB4EFEC874A8B8D971218 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */; };
-		C08F0E2E35614AE081A489C0 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */ = {isa = PBXBuildFile; fileRef = 59F94BF6621340BDBDDEE011 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */; };
-		C26D0D7A42C743B0BC92BFDD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */ = {isa = PBXBuildFile; fileRef = 983948129F504D0BB6B68D31 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */; };
-		C3262E8E2DD347CF8B40B7A3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */ = {isa = PBXBuildFile; fileRef = 46CB866696AE4DFA9DD1B50D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */; };
-		C4BD426AE4BA479B9E60ADCC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5CBA4A9AD1074EB5AB058D81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
-		C517F899B73B462E8C2CE131 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */ = {isa = PBXBuildFile; fileRef = AAD1D083C7224F8088434968 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */; };
-		E341F107A9C74392B7339E94 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */ = {isa = PBXBuildFile; fileRef = A88169D22FF844E9A89294B9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */; };
-		E3D2D7F4300A4C8F8BB83593 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */ = {isa = PBXBuildFile; fileRef = 6B7E563DAF014342BD3352FD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */; };
-		E5F28AE599CA4C6C846558DA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */ = {isa = PBXBuildFile; fileRef = 5398EE2C177B4941BBE242D5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */; };
-		F252E96E38DA4464BFFBD557 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */ = {isa = PBXBuildFile; fileRef = D3C6C43C64A741C3911DE8DA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */; };
+		01D31FF85DA34D0A84BE1B62 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */ = {isa = PBXBuildFile; fileRef = 6425908ECF7B4B4C90F20ECF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */; };
+		0286D682E59C47EBAD2F38AB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */ = {isa = PBXBuildFile; fileRef = 70947D175DC847248B134F7A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */; };
+		15F0C5A683174D368000BBAB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */ = {isa = PBXBuildFile; fileRef = 6E3F71B35EB442EFB067DF06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */; };
+		16ABC6DC6EB14190BBDB4AD5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */ = {isa = PBXBuildFile; fileRef = 1D59441AC852456181A25669 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */; };
+		16E953775A75488081F5CD8F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */ = {isa = PBXBuildFile; fileRef = 2692E6E6F75C40D6B4DE5268 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */; };
+		1CBE5CBB4A1044B1A0298B26 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C82F64256D4C44FDBB0D9A73 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
+		1D4145CDF33C4BD8BC57C200 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */ = {isa = PBXBuildFile; fileRef = 67CFBC3DFE0143318A6AE81F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */; };
+		359DD4308CB84897A4097C0D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1AB1CCEC1559430089AFB8E7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */; };
+		3720AB73125B4BA4B2314E4D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */ = {isa = PBXBuildFile; fileRef = 448F7CDFDBA241C0BA61354F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */; };
+		3ECC8C8C2FA744E0B05F2E03 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */ = {isa = PBXBuildFile; fileRef = 422F819BD1CE4088AE3ED760 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */; };
+		408A4BEEA78646D2A67ED995 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2C592301CB4D4E02AC388738 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
+		42F05BB6408D4E4E9AE67E97 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */ = {isa = PBXBuildFile; fileRef = FDC35839D76D4FBF9B2D0FA2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */; };
+		50E1065AD4DA4B7691C13446 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */ = {isa = PBXBuildFile; fileRef = BA2A7C7F9A13428296830819 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */; };
+		6E083FF3D0D34847B467F922 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */ = {isa = PBXBuildFile; fileRef = 7C2CBFF68A194B78919B13F9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */; };
+		6FEDE908A96547A08497953C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */ = {isa = PBXBuildFile; fileRef = 458C7F2C823D40EEA3B9B765 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */; };
+		770E2B3B867D43A18792B235 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */ = {isa = PBXBuildFile; fileRef = 7B43CA49F822407CB8EC5157 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */; };
+		81E3D0BBAB1A49BBB444F725 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */ = {isa = PBXBuildFile; fileRef = 86E64E6E22A446FE9867615D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */; };
+		82036DCFB19E4429B0CBD2AB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */ = {isa = PBXBuildFile; fileRef = 1F13B49C779B401F93B3EF3F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */; };
+		8223EB6EECD84C6C9DF747AC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */ = {isa = PBXBuildFile; fileRef = 113DE02DDB8941B2BD688B81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */; };
+		8253D50CB6304407A11D705E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */ = {isa = PBXBuildFile; fileRef = 4160DEC8121A49FA8027DB11 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */; };
+		846F1009F2124FE5A8E8FEA5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */ = {isa = PBXBuildFile; fileRef = 661FFC6DC5EB487CA4AEAE20 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */; };
+		8C3B6125E73C4723BE351D6A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */ = {isa = PBXBuildFile; fileRef = 4A75166867B64782A56C8964 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */; };
+		8C4B387A2D174B13AB955540 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */ = {isa = PBXBuildFile; fileRef = D58DB253A7B74F7191D1D11B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */; };
+		94E5F97998264BA7B38C66A8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8BD795D4683E4264A81E7BE7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */; };
+		998BAD076E6C44ABA05338D8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */ = {isa = PBXBuildFile; fileRef = 9ED35F2AF0D349F18893B8D6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */; };
+		99A0E35180294FF3B78DB988 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */ = {isa = PBXBuildFile; fileRef = 60306CC201504E44B644CE6E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */; };
+		9DFBFBF8E39D4E189500A78F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */ = {isa = PBXBuildFile; fileRef = F9B01EA332B64127A82DB224 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */; };
+		A32E1454372A4562A3D67D1B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */ = {isa = PBXBuildFile; fileRef = BA78AF371F5344ABA38169D1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */; };
+		A4DA443A24AF43C89A0AC719 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */ = {isa = PBXBuildFile; fileRef = B36CEA5DF882453EA2B2C2EF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */; };
+		B1382292B8B942B6A386DCB8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */ = {isa = PBXBuildFile; fileRef = B77F2025AE9D4EAD989E9B02 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */; };
+		BEBEC01066714ECBAB7A4A94 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */ = {isa = PBXBuildFile; fileRef = 20F720676B674C20908CE501 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */; };
+		D280878A2170416BA630EEC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */ = {isa = PBXBuildFile; fileRef = 582950F97DB24902A00D837E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */; };
+		DA6B9720C85D4B9AA6B8D4D1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */ = {isa = PBXBuildFile; fileRef = F7B9B705681146F2834FA2BD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */; };
+		E16362C8F9CF47C0AC815047 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */ = {isa = PBXBuildFile; fileRef = F2230166737C41F59D517DEF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */; };
+		E496D7044415421C93D69173 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */ = {isa = PBXBuildFile; fileRef = 216B6DA63F1344EE926D7A99 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */; };
+		E4D3392F9EA14936AF422AC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */ = {isa = PBXBuildFile; fileRef = BBCFA8AB22E942848701E929 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */; };
+		FAF20E03D8FE415D94A31E10 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */ = {isa = PBXBuildFile; fileRef = 75F0C0B6BEED49918A8B12D0 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */; };
+		FCC390EF941E48B7B680A380 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */ = {isa = PBXBuildFile; fileRef = 0AB14D09BA024DBFA5ECF9F7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1D15D8F20B0F47A79D0DB105 /* RelWithDebInfo */ = {
+		2ED6CE51A40146C0B9D7AD01 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		9BA07496ED0F482A8E418447 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		AA58D1A24BEE430E972D86D3 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		F0D3A826DA4941C98AB299EB /* MinSizeRel */ = {
+		5BA0BFC5068948E6B2550B62 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		A5BC8F8D65174EC0B3DE992D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E1BD2127615C44C0A4BE6604 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		00B4F6BFA164485BAE2B42CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
-			remoteInfo = ZERO_CHECK;
-		};
-		011D327215274B258B84F850 /* PBXContainerItemProxy */ = {
+		030D45D672D44FC4A0ADC0BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
 			remoteInfo = "yaml-cpp";
 		};
-		073C1971D1074B54AA9068E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
-			remoteInfo = ZERO_CHECK;
-		};
-		3CD132F2585841669CEA677D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
-			remoteInfo = ZERO_CHECK;
-		};
-		508F352119B544289381825F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
-			remoteInfo = "yaml-cpp";
-		};
-		5DDB75BB55F043FAAA818F5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
-			remoteInfo = "yaml-cpp";
-		};
-		728C44F162E9427FB6AFD014 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D3D929F581E49CC8DA88C02;
-			remoteInfo = "yaml-cpp-parse";
-		};
-		94D4103811D44BF7A1FF16A5 /* PBXContainerItemProxy */ = {
+		0E89A476FF6842DDB7BA181E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C56D4D69375148CC9654F4FA;
 			remoteInfo = "yaml-cpp-read";
 		};
-		9702CC634AE54AB5BE04E928 /* PBXContainerItemProxy */ = {
+		4B418A7F852A45A684BABBE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A12938F3F4542C7A3E0000D;
-			remoteInfo = ALL_BUILD;
+			remoteGlobalIDString = 0D3D929F581E49CC8DA88C02;
+			remoteInfo = "yaml-cpp-parse";
 		};
-		A541E6A1CEE84E95A328E6E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
-			remoteInfo = ZERO_CHECK;
-		};
-		AF608AE95DCA4586AC183E16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DF62F2DE52C4A6087AC864A;
-			remoteInfo = "yaml-cpp-sandbox";
-		};
-		D033EEE4490745FBB2B5E7AC /* PBXContainerItemProxy */ = {
+		4E7C88C901AA414EA28A6060 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
 			remoteInfo = ZERO_CHECK;
 		};
-		EAFC407D2851445AB4160426 /* PBXContainerItemProxy */ = {
+		566C2A1877C74241B76A72EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
 			remoteInfo = "yaml-cpp";
 		};
-		F68CFD5A22474B7B87B72FD0 /* PBXContainerItemProxy */ = {
+		5A9BB0411770465C90F650AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
 			remoteInfo = ZERO_CHECK;
 		};
+		5F508F5701694E019AF08D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
+			remoteInfo = ZERO_CHECK;
+		};
+		76B7989EE28E46EBAE933380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
+			remoteInfo = "yaml-cpp";
+		};
+		851F61A17D3F4747B1BD7A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A36B1F0B3941288476E1B0;
+			remoteInfo = "yaml-cpp";
+		};
+		9336DA89F4C641EFB9846931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
+			remoteInfo = ZERO_CHECK;
+		};
+		AA065F20D6554603A608CCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A12938F3F4542C7A3E0000D;
+			remoteInfo = ALL_BUILD;
+		};
+		E0A02D8EDA46465186FBEBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
+			remoteInfo = ZERO_CHECK;
+		};
+		E8593DE6015B46EABC031FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
+			remoteInfo = ZERO_CHECK;
+		};
+		EBC1BAE0E6B14BC1930440CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A35AC4085DF4C04B189B379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF62F2DE52C4A6087AC864A;
+			remoteInfo = "yaml-cpp-sandbox";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018FD4BE443545BCBBFC884E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = util/parse.cpp; sourceTree = SOURCE_ROOT; };
-		09A096A39DFA4DF58AE16821 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		142D6417C92E46CC8B0740A1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1DD9621CFA0A41DDA5C1EE76 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		2455D325800E4DA6A394F6AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binary.cpp; path = src/binary.cpp; sourceTree = SOURCE_ROOT; };
-		2C044F2639B7476A8EF96A0E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		31FD3703186E45D4B77841AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = directives.cpp; path = src/directives.cpp; sourceTree = SOURCE_ROOT; };
-		32C55BA3BF14497787FC26F6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exp.cpp; path = src/exp.cpp; sourceTree = SOURCE_ROOT; };
-		376FB0790DF9472CBD7391A3 /* yaml-cpp-sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sandbox; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8C04A654704B5D9DE3BE6B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nodeevents.cpp; path = src/nodeevents.cpp; sourceTree = SOURCE_ROOT; };
-		4121BA56829140B6B414A96A /* yaml-cpp-parse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = parse; sourceTree = BUILT_PRODUCTS_DIR; };
-		42929CBD20B548C4948B6F55 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emit.cpp; path = src/emit.cpp; sourceTree = SOURCE_ROOT; };
-		46CB866696AE4DFA9DD1B50D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = singledocparser.cpp; path = src/singledocparser.cpp; sourceTree = SOURCE_ROOT; };
-		5171213091434B26AC03B652 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cpp; path = src/parser.cpp; sourceTree = SOURCE_ROOT; };
-		5398EE2C177B4941BBE242D5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tag.cpp; path = src/tag.cpp; sourceTree = SOURCE_ROOT; };
-		53BFB4EFEC874A8B8D971218 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exceptions.cpp; path = src/exceptions.cpp; sourceTree = SOURCE_ROOT; };
-		59F94BF6621340BDBDDEE011 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = src/parse.cpp; sourceTree = SOURCE_ROOT; };
-		5CBA4A9AD1074EB5AB058D81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5D99883F04594E4A88FB2728 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = regex_yaml.cpp; path = src/regex_yaml.cpp; sourceTree = SOURCE_ROOT; };
-		6791C65344264E308A4EF2C1 /* yaml-cpp-read */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = read; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B7E563DAF014342BD3352FD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = null.cpp; path = src/null.cpp; sourceTree = SOURCE_ROOT; };
-		710CD354EBB140FFB4FEF2D7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node_data.cpp; path = src/node_data.cpp; sourceTree = SOURCE_ROOT; };
-		806AEE65F2E24AAA9E01F7E8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		853BE3DEF6BF4578AA6EE9B1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = depthguard.cpp; path = src/depthguard.cpp; sourceTree = SOURCE_ROOT; };
-		89A816E4F0A846CF8F239E29 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node.cpp; path = src/node.cpp; sourceTree = SOURCE_ROOT; };
-		8B7D01B05C86471097C3CD46 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convert.cpp; path = src/convert.cpp; sourceTree = SOURCE_ROOT; };
-		8CE17A4CE9474A7492C10F7C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		90727B99D53E4F94A71838CB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitterstate.cpp; path = src/emitterstate.cpp; sourceTree = SOURCE_ROOT; };
-		90D16CC2C70A4793AAEE7886 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphbuilderadapter.cpp; path = src/contrib/graphbuilderadapter.cpp; sourceTree = SOURCE_ROOT; };
-		983948129F504D0BB6B68D31 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream.cpp; path = src/stream.cpp; sourceTree = SOURCE_ROOT; };
-		A88169D22FF844E9A89294B9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simplekey.cpp; path = src/simplekey.cpp; sourceTree = SOURCE_ROOT; };
-		A893DC987EC54CB3B3C522AC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scantoken.cpp; path = src/scantoken.cpp; sourceTree = SOURCE_ROOT; };
-		AAD1D083C7224F8088434968 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scantag.cpp; path = src/scantag.cpp; sourceTree = SOURCE_ROOT; };
-		B0BBCB08F2CA481AAEA1057E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitfromevents.cpp; path = src/emitfromevents.cpp; sourceTree = SOURCE_ROOT; };
-		B28C7838E4FF4ACF95A13954 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sandbox.cpp; path = util/sandbox.cpp; sourceTree = SOURCE_ROOT; };
-		BAA8A2FD9D174B4CB12E0FDD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = read.cpp; path = util/read.cpp; sourceTree = SOURCE_ROOT; };
-		BBFB317A175A471388031D93 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ostream_wrapper.cpp; path = src/ostream_wrapper.cpp; sourceTree = SOURCE_ROOT; };
-		C89A010B839940F59656AFC3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C8EE34673A454452B1DE9119 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scanner.cpp; path = src/scanner.cpp; sourceTree = SOURCE_ROOT; };
-		CACE80B430D043369B282F24 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitter.cpp; path = src/emitter.cpp; sourceTree = SOURCE_ROOT; };
-		D3C6C43C64A741C3911DE8DA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nodebuilder.cpp; path = src/nodebuilder.cpp; sourceTree = SOURCE_ROOT; };
-		D4F6579E37884FBB80261E06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphbuilder.cpp; path = src/contrib/graphbuilder.cpp; sourceTree = SOURCE_ROOT; };
-		D51DBC6BDA8040F89EC7E863 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DF02F40DE2EE408689362EEB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memory.cpp; path = src/memory.cpp; sourceTree = SOURCE_ROOT; };
-		E22C848DADD24557B37AD8C3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitterutils.cpp; path = src/emitterutils.cpp; sourceTree = SOURCE_ROOT; };
-		F40F9049E3534EA78EE14F6E /* yaml-cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libyaml-cppd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB94488910954A94B67BB95B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scanscalar.cpp; path = src/scanscalar.cpp; sourceTree = SOURCE_ROOT; };
+		076B72B70F0A4279BD1F674A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0AB14D09BA024DBFA5ECF9F7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ostream_wrapper.cpp; path = src/ostream_wrapper.cpp; sourceTree = SOURCE_ROOT; };
+		113DE02DDB8941B2BD688B81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binary.cpp; path = src/binary.cpp; sourceTree = SOURCE_ROOT; };
+		1AB1CCEC1559430089AFB8E7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D59441AC852456181A25669 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node.cpp; path = src/node.cpp; sourceTree = SOURCE_ROOT; };
+		1F13B49C779B401F93B3EF3F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scantoken.cpp; path = src/scantoken.cpp; sourceTree = SOURCE_ROOT; };
+		20F720676B674C20908CE501 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nodeevents.cpp; path = src/nodeevents.cpp; sourceTree = SOURCE_ROOT; };
+		216B6DA63F1344EE926D7A99 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream.cpp; path = src/stream.cpp; sourceTree = SOURCE_ROOT; };
+		2692E6E6F75C40D6B4DE5268 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scantag.cpp; path = src/scantag.cpp; sourceTree = SOURCE_ROOT; };
+		2C592301CB4D4E02AC388738 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3345C2B8DF4F49399AED983F /* yaml-cpp-parse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = parse; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00FA10AF9D4607990BD103 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4160DEC8121A49FA8027DB11 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memory.cpp; path = src/memory.cpp; sourceTree = SOURCE_ROOT; };
+		421541EE3F404AC2A5B1151D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		422F819BD1CE4088AE3ED760 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nodebuilder.cpp; path = src/nodebuilder.cpp; sourceTree = SOURCE_ROOT; };
+		448F7CDFDBA241C0BA61354F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitfromevents.cpp; path = src/emitfromevents.cpp; sourceTree = SOURCE_ROOT; };
+		458C7F2C823D40EEA3B9B765 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emit.cpp; path = src/emit.cpp; sourceTree = SOURCE_ROOT; };
+		4A75166867B64782A56C8964 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node_data.cpp; path = src/node_data.cpp; sourceTree = SOURCE_ROOT; };
+		50697650BA48440AAF265BBE /* yaml-cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libyaml-cppd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582950F97DB24902A00D837E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = singledocparser.cpp; path = src/singledocparser.cpp; sourceTree = SOURCE_ROOT; };
+		60306CC201504E44B644CE6E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = depthguard.cpp; path = src/depthguard.cpp; sourceTree = SOURCE_ROOT; };
+		6425908ECF7B4B4C90F20ECF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scanner.cpp; path = src/scanner.cpp; sourceTree = SOURCE_ROOT; };
+		661FFC6DC5EB487CA4AEAE20 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = null.cpp; path = src/null.cpp; sourceTree = SOURCE_ROOT; };
+		67CFBC3DFE0143318A6AE81F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exp.cpp; path = src/exp.cpp; sourceTree = SOURCE_ROOT; };
+		6E3F71B35EB442EFB067DF06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simplekey.cpp; path = src/simplekey.cpp; sourceTree = SOURCE_ROOT; };
+		70947D175DC847248B134F7A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitterutils.cpp; path = src/emitterutils.cpp; sourceTree = SOURCE_ROOT; };
+		75F0C0B6BEED49918A8B12D0 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphbuilder.cpp; path = src/contrib/graphbuilder.cpp; sourceTree = SOURCE_ROOT; };
+		7B43CA49F822407CB8EC5157 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scanscalar.cpp; path = src/scanscalar.cpp; sourceTree = SOURCE_ROOT; };
+		7C2CBFF68A194B78919B13F9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graphbuilderadapter.cpp; path = src/contrib/graphbuilderadapter.cpp; sourceTree = SOURCE_ROOT; };
+		86E64E6E22A446FE9867615D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cpp; path = src/parser.cpp; sourceTree = SOURCE_ROOT; };
+		8BD795D4683E4264A81E7BE7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9ED35F2AF0D349F18893B8D6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = src/parse.cpp; sourceTree = SOURCE_ROOT; };
+		A279A5DF095942199377EDD1 /* yaml-cpp-read */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = read; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36CEA5DF882453EA2B2C2EF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = regex_yaml.cpp; path = src/regex_yaml.cpp; sourceTree = SOURCE_ROOT; };
+		B77F2025AE9D4EAD989E9B02 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = read.cpp; path = util/read.cpp; sourceTree = SOURCE_ROOT; };
+		BA2A7C7F9A13428296830819 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sandbox.cpp; path = util/sandbox.cpp; sourceTree = SOURCE_ROOT; };
+		BA78AF371F5344ABA38169D1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convert.cpp; path = src/convert.cpp; sourceTree = SOURCE_ROOT; };
+		BBCFA8AB22E942848701E929 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = util/parse.cpp; sourceTree = SOURCE_ROOT; };
+		C82F64256D4C44FDBB0D9A73 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CE64EC4E5A454155AFABF03C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D58DB253A7B74F7191D1D11B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = directives.cpp; path = src/directives.cpp; sourceTree = SOURCE_ROOT; };
+		DEA518B8CC5046AC82581810 /* yaml-cpp-sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sandbox; sourceTree = BUILT_PRODUCTS_DIR; };
+		E562128981A644FB8A3AE03F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2230166737C41F59D517DEF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tag.cpp; path = src/tag.cpp; sourceTree = SOURCE_ROOT; };
+		F7B9B705681146F2834FA2BD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitterstate.cpp; path = src/emitterstate.cpp; sourceTree = SOURCE_ROOT; };
+		F9B01EA332B64127A82DB224 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exceptions.cpp; path = src/exceptions.cpp; sourceTree = SOURCE_ROOT; };
+		FDC35839D76D4FBF9B2D0FA2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emitter.cpp; path = src/emitter.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		483900FE1C034F4DB149789B /* Frameworks */ = {
+		34CD0D781F9149FC8F619636 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84E6810A2BA747499C1ED864 /* Frameworks */ = {
+		3DB4804652474CB09F183E3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA5C0DAF423F4EFEB6E3831F /* Frameworks */ = {
+		9B5EB4D8C1644910B62578F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3E23A57C91466DACB3C208 /* Frameworks */ = {
+		DEC847E32D0446299193AD23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,225 +351,225 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04C10ECB12E5408CBEF937F6 /* yaml-cpp */ = {
+		0262E9FDECD74DBB9446A039 /* yaml-cpp */ = {
 			isa = PBXGroup;
 			children = (
-				FAC6560E942E47D7BE4A2396 /* Source Files */,
-				142D6417C92E46CC8B0740A1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+				4218A66255424AE295ABB573 /* Source Files */,
+				1AB1CCEC1559430089AFB8E7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
 			);
 			name = "yaml-cpp";
 			sourceTree = "<group>";
 		};
-		0A88888B906C49DB948FBB70 /* Continuous */ = {
+		0DBA6AC3F84C4CDF9513BB2F = {
 			isa = PBXGroup;
 			children = (
-				73DCBE6581DC4549BC057AAC /* CMake Rules */,
-				D51DBC6BDA8040F89EC7E863 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+				C59DDC6B7D104519AA3A2551 /* CTestDashboardTargets */,
+				0262E9FDECD74DBB9446A039 /* yaml-cpp */,
+				5C996BF94A5C4BC8A2602BD9 /* ALL_BUILD */,
+				51B10367CB8C485CB41241FB /* yaml-cpp-sandbox */,
+				F49ED8AB24484E7793836596 /* yaml-cpp-parse */,
+				96E8309187FE4F0889358E8C /* yaml-cpp-read */,
+				31C1A426F9F5485BA72B714F /* Products */,
+				9D7F65BC4F9D41FF93DF3D17 /* Frameworks */,
 			);
-			name = Continuous;
 			sourceTree = "<group>";
 		};
-		12D1EC6B57C74EFA8CB3FB38 /* CTestDashboardTargets */ = {
+		0EC1E1ED6ABC4BA182D57B59 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				A042EB6B698940F6B3183A3C /* Experimental */,
-				53F1124F584842E588E96DAA /* Nightly */,
-				0A88888B906C49DB948FBB70 /* Continuous */,
-				48B77D178CB748E485B94271 /* NightlyMemoryCheck */,
-			);
-			name = CTestDashboardTargets;
-			sourceTree = "<group>";
-		};
-		12E569C88260450EA435CF5E /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				B28C7838E4FF4ACF95A13954 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */,
+				BA2A7C7F9A13428296830819 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		28827ED45DA04A5DA1BDACC5 /* Frameworks */ = {
+		1AA30798276642D08A6A488F /* Continuous */ = {
+			isa = PBXGroup;
+			children = (
+				4C79E6A48BC84E10AB91511D /* CMake Rules */,
+				421541EE3F404AC2A5B1151D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+			);
+			name = Continuous;
+			sourceTree = "<group>";
+		};
+		1FD2FAB03CAA47FA9D27F832 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCFA8AB22E942848701E929 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		31A4CDC7D87C4EABB59AFECF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		31C1A426F9F5485BA72B714F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50697650BA48440AAF265BBE /* yaml-cpp */,
+				3345C2B8DF4F49399AED983F /* yaml-cpp-parse */,
+				A279A5DF095942199377EDD1 /* yaml-cpp-read */,
+				DEA518B8CC5046AC82581810 /* yaml-cpp-sandbox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339957F0178B41929AAF6D80 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				FE25B0971F8843A391957436 /* CMake Rules */,
+				CE64EC4E5A454155AFABF03C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+			);
+			name = Experimental;
+			sourceTree = "<group>";
+		};
+		3691D2B956E44C06B12A5B43 /* NightlyMemoryCheck */ = {
+			isa = PBXGroup;
+			children = (
+				6316D41E538646FF9AD01FF7 /* CMake Rules */,
+				076B72B70F0A4279BD1F674A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+			);
+			name = NightlyMemoryCheck;
+			sourceTree = "<group>";
+		};
+		4218A66255424AE295ABB573 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				113DE02DDB8941B2BD688B81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */,
+				75F0C0B6BEED49918A8B12D0 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */,
+				7C2CBFF68A194B78919B13F9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */,
+				BA78AF371F5344ABA38169D1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */,
+				60306CC201504E44B644CE6E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */,
+				D58DB253A7B74F7191D1D11B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */,
+				458C7F2C823D40EEA3B9B765 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */,
+				448F7CDFDBA241C0BA61354F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */,
+				FDC35839D76D4FBF9B2D0FA2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */,
+				F7B9B705681146F2834FA2BD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */,
+				70947D175DC847248B134F7A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */,
+				F9B01EA332B64127A82DB224 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */,
+				67CFBC3DFE0143318A6AE81F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */,
+				4160DEC8121A49FA8027DB11 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */,
+				1D59441AC852456181A25669 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */,
+				4A75166867B64782A56C8964 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */,
+				422F819BD1CE4088AE3ED760 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */,
+				20F720676B674C20908CE501 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */,
+				661FFC6DC5EB487CA4AEAE20 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */,
+				0AB14D09BA024DBFA5ECF9F7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */,
+				9ED35F2AF0D349F18893B8D6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */,
+				86E64E6E22A446FE9867615D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */,
+				B36CEA5DF882453EA2B2C2EF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */,
+				6425908ECF7B4B4C90F20ECF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */,
+				7B43CA49F822407CB8EC5157 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */,
+				2692E6E6F75C40D6B4DE5268 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */,
+				1F13B49C779B401F93B3EF3F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */,
+				6E3F71B35EB442EFB067DF06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */,
+				582950F97DB24902A00D837E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */,
+				216B6DA63F1344EE926D7A99 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */,
+				F2230166737C41F59D517DEF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		47093CD9DE794047BFD36DF2 /* Nightly */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CDC7D87C4EABB59AFECF /* CMake Rules */,
+				3B00FA10AF9D4607990BD103 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+			);
+			name = Nightly;
+			sourceTree = "<group>";
+		};
+		4C79E6A48BC84E10AB91511D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		51B10367CB8C485CB41241FB /* yaml-cpp-sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1E1ED6ABC4BA182D57B59 /* Source Files */,
+				C82F64256D4C44FDBB0D9A73 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
+			);
+			name = "yaml-cpp-sandbox";
+			sourceTree = "<group>";
+		};
+		5C996BF94A5C4BC8A2602BD9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D9213B6BD3BC45C49C8EBE15 /* CMake Rules */,
+				E562128981A644FB8A3AE03F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6316D41E538646FF9AD01FF7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		96E8309187FE4F0889358E8C /* yaml-cpp-read */ = {
+			isa = PBXGroup;
+			children = (
+				B6725095D9B14ECA8B965751 /* Source Files */,
+				2C592301CB4D4E02AC388738 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
+			);
+			name = "yaml-cpp-read";
+			sourceTree = "<group>";
+		};
+		9D7F65BC4F9D41FF93DF3D17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2C6F38DF4C344B9C998E1F06 /* Source Files */ = {
+		B6725095D9B14ECA8B965751 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAA8A2FD9D174B4CB12E0FDD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */,
+				B77F2025AE9D4EAD989E9B02 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		3A9EB0E4CE1148758401083C /* CMake Rules */ = {
+		C59DDC6B7D104519AA3A2551 /* CTestDashboardTargets */ = {
+			isa = PBXGroup;
+			children = (
+				339957F0178B41929AAF6D80 /* Experimental */,
+				47093CD9DE794047BFD36DF2 /* Nightly */,
+				1AA30798276642D08A6A488F /* Continuous */,
+				3691D2B956E44C06B12A5B43 /* NightlyMemoryCheck */,
+			);
+			name = CTestDashboardTargets;
+			sourceTree = "<group>";
+		};
+		D9213B6BD3BC45C49C8EBE15 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		442C0DFE780246B78D31F3DD /* yaml-cpp-read */ = {
+		F49ED8AB24484E7793836596 /* yaml-cpp-parse */ = {
 			isa = PBXGroup;
 			children = (
-				2C6F38DF4C344B9C998E1F06 /* Source Files */,
-				5CBA4A9AD1074EB5AB058D81 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
-			);
-			name = "yaml-cpp-read";
-			sourceTree = "<group>";
-		};
-		48B77D178CB748E485B94271 /* NightlyMemoryCheck */ = {
-			isa = PBXGroup;
-			children = (
-				C3D73DD8B8244051861C9033 /* CMake Rules */,
-				8CE17A4CE9474A7492C10F7C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
-			);
-			name = NightlyMemoryCheck;
-			sourceTree = "<group>";
-		};
-		53F1124F584842E588E96DAA /* Nightly */ = {
-			isa = PBXGroup;
-			children = (
-				A3617E324D3645C0869CE4D7 /* CMake Rules */,
-				09A096A39DFA4DF58AE16821 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
-			);
-			name = Nightly;
-			sourceTree = "<group>";
-		};
-		73DCBE6581DC4549BC057AAC /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		750589964E684A08A53F14BF /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				3A9EB0E4CE1148758401083C /* CMake Rules */,
-				1DD9621CFA0A41DDA5C1EE76 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		7FB3CFC1440241F08DF28CDC /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				018FD4BE443545BCBBFC884E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		9FB6966E3E8F4512A094F604 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		A042EB6B698940F6B3183A3C /* Experimental */ = {
-			isa = PBXGroup;
-			children = (
-				9FB6966E3E8F4512A094F604 /* CMake Rules */,
-				2C044F2639B7476A8EF96A0E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/CMakeLists.txt */,
-			);
-			name = Experimental;
-			sourceTree = "<group>";
-		};
-		A3617E324D3645C0869CE4D7 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		A4267DE9254144D4818672F8 /* yaml-cpp-parse */ = {
-			isa = PBXGroup;
-			children = (
-				7FB3CFC1440241F08DF28CDC /* Source Files */,
-				C89A010B839940F59656AFC3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
+				1FD2FAB03CAA47FA9D27F832 /* Source Files */,
+				8BD795D4683E4264A81E7BE7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
 			);
 			name = "yaml-cpp-parse";
 			sourceTree = "<group>";
 		};
-		C3D73DD8B8244051861C9033 /* CMake Rules */ = {
+		FE25B0971F8843A391957436 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		CC350CF4F2CB4764A9DE367D /* yaml-cpp-sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				12E569C88260450EA435CF5E /* Source Files */,
-				806AEE65F2E24AAA9E01F7E8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/CMakeLists.txt */,
-			);
-			name = "yaml-cpp-sandbox";
-			sourceTree = "<group>";
-		};
-		ED97B0D3CE674277A30110C2 = {
-			isa = PBXGroup;
-			children = (
-				12D1EC6B57C74EFA8CB3FB38 /* CTestDashboardTargets */,
-				04C10ECB12E5408CBEF937F6 /* yaml-cpp */,
-				750589964E684A08A53F14BF /* ALL_BUILD */,
-				CC350CF4F2CB4764A9DE367D /* yaml-cpp-sandbox */,
-				A4267DE9254144D4818672F8 /* yaml-cpp-parse */,
-				442C0DFE780246B78D31F3DD /* yaml-cpp-read */,
-				FACAC6D5CA2D4B57B467C9FC /* Products */,
-				28827ED45DA04A5DA1BDACC5 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		FAC6560E942E47D7BE4A2396 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				2455D325800E4DA6A394F6AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */,
-				D4F6579E37884FBB80261E06 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */,
-				90D16CC2C70A4793AAEE7886 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */,
-				8B7D01B05C86471097C3CD46 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */,
-				853BE3DEF6BF4578AA6EE9B1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */,
-				31FD3703186E45D4B77841AD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */,
-				42929CBD20B548C4948B6F55 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */,
-				B0BBCB08F2CA481AAEA1057E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */,
-				CACE80B430D043369B282F24 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */,
-				90727B99D53E4F94A71838CB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */,
-				E22C848DADD24557B37AD8C3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */,
-				53BFB4EFEC874A8B8D971218 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */,
-				32C55BA3BF14497787FC26F6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */,
-				DF02F40DE2EE408689362EEB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */,
-				89A816E4F0A846CF8F239E29 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */,
-				710CD354EBB140FFB4FEF2D7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */,
-				D3C6C43C64A741C3911DE8DA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */,
-				3C8C04A654704B5D9DE3BE6B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */,
-				6B7E563DAF014342BD3352FD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */,
-				BBFB317A175A471388031D93 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */,
-				59F94BF6621340BDBDDEE011 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */,
-				5171213091434B26AC03B652 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */,
-				5D99883F04594E4A88FB2728 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */,
-				C8EE34673A454452B1DE9119 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */,
-				FB94488910954A94B67BB95B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */,
-				AAD1D083C7224F8088434968 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */,
-				A893DC987EC54CB3B3C522AC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */,
-				A88169D22FF844E9A89294B9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */,
-				46CB866696AE4DFA9DD1B50D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */,
-				983948129F504D0BB6B68D31 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */,
-				5398EE2C177B4941BBE242D5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		FACAC6D5CA2D4B57B467C9FC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F40F9049E3534EA78EE14F6E /* yaml-cpp */,
-				4121BA56829140B6B414A96A /* yaml-cpp-parse */,
-				6791C65344264E308A4EF2C1 /* yaml-cpp-read */,
-				376FB0790DF9472CBD7391A3 /* yaml-cpp-sandbox */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -577,70 +577,70 @@
 /* Begin PBXNativeTarget section */
 		0D3D929F581E49CC8DA88C02 /* yaml-cpp-parse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B8E61D9E99F461CA2232DFB /* Build configuration list for PBXNativeTarget "yaml-cpp-parse" */;
+			buildConfigurationList = B19B6435DF554BCF9FA9D400 /* Build configuration list for PBXNativeTarget "yaml-cpp-parse" */;
 			buildPhases = (
-				76C80DDD794545B18D83E503 /* Sources */,
-				EC3E23A57C91466DACB3C208 /* Frameworks */,
+				1B19001433C846EABDE0E762 /* Sources */,
+				9B5EB4D8C1644910B62578F5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7886F153A174F1493EA9CEC /* PBXTargetDependency */,
+				427704E5C3A9493CACEC65BC /* PBXTargetDependency */,
 			);
 			name = "yaml-cpp-parse";
 			productName = "yaml-cpp-parse";
-			productReference = 4121BA56829140B6B414A96A /* yaml-cpp-parse */;
+			productReference = 3345C2B8DF4F49399AED983F /* yaml-cpp-parse */;
 			productType = "com.apple.product-type.tool";
 		};
 		2DF62F2DE52C4A6087AC864A /* yaml-cpp-sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6541937B3644D4380D15103 /* Build configuration list for PBXNativeTarget "yaml-cpp-sandbox" */;
+			buildConfigurationList = 065E9D6DDCD9483ABC6D254B /* Build configuration list for PBXNativeTarget "yaml-cpp-sandbox" */;
 			buildPhases = (
-				A4C676C292064E9AA3A6A440 /* Sources */,
-				483900FE1C034F4DB149789B /* Frameworks */,
+				49F4214839964E5187C5C8E6 /* Sources */,
+				3DB4804652474CB09F183E3A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84AE4C2463C04D858CD90036 /* PBXTargetDependency */,
+				BC74D0B9C3394F23B63E5EF3 /* PBXTargetDependency */,
 			);
 			name = "yaml-cpp-sandbox";
 			productName = "yaml-cpp-sandbox";
-			productReference = 376FB0790DF9472CBD7391A3 /* yaml-cpp-sandbox */;
+			productReference = DEA518B8CC5046AC82581810 /* yaml-cpp-sandbox */;
 			productType = "com.apple.product-type.tool";
 		};
 		42A36B1F0B3941288476E1B0 /* yaml-cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD9EB190C422440181E3FC6D /* Build configuration list for PBXNativeTarget "yaml-cpp" */;
+			buildConfigurationList = 393580586C734AABB3CDE723 /* Build configuration list for PBXNativeTarget "yaml-cpp" */;
 			buildPhases = (
-				3793911737C5449BB8DA3DA5 /* Sources */,
-				EA5C0DAF423F4EFEB6E3831F /* Frameworks */,
+				06D7CD537B864A64A070F5ED /* Sources */,
+				DEC847E32D0446299193AD23 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88FB189DDC2D423A8718FBB9 /* PBXTargetDependency */,
+				14D6CAC8CF3B41C98A9F11EE /* PBXTargetDependency */,
 			);
 			name = "yaml-cpp";
 			productName = "yaml-cpp";
-			productReference = F40F9049E3534EA78EE14F6E /* yaml-cpp */;
+			productReference = 50697650BA48440AAF265BBE /* yaml-cpp */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C56D4D69375148CC9654F4FA /* yaml-cpp-read */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 270C61206F374C588E57601A /* Build configuration list for PBXNativeTarget "yaml-cpp-read" */;
+			buildConfigurationList = D29C5E20A8A040859C777512 /* Build configuration list for PBXNativeTarget "yaml-cpp-read" */;
 			buildPhases = (
-				50DEAAF9C1C14CCCB1182A78 /* Sources */,
-				84E6810A2BA747499C1ED864 /* Frameworks */,
+				FA3B2D3B5C414288AA81D952 /* Sources */,
+				34CD0D781F9149FC8F619636 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9533DF568CD7482EA4C2FBC8 /* PBXTargetDependency */,
+				62ED41904A20432AB1239DDF /* PBXTargetDependency */,
 			);
 			name = "yaml-cpp-read";
 			productName = "yaml-cpp-read";
-			productReference = 6791C65344264E308A4EF2C1 /* yaml-cpp-read */;
+			productReference = A279A5DF095942199377EDD1 /* yaml-cpp-read */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -652,18 +652,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = E46D444AB4264447A164A442 /* Build configuration list for PBXProject "YAML_CPP" */;
+			buildConfigurationList = 36E44F09A31A49F0A3FB0B3D /* Build configuration list for PBXProject "YAML_CPP" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				9BA07496ED0F482A8E418447 /* Debug */,
-				AA58D1A24BEE430E972D86D3 /* Release */,
-				F0D3A826DA4941C98AB299EB /* MinSizeRel */,
-				1D15D8F20B0F47A79D0DB105 /* RelWithDebInfo */,
+				E1BD2127615C44C0A4BE6604 /* Debug */,
+				A5BC8F8D65174EC0B3DE992D /* Release */,
+				5BA0BFC5068948E6B2550B62 /* MinSizeRel */,
+				2ED6CE51A40146C0B9D7AD01 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = ED97B0D3CE674277A30110C2;
+			mainGroup = 0DBA6AC3F84C4CDF9513BB2F;
 			projectDirPath = "../yaml_cpp-src";
 			projectRoot = "";
 			targets = (
@@ -1020,547 +1020,145 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3793911737C5449BB8DA3DA5 /* Sources */ = {
+		06D7CD537B864A64A070F5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6742043A805847E7A5AC39BD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */,
-				59F11E40F0AD4168AB72998D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */,
-				9B3C8105AA9C4635A6D2F016 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */,
-				7D134A1F4B314DA39E5E773B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */,
-				AD550B0A7259481790017CC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */,
-				53088EE0780340AB8723EFAC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */,
-				2F5915F3D1054864B69B25E8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */,
-				6DE8032376B84285A4119DF2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */,
-				7DB207806F774AED80B7AC8A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */,
-				0238EDAE6807473B8D420534 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */,
-				57A57B350CA4459BB1CA9B44 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */,
-				BC9A4B51E3124D7EA0B45526 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */,
-				44CA7F14D8764163969CEE7F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */,
-				32B55B50743249AE952C8211 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */,
-				4859AE82713E41118A84CEF9 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */,
-				0DA7F05DF89B4F3F80E97C3E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */,
-				F252E96E38DA4464BFFBD557 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */,
-				3FFCF597E20B44859226214F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */,
-				E3D2D7F4300A4C8F8BB83593 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */,
-				74DF973778144F21818DA5F5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */,
-				C08F0E2E35614AE081A489C0 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */,
-				B866DC658CAA46A09C463334 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */,
-				3D9F53C9CE574704B1D71EC8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */,
-				5769C5D0ACAB49FF8432AEF3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */,
-				4989115387E841D79BD6CEA1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */,
-				C517F899B73B462E8C2CE131 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */,
-				B3CD2C75419C4284A7391E62 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */,
-				E341F107A9C74392B7339E94 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */,
-				C3262E8E2DD347CF8B40B7A3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */,
-				C26D0D7A42C743B0BC92BFDD /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */,
-				E5F28AE599CA4C6C846558DA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */,
+				8223EB6EECD84C6C9DF747AC /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/binary.cpp */,
+				FAF20E03D8FE415D94A31E10 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp */,
+				6E083FF3D0D34847B467F922 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp */,
+				A32E1454372A4562A3D67D1B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/convert.cpp */,
+				99A0E35180294FF3B78DB988 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/depthguard.cpp */,
+				8C4B387A2D174B13AB955540 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/directives.cpp */,
+				6FEDE908A96547A08497953C /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emit.cpp */,
+				3720AB73125B4BA4B2314E4D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitfromevents.cpp */,
+				42F05BB6408D4E4E9AE67E97 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitter.cpp */,
+				DA6B9720C85D4B9AA6B8D4D1 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterstate.cpp */,
+				0286D682E59C47EBAD2F38AB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/emitterutils.cpp */,
+				9DFBFBF8E39D4E189500A78F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exceptions.cpp */,
+				1D4145CDF33C4BD8BC57C200 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/exp.cpp */,
+				8253D50CB6304407A11D705E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/memory.cpp */,
+				16ABC6DC6EB14190BBDB4AD5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node.cpp */,
+				8C3B6125E73C4723BE351D6A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/node_data.cpp */,
+				3ECC8C8C2FA744E0B05F2E03 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodebuilder.cpp */,
+				BEBEC01066714ECBAB7A4A94 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/nodeevents.cpp */,
+				846F1009F2124FE5A8E8FEA5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/null.cpp */,
+				FCC390EF941E48B7B680A380 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/ostream_wrapper.cpp */,
+				998BAD076E6C44ABA05338D8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parse.cpp */,
+				81E3D0BBAB1A49BBB444F725 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/parser.cpp */,
+				A4DA443A24AF43C89A0AC719 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/regex_yaml.cpp */,
+				01D31FF85DA34D0A84BE1B62 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanner.cpp */,
+				770E2B3B867D43A18792B235 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scanscalar.cpp */,
+				16E953775A75488081F5CD8F /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantag.cpp */,
+				82036DCFB19E4429B0CBD2AB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/scantoken.cpp */,
+				15F0C5A683174D368000BBAB /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/simplekey.cpp */,
+				D280878A2170416BA630EEC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/singledocparser.cpp */,
+				E496D7044415421C93D69173 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/stream.cpp */,
+				E16362C8F9CF47C0AC815047 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src/tag.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50DEAAF9C1C14CCCB1182A78 /* Sources */ = {
+		1B19001433C846EABDE0E762 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CCBFF0BD3C43379F3477F6 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */,
+				E4D3392F9EA14936AF422AC7 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76C80DDD794545B18D83E503 /* Sources */ = {
+		49F4214839964E5187C5C8E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3953B593147487B950FBB97 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/parse.cpp */,
+				50E1065AD4DA4B7691C13446 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C676C292064E9AA3A6A440 /* Sources */ = {
+		FA3B2D3B5C414288AA81D952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96FDF4AA07FA4237B0C66F1A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/sandbox.cpp */,
+				B1382292B8B942B6A386DCB8 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/util/read.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		075B8FD36791477692313621 /* PBXTargetDependency */ = {
+		14D6CAC8CF3B41C98A9F11EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = F68CFD5A22474B7B87B72FD0 /* PBXContainerItemProxy */;
+			targetProxy = E0A02D8EDA46465186FBEBAB /* PBXContainerItemProxy */;
 		};
-		0CA4EE81D4DF499D9167C525 /* PBXTargetDependency */ = {
+		1637572C3FB2427AA1F01E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DF62F2DE52C4A6087AC864A /* yaml-cpp-sandbox */;
-			targetProxy = AF608AE95DCA4586AC183E16 /* PBXContainerItemProxy */;
+			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
+			targetProxy = 4E7C88C901AA414EA28A6060 /* PBXContainerItemProxy */;
 		};
-		2CBF48BED98742DB83941703 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6A12938F3F4542C7A3E0000D /* ALL_BUILD */;
-			targetProxy = 9702CC634AE54AB5BE04E928 /* PBXContainerItemProxy */;
-		};
-		2FEE29B6B1334B95BAA5B06A /* PBXTargetDependency */ = {
+		419715EE8AB949E1BB3C6D3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0D3D929F581E49CC8DA88C02 /* yaml-cpp-parse */;
-			targetProxy = 728C44F162E9427FB6AFD014 /* PBXContainerItemProxy */;
+			targetProxy = 4B418A7F852A45A684BABBE4 /* PBXContainerItemProxy */;
 		};
-		62E0B52FDD8644F6B1E185C6 /* PBXTargetDependency */ = {
+		427704E5C3A9493CACEC65BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42A36B1F0B3941288476E1B0 /* yaml-cpp */;
-			targetProxy = 508F352119B544289381825F /* PBXContainerItemProxy */;
+			targetProxy = 030D45D672D44FC4A0ADC0BF /* PBXContainerItemProxy */;
 		};
-		84AE4C2463C04D858CD90036 /* PBXTargetDependency */ = {
+		52FB72A6B8724B59B0B37391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
+			targetProxy = 5F508F5701694E019AF08D2C /* PBXContainerItemProxy */;
+		};
+		62ED41904A20432AB1239DDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42A36B1F0B3941288476E1B0 /* yaml-cpp */;
-			targetProxy = EAFC407D2851445AB4160426 /* PBXContainerItemProxy */;
+			targetProxy = 566C2A1877C74241B76A72EE /* PBXContainerItemProxy */;
 		};
-		88FB189DDC2D423A8718FBB9 /* PBXTargetDependency */ = {
+		6E5C884D508A46CFBBE73AEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = D033EEE4490745FBB2B5E7AC /* PBXContainerItemProxy */;
+			targetProxy = E8593DE6015B46EABC031FC9 /* PBXContainerItemProxy */;
 		};
-		9533DF568CD7482EA4C2FBC8 /* PBXTargetDependency */ = {
+		7BFA915A853D449CAC54FEE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
+			targetProxy = 5A9BB0411770465C90F650AB /* PBXContainerItemProxy */;
+		};
+		7DB90D7BD5144EC686666E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF62F2DE52C4A6087AC864A /* yaml-cpp-sandbox */;
+			targetProxy = EBC1BAE0E6B14BC1930440CE /* PBXContainerItemProxy */;
+		};
+		B73DA7430D18499D93230FBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42A36B1F0B3941288476E1B0 /* yaml-cpp */;
-			targetProxy = 011D327215274B258B84F850 /* PBXContainerItemProxy */;
+			targetProxy = 76B7989EE28E46EBAE933380 /* PBXContainerItemProxy */;
 		};
-		9E8CBA50B8C54BF6908F146A /* PBXTargetDependency */ = {
+		BC74D0B9C3394F23B63E5EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A36B1F0B3941288476E1B0 /* yaml-cpp */;
+			targetProxy = 851F61A17D3F4747B1BD7A9B /* PBXContainerItemProxy */;
+		};
+		C346C1BBEF6B487581EE245F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = 00B4F6BFA164485BAE2B42CD /* PBXContainerItemProxy */;
+			targetProxy = 9336DA89F4C641EFB9846931 /* PBXContainerItemProxy */;
 		};
-		A16ABB028FC74562A0D30977 /* PBXTargetDependency */ = {
+		C468F4DE23CB4DF3820EC83D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = 3CD132F2585841669CEA677D /* PBXContainerItemProxy */;
+			target = 6A12938F3F4542C7A3E0000D /* ALL_BUILD */;
+			targetProxy = AA065F20D6554603A608CCC0 /* PBXContainerItemProxy */;
 		};
-		A32403D6D70C40508558C8A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = A541E6A1CEE84E95A328E6E2 /* PBXContainerItemProxy */;
-		};
-		ACBAA7950D154F8F85E2C294 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = 073C1971D1074B54AA9068E0 /* PBXContainerItemProxy */;
-		};
-		E3187D5441934DACBF2F7455 /* PBXTargetDependency */ = {
+		E34E8A2134EF4C48B7A60C8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C56D4D69375148CC9654F4FA /* yaml-cpp-read */;
-			targetProxy = 94D4103811D44BF7A1FF16A5 /* PBXContainerItemProxy */;
-		};
-		F7886F153A174F1493EA9CEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42A36B1F0B3941288476E1B0 /* yaml-cpp */;
-			targetProxy = 5DDB75BB55F043FAAA818F5B /* PBXContainerItemProxy */;
+			targetProxy = 0E89A476FF6842DDB7BA181E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		024520199DBA495E9BAB7184 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = read;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		061380BD58AE472FA18A02F5 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Experimental;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		09D7B8CC425845F192FEABE0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0FB1871C35894BB6ABAFBD77 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		1E927E2B26AD4BEB97A527D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
-			};
-			name = Debug;
-		};
-		27DCFB329DAE4583B5A660DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = read;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		289B78B7A251475CAC75F599 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Continuous;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		2D0391721AC54263906D95DD /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "yaml-cpp";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		2ECA0B9DB6194999BE128192 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		33081A83ED384759A4AE458D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sandbox;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		375031223B1643C0857822FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sandbox;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		376C5CE54A254A33A0C7E5A6 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sandbox;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		3BEE2FD0840D44D39DFF1C7F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		40D8D234AEC74CE497D29C6E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Continuous;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		422493F5DA7044AD8F46CBF4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = read;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4448D0FB68BD429B99DCA191 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
-			};
-			name = MinSizeRel;
-		};
-		45530707917D496192667A1B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4C2AE8AB1BB64A71BBB10C46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		51BB24E03E6943FD8DD81FDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		62594E8C3D61419487925335 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6CF4128F0FF644CDA3DF6A8C /* Debug */ = {
+		04453001512D4E5195120C1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1580,67 +1178,42 @@ fi
 			};
 			name = Debug;
 		};
-		6D4ED8623C32421C8A2D2A88 /* RelWithDebInfo */ = {
+		098BC37FD27D47BB9F33FCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = NightlyMemoryCheck;
+				PRODUCT_NAME = parse;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
-		774DD81340AA48B8BB22FF16 /* RelWithDebInfo */ = {
+		11AF703CDFC94362A6F9D9DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Experimental;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		84842AF0A17E4253955FAA8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Nightly;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
 			};
 			name = Release;
 		};
-		8537F10E11AA41199F59A1C6 /* Debug */ = {
+		14874EC16E874AE8822B0513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1660,7 +1233,31 @@ fi
 			};
 			name = Debug;
 		};
-		878446CD99A74A09BEFF6ED0 /* Release */ = {
+		164811BFFD254E569AF155D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sandbox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		16F696F85E6D42A1A0950525 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -1669,9 +1266,192 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
 			};
+			name = Debug;
+		};
+		17D404D9FD964955AF7C5AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Release;
 		};
-		8DA48F2300164AD3BA3073A2 /* Release */ = {
+		228EAC55037B45858C8F50D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		24A8E8F62DD54F8B89D0A192 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		262954276FD54FE8BC558727 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2BC351F9F34745EFBDCCF4ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3FAADE844A1348C7A2BC5A0A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		48865C5959074C80BD40B8B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = read;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4BE5D308028047F3834D672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4CC3B868EE3B4F12A8F84F76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		524F464B54FF414790834F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1682,7 +1462,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
@@ -1696,21 +1476,145 @@ fi
 			};
 			name = Release;
 		};
-		8FD43B44528F4640AC6E3C9A /* Debug */ = {
+		58DE5D9A9B364093AD4C8552 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5A524163B8CD4AEFA77A0108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B3FB3C4BA04493FB1B6917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5EBDCC31E02A436F8CC0AF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = read;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6472461B868B420F98C8596C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		67002BA092A04DE4A40CD927 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6858097D121440CF8486E00E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = sandbox;
 				SECTORDER_FLAGS = "";
@@ -1718,33 +1622,58 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		930AF901A2654235ABA4217E /* Debug */ = {
+		69C218665D7A44D484BF230B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "yaml-cpp";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7143D4C372E2458FA87F5152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = parse;
+				PRODUCT_NAME = sandbox;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		A5454BBBFE004B109E0C344C /* Release */ = {
+		726FE83478FD464586679B46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1764,31 +1693,98 @@ fi
 			};
 			name = Release;
 		};
-		AA17498FAE9941C0B347E6AF /* MinSizeRel */ = {
+		7297BCF9FD4F41389AC983C8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = parse;
+				PRODUCT_NAME = Nightly;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		AC0C4AFEB60B4DCCA02C069D /* RelWithDebInfo */ = {
+		77FF403A225C4B2B9E66B426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		782DDD0FB91446669EA9279F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7893490A9CCF40B0BB0CA08E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/build";
+			};
+			name = MinSizeRel;
+		};
+		78BC6982CFB94F79B82A7E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7911ED681371435FB80F78D3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1799,7 +1795,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
@@ -1813,7 +1809,111 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		B07727F2C3924E2EB825DC15 /* MinSizeRel */ = {
+		8219EB80F74E48DBA5B36362 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		870D731DF69246449E75E540 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8B6EE7F8A02544BDBE331B41 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		98B064560EBE47B6BF9747F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A1CD115159DD470693EEFC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Debug/libyaml-cppd.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = read;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A40230D0F2734CAAB88C2266 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1833,176 +1933,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		B4A3403662C243D1B6868FEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Experimental;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B576CF3870784F5487E182CE /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Nightly;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		B72D20923C4A4E04A224D6D2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		C01889562000472B98CA6496 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C05DF1D0D76B4254AF8C1352 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = parse;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		C085CE71BBA64A578C252228 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D10CF0AB74384AF781DED7DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Experimental;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		D65FEEE25C0A4EC7B2782691 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "yaml-cppd";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D924A15390B748AC92BB0403 /* Release */ = {
+		A5B0BAC80BE140EF91B6C31E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2020,9 +1951,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		DC2F8E3AA75548D49D3094DD /* Debug */ = {
+		C2417A2CCA724701A5579533 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2040,9 +1971,53 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = MinSizeRel;
+		};
+		C4FEDE71D1104FD7A64385FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sandbox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CB59835C95EE456DAEFFD339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Debug;
 		};
-		E296BB2A54F04962AD8C5ED3 /* MinSizeRel */ = {
+		D21D3EFBE79E41EFBC903F3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2050,23 +2025,23 @@ fi
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/MinSizeRel/libyaml-cpp.a","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = read;
+				PRODUCT_NAME = parse;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		E52D26F1384847FBA8C17016 /* Release */ = {
+		D2D37373B2F44FAC9C5B9BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2086,19 +2061,24 @@ fi
 			};
 			name = Release;
 		};
-		E870F13F9F47400A9DD9102B /* Debug */ = {
+		D73F002CC38940B1BDEAF70A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/src","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wshadow '-Weffc++' -Wno-long-long -pedantic -pedantic-errors '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = NightlyMemoryCheck;
+				PRODUCT_NAME = "yaml-cppd";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
 				USE_HEADERMAP = NO;
@@ -2106,7 +2086,31 @@ fi
 			};
 			name = Debug;
 		};
-		EDE1E8333988412EAE9CCEA6 /* RelWithDebInfo */ = {
+		E0434E8231B24E6BA70EBECE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/.","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/RelWithDebInfo/libyaml-cpp.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = read;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F4F970A2F0E443418067BEDB /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2126,161 +2130,157 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		F71E06179AFB48A88F50DDFC /* Release */ = {
+		F76E6CBEA8664D14B0C94823 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/davidepaollilo/Workspaces/C++/Thesis/Math","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Vector","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Versor","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Rotation","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Point","/Users/davidepaollilo/Workspaces/C++/Thesis/Math/Matrix","/Users/davidepaollilo/Workspaces/C++/Thesis/Core","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-src/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/Release/libyaml-cpp.a","$(inherited)");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = parse;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build/util";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2140411D2CCF4EE48FBC7A3B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		006EBDBAA1C04B5EAE37F2D0 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51BB24E03E6943FD8DD81FDF /* Debug */,
-				E52D26F1384847FBA8C17016 /* Release */,
-				45530707917D496192667A1B /* MinSizeRel */,
-				3BEE2FD0840D44D39DFF1C7F /* RelWithDebInfo */,
+				78BC6982CFB94F79B82A7E25 /* Debug */,
+				17D404D9FD964955AF7C5AAB /* Release */,
+				C2417A2CCA724701A5579533 /* MinSizeRel */,
+				F76E6CBEA8664D14B0C94823 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		270C61206F374C588E57601A /* Build configuration list for PBXNativeTarget "yaml-cpp-read" */ = {
+		065E9D6DDCD9483ABC6D254B /* Build configuration list for PBXNativeTarget "yaml-cpp-sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27DCFB329DAE4583B5A660DC /* Debug */,
-				024520199DBA495E9BAB7184 /* Release */,
-				E296BB2A54F04962AD8C5ED3 /* MinSizeRel */,
-				422493F5DA7044AD8F46CBF4 /* RelWithDebInfo */,
+				164811BFFD254E569AF155D7 /* Debug */,
+				7143D4C372E2458FA87F5152 /* Release */,
+				6858097D121440CF8486E00E /* MinSizeRel */,
+				C4FEDE71D1104FD7A64385FA /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		27E96E97BD48400CA716A554 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		0FE314F4AFE64C03AA1E514F /* Build configuration list for PBXAggregateTarget "Nightly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ECA0B9DB6194999BE128192 /* Debug */,
-				4C2AE8AB1BB64A71BBB10C46 /* Release */,
-				B72D20923C4A4E04A224D6D2 /* MinSizeRel */,
-				C085CE71BBA64A578C252228 /* RelWithDebInfo */,
+				04453001512D4E5195120C1C /* Debug */,
+				77FF403A225C4B2B9E66B426 /* Release */,
+				7297BCF9FD4F41389AC983C8 /* MinSizeRel */,
+				F4F970A2F0E443418067BEDB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		418F8B2839174CB5AB77A453 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */ = {
+		20D0CE47123346DBA834BCD7 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E870F13F9F47400A9DD9102B /* Debug */,
-				A5454BBBFE004B109E0C344C /* Release */,
-				B07727F2C3924E2EB825DC15 /* MinSizeRel */,
-				6D4ED8623C32421C8A2D2A88 /* RelWithDebInfo */,
+				4BE5D308028047F3834D672F /* Debug */,
+				726FE83478FD464586679B46 /* Release */,
+				A40230D0F2734CAAB88C2266 /* MinSizeRel */,
+				24A8E8F62DD54F8B89D0A192 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4B8E61D9E99F461CA2232DFB /* Build configuration list for PBXNativeTarget "yaml-cpp-parse" */ = {
+		23AC29B925A94F2F97385ABD /* Build configuration list for PBXAggregateTarget "Experimental" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				930AF901A2654235ABA4217E /* Debug */,
-				F71E06179AFB48A88F50DDFC /* Release */,
-				AA17498FAE9941C0B347E6AF /* MinSizeRel */,
-				C05DF1D0D76B4254AF8C1352 /* RelWithDebInfo */,
+				228EAC55037B45858C8F50D2 /* Debug */,
+				58DE5D9A9B364093AD4C8552 /* Release */,
+				8B6EE7F8A02544BDBE331B41 /* MinSizeRel */,
+				8219EB80F74E48DBA5B36362 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4ECD5DACC35C482387115402 /* Build configuration list for PBXAggregateTarget "Experimental" */ = {
+		29939367E7394ACF9E4F0A9E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4A3403662C243D1B6868FEB /* Debug */,
-				D10CF0AB74384AF781DED7DA /* Release */,
-				061380BD58AE472FA18A02F5 /* MinSizeRel */,
-				774DD81340AA48B8BB22FF16 /* RelWithDebInfo */,
+				5A524163B8CD4AEFA77A0108 /* Debug */,
+				6472461B868B420F98C8596C /* Release */,
+				98B064560EBE47B6BF9747F2 /* MinSizeRel */,
+				67002BA092A04DE4A40CD927 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9124535EDE8A414BA5028E4C /* Build configuration list for PBXAggregateTarget "Nightly" */ = {
+		31E96141C42A4CB6BA627BC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CF4128F0FF644CDA3DF6A8C /* Debug */,
-				84842AF0A17E4253955FAA8E /* Release */,
-				B576CF3870784F5487E182CE /* MinSizeRel */,
-				EDE1E8333988412EAE9CCEA6 /* RelWithDebInfo */,
+				CB59835C95EE456DAEFFD339 /* Debug */,
+				D2D37373B2F44FAC9C5B9BA7 /* Release */,
+				4CC3B868EE3B4F12A8F84F76 /* MinSizeRel */,
+				782DDD0FB91446669EA9279F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B76EAAD1352E44FAB0E39C1F /* Build configuration list for PBXAggregateTarget "install" */ = {
+		36E44F09A31A49F0A3FB0B3D /* Build configuration list for PBXProject "YAML_CPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC2F8E3AA75548D49D3094DD /* Debug */,
-				C01889562000472B98CA6496 /* Release */,
-				09D7B8CC425845F192FEABE0 /* MinSizeRel */,
-				62594E8C3D61419487925335 /* RelWithDebInfo */,
+				16F696F85E6D42A1A0950525 /* Debug */,
+				11AF703CDFC94362A6F9D9DD /* Release */,
+				7893490A9CCF40B0BB0CA08E /* MinSizeRel */,
+				262954276FD54FE8BC558727 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BD9EB190C422440181E3FC6D /* Build configuration list for PBXNativeTarget "yaml-cpp" */ = {
+		393580586C734AABB3CDE723 /* Build configuration list for PBXNativeTarget "yaml-cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D65FEEE25C0A4EC7B2782691 /* Debug */,
-				8DA48F2300164AD3BA3073A2 /* Release */,
-				2D0391721AC54263906D95DD /* MinSizeRel */,
-				AC0C4AFEB60B4DCCA02C069D /* RelWithDebInfo */,
+				D73F002CC38940B1BDEAF70A /* Debug */,
+				524F464B54FF414790834F50 /* Release */,
+				69C218665D7A44D484BF230B /* MinSizeRel */,
+				7911ED681371435FB80F78D3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D6541937B3644D4380D15103 /* Build configuration list for PBXNativeTarget "yaml-cpp-sandbox" */ = {
+		B19B6435DF554BCF9FA9D400 /* Build configuration list for PBXNativeTarget "yaml-cpp-parse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FD43B44528F4640AC6E3C9A /* Debug */,
-				375031223B1643C0857822FB /* Release */,
-				376C5CE54A254A33A0C7E5A6 /* MinSizeRel */,
-				33081A83ED384759A4AE458D /* RelWithDebInfo */,
+				098BC37FD27D47BB9F33FCE8 /* Debug */,
+				D21D3EFBE79E41EFBC903F3C /* Release */,
+				3FAADE844A1348C7A2BC5A0A /* MinSizeRel */,
+				2BC351F9F34745EFBDCCF4ED /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D92E0D7C63144CDC8C714690 /* Build configuration list for PBXAggregateTarget "Continuous" */ = {
+		C535E625FB894D4EA37CA3F1 /* Build configuration list for PBXAggregateTarget "Continuous" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8537F10E11AA41199F59A1C6 /* Debug */,
-				D924A15390B748AC92BB0403 /* Release */,
-				289B78B7A251475CAC75F599 /* MinSizeRel */,
-				40D8D234AEC74CE497D29C6E /* RelWithDebInfo */,
+				14874EC16E874AE8822B0513 /* Debug */,
+				5B3FB3C4BA04493FB1B6917E /* Release */,
+				870D731DF69246449E75E540 /* MinSizeRel */,
+				A5B0BAC80BE140EF91B6C31E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E46D444AB4264447A164A442 /* Build configuration list for PBXProject "YAML_CPP" */ = {
+		D29C5E20A8A040859C777512 /* Build configuration list for PBXNativeTarget "yaml-cpp-read" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E927E2B26AD4BEB97A527D6 /* Debug */,
-				878446CD99A74A09BEFF6ED0 /* Release */,
-				4448D0FB68BD429B99DCA191 /* MinSizeRel */,
-				0FB1871C35894BB6ABAFBD77 /* RelWithDebInfo */,
+				A1CD115159DD470693EEFC83 /* Debug */,
+				5EBDCC31E02A436F8CC0AF4F /* Release */,
+				48865C5959074C80BD40B8B8 /* MinSizeRel */,
+				E0434E8231B24E6BA70EBECE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

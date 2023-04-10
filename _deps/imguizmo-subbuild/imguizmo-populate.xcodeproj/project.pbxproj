@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 63778E4AD3AA47AA9D5E5D70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 82012362DE2544638F4322C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				1514B50C6D76459055F0E209 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,7 +20,7 @@
 		};
 		CBEAD56F74444785A9041493 /* imguizmo-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0BB312FD407C40BD91F8729F /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */;
+			buildConfigurationList = ECEC74AA04B94B9CB22C5DA9 /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */;
 			buildPhases = (
 				B0870653C1CAD4C7860DDFC1 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-mkdir */,
 				AC7F0F1B35FE922AFCB162B5 /* Generate imguizmo-populate-prefix/src/imguizmo-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imguizmo-populate-download */,
@@ -34,20 +34,20 @@
 				93769D5DC59DCEFB15D05096 /* Generate CMakeFiles/imguizmo-populate */,
 			);
 			dependencies = (
-				A69DC3F45F9F4161BAA2CE02 /* PBXTargetDependency */,
+				2263B33D26FD474B9105A96F /* PBXTargetDependency */,
 			);
 			name = "imguizmo-populate";
 			productName = "imguizmo-populate";
 		};
 		D6E76F0D897E44428A10E6FF /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 176EDF05B9434D5CBD973A4E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 3636A6AE495843B587AD3F38 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				ABE9105798E9AC7094549545 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				3FAE34036E7C4EF8A88EF94A /* PBXTargetDependency */,
-				D44B143344494156A1DA5A26 /* PBXTargetDependency */,
+				AEC83986C45F42249CD961ED /* PBXTargetDependency */,
+				31CB30B1E3904555AAB65C33 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -55,120 +55,120 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		1A84F059E3E64561B5F55606 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		5622480C458C47E39749CDAA /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		61020F314AA04B86A1ADAB3F /* Debug */ = {
+		2F9D9AFFE4054EECB2EC8D19 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		9F2A3A555F444EE3A83EAAF5 /* RelWithDebInfo */ = {
+		9D471E708B2846B38E5C0AE8 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		A4F98BB20E6442C7B45DD9D0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C6ADE2D6D6E94BC6926B66F4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		B390E26962EA469CAE9E1E56 /* PBXContainerItemProxy */ = {
+		2DB8AA0AED9D48E1A2588F52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 99B64CDA4F334AF6B67E9825;
 			remoteInfo = ZERO_CHECK;
 		};
-		B99D9C848E954C3584480D96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99B64CDA4F334AF6B67E9825;
-			remoteInfo = ZERO_CHECK;
-		};
-		C804EC82B7C24680B6189D41 /* PBXContainerItemProxy */ = {
+		62B6FB351BBA49E0BD5FB1E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBEAD56F74444785A9041493;
 			remoteInfo = "imguizmo-populate";
 		};
+		7B2C02EEEBB84A86B33E412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3CE355AE4044F8830B7B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B64CDA4F334AF6B67E9825;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		941A81463CB0443886A9E31E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F44F6D6A480343C5BFB7FCFA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1441C4BC2FD44DFFA6FF0E5A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DB0DA6ABB2F402D88EACC7B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		02B38A384CD04AF99870A2EA /* ALL_BUILD */ = {
+		16C1F9A2131B4D4FB15EB5B2 /* imguizmo-populate */ = {
 			isa = PBXGroup;
 			children = (
-				8848944B01A6402BAC18BA5B /* CMake Rules */,
-				F44F6D6A480343C5BFB7FCFA /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
+				928B827186AA4928BBED001D /* CMake Rules */,
+				1441C4BC2FD44DFFA6FF0E5A /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = "imguizmo-populate";
 			sourceTree = "<group>";
 		};
-		3451D2BC5BF0458D84FC4621 /* Products */ = {
+		7943A3FA9CC446559BECE7D1 = {
+			isa = PBXGroup;
+			children = (
+				16C1F9A2131B4D4FB15EB5B2 /* imguizmo-populate */,
+				EB083DB130684E54B1F74C0C /* ALL_BUILD */,
+				8B76F22730674ADBBDD442C0 /* Products */,
+				91E0EFE2D7404C5387D7CA50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDC267CC88245298C268946 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8B76F22730674ADBBDD442C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		594DACF05B9C414A8B07880A /* Frameworks */ = {
+		91E0EFE2D7404C5387D7CA50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8848944B01A6402BAC18BA5B /* CMake Rules */ = {
+		928B827186AA4928BBED001D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		8E614172C000468E841025A8 /* CMake Rules */ = {
+		EB083DB130684E54B1F74C0C /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
+				7DDC267CC88245298C268946 /* CMake Rules */,
+				4DB0DA6ABB2F402D88EACC7B /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
 			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		CE73E761808E4D5CB5D5D40B = {
-			isa = PBXGroup;
-			children = (
-				DDF7AE6F8132477C8F6E8B97 /* imguizmo-populate */,
-				02B38A384CD04AF99870A2EA /* ALL_BUILD */,
-				3451D2BC5BF0458D84FC4621 /* Products */,
-				594DACF05B9C414A8B07880A /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		DDF7AE6F8132477C8F6E8B97 /* imguizmo-populate */ = {
-			isa = PBXGroup;
-			children = (
-				8E614172C000468E841025A8 /* CMake Rules */,
-				941A81463CB0443886A9E31E /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/CMakeLists.txt */,
-			);
-			name = "imguizmo-populate";
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,18 +180,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 8B99B5FB63DD4FB8BF790C78 /* Build configuration list for PBXProject "imguizmo-populate" */;
+			buildConfigurationList = 29552AA637FA4D8D9E47EDD3 /* Build configuration list for PBXProject "imguizmo-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				61020F314AA04B86A1ADAB3F /* Debug */,
-				5622480C458C47E39749CDAA /* Release */,
-				1A84F059E3E64561B5F55606 /* MinSizeRel */,
-				9F2A3A555F444EE3A83EAAF5 /* RelWithDebInfo */,
+				2F9D9AFFE4054EECB2EC8D19 /* Debug */,
+				C6ADE2D6D6E94BC6926B66F4 /* Release */,
+				A4F98BB20E6442C7B45DD9D0 /* MinSizeRel */,
+				9D471E708B2846B38E5C0AE8 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = CE73E761808E4D5CB5D5D40B;
+			mainGroup = 7943A3FA9CC446559BECE7D1;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -697,227 +697,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FAE34036E7C4EF8A88EF94A /* PBXTargetDependency */ = {
+		2263B33D26FD474B9105A96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */;
+			targetProxy = 7B2C02EEEBB84A86B33E412D /* PBXContainerItemProxy */;
+		};
+		31CB30B1E3904555AAB65C33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CBEAD56F74444785A9041493 /* imguizmo-populate */;
-			targetProxy = C804EC82B7C24680B6189D41 /* PBXContainerItemProxy */;
+			targetProxy = 62B6FB351BBA49E0BD5FB1E3 /* PBXContainerItemProxy */;
 		};
-		A69DC3F45F9F4161BAA2CE02 /* PBXTargetDependency */ = {
+		AEC83986C45F42249CD961ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */;
-			targetProxy = B99D9C848E954C3584480D96 /* PBXContainerItemProxy */;
-		};
-		D44B143344494156A1DA5A26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 99B64CDA4F334AF6B67E9825 /* ZERO_CHECK */;
-			targetProxy = B390E26962EA469CAE9E1E56 /* PBXContainerItemProxy */;
+			targetProxy = 2DB8AA0AED9D48E1A2588F52 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08CF779349594315B34D4832 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0C60EE690303472DB58E84EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0C834EDD6DDB4D84A6FB761D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		0E8D3EE9878A4245A518ECFC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imguizmo-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		25B36BD54D1D4E38B4F34CF3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		31B46CB4F5E34AD69563AAA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		42B6AF61FEAD44A2BBD7FD33 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imguizmo-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		5917F776261944ECAAE54BDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
-			};
-			name = Debug;
-		};
-		5CDC98C31D6143899A750597 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
-			};
-			name = Release;
-		};
-		7FF6A5D8B2534093B85BD106 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		8CC7E15DB0454CBE9697D203 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imguizmo-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		972BD3BFFDCD4DC1B4869544 /* Debug */ = {
+		055C8CC120DF4D5782B09EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -937,7 +735,27 @@ fi
 			};
 			name = Debug;
 		};
-		AD2B06B4F16041B58896BF23 /* RelWithDebInfo */ = {
+		1D18C6AFBDCB45D4B16F604E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		232913C6038549D7B38D1F69 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -948,7 +766,140 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		C88EB38724CD4370A4011C15 /* RelWithDebInfo */ = {
+		307CE4C03FF248BABB586817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3C395D259A3E472988EA1D65 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4F471E4FF4394CB89667BE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = Debug;
+		};
+		6B83350049C046678FEEFFD7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		6E5DB42431D644FDB369B798 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E93A60F5B2447D9AD996CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+			};
+			name = Release;
+		};
+		97A5179C51CB41548325B100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A2DF54265C5F446D961E15E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ADD43F8019B64BBFBC35EB48 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -968,18 +919,67 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		D8FF79F76BB14F989C8A9C65 /* MinSizeRel */ = {
+		CCDA3B30D472499E9CA5109B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imguizmo-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D7B7ABB029664FE6AC114F3A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		E0624958255E4CA3B636EFFE /* MinSizeRel */ = {
+		DE0412FB75F44C34B20333E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imguizmo-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E22CBBE1706A4BC2B79A8E55 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -997,51 +997,51 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BB312FD407C40BD91F8729F /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */ = {
+		29552AA637FA4D8D9E47EDD3 /* Build configuration list for PBXProject "imguizmo-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				972BD3BFFDCD4DC1B4869544 /* Debug */,
-				8CC7E15DB0454CBE9697D203 /* Release */,
-				42B6AF61FEAD44A2BBD7FD33 /* MinSizeRel */,
-				0E8D3EE9878A4245A518ECFC /* RelWithDebInfo */,
+				4F471E4FF4394CB89667BE78 /* Debug */,
+				6E93A60F5B2447D9AD996CEC /* Release */,
+				6B83350049C046678FEEFFD7 /* MinSizeRel */,
+				232913C6038549D7B38D1F69 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		176EDF05B9434D5CBD973A4E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		3636A6AE495843B587AD3F38 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C60EE690303472DB58E84EF /* Debug */,
-				31B46CB4F5E34AD69563AAA7 /* Release */,
-				7FF6A5D8B2534093B85BD106 /* MinSizeRel */,
-				C88EB38724CD4370A4011C15 /* RelWithDebInfo */,
+				1D18C6AFBDCB45D4B16F604E /* Debug */,
+				DE0412FB75F44C34B20333E6 /* Release */,
+				D7B7ABB029664FE6AC114F3A /* MinSizeRel */,
+				ADD43F8019B64BBFBC35EB48 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		63778E4AD3AA47AA9D5E5D70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		82012362DE2544638F4322C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08CF779349594315B34D4832 /* Debug */,
-				0C834EDD6DDB4D84A6FB761D /* Release */,
-				E0624958255E4CA3B636EFFE /* MinSizeRel */,
-				25B36BD54D1D4E38B4F34CF3 /* RelWithDebInfo */,
+				307CE4C03FF248BABB586817 /* Debug */,
+				97A5179C51CB41548325B100 /* Release */,
+				A2DF54265C5F446D961E15E1 /* MinSizeRel */,
+				E22CBBE1706A4BC2B79A8E55 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8B99B5FB63DD4FB8BF790C78 /* Build configuration list for PBXProject "imguizmo-populate" */ = {
+		ECEC74AA04B94B9CB22C5DA9 /* Build configuration list for PBXAggregateTarget "imguizmo-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5917F776261944ECAAE54BDA /* Debug */,
-				5CDC98C31D6143899A750597 /* Release */,
-				D8FF79F76BB14F989C8A9C65 /* MinSizeRel */,
-				AD2B06B4F16041B58896BF23 /* RelWithDebInfo */,
+				055C8CC120DF4D5782B09EA6 /* Debug */,
+				CCDA3B30D472499E9CA5109B /* Release */,
+				6E5DB42431D644FDB369B798 /* MinSizeRel */,
+				3C395D259A3E472988EA1D65 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -9,32 +9,32 @@
 /* Begin PBXAggregateTarget section */
 		64165CD79904475D86A3EC42 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 74F07AF5E527496BBBA39441 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 5304689EC0414A849FB0EEA9 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				18729EFF488B4777B91D8804 /* PBXTargetDependency */,
+				2F8776AB89124D6692DEB482 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		6A12938F3F4542C7A3E0000D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9D74B32D19E346C095E7A32A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 74D45C8D8E534196A5BDD918 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				6A25C069E36550461F2734D1 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				F21437ECBD524DBB818C20BA /* PBXTargetDependency */,
-				A9D3E0B474B4453DB1D7B5D7 /* PBXTargetDependency */,
+				472816097FF84734BB22039B /* PBXTargetDependency */,
+				317DDC68B2694547842EF47B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A06447CB8BC6458AB86A439F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C188E0EF622E4386ABC25CDA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				0991DDA27540C89E9E7E6B4A /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -46,81 +46,81 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		686506E875BF4E2CAF84B215 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F87DCBCC7D342F39C4CE111 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */; };
-		8C5B357A32D84F8287D08741 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */ = {isa = PBXBuildFile; fileRef = 11E20715C548402D9602AA92 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */; };
+		3FEFB5450BBA4DEFBCF2C135 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0D9B2F53219043EC908AD424 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */; };
+		C4BB012DF095411B8A0A4381 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */ = {isa = PBXBuildFile; fileRef = 0F8D3C8A35A4458099823339 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2E67837277BF49A1AEBEB32C /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		5D58F3D8BEE74BF2B7E8F35F /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		8D16F00D78ED41FD9184E4BB /* Debug */ = {
+		308715A84D564D028C5246EE /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		97CAED2809BD47049EE5C948 /* MinSizeRel */ = {
+		30F8BD81036544AA84EA7DB7 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		702F27C5BE7C4ECD8FC78C25 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BE668D4B5CA9469E85934B4B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		067A79ED0CBE47F39E138BFE /* PBXContainerItemProxy */ = {
+		42E92FDE7A944645B63C4B54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2E651B849004ABEB8DCDA3C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
 			remoteInfo = ZERO_CHECK;
 		};
-		5D42E80F8B5540768B117E89 /* PBXContainerItemProxy */ = {
+		5A6233543BA5467CB19F1173 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2E651B849004ABEB8DCDA3C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5B753465F1040E988B49228;
-			remoteInfo = triangle;
+			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
+			remoteInfo = ZERO_CHECK;
 		};
-		62EF2C3E8B5144658A5907CB /* PBXContainerItemProxy */ = {
+		90F45D54F5AC427789E6154F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2E651B849004ABEB8DCDA3C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A12938F3F4542C7A3E0000D;
 			remoteInfo = ALL_BUILD;
 		};
-		DB32CEB3F65D4848A85BD37A /* PBXContainerItemProxy */ = {
+		98A2507B65F14B50B830B7AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2E651B849004ABEB8DCDA3C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BDAD338ED8EE49F7A60E8446;
-			remoteInfo = ZERO_CHECK;
+			remoteGlobalIDString = C5B753465F1040E988B49228;
+			remoteInfo = triangle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11E20715C548402D9602AA92 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = triangle.cpp; sourceTree = SOURCE_ROOT; };
-		67EEAFFD3DAE4B7F8304AB2B /* triangle */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtriangle.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F87DCBCC7D342F39C4CE111 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E76BE5BEB1374480AE0994DF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0D9B2F53219043EC908AD424 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0F8D3C8A35A4458099823339 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = triangle.cpp; sourceTree = SOURCE_ROOT; };
+		8E982711B6214F55B2143EE2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CD7A22F1BD2B48FDB773A27A /* triangle */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtriangle.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		366F79A27FBD4C579F82DF76 /* Frameworks */ = {
+		682841CA2C1345E48DC4EC57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,70 +130,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07906D1B12B9427D908E1B81 /* Products */ = {
+		2421F0356A204B7D8E808394 /* triangle */ = {
 			isa = PBXGroup;
 			children = (
-				67EEAFFD3DAE4B7F8304AB2B /* triangle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3897476418E445EBA700FEA4 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				56DE0EC014E24D3EA985175C /* CMake Rules */,
-				E76BE5BEB1374480AE0994DF /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		50865EF3420344AA8D826FE6 /* triangle */ = {
-			isa = PBXGroup;
-			children = (
-				D5162593B97341BA9511B9E2 /* Source Files */,
-				9F87DCBCC7D342F39C4CE111 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */,
+				6AF1B3474BEF4821B250C6C3 /* Source Files */,
+				0D9B2F53219043EC908AD424 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */,
 			);
 			name = triangle;
 			sourceTree = "<group>";
 		};
-		56DE0EC014E24D3EA985175C /* CMake Rules */ = {
+		2EBD48BCFE2644BA901B4ED6 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		707B600B4D624F1FBBB99C66 /* Frameworks */ = {
+		4A8451B62D6D43978D802AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A22F1BD2B48FDB773A27A /* triangle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF1B3474BEF4821B250C6C3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8D3C8A35A4458099823339 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7619DE39AA3C4173AC1422AF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD48BCFE2644BA901B4ED6 /* CMake Rules */,
+				8E982711B6214F55B2143EE2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		76E7FC422AA24339A79995AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7E28826E022D444591F25BCB /* ThirdParty */ = {
+		8C25661E06F14C18ADFC90CA = {
 			isa = PBXGroup;
 			children = (
-				50865EF3420344AA8D826FE6 /* triangle */,
+				F36BC6C7A23F4793AB67B49C /* ThirdParty */,
+				7619DE39AA3C4173AC1422AF /* ALL_BUILD */,
+				4A8451B62D6D43978D802AF0 /* Products */,
+				76E7FC422AA24339A79995AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F36BC6C7A23F4793AB67B49C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				2421F0356A204B7D8E808394 /* triangle */,
 			);
 			name = ThirdParty;
-			sourceTree = "<group>";
-		};
-		A20D05270D3E4F2AB9503226 = {
-			isa = PBXGroup;
-			children = (
-				7E28826E022D444591F25BCB /* ThirdParty */,
-				3897476418E445EBA700FEA4 /* ALL_BUILD */,
-				07906D1B12B9427D908E1B81 /* Products */,
-				707B600B4D624F1FBBB99C66 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		D5162593B97341BA9511B9E2 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				11E20715C548402D9602AA92 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */,
-			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,19 +201,19 @@
 /* Begin PBXNativeTarget section */
 		C5B753465F1040E988B49228 /* triangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40732C86A5764F5FA3E14872 /* Build configuration list for PBXNativeTarget "triangle" */;
+			buildConfigurationList = 47F6369B54804199B1AA75D9 /* Build configuration list for PBXNativeTarget "triangle" */;
 			buildPhases = (
-				3AB4DC972B8E49DE96F884CC /* Sources */,
-				366F79A27FBD4C579F82DF76 /* Frameworks */,
+				1DD589D65121401E9717B83B /* Sources */,
+				682841CA2C1345E48DC4EC57 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AAB6F18DE0649BB8C324E7D /* PBXTargetDependency */,
+				1BB529D927DE4BA699168F64 /* PBXTargetDependency */,
 			);
 			name = triangle;
 			productName = triangle;
-			productReference = 67EEAFFD3DAE4B7F8304AB2B /* triangle */;
+			productReference = CD7A22F1BD2B48FDB773A27A /* triangle */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -225,18 +225,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 4FEE55DD1EBD4613B5AC8785 /* Build configuration list for PBXProject "triangle" */;
+			buildConfigurationList = 9276F08ECB2A474EB3210680 /* Build configuration list for PBXProject "triangle" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				8D16F00D78ED41FD9184E4BB /* Debug */,
-				5D58F3D8BEE74BF2B7E8F35F /* Release */,
-				97CAED2809BD47049EE5C948 /* MinSizeRel */,
-				2E67837277BF49A1AEBEB32C /* RelWithDebInfo */,
+				308715A84D564D028C5246EE /* Debug */,
+				BE668D4B5CA9469E85934B4B /* Release */,
+				30F8BD81036544AA84EA7DB7 /* MinSizeRel */,
+				702F27C5BE7C4ECD8FC78C25 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = A20D05270D3E4F2AB9503226;
+			mainGroup = 8C25661E06F14C18ADFC90CA;
 			projectDirPath = "../triangle-src";
 			projectRoot = "";
 			targets = (
@@ -394,41 +394,41 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3AB4DC972B8E49DE96F884CC /* Sources */ = {
+		1DD589D65121401E9717B83B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5B357A32D84F8287D08741 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */,
+				C4BB012DF095411B8A0A4381 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-src/triangle.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18729EFF488B4777B91D8804 /* PBXTargetDependency */ = {
+		1BB529D927DE4BA699168F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
+			targetProxy = 5A6233543BA5467CB19F1173 /* PBXContainerItemProxy */;
+		};
+		2F8776AB89124D6692DEB482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6A12938F3F4542C7A3E0000D /* ALL_BUILD */;
-			targetProxy = 62EF2C3E8B5144658A5907CB /* PBXContainerItemProxy */;
+			targetProxy = 90F45D54F5AC427789E6154F /* PBXContainerItemProxy */;
 		};
-		6AAB6F18DE0649BB8C324E7D /* PBXTargetDependency */ = {
+		317DDC68B2694547842EF47B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = 067A79ED0CBE47F39E138BFE /* PBXContainerItemProxy */;
+			targetProxy = 42E92FDE7A944645B63C4B54 /* PBXContainerItemProxy */;
 		};
-		A9D3E0B474B4453DB1D7B5D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDAD338ED8EE49F7A60E8446 /* ZERO_CHECK */;
-			targetProxy = DB32CEB3F65D4848A85BD37A /* PBXContainerItemProxy */;
-		};
-		F21437ECBD524DBB818C20BA /* PBXTargetDependency */ = {
+		472816097FF84734BB22039B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C5B753465F1040E988B49228 /* triangle */;
-			targetProxy = 5D42E80F8B5540768B117E89 /* PBXContainerItemProxy */;
+			targetProxy = 98A2507B65F14B50B830B7AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AE86FC2BB984BCB8B2529B1 /* Debug */ = {
+		1365A79354B94291A7BDE2CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -440,7 +440,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
 				USE_HEADERMAP = NO;
@@ -448,123 +448,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		1BD217F069B2447A90667834 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/davidepaollilo/Workspaces/C++/Thesis/lib/Debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TRILIBRARY,ANSI_DECLARATORS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = triangle;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		368D32941A6B4803A2295594 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4F1654B8AFDC4DE4B1630212 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		59930CD5CEE84704B17F1A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		5A9CD362644849DDAFD5476A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		5C59E110567D4A579BCAE536 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6DB3E375CCFE4163B2E25D2B /* Release */ = {
+		31A0A54990874C60A6B020E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -584,32 +468,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		7634C1A1E0CC43D89FD4A9B2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/davidepaollilo/Workspaces/C++/Thesis/lib/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TRILIBRARY,ANSI_DECLARATORS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = triangle;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		89B830751AC644D797663107 /* Debug */ = {
+		3860AD2182304E37A5DB51CA /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -621,15 +480,15 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		8F38CC03383246E0B8FB93BE /* RelWithDebInfo */ = {
+		4DFE840B6A244E168D07E5B9 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -649,7 +508,78 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		9094E2CFA4F54922A852E174 /* Release */ = {
+		805D7FED8F97400FBEAF6E4D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
+			};
+			name = MinSizeRel;
+		};
+		82E32F43C43843AE83F837C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8F22B8FBECA940F9A9A74E43 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		92D1B8252086442E82A6027D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0C98CF6846E483D9D6BA725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -674,7 +604,43 @@ exit 0";
 			};
 			name = Release;
 		};
-		9F178446B0BC46EE81EE40A0 /* Debug */ = {
+		A31A56E5054C463EB8DD9690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/davidepaollilo/Workspaces/C++/Thesis/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TRILIBRARY,ANSI_DECLARATORS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A47AAF8D13654760B6C4F96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
+			};
+			name = Release;
+		};
+		A740135ABF644D1DBAE77FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -694,7 +660,83 @@ exit 0";
 			};
 			name = Debug;
 		};
-		9FFB27D28E5241348EE1B167 /* MinSizeRel */ = {
+		A8CCFFFCF1FE4BB2A00759F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AA947544F85545AC9DB08C58 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB4FB0CC4A604DD5B9DD899D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/davidepaollilo/Workspaces/C++/Thesis/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TRILIBRARY,ANSI_DECLARATORS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B3C448BF20AA467EA79BBD79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C52B0C1C80F24CE7BC86B35C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -719,29 +761,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		C1B1B6F396FD486BA157C1FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
-			};
-			name = Debug;
-		};
-		D4D4B73F25BE4DA1B75FA825 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
-			};
-			name = Release;
-		};
-		DEAB17CE7E094B46B339F898 /* MinSizeRel */ = {
+		F19A5322E28C4786B5016C07 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -753,7 +773,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
 				USE_HEADERMAP = NO;
@@ -761,27 +781,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		E6B0ECBC16104484BBC4F2F6 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		F05F6D7CB2E44330869B1442 /* MinSizeRel */ = {
+		F3667FA1925F45159FBF4B2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -799,9 +799,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		FD1E06FCF03741D6993B103F /* MinSizeRel */ = {
+		F817E2A4A5B64594B7B8552D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -810,62 +810,62 @@ exit 0";
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/triangle-build/build";
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40732C86A5764F5FA3E14872 /* Build configuration list for PBXNativeTarget "triangle" */ = {
+		47F6369B54804199B1AA75D9 /* Build configuration list for PBXNativeTarget "triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BD217F069B2447A90667834 /* Debug */,
-				9094E2CFA4F54922A852E174 /* Release */,
-				9FFB27D28E5241348EE1B167 /* MinSizeRel */,
-				7634C1A1E0CC43D89FD4A9B2 /* RelWithDebInfo */,
+				A31A56E5054C463EB8DD9690 /* Debug */,
+				A0C98CF6846E483D9D6BA725 /* Release */,
+				C52B0C1C80F24CE7BC86B35C /* MinSizeRel */,
+				AB4FB0CC4A604DD5B9DD899D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4FEE55DD1EBD4613B5AC8785 /* Build configuration list for PBXProject "triangle" */ = {
+		5304689EC0414A849FB0EEA9 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1B1B6F396FD486BA157C1FB /* Debug */,
-				D4D4B73F25BE4DA1B75FA825 /* Release */,
-				FD1E06FCF03741D6993B103F /* MinSizeRel */,
-				5A9CD362644849DDAFD5476A /* RelWithDebInfo */,
+				A740135ABF644D1DBAE77FC8 /* Debug */,
+				31A0A54990874C60A6B020E9 /* Release */,
+				B3C448BF20AA467EA79BBD79 /* MinSizeRel */,
+				3860AD2182304E37A5DB51CA /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		74F07AF5E527496BBBA39441 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		74D45C8D8E534196A5BDD918 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F178446B0BC46EE81EE40A0 /* Debug */,
-				6DB3E375CCFE4163B2E25D2B /* Release */,
-				DEAB17CE7E094B46B339F898 /* MinSizeRel */,
-				E6B0ECBC16104484BBC4F2F6 /* RelWithDebInfo */,
+				1365A79354B94291A7BDE2CE /* Debug */,
+				82E32F43C43843AE83F837C8 /* Release */,
+				F19A5322E28C4786B5016C07 /* MinSizeRel */,
+				AA947544F85545AC9DB08C58 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9D74B32D19E346C095E7A32A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		9276F08ECB2A474EB3210680 /* Build configuration list for PBXProject "triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89B830751AC644D797663107 /* Debug */,
-				59930CD5CEE84704B17F1A67 /* Release */,
-				5C59E110567D4A579BCAE536 /* MinSizeRel */,
-				4F1654B8AFDC4DE4B1630212 /* RelWithDebInfo */,
+				F817E2A4A5B64594B7B8552D /* Debug */,
+				A47AAF8D13654760B6C4F96D /* Release */,
+				805D7FED8F97400FBEAF6E4D /* MinSizeRel */,
+				A8CCFFFCF1FE4BB2A00759F8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A06447CB8BC6458AB86A439F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		C188E0EF622E4386ABC25CDA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AE86FC2BB984BCB8B2529B1 /* Debug */,
-				368D32941A6B4803A2295594 /* Release */,
-				F05F6D7CB2E44330869B1442 /* MinSizeRel */,
-				8F38CC03383246E0B8FB93BE /* RelWithDebInfo */,
+				92D1B8252086442E82A6027D /* Debug */,
+				F3667FA1925F45159FBF4B2A /* Release */,
+				8F22B8FBECA940F9A9A74E43 /* MinSizeRel */,
+				4DFE840B6A244E168D07E5B9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

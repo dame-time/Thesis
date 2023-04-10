@@ -9,104 +9,28 @@
 #include <Eigen/Core>
 #include <Eigen/SparseCore>
 
-#include <yaml-cpp/yaml.h>
+#include <YAMLUtils.hpp>
 
 #include <experimental/filesystem>
 #include <algorithm>
 #include <cassert>
 #include <cmath>
 
-void YAMLSerializeVector3(YAML::Emitter& out, const Math::Vector3& vector) {
-    out << YAML::BeginMap;
-    out << YAML::Key << "X" << YAML::Value << vector.coordinates.x;
-    out << YAML::Key << "Y" << YAML::Value << vector.coordinates.y;
-    out << YAML::Key << "Z" << YAML::Value << vector.coordinates.z;
-    out << YAML::EndMap;
-}
-
-void YAMLSerializeVector4(YAML::Emitter& out, const Math::Vector4& vector) {
-    out << YAML::BeginMap;
-    out << YAML::Key << "X" << YAML::Value << vector.coordinates.x;
-    out << YAML::Key << "Y" << YAML::Value << vector.coordinates.y;
-    out << YAML::Key << "Z" << YAML::Value << vector.coordinates.z;
-    out << YAML::Key << "W" << YAML::Value << vector.coordinates.w;
-    out << YAML::EndMap;
-}
-
-void YAMLSerializeMatrix4(YAML::Emitter& out, const Math::Matrix4& matrix) {
-    out << YAML::BeginMap;
-    out << YAML::Key << "0" << YAML::Value << matrix.data[0];
-    out << YAML::Key << "1" << YAML::Value << matrix.data[1];
-    out << YAML::Key << "2" << YAML::Value << matrix.data[2];
-    out << YAML::Key << "3" << YAML::Value << matrix.data[3];
-    out << YAML::Key << "4" << YAML::Value << matrix.data[4];
-    out << YAML::Key << "5" << YAML::Value << matrix.data[5];
-    out << YAML::Key << "6" << YAML::Value << matrix.data[6];
-    out << YAML::Key << "7" << YAML::Value << matrix.data[7];
-    out << YAML::Key << "8" << YAML::Value << matrix.data[8];
-    out << YAML::Key << "9" << YAML::Value << matrix.data[9];
-    out << YAML::Key << "10" << YAML::Value << matrix.data[10];
-    out << YAML::Key << "11" << YAML::Value << matrix.data[11];
-    out << YAML::Key << "12" << YAML::Value << matrix.data[12];
-    out << YAML::Key << "13" << YAML::Value << matrix.data[13];
-    out << YAML::Key << "14" << YAML::Value << matrix.data[14];
-    out << YAML::Key << "15" << YAML::Value << matrix.data[15];
-    out << YAML::EndMap;
-}
-
-void YAMLSerializeQuadric(YAML::Emitter& out, SM::Quadric& q) {
-    out << YAML::BeginMap;
-    out << YAML::Key << "A" << YAML::Value;
-    YAMLSerializeMatrix4(out, q.getA());
-    out << YAML::Key << "b" << YAML::Value;
-    YAMLSerializeVector4(out, q.getB());
-    out << YAML::Key << "c" << YAML::Value << q.getC();
-    out << YAML::EndMap;
-}
-
 namespace SM {
-    std::vector<Math::Vector3> Region::directions;
-
     SphereMesh::SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius) : viewer(currentViewer)
     {
         auto vertices = mesh.vertices;
         auto faces = mesh.faces;
+        
+        BDDSize = mesh.bbox.BDD().magnitude();
 
         initializeSphereMeshTriangles(faces);
-        initializeSpheres(vertices);
+        initializeSpheres(vertices, 0.01 * BDDSize);
         
         computeSpheresProperties(vertices);
-        
-        initialSpheres = sphere;
-    }
+        updateSpheres();
 
-    void SphereMesh::computeAABB(const std::vector<Core::Vertex>& vertices)
-    {
-        axisAlignedBoundingBox.minX = DBL_MAX;
-        axisAlignedBoundingBox.minY = DBL_MAX;
-        axisAlignedBoundingBox.minY = DBL_MAX;
-        
-        axisAlignedBoundingBox.maxX = -DBL_MAX;
-        axisAlignedBoundingBox.maxY = -DBL_MAX;
-        axisAlignedBoundingBox.maxY = -DBL_MAX;
-        
-        for (int i = 0; i < vertices.size(); i++)
-        {
-            if (vertices[i].position[0] < axisAlignedBoundingBox.minX)
-                axisAlignedBoundingBox.minX = vertices[i].position[0];
-            if (vertices[i].position[0] > axisAlignedBoundingBox.maxX)
-                axisAlignedBoundingBox.maxX = vertices[i].position[0];
-            
-            if (vertices[i].position[1] < axisAlignedBoundingBox.minY)
-                axisAlignedBoundingBox.minY = vertices[i].position[1];
-            if (vertices[i].position[1] > axisAlignedBoundingBox.maxY)
-                axisAlignedBoundingBox.maxY = vertices[i].position[1];
-            
-            if (vertices[i].position[2] < axisAlignedBoundingBox.minZ)
-                axisAlignedBoundingBox.minZ = vertices[i].position[2];
-            if (vertices[i].position[2] > axisAlignedBoundingBox.maxZ)
-                axisAlignedBoundingBox.maxZ = vertices[i].position[2];
-        }
+        initialSpheres = sphere;
     }
 
     void SphereMesh::initializeSphereMeshTriangles(const std::vector<Core::Face>& faces)
@@ -115,39 +39,20 @@ namespace SM {
             triangle.push_back(Triangle(faces[i].i, faces[i].j, faces[i].k));
     }
 
-    void SphereMesh::initializeSpheres(const std::vector<Core::Vertex>& vertices)
+    void SphereMesh::initializeSpheres(const std::vector<Core::Vertex>& vertices, double initialRadius)
     {
         for (int i = 0; i < vertices.size(); i++)
-            sphere.push_back(Sphere(vertices[i]));
-    }
-
-    void SphereMesh::setCollapseCosts()
-    {
-        const double EPSILON = 0.5;
-        collapseCosts.clear();
-        
-        for (int i = 0; i < sphere.size(); i++)
-        {
-            for (int j = i + 1; j < sphere.size(); j++)
-            {
-                if (i == j || (sphere[i].center - sphere[j].center).magnitude() > EPSILON)
-                    continue;
-                
-                collapseCosts.push_back(CollapsableEdge(sphere[i], sphere[j], i, j));
-            }
-        }
-        
-        std::make_heap(collapseCosts.begin(), collapseCosts.end(), CollapsableEdgeErrorComparator());
+            sphere.push_back(Sphere(vertices[i], initialRadius));
     }
 
     CollapsableEdge SphereMesh::getBestCollapseBruteForce()
     {
-        const double EPSILON = 0.1;
+        const double EPSILON = 0.05 * BDDSize;
         
         assert(sphere.size() > 1);
         
         double minErorr = DBL_MAX;
-        CollapsableEdge bestEdge = CollapsableEdge(sphere[0], sphere[1], 0, 1);
+        CollapsableEdge bestEdge = CollapsableEdge(sphere[0], sphere[1], -1, -1);
         
         for (int i = 0; i < sphere.size(); i++)
         {
@@ -232,35 +137,60 @@ namespace SM {
     {
         const double sigma = 1;
         
-        double AABBx = std::abs(axisAlignedBoundingBox.maxX - axisAlignedBoundingBox.minX);
-        double AABBy = std::abs(axisAlignedBoundingBox.maxY - axisAlignedBoundingBox.minY);
-        double AABBz = std::abs(axisAlignedBoundingBox.maxZ - axisAlignedBoundingBox.minZ);
-        double BDD = std::sqrt((AABBx * AABBx) + (AABBy * AABBy) + (AABBz * AABBz));
-        
+        for (int j = 0; j < triangle.size(); j++)
+        {
+            int i0 = triangle[j].i;
+            int i1 = triangle[j].j;
+            int i2 = triangle[j].k;
+            
+            Math::Vector3 v0 = vertices[i0].position;
+            Math::Vector3 v1 = vertices[i1].position;
+            Math::Vector3 v2 = vertices[i2].position;
+            // Getting neighbor face normal and centroid in order to add the face to our sphere
+//            Math::Vector3 centroid = getTriangleCentroid(v0, v1, v2);
+            Math::Vector3 normal = getTriangleNormal(v0, v1, v2);
+            
+            double area = 0.5 * (v1 - v0).cross(v2 - v0).magnitude();
+            double weight = area / 3.0;
+            
+            double totalK1 = 0.33 * vertices[i0].curvature[0] + 0.33 * vertices[i1].curvature[0] + 0.33 * vertices[i2].curvature[0];
+            double totalK2 = 0.33 * vertices[i0].curvature[1] + 0.33 * vertices[i1].curvature[1] + 0.33 * vertices[i2].curvature[1];
+            
+            weight *= (1 + sigma * BDDSize * BDDSize * ((totalK1 * totalK1) + (totalK2 * totalK2)));
+            
+            Quadric q = Quadric(v0, normal) * weight;
+            
+            sphere[i0].quadric += q;
+            sphere[i1].quadric += q;
+            sphere[i2].quadric += q;
+            
+            sphere[i0].quadricWeights += weight;
+            sphere[i1].quadricWeights += weight;
+            sphere[i2].quadricWeights += weight;
+
+            sphere[i0].region.addVertex(vertices[i0].position);
+            sphere[i0].region.addVertex(vertices[i1].position);
+            sphere[i0].region.addVertex(vertices[i2].position);
+
+            sphere[i1].region.addVertex(vertices[i0].position);
+            sphere[i1].region.addVertex(vertices[i1].position);
+            sphere[i2].region.addVertex(vertices[i2].position);
+
+            sphere[i2].region.addVertex(vertices[i0].position);
+            sphere[i2].region.addVertex(vertices[i1].position);
+            sphere[i2].region.addVertex(vertices[i2].position);
+        }
+    }
+
+    void SphereMesh::updateSpheres()
+    {
         for (int i = 0; i < sphere.size(); i++)
         {
-            for (int j = 0; j < triangle.size(); j++)
-            {
-                if (triangle[j].i == i || triangle[j].j == i || triangle[j].k == i)
-                {
-                    // Getting neighbor face normal and centroid in order to add the face to our sphere
-                    Math::Vector3 centroid = getTriangleCentroid(vertices[triangle[j].i].position, vertices[triangle[j].j].position, vertices[triangle[j].k].position);
-                    Math::Vector3 normal = getTriangleNormal(vertices[triangle[j].i].position, vertices[triangle[j].j].position, vertices[triangle[j].k].position);
-                    
-                    double area = 0.5 * (vertices[triangle[j].j].position - vertices[triangle[j].i].position).cross(vertices[triangle[j].k].position - vertices[triangle[j].i].position).magnitude();
-                    double weight = area / 3.0;
-                    
-                    double totalK1 = 0.33 * vertices[triangle[j].i].curvature[0] + 0.33 * vertices[triangle[j].j].curvature[0] + 0.33 * vertices[triangle[j].k].curvature[0];
-                    double totalK2 = 0.33 * vertices[triangle[j].i].curvature[1] + 0.33 * vertices[triangle[j].j].curvature[1] + 0.33 * vertices[triangle[j].k].curvature[1];
-                    
-                    weight *= (1 + sigma * BDD * BDD * ((totalK1 * totalK1) + (totalK2 * totalK2)));
-
-                    sphere[i].addFace(centroid, normal, weight);
-                    sphere[i].region.addVertex(vertices[triangle[j].i].position);
-                    sphere[i].region.addVertex(vertices[triangle[j].j].position);
-                    sphere[i].region.addVertex(vertices[triangle[j].k].position);
-                }
-            }
+            sphere[i].quadric *= (1/sphere[i].quadricWeights);
+            
+            auto result = sphere[i].quadric.minimizer();
+            sphere[i].center = result.toQuaternion().immaginary;
+            sphere[i].radius = result.coordinates.w;
         }
     }
 
@@ -311,7 +241,7 @@ namespace SM {
 
         for (int i = 1; i < nSpheres - 1; i++)
         {
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             s.resize(Math::lerp(sphere[e.i].radius, sphere[e.j].radius, i * 1.0 / (nSpheres - 1)));
             s.translate(Math::lerp(sphere[e.i].center, sphere[e.j].center, i * 1.0 / (nSpheres - 1)));
@@ -337,7 +267,7 @@ namespace SM {
                 double cj = j * 1.0 / (nSpheres - 1);
                 double ck = k * 1.0 / (nSpheres - 1);
 
-                Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+                Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
                 s.resize   (sphere[e.i].radius * ci + sphere[e.j].radius * cj + sphere[e.k].radius * ck);
                 s.translate(sphere[e.i].center * ci + sphere[e.j].center * cj + sphere[e.k].center * ck);
@@ -411,7 +341,7 @@ namespace SM {
             }
 
             // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             s.resize(sphere[i].radius);
             s.translate(sphere[i].center);
@@ -431,7 +361,7 @@ namespace SM {
         if (e.i.radius > 0)
         {
             // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             auto r = e.i.radius;
             if (r > e.i.region.directionalWidth)
@@ -448,7 +378,7 @@ namespace SM {
         if (e.j.radius > 0)
         {
             // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             auto r = e.j.radius;
             if (r > e.j.region.directionalWidth)
@@ -472,7 +402,7 @@ namespace SM {
         if (e.i.radius > 0)
         {
             // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             auto r = e.i.radius;
             if (r > e.i.region.directionalWidth)
@@ -489,7 +419,7 @@ namespace SM {
         if (e.j.radius > 0)
         {
             // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color);
+            Core::Mesh s = Core::Mesh::generateSphereMesh(this->viewer, color, renderedSphereVertexMeshes);
 
             auto r = e.j.radius;
             if (r > e.j.region.directionalWidth)
@@ -508,13 +438,15 @@ namespace SM {
     {
         for (int idx = 0; idx < i; idx++)
             if (sphere[idx].renderedMeshID == i)
-                sphere[idx].renderAssociatedVertices(this->viewer);
+                sphere[idx].renderAssociatedVertices(this->viewer, 0.02f * BDDSize);
     }
 
     void SphereMesh::clearRenderedSphereVertices()
     {
         for (int idx = 0; idx < sphere.size(); idx++)
             sphere[idx].clearRenderedSpheres(this->viewer);
+        
+        renderedSphereVertexMeshes.clear();
     }
 
     void SphereMesh::colorSelectedSphere(int i)
@@ -524,6 +456,8 @@ namespace SM {
             {
                 Eigen::MatrixXd C(this->viewer.data_list[sphere[idx].renderedMeshID].F.rows(), 3);
                 C.rowwise() = Eigen::RowVector3d(0, 0, 1);
+                
+                std::cout << "0. error of sphere -> " << sphere[idx].quadric.evaluateSQEM(sphere[idx].quadric.minimizer()) << std::endl;
                 
                 this->viewer.data_list[sphere[idx].renderedMeshID].set_colors(C);
                 return;
@@ -552,12 +486,8 @@ namespace SM {
             this->viewer.data_list[renderedSpheres[i]].clear();
         
         renderedSpheres.clear();
+        renderedSphereVertexMeshes.clear();
         viewer.data().clear_edges();
-    }
-
-    CollapsableEdge SphereMesh::selectEdgeToCollapse()
-    {
-        return collapseCosts.front();
     }
 
     Sphere SphereMesh::collapseEdgeIntoSphere(const CollapsableEdge& edgeToCollapse)
@@ -590,6 +520,8 @@ namespace SM {
     {
         CollapsableEdge e = getBestCollapseBruteForce();
         Sphere newSphere = collapseEdgeIntoSphere(e);
+        
+        checkSphereIntersections(newSphere);
         
         sphere[e.idxI] = newSphere;
         sphere[e.idxJ] = sphere.back();
@@ -648,53 +580,6 @@ namespace SM {
         }
     }
 
-    void SphereMesh::collapseEdge(int edgeIndex)
-    {
-//        assert(edgeIndex < edge.size());
-//        assert(edgeIndex >= 0);
-//
-//        CollapsableEdge e = collapseCosts[indexToCollapse];
-//        Sphere newSphere = collapseEdgeIntoSphere(e);
-//
-//        sphere[e.idxI] = newSphere;
-//        sphere[e.idxJ] = sphere.back();
-//
-//        int last = sphere.size() - 1;
-//        sphere.pop_back();
-//
-//        recalculateCollapseCosts(indexToCollapse, newSphere, e.idxI, e.idxJ);
-//        updateEdgesAfterCollapse(e.idxI, e.idxJ);
-//        updateTrianglessAfterCollapse(e.idxI, e.idxJ);
-//
-//        std::cout << sphere.size() << std::endl;
-//
-//        removeDegenerates();
-    }
-
-    void SphereMesh::collapseTriangleSide(int triangleIndex, int sideNumber)
-    {
-//        assert(triangleIndex < triangle.size());
-//        assert(triangleIndex >= 0);
-//        assert(sideNumber <= 2 && sideNumber >= 0);
-//
-//        CollapsableEdge e = collapseCosts[indexToCollapse];
-//        Sphere newSphere = collapseEdgeIntoSphere(e);
-//
-//        sphere[e.idxI] = newSphere;
-//        sphere[e.idxJ] = sphere.back();
-//
-//        int last = sphere.size() - 1;
-//        sphere.pop_back();
-//
-//        recalculateCollapseCosts(indexToCollapse, newSphere, e.idxI, e.idxJ);
-//        updateEdgesAfterCollapse(e.idxI, e.idxJ);
-//        updateTrianglessAfterCollapse(e.idxI, e.idxJ);
-//
-//        std::cout << sphere.size() << std::endl;
-//
-//        removeDegenerates();
-    }
-
     void SphereMesh::collapseSphereMesh(int n)
     {
         while (this->sphere.size() > n)
@@ -750,11 +635,31 @@ namespace SM {
         sphere[i] = newSphere;
 
         sphere[j] = sphere.back();
+        
+        sphere.pop_back();
 
         updateEdgesAfterCollapse(i, j);
         updateTrianglessAfterCollapse(i, j);
+        
+        std::cout << sphere.size() << std::endl;
 
         removeDegenerates();
+    }
+
+    void SphereMesh::checkSphereIntersections(Sphere& s)
+    {
+//        for (int i = 0; i < sphere.size(); i++)
+//        {
+//            auto sphereIntersectionTest = (s.center - sphere[i].center).magnitude() < (s.radius + sphere[i].radius);
+//
+////            if (sphereIntersectionTest)
+////                s.addQuadric(sphere[i].quadric);
+//
+////            TODO: Improve this in order to have the desired radius
+//            auto targetRadius = (s.center - sphere[i].center).magnitude() - sphere[i].radius;
+//            if (sphereIntersectionTest)
+//                s.radius = targetRadius;
+//        }
     }
 
     void SphereMesh::removeDegenerates()
@@ -799,14 +704,33 @@ namespace SM {
         }
     }
 
-    bool SphereMesh::canCollapseSphereMesh()
+    Sphere SphereMesh::getSelectedVertexSphere(int i)
     {
-        return maxNumberOfCollapses() > 0;
+        for (int idx = 0; idx < sphere.size(); idx++)
+            if (sphere[idx].renderedMeshID == i)
+            {
+                return sphere[idx];
+            }
     }
 
-    int SphereMesh::maxNumberOfCollapses()
+    void SphereMesh::resizeSphereVertex(int i, double newSize)
     {
-        return collapseCosts.size();
+        for (int idx = 0; idx < sphere.size(); idx++)
+            if (sphere[idx].renderedMeshID == i)
+            {
+                sphere[idx].radius = newSize;
+                break;
+            }
+    }
+
+    void SphereMesh::translateSphereVertex(int i, Math::Vector3& translation)
+    {
+        for (int idx = 0; idx < sphere.size(); idx++)
+            if (sphere[idx].renderedMeshID == i)
+            {
+                sphere[idx].center += translation;
+                break;
+            }
     }
 
     void SphereMesh::saveYAML(const std::string& path, const std::string& fn)
@@ -814,6 +738,8 @@ namespace SM {
         YAML::Emitter out;
         
         out << YAML::Comment("Sphere Mesh YAML @ author Davide Paolillo");
+        out << YAML::Key << "Start Mesh Resolution" << YAML::Value << initialSpheres.size();
+        out << YAML::Key << "Sphere Mesh Resolution" << YAML::Value << sphere.size();
         out << YAML::Key << "Spheres" << YAML::Value;
         out << YAML::BeginSeq;
             for (int i = 0; i < sphere.size(); i++)
@@ -876,30 +802,20 @@ namespace SM {
     {
         std::string fileContent = "#Sphere Mesh TXT \n";
         
-        fileContent += " ------- \n";
-        fileContent += "Spheres - " + std::to_string(sphere.size()) + " : \n";
-        
         for (int i = 0; i < sphere.size(); i++)
         {
             Math::Vector4 s = Math::Vector4(sphere[i].center[0], sphere[i].center[1], sphere[i].center[2], sphere[i].radius);
-            fileContent += "\t- Sphere " + std::to_string(i) + " : ( " + std::to_string(s[0]) + ", " + std::to_string(s[1]) + ", " + std::to_string(s[2]) + ", " + std::to_string(s[3]) + " ) \n";
+            fileContent += "( " + std::to_string(s[0]) + ", " + std::to_string(s[1]) + ", " + std::to_string(s[2]) + ", " + std::to_string(s[3]) + " )\n";
         }
         
-        fileContent += " ------- \n";
-        fileContent += "Connectivity \n";
-        
-        if (triangle.size() > 0)
-            fileContent += "\tTriangles - " + std::to_string(triangle.size()) + " : \n";
         for (int i = 0; i < triangle.size(); i++)
         {
-            fileContent += "\t\t- Triangle " + std::to_string(i) + " : ( " + std::to_string(triangle[i].i) + ", " + std::to_string(triangle[i].j) + ", " + std::to_string(triangle[i].k) + " ) \n";
+            fileContent += "( " + std::to_string(triangle[i].i) + ", " + std::to_string(triangle[i].j) + ", " + std::to_string(triangle[i].k) + " )\n";
         }
-        
-        if (edge.size() > 0)
-            fileContent += "\tEdges - " + std::to_string(edge.size()) + " : \n";
+
         for (int i = 0; i < edge.size(); i++)
         {
-            fileContent += "\t\t- Edge " + std::to_string(i) + " : ( " + std::to_string(edge[i].i) + ", " + std::to_string(edge[i].j) + " ) \n";
+            fileContent += "( " + std::to_string(edge[i].i) + ", " + std::to_string(edge[i].j) + " )\n";
         }
         fileContent += " ==================== \n";
         
@@ -925,199 +841,5 @@ namespace SM {
     void SphereMesh::reset()
     {
         sphere = initialSpheres;
-    }
-
-    Sphere::Sphere()
-    {
-        quadric = Quadric();
-        region = Region();
-    }
-
-    Sphere::Sphere(const Core::Vertex& vertex, double k)
-    {
-        quadric = Quadric::initializeQuadricFromVertex(vertex, 0.01) * 0.001;
-        region = Region(vertex.position);
-
-        auto result = quadric.minimizer();
-        this->center = result.toQuaternion().immaginary;
-        this->radius = result.coordinates.w;
-        
-        this->vertices.push_back(vertex);
-    }
-
-    Sphere::Sphere(const Math::Vector3& center, double radius)
-    {
-        this->center = center;
-        this->radius = radius;
-    }
-
-    Quadric Sphere::getSphereQuadric()
-    {
-        return this->quadric;
-    }
-
-    void Sphere::addFace(const Math::Vector3& centroid, const Math::Vector3& normal, double weight)
-    {
-        this->quadric += (Quadric(centroid, normal) * weight);
-
-        auto result = quadric.minimizer();
-        this->center = result.toQuaternion().immaginary;
-        this->radius = result.coordinates.w;
-
-         if (this->radius > this->region.directionalWidth)
-             this->radius = this->region.directionalWidth;
-    }
-
-    void Sphere::addQuadric(const Quadric& q)
-    {
-        this->quadric += q;
-
-        auto result = quadric.minimizer();
-        this->center = result.toQuaternion().immaginary;
-        this->radius = result.coordinates.w;
-
-         if (this->radius > this->region.directionalWidth)
-             this->radius = this->region.directionalWidth;
-    }
-
-    void Sphere::addVertex(const Core::Vertex& vertex)
-    {
-        vertices.push_back(vertex);
-    }
-
-    void Sphere::renderAssociatedVertices(igl::opengl::glfw::Viewer &viewer)
-    {
-        const Math::Vector3 color = Math::Vector3(0, 1, 0);
-        
-        for (int i = 0; i < vertices.size(); i++)
-        {
-            // The point is inside the triangle
-            Core::Mesh s = Core::Mesh::generateSphereMesh(viewer, color);
-            
-            s.resize(0.01f);
-            s.translate(vertices[i].position);
-            
-            renderedSpheres.push_back(s.ID);
-        }
-    }
-
-    void Sphere::clearRenderedSpheres(igl::opengl::glfw::Viewer &viewer)
-    {
-        for (int i = 0; i < renderedSpheres.size(); i++)
-            viewer.data_list[renderedSpheres[i]].clear();
-        
-        renderedSpheres.clear();
-    }
-
-    Sphere Sphere::lerp(const Sphere &s, double t)
-    {
-        Math::Vector4 origin(this->center, this->radius);
-        Math::Vector4 destination(s.center, s.radius);
-
-        auto result = origin.lerp(destination, t);
-
-        return Sphere(result.toQuaternion().immaginary, result.coordinates.w);
-    }
-
-    std::vector<Math::Vector3> Region::unitSphereSampler(int numDirections)
-    {
-        std::vector<Math::Vector3> d;
-
-        // add the 3 canonical axes
-        d.push_back(Math::Vector3(1, 0, 0));
-        d.push_back(Math::Vector3(0, 1, 0));
-        d.push_back(Math::Vector3(0, 0, 1));
-
-        // add the other directions
-        double goldenRatio = (1.0 + std::sqrt(5.0)) / 2.0;
-        double angleIncrement = 2.0 * M_PI / goldenRatio;
-        double inclinationIncrement = 2.0 / numDirections;
-
-        for (int i = 0; i < numDirections; i++) {
-            double inclination = std::acos(1.0 - (i + 0.5) * inclinationIncrement);
-            double azimuth = fmod((i + 0.5) * angleIncrement, 2.0 * M_PI);
-            double x = std::sin(inclination) * std::cos(azimuth);
-            double y = std::sin(inclination) * std::sin(azimuth);
-            double z = std::cos(inclination);
-            d.push_back(Math::Vector3(x, y, z));
-        }
-
-        return d;
-    }
-
-    void Region::initializeIntervals()
-    {
-        auto k = Region::directions;
-        
-        for (int j = 0; j < k.size(); j++)
-        {
-            double m = DBL_MAX;
-            double M = -DBL_MAX;
-            
-            intervals.push_back(Math::Vector2(m, M));
-        }
-    }
-
-    void Region::addVertex(const Math::Vector3& v)
-    {
-        auto k = Region::directions;
-
-        for (int j = 0; j < k.size(); j++)
-        {
-            double m = intervals[j][0];
-            double M = intervals[j][1];
-
-            m = std::min(m, v.dot(k[j]));
-            M = std::max(M, v.dot(k[j]));
-            
-            intervals[j] = Math::Vector2(m, M);
-        }
-
-        this->computeIntervals();
-    }
-
-    void Region::addVertices(const std::vector<Math::Vector3>& verticesRange)
-    {
-        auto k = Region::directions;
-
-        for (int j = 0; j < k.size(); j++)
-        {
-            double m = intervals[j][0];
-            double M = intervals[j][1];
-
-            for (int i = 0; i < verticesRange.size(); i++)
-            {
-                m = std::min(m, verticesRange[i].dot(k[j]));
-                M = std::max(M, verticesRange[i].dot(k[j]));
-            }
-            
-            intervals[j] = Math::Vector2(m, M);
-        }
-
-        this->computeIntervals();
-    }
-
-    void Region::computeIntervals()
-    {
-        directionalWidth = DBL_MAX;
-
-        for (int i = 0; i < intervals.size(); i++)
-            directionalWidth = std::min(directionalWidth, std::abs(intervals[i].coordinates.y - intervals[i].coordinates.x));
-        
-        directionalWidth *= (3.0/4.0);
-    }
-
-    void Region::join(Region& region)
-    {
-        directionalWidth = DBL_MAX;
-        for (int i = 0; i < intervals.size(); i++)
-            intervals[i] = Math::Vector2(std::min(intervals[i].coordinates.x, region.intervals[i].coordinates.x),
-                                         std::max(intervals[i].coordinates.y, region.intervals[i].coordinates.y));
-        
-        // Recalculating the new directional width
-        for (int i = 0; i < intervals.size(); i++)
-            directionalWidth = std::min(directionalWidth, std::abs(intervals[i].coordinates.y - intervals[i].coordinates.x));
-
-        directionalWidth *= (3.0/4.0);
     }
 }

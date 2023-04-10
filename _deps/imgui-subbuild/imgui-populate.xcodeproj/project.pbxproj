@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		D7A0CBF7DC494972A08932CD /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7E92812566794CDD8A321814 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 1B7F962B45AB4A97813866AF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				FBD9E8D47FD7C71CF8125181 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				8D18CD42898F4BECB075E77A /* PBXTargetDependency */,
-				31E47389F3BD4DD798CD0E3E /* PBXTargetDependency */,
+				FFB7FB7945254C4FB859211F /* PBXTargetDependency */,
+				F2975B2A8F31425EB1DB3035 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		E160BE97D11546FEB19EA809 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 50D8B29E269E479FB1855A5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = F955F8C675A5439888CC8B94 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				42891F26E70A0C90B892F739 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -33,7 +33,7 @@
 		};
 		F7842E8CB3154D0E9A4AB41E /* imgui-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C8288B9A8FA34DD3931E46D1 /* Build configuration list for PBXAggregateTarget "imgui-populate" */;
+			buildConfigurationList = D31AAD87655A4832BBF04326 /* Build configuration list for PBXAggregateTarget "imgui-populate" */;
 			buildPhases = (
 				F3C6DF72FCAFB77138A46B54 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir */,
 				7FBCE9660A68E26E4853AF5D /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download */,
@@ -47,7 +47,7 @@
 				E7E65923BCB6A39923002131 /* Generate CMakeFiles/imgui-populate */,
 			);
 			dependencies = (
-				BA28C0707E054A669CBE14C1 /* PBXTargetDependency */,
+				BD1D968D03BE4E8C9C16FE33 /* PBXTargetDependency */,
 			);
 			name = "imgui-populate";
 			productName = "imgui-populate";
@@ -55,52 +55,52 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		12C8A13BB2AC4DB2A8F55225 /* Release */ = {
+		186C419526AB4C44A0161CCC /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		593033B603704FC39ACBC335 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		69AA59EF083F418EBF33F0C0 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		770211BD1B0C47D4AACAFB10 /* RelWithDebInfo */ = {
+		592992F1B72948E89793521A /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		9DF9055ADCB142D182C40C69 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BA77A2FF43AB44FDB122AE70 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		2A58916C638E4104A2F483B0 /* PBXContainerItemProxy */ = {
+		3246A4721FA54DE4BBB97327 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28FAB9281AAC4492B212367F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E160BE97D11546FEB19EA809;
 			remoteInfo = ZERO_CHECK;
 		};
-		8ACC9E9D84864C248EB14DA6 /* PBXContainerItemProxy */ = {
+		BF6AC509B9C24F529DF71D84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28FAB9281AAC4492B212367F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F7842E8CB3154D0E9A4AB41E;
 			remoteInfo = "imgui-populate";
 		};
-		EC1A1C235183434F983F035F /* PBXContainerItemProxy */ = {
+		F23E0157DB2C414C8874C5E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28FAB9281AAC4492B212367F /* Project object */;
 			proxyType = 1;
@@ -110,65 +110,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0BA1A1A1DB74202B813D302 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BB5DA0244B61475DAC4C5511 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F911462FC0342AA8097D92D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4FADD2DAD0DF48D6816BD9D5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		2BF794BC7E7B4D43AE5439DA /* CMake Rules */ = {
+		2104168BE62B4344A8CDC767 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		31ECACEF134E42CEA215CF54 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5FCDDBE0A0A64D0AABABAD08 = {
-			isa = PBXGroup;
-			children = (
-				B0959D58F5944E51A0280893 /* imgui-populate */,
-				9631CC05BAFA49C18371C723 /* ALL_BUILD */,
-				B1375E9282F24767B8B07A6F /* Products */,
-				31ECACEF134E42CEA215CF54 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		87F470DAC82D495199862009 /* CMake Rules */ = {
+		3224FD5BEF4846068828BA48 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		9631CC05BAFA49C18371C723 /* ALL_BUILD */ = {
+		45511009862148B7B97E7BBD /* imgui-populate */ = {
 			isa = PBXGroup;
 			children = (
-				87F470DAC82D495199862009 /* CMake Rules */,
-				BB5DA0244B61475DAC4C5511 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		B0959D58F5944E51A0280893 /* imgui-populate */ = {
-			isa = PBXGroup;
-			children = (
-				2BF794BC7E7B4D43AE5439DA /* CMake Rules */,
-				B0BA1A1A1DB74202B813D302 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */,
+				3224FD5BEF4846068828BA48 /* CMake Rules */,
+				3F911462FC0342AA8097D92D /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */,
 			);
 			name = "imgui-populate";
 			sourceTree = "<group>";
 		};
-		B1375E9282F24767B8B07A6F /* Products */ = {
+		A69D9AE527AA4762855A5FAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4DDA6BBCD941F985A31629 = {
+			isa = PBXGroup;
+			children = (
+				45511009862148B7B97E7BBD /* imgui-populate */,
+				C5340E160ED24271BC8C186A /* ALL_BUILD */,
+				A69D9AE527AA4762855A5FAB /* Products */,
+				CE651965481240E193E5DDF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5340E160ED24271BC8C186A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2104168BE62B4344A8CDC767 /* CMake Rules */,
+				4FADD2DAD0DF48D6816BD9D5 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CE651965481240E193E5DDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,18 +180,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 9F8D84C14AE541EBBA664D23 /* Build configuration list for PBXProject "imgui-populate" */;
+			buildConfigurationList = 757F0C7B03834B54B449A885 /* Build configuration list for PBXProject "imgui-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				593033B603704FC39ACBC335 /* Debug */,
-				12C8A13BB2AC4DB2A8F55225 /* Release */,
-				69AA59EF083F418EBF33F0C0 /* MinSizeRel */,
-				770211BD1B0C47D4AACAFB10 /* RelWithDebInfo */,
+				9DF9055ADCB142D182C40C69 /* Debug */,
+				186C419526AB4C44A0161CCC /* Release */,
+				BA77A2FF43AB44FDB122AE70 /* MinSizeRel */,
+				592992F1B72948E89793521A /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 5FCDDBE0A0A64D0AABABAD08;
+			mainGroup = AE4DDA6BBCD941F985A31629;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -697,25 +697,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		31E47389F3BD4DD798CD0E3E /* PBXTargetDependency */ = {
+		BD1D968D03BE4E8C9C16FE33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E160BE97D11546FEB19EA809 /* ZERO_CHECK */;
+			targetProxy = 3246A4721FA54DE4BBB97327 /* PBXContainerItemProxy */;
+		};
+		F2975B2A8F31425EB1DB3035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E160BE97D11546FEB19EA809 /* ZERO_CHECK */;
+			targetProxy = F23E0157DB2C414C8874C5E4 /* PBXContainerItemProxy */;
+		};
+		FFB7FB7945254C4FB859211F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F7842E8CB3154D0E9A4AB41E /* imgui-populate */;
-			targetProxy = 8ACC9E9D84864C248EB14DA6 /* PBXContainerItemProxy */;
-		};
-		8D18CD42898F4BECB075E77A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E160BE97D11546FEB19EA809 /* ZERO_CHECK */;
-			targetProxy = EC1A1C235183434F983F035F /* PBXContainerItemProxy */;
-		};
-		BA28C0707E054A669CBE14C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E160BE97D11546FEB19EA809 /* ZERO_CHECK */;
-			targetProxy = 2A58916C638E4104A2F483B0 /* PBXContainerItemProxy */;
+			targetProxy = BF6AC509B9C24F529DF71D84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		005BB5ABCABB488F844B92BC /* MinSizeRel */ = {
+		148B37E80F2E41B485A8DC36 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -727,7 +727,7 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imgui-populate";
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
 				USE_HEADERMAP = NO;
@@ -735,149 +735,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		1F80494F4BCA425BAC79CB4E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
-			};
-			name = MinSizeRel;
-		};
-		2DA86453FB2746DE9D17D709 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imgui-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		7B562351C0D14343802066AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
-			};
-			name = Debug;
-		};
-		80F4CFD8745D4F15A0BA4C7A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		818C7496699A41FD8F64BAF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8A33A6FC7F5240D0ABF99B04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imgui-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		93073B57030E442CB7A6F398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "imgui-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		949353D6F3414F7AAB11F985 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A226553EBFFF4D4EBB05BDB4 /* RelWithDebInfo */ = {
+		159EC06F96174960AEC71DD7 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -897,69 +755,47 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		BB5EB2AE211F43D191A4917A /* Release */ = {
+		2965576734A3408A9F31A8D4 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		BBDC3DF187B14EC8A005C043 /* RelWithDebInfo */ = {
+		3DB526974D464D0CA10F7F53 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		D60AA0DD3E4D4BD28DDAE744 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DA7542E7C8724CD79732826D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		EFC1A1BD4B4C4182AA7E4F47 /* Debug */ = {
+		408D6AC6DB7D4F23A98541F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -979,7 +815,7 @@ fi
 			};
 			name = Debug;
 		};
-		FBC0B0F776084C5EB6FC2B1B /* MinSizeRel */ = {
+		56F1FE8A5D21425ABB979D00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -997,51 +833,215 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		5D2C809071754D71BCA2285A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = MinSizeRel;
+		};
+		6568F20C0D294A5C9C475310 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		761BE72BD77F41C4AF76DF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+			};
+			name = Release;
+		};
+		825737C69F3C43F8BDE8DEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		922B96BA7DC041658A714C91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		956E355019474C9383E7E032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0A5B599DD514255B00F1D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+			};
+			name = Debug;
+		};
+		BD8C4C1E7E684DEB9B158507 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		DD3B03826CE6483B89A9B5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F4302E97765D4C1EACB286B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/imgui-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50D8B29E269E479FB1855A5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		1B7F962B45AB4A97813866AF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA7542E7C8724CD79732826D /* Debug */,
-				D60AA0DD3E4D4BD28DDAE744 /* Release */,
-				FBC0B0F776084C5EB6FC2B1B /* MinSizeRel */,
-				A226553EBFFF4D4EBB05BDB4 /* RelWithDebInfo */,
+				408D6AC6DB7D4F23A98541F8 /* Debug */,
+				825737C69F3C43F8BDE8DEA4 /* Release */,
+				2965576734A3408A9F31A8D4 /* MinSizeRel */,
+				6568F20C0D294A5C9C475310 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7E92812566794CDD8A321814 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		757F0C7B03834B54B449A885 /* Build configuration list for PBXProject "imgui-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFC1A1BD4B4C4182AA7E4F47 /* Debug */,
-				818C7496699A41FD8F64BAF8 /* Release */,
-				80F4CFD8745D4F15A0BA4C7A /* MinSizeRel */,
-				949353D6F3414F7AAB11F985 /* RelWithDebInfo */,
+				A0A5B599DD514255B00F1D15 /* Debug */,
+				761BE72BD77F41C4AF76DF40 /* Release */,
+				BD8C4C1E7E684DEB9B158507 /* MinSizeRel */,
+				922B96BA7DC041658A714C91 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9F8D84C14AE541EBBA664D23 /* Build configuration list for PBXProject "imgui-populate" */ = {
+		D31AAD87655A4832BBF04326 /* Build configuration list for PBXAggregateTarget "imgui-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B562351C0D14343802066AF /* Debug */,
-				BB5EB2AE211F43D191A4917A /* Release */,
-				1F80494F4BCA425BAC79CB4E /* MinSizeRel */,
-				BBDC3DF187B14EC8A005C043 /* RelWithDebInfo */,
+				956E355019474C9383E7E032 /* Debug */,
+				F4302E97765D4C1EACB286B6 /* Release */,
+				5D2C809071754D71BCA2285A /* MinSizeRel */,
+				3DB526974D464D0CA10F7F53 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C8288B9A8FA34DD3931E46D1 /* Build configuration list for PBXAggregateTarget "imgui-populate" */ = {
+		F955F8C675A5439888CC8B94 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93073B57030E442CB7A6F398 /* Debug */,
-				8A33A6FC7F5240D0ABF99B04 /* Release */,
-				005BB5ABCABB488F844B92BC /* MinSizeRel */,
-				2DA86453FB2746DE9D17D709 /* RelWithDebInfo */,
+				DD3B03826CE6483B89A9B5D2 /* Debug */,
+				56F1FE8A5D21425ABB979D00 /* Release */,
+				148B37E80F2E41B485A8DC36 /* MinSizeRel */,
+				159EC06F96174960AEC71DD7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

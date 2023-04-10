@@ -5,6 +5,7 @@
 #include <Matrix4.hpp>
 
 #include <Math.hpp>
+#include <Quaternion.hpp>
 
 #include <Mesh.hpp>
 
@@ -28,18 +29,7 @@ namespace SM
                 Quadric q;
 
                 // (p * I * p - 2 * t * p + t * t) * weight -> con t sfera target, ovvero mi sposto sulla normale nella direzione negativa t = (vertex.position - k * vertex.normal, k) -> (sfera)
-                bool a = Math::Math::sign(vertex.position.coordinates.x) != Math::Math::sign(vertex.normal.coordinates.x);
-                bool b = Math::Math::sign(vertex.position.coordinates.y) != Math::Math::sign(vertex.normal.coordinates.y);
-                bool c = Math::Math::sign(vertex.position.coordinates.z) != Math::Math::sign(vertex.normal.coordinates.z);
-
-                // possibile fix effettuare un clamp su t, al massimo puo' assumere le coordinate del vertice stesso
                 Math::Vector3 n = vertex.normal;
-                if (vertex.normal.coordinates.x != 0 && a)
-                    n.coordinates.x *= -1;
-                else if (vertex.normal.coordinates.y != 0 && b)
-                    n.coordinates.y *= -1;
-                else if (vertex.normal.coordinates.z != 0 && c)
-                    n.coordinates.z *= -1;
 
                 Math::Vector4 t = Math::Vector4(vertex.position - targetSphereRadius * n, targetSphereRadius);
 
@@ -74,6 +64,8 @@ namespace SM
             double evaluateSQEM (const Math::Vector4& sphere);
 
             Math::Vector4 minimizer ();
+        
+            void addQuadricToTargetRadius(const double& t);
 
             void print ();
     };

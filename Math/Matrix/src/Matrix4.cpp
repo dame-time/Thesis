@@ -195,6 +195,15 @@ namespace Math
         }
     }
 
+    bool Matrix4::operator==(const Matrix4& other) const {
+        for (int i = 0; i < 16; i++) {
+            if (data[i] != other.data[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     void Matrix4::setInverse(const Matrix4& mat)
     {
         double inv[16], det;
@@ -344,21 +353,21 @@ namespace Math
         result.data[0] = this->data[0];
         result.data[1] = this->data[4];
         result.data[2] = this->data[8];
-        result.data[3] = this->data[3];
+        result.data[3] = this->data[12];
 
         result.data[4] = this->data[1];
         result.data[5] = this->data[5];
         result.data[6] = this->data[9];
-        result.data[7] = this->data[7];
+        result.data[7] = this->data[13];
 
         result.data[8] = this->data[2];
         result.data[9] = this->data[6];
         result.data[10] = this->data[10];
-        result.data[11] = this->data[11];
+        result.data[11] = this->data[14];
 
-        result.data[12] = this->data[12];
-        result.data[13] = this->data[13];
-        result.data[14] = this->data[14];
+        result.data[12] = this->data[3];
+        result.data[13] = this->data[7];
+        result.data[14] = this->data[11];
         result.data[15] = this->data[15];
 
         return result;

@@ -144,24 +144,28 @@ namespace Math {
         this->coordinates.x += vector.coordinates.x;
         this->coordinates.y += vector.coordinates.y;
         this->coordinates.z += vector.coordinates.z;
+        this->coordinates.w += vector.coordinates.w;
     }
 
     void Vector4::operator -= (const Vector4& vector) {
         this->coordinates.x -= vector.coordinates.x;
         this->coordinates.y -= vector.coordinates.y;
         this->coordinates.z -= vector.coordinates.z;
+        this->coordinates.w -= vector.coordinates.w;
     }
 
     void Vector4::operator *= (const Scalar& k) {
         this->coordinates.x *= k;
         this->coordinates.y *= k;
         this->coordinates.z *= k;
+        this->coordinates.w *= k;
     }
 
     void Vector4::operator /= (const Scalar& k) {
         this->coordinates.x /= k;
         this->coordinates.y /= k;
         this->coordinates.z /= k;
+        this->coordinates.w /= k;
     }
 
     Vector3 Vector4::xyz()

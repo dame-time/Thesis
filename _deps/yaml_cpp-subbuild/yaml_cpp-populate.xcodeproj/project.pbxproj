@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		1665F9BD620748A4B50EB428 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FCA76AE969D24F46A5A003A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = E5BC2834947C413FBEDCC7AC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				3D8367A4DF12EF76DB7FD449 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				423FBC7AE78D4E168D8E162D /* PBXTargetDependency */,
-				79F1F7CEB8304F5EB9816543 /* PBXTargetDependency */,
+				14AC2EDECFBB4F7A8EE4E7C7 /* PBXTargetDependency */,
+				19EC8135D9634C008824ABE3 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		17049D2FAC8446C58F2590FD /* yaml_cpp-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 924F88FAC3604304B0CB952D /* Build configuration list for PBXAggregateTarget "yaml_cpp-populate" */;
+			buildConfigurationList = DA33741C3D51460EAEB7BF36 /* Build configuration list for PBXAggregateTarget "yaml_cpp-populate" */;
 			buildPhases = (
 				5B7AB90802C9B50327908A9E /* Generate yaml_cpp-populate-prefix/src/yaml_cpp-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/yaml_cpp-populate-mkdir */,
 				D481D5773A03790E61A4B2D6 /* Generate yaml_cpp-populate-prefix/src/yaml_cpp-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/yaml_cpp-populate-download */,
@@ -36,14 +36,14 @@
 				141995EF8D3F6524071B790F /* Generate CMakeFiles/yaml_cpp-populate */,
 			);
 			dependencies = (
-				20205A43697D423889BA6D13 /* PBXTargetDependency */,
+				4930630A0086424A825CA05A /* PBXTargetDependency */,
 			);
 			name = "yaml_cpp-populate";
 			productName = "yaml_cpp-populate";
 		};
 		C5988758E2AD4FDE821D18AB /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8E83AD813E734E8981862691 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 1F8DAEF1537C42DCA3D762E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				2609A3F4CE1618F1EDF311B5 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -55,28 +55,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		81B171996CEA4095968D4C87 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		C0346E42F42B41EFB781A2A0 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		D1F74FC472CC4D6EB3692117 /* RelWithDebInfo */ = {
+		8396ACC9FBC54C42A8C167DF /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		EA3E50555E5F4B76903FB0C8 /* Release */ = {
+		B2BA8680558846A9AB2C6F4B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DBD5F46CAAEB4478AC924FCE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E035FAD5675C453A9DBD3E60 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -86,21 +86,21 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		C9CB8486D1174668B447694F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A24F98262B3F46908CC54564 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17049D2FAC8446C58F2590FD;
-			remoteInfo = "yaml_cpp-populate";
-		};
-		D687B1B69549485B8AB2AE7B /* PBXContainerItemProxy */ = {
+		3328B10CEF4C4DF9AFF70125 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A24F98262B3F46908CC54564 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C5988758E2AD4FDE821D18AB;
 			remoteInfo = ZERO_CHECK;
 		};
-		E3D9748FFF4148FA8F7D4A0E /* PBXContainerItemProxy */ = {
+		77FEAD970DB640019BA95121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24F98262B3F46908CC54564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17049D2FAC8446C58F2590FD;
+			remoteInfo = "yaml_cpp-populate";
+		};
+		9BC1AF0FAF5F4DBBBB1FA7D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A24F98262B3F46908CC54564 /* Project object */;
 			proxyType = 1;
@@ -110,65 +110,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA515D3EB1DB43518AA97954 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		EF544A00D2EC46EF84F90ED2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		01E3BFE90D89423CA050BE44 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AFDE0738A8704705B199E7B3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		3C91D758606E468E8654696C /* CMake Rules */ = {
+		20F0F6FDE4794817AFCCED5C /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
+				C67B8653C5D348259502354E /* CMake Rules */,
+				01E3BFE90D89423CA050BE44 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */,
 			);
-			name = "CMake Rules";
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		5AF91394205A43038E442CAA /* Frameworks */ = {
+		64E271FF91D1465089953C2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B182787CDC4435383DA67F9 /* yaml_cpp-populate */ = {
-			isa = PBXGroup;
-			children = (
-				3C91D758606E468E8654696C /* CMake Rules */,
-				CA515D3EB1DB43518AA97954 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */,
-			);
-			name = "yaml_cpp-populate";
-			sourceTree = "<group>";
-		};
-		810F0F7BE30C42D7857A1B08 = {
-			isa = PBXGroup;
-			children = (
-				7B182787CDC4435383DA67F9 /* yaml_cpp-populate */,
-				A36D1018EF56442CA7FC3A5B /* ALL_BUILD */,
-				E331A43CD9F24828925E2BA3 /* Products */,
-				5AF91394205A43038E442CAA /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		A36D1018EF56442CA7FC3A5B /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				C581514659604F4387C60C23 /* CMake Rules */,
-				EF544A00D2EC46EF84F90ED2 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		C581514659604F4387C60C23 /* CMake Rules */ = {
+		98C1D22C4CA743D9BB3BDBDE /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E331A43CD9F24828925E2BA3 /* Products */ = {
+		C67B8653C5D348259502354E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E369EB7D284D48DBB7F01559 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E9638B2EA038440BA1D8F812 /* yaml_cpp-populate */ = {
+			isa = PBXGroup;
+			children = (
+				98C1D22C4CA743D9BB3BDBDE /* CMake Rules */,
+				AFDE0738A8704705B199E7B3 /* /Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/CMakeLists.txt */,
+			);
+			name = "yaml_cpp-populate";
+			sourceTree = "<group>";
+		};
+		EDF7DE2177894D759B3AAA65 = {
+			isa = PBXGroup;
+			children = (
+				E9638B2EA038440BA1D8F812 /* yaml_cpp-populate */,
+				20F0F6FDE4794817AFCCED5C /* ALL_BUILD */,
+				E369EB7D284D48DBB7F01559 /* Products */,
+				64E271FF91D1465089953C2E /* Frameworks */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,18 +180,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 91E47E95E872451DAF4CC5D1 /* Build configuration list for PBXProject "yaml_cpp-populate" */;
+			buildConfigurationList = AB88BC24F770413AA7018A02 /* Build configuration list for PBXProject "yaml_cpp-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				81B171996CEA4095968D4C87 /* Debug */,
-				EA3E50555E5F4B76903FB0C8 /* Release */,
-				C0346E42F42B41EFB781A2A0 /* MinSizeRel */,
-				D1F74FC472CC4D6EB3692117 /* RelWithDebInfo */,
+				B2BA8680558846A9AB2C6F4B /* Debug */,
+				E035FAD5675C453A9DBD3E60 /* Release */,
+				DBD5F46CAAEB4478AC924FCE /* MinSizeRel */,
+				8396ACC9FBC54C42A8C167DF /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 810F0F7BE30C42D7857A1B08;
+			mainGroup = EDF7DE2177894D759B3AAA65;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -697,176 +697,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20205A43697D423889BA6D13 /* PBXTargetDependency */ = {
+		14AC2EDECFBB4F7A8EE4E7C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C5988758E2AD4FDE821D18AB /* ZERO_CHECK */;
-			targetProxy = E3D9748FFF4148FA8F7D4A0E /* PBXContainerItemProxy */;
+			targetProxy = 3328B10CEF4C4DF9AFF70125 /* PBXContainerItemProxy */;
 		};
-		423FBC7AE78D4E168D8E162D /* PBXTargetDependency */ = {
+		19EC8135D9634C008824ABE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 17049D2FAC8446C58F2590FD /* yaml_cpp-populate */;
-			targetProxy = C9CB8486D1174668B447694F /* PBXContainerItemProxy */;
+			targetProxy = 77FEAD970DB640019BA95121 /* PBXContainerItemProxy */;
 		};
-		79F1F7CEB8304F5EB9816543 /* PBXTargetDependency */ = {
+		4930630A0086424A825CA05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C5988758E2AD4FDE821D18AB /* ZERO_CHECK */;
-			targetProxy = D687B1B69549485B8AB2AE7B /* PBXContainerItemProxy */;
+			targetProxy = 9BC1AF0FAF5F4DBBBB1FA7D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08713A24519A4A0DAF82F4EB /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "yaml_cpp-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		1701419F08FB4210AC1EC7B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3CD864E95F4F4C688C7F914F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		60B1CE8FC52A44EEBFD7A094 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "yaml_cpp-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7BB996BEE5784D3EBC703CD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7CEFF23C74E3435A82811688 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/build";
-			};
-			name = Debug;
-		};
-		872503B4841C42EBB84A00DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		8742C36BBC564A3EA1E259C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "yaml_cpp-populate";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		88D7440934E64D8CAC393207 /* Debug */ = {
+		0436969B246D42B9A6A0D960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -886,7 +735,67 @@ fi
 			};
 			name = Debug;
 		};
-		97C5EDE7850C4554A35C84BD /* RelWithDebInfo */ = {
+		217442D3159B495CB1634E7C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "yaml_cpp-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DA08030BFA345478127659B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2E8BE1A830FB425193546D3C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "yaml_cpp-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		38A17548C15A4376BD9FC889 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -897,7 +806,98 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		A489565071B640FEA03C2A83 /* MinSizeRel */ = {
+		400B40D8EEBB429F9C1D6034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		51ACE6E422B848DC812B6087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/build";
+			};
+			name = Debug;
+		};
+		6C400DB037BE4ABC96150923 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7D2FE59B145448A693364858 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		84F53D67C36442F78EC8257E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A732E777842A4B909ED277BF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -908,7 +908,38 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		BA4877C492D041839FDC6137 /* Debug */ = {
+		CC4A9A6E2CBB439E951D9BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/build";
+			};
+			name = Release;
+		};
+		D95A06D112F94A088006280D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E9F34777AD134E60947303BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -928,7 +959,7 @@ fi
 			};
 			name = Debug;
 		};
-		BA58D60997B440EA95598202 /* RelWithDebInfo */ = {
+		FCAAB7095ACD4B77BCBB9211 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -946,40 +977,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
-		};
-		BAF5D349EDC9427EB2B57D2E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = MinSizeRel;
 		};
-		E08A0BC687D849178548C06D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild/build";
-			};
-			name = Release;
-		};
-		FF7C8BF04FDB44089D34EE29 /* RelWithDebInfo */ = {
+		FE26259C1BA644308F1C9BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -991,57 +991,57 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = "yaml_cpp-populate";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/davidepaollilo/Workspaces/C++/Thesis/_deps/yaml_cpp-subbuild";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E83AD813E734E8981862691 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		1F8DAEF1537C42DCA3D762E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA4877C492D041839FDC6137 /* Debug */,
-				1701419F08FB4210AC1EC7B2 /* Release */,
-				3CD864E95F4F4C688C7F914F /* MinSizeRel */,
-				BA58D60997B440EA95598202 /* RelWithDebInfo */,
+				E9F34777AD134E60947303BA /* Debug */,
+				400B40D8EEBB429F9C1D6034 /* Release */,
+				FCAAB7095ACD4B77BCBB9211 /* MinSizeRel */,
+				2DA08030BFA345478127659B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		91E47E95E872451DAF4CC5D1 /* Build configuration list for PBXProject "yaml_cpp-populate" */ = {
+		AB88BC24F770413AA7018A02 /* Build configuration list for PBXProject "yaml_cpp-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CEFF23C74E3435A82811688 /* Debug */,
-				E08A0BC687D849178548C06D /* Release */,
-				A489565071B640FEA03C2A83 /* MinSizeRel */,
-				97C5EDE7850C4554A35C84BD /* RelWithDebInfo */,
+				51ACE6E422B848DC812B6087 /* Debug */,
+				CC4A9A6E2CBB439E951D9BA5 /* Release */,
+				A732E777842A4B909ED277BF /* MinSizeRel */,
+				38A17548C15A4376BD9FC889 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		924F88FAC3604304B0CB952D /* Build configuration list for PBXAggregateTarget "yaml_cpp-populate" */ = {
+		DA33741C3D51460EAEB7BF36 /* Build configuration list for PBXAggregateTarget "yaml_cpp-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88D7440934E64D8CAC393207 /* Debug */,
-				8742C36BBC564A3EA1E259C8 /* Release */,
-				60B1CE8FC52A44EEBFD7A094 /* MinSizeRel */,
-				08713A24519A4A0DAF82F4EB /* RelWithDebInfo */,
+				0436969B246D42B9A6A0D960 /* Debug */,
+				FE26259C1BA644308F1C9BB8 /* Release */,
+				2E8BE1A830FB425193546D3C /* MinSizeRel */,
+				217442D3159B495CB1634E7C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FCA76AE969D24F46A5A003A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		E5BC2834947C413FBEDCC7AC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				872503B4841C42EBB84A00DA /* Debug */,
-				7BB996BEE5784D3EBC703CD1 /* Release */,
-				BAF5D349EDC9427EB2B57D2E /* MinSizeRel */,
-				FF7C8BF04FDB44089D34EE29 /* RelWithDebInfo */,
+				D95A06D112F94A088006280D /* Debug */,
+				84F53D67C36442F78EC8257E /* Release */,
+				7D2FE59B145448A693364858 /* MinSizeRel */,
+				6C400DB037BE4ABC96150923 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
