@@ -6,6 +6,7 @@
 #include <igl/triangle/triangulate.h>
 #include <igl/unproject_onto_mesh.h>
 #include <igl/readOBJ.h>
+#include <igl/file_dialog_open.h>
 
 #include <Eigen/Dense>
 #include <Eigen/Core>
@@ -272,6 +273,25 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, igl::opengl::glfw:
         viewer.data_list[mesh.ID].set_colors(colors);
     }
     
+    ImGui::Separator();
+    
+    if (ImGui::Button("Load new Mesh from OBJ file"))
+    {
+        std::string fname = igl::file_dialog_open();
+        
+        viewer.data_list[mesh.ID].clear();
+        mesh = Core::Mesh(fname, viewer);
+        mesh.addToScene();
+        sm.clear();
+        sm.clearRenderedMeshes();
+        auto tmp = SM::SphereMesh(mesh, viewer);
+        sm = tmp;
+        sm.renderSpheresOnly();
+        std::cout << fname << std::endl;
+    }
+    
+    ImGui::Separator();
+    
     ImGui::Text("Click over a sphere in order to select it");
     ImGui::Text("Press 'C' to collapse the last two spheres selected");
     ImGui::Text("Press 'S' to visualize the vertices of the selected spheres");
@@ -279,6 +299,10 @@ void drawImGuiMenu(igl::opengl::glfw::imgui::ImGuiMenu& menu, igl::opengl::glfw:
     ImGui::Text("Press 'E' to reset the Sphere Mesh to the original Sphere Mesh");
     ImGui::Text("Press 'F' to toggle the filling of the mesh");
     ImGui::Text("Press 'W' to toggle the wireframe of the mesh");
+    ImGui::Text("Press 'Z' to zoom out of the mesh");
+    ImGui::Text("Press 'X' to zoom in of the mesh");
+    ImGui::Text("Press 'M' to increase zoom percentage");
+    ImGui::Text("Press 'N' to increase zoom percentage");
     
     // End the ImGui window
     ImGui::End();
@@ -457,6 +481,19 @@ int main(int argc, char *argv[])
             
             isMeshWireframe = !isMeshWireframe;
         }
+        
+        static double zoomPower = 0.1;
+        if (key == GLFW_KEY_Z)
+            viewer.core().camera_zoom -= zoomPower;
+        
+        if (key == GLFW_KEY_X)
+            viewer.core().camera_zoom += zoomPower;
+        
+        if (key == GLFW_KEY_M)
+            zoomPower += 0.1;
+        
+        if (key == GLFW_KEY_N)
+            zoomPower -= 0.1;
         
         return false;
     };

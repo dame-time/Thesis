@@ -122,7 +122,10 @@ namespace SM
             void checkSphereIntersections(Sphere& s);
         
         public:
+            SphereMesh(const SphereMesh& sm);
             SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius = 0.1f);
+        
+            SphereMesh& operator = (const SphereMesh& sm);
             
             void constructTest();
             

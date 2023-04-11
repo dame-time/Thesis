@@ -17,6 +17,20 @@
 #include <cmath>
 
 namespace SM {
+    SphereMesh::SphereMesh(const SphereMesh& sm) : viewer(sm.viewer)
+    {
+        BDDSize = sm.BDDSize;
+        
+        sphere = sm.sphere;
+        initialSpheres = sm.initialSpheres;
+        
+        triangle = sm.triangle;
+        edge = sm.edge;
+        
+        renderedSpheres = sm.renderedSpheres;
+        renderedSphereVertexMeshes = sm.renderedSphereVertexMeshes;
+    }
+
     SphereMesh::SphereMesh(const Core::Mesh &mesh, igl::opengl::glfw::Viewer &currentViewer, double vertexSphereRadius) : viewer(currentViewer)
     {
         auto vertices = mesh.vertices;
@@ -31,6 +45,22 @@ namespace SM {
         updateSpheres();
 
         initialSpheres = sphere;
+    }
+
+    SphereMesh& SphereMesh::operator = (const SphereMesh& sm)
+    {
+        BDDSize = sm.BDDSize;
+        
+        sphere = sm.sphere;
+        initialSpheres = sm.initialSpheres;
+        
+        triangle = sm.triangle;
+        edge = sm.edge;
+        
+        renderedSpheres = sm.renderedSpheres;
+        renderedSphereVertexMeshes = sm.renderedSphereVertexMeshes;
+        
+        return *this;
     }
 
     void SphereMesh::initializeSphereMeshTriangles(const std::vector<Core::Face>& faces)
